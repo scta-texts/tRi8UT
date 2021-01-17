@@ -1,9 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Liber 1</title>
-            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author>
+            <respStmt>
                <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
                <resp>Transcription Editor</resp>
                <resp>TEI Encoder</resp>
@@ -29,7 +33,8 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -46,7 +51,7 @@
    <text xml:lang="la">
       <front>
          <div xml:id="starts-on">
-            <pb ed="#C" n="88"/>
+            <pb ed="#C" n="89"/>
             
          </div>
       </front>
@@ -67,7 +72,7 @@
       <!--89.xml-->
     </p>
             <p xml:id="tRi8UT-f17111-d1e133">
-               <pb ed="#C" n="89"/>
+               <pb ed="#C" n="90"/>
                <lb ed="#C" n="1"/>Exemplum vere est inductio. enthymema vero quidam syllogismus 
     </p>
             <p xml:id="tRi8UT-f17111-d1e141">
@@ -165,7 +170,7 @@
                <lb ed="#C" n="43"/>Non solum necesse est procognoscere prima principia aut omnia aut quaedam. sed et 
       <lb ed="#C" n="44"/>magis Semper enim propter quod unumquodque tale et illud magis et hoc vir 
       <!--90.xml-->
-      <pb ed="#C" n="90"/>
+      <pb ed="#C" n="91"/>
                <lb ed="#C" n="1"/>tualiter vt propter quod amauimus rem. illud est magis amicum. et omia po¬ 
       <lb ed="#C" n="2"/>steria credimus et scimus per prima. ergo illa magis scimus 
     </p>
@@ -263,7 +268,7 @@
     </p>
             <p xml:id="tRi8UT-f17111-d1e481">
       <!--91.xml-->
-               <pb ed="#C" n="91"/>
+               <pb ed="#C" n="92"/>
                <lb ed="#C" n="1"/>Non est necesse esse speecies id est ideas aut vnum ali quid extra multa. quia 
       <lb ed="#C" n="2"/>vniuersalia sunt in indiuiduis. 
     </p>
@@ -356,7 +361,7 @@
                <lb ed="#C" n="40"/>Uniuersale non est minus ens quam particulare sed maius quia ipsum est incorrupti 
       <lb ed="#C" n="41"/>bile. particulare vero corruptibile. ex quo et multm dictis aliis in isto libro 
       <!--92.xml-->
-      <pb ed="#C" n="92"/>
+      <pb ed="#C" n="93"/>
                <lb ed="#C" n="1"/>et dicendis habemus quod vniversalia sunt sempiterna et spens rerum sunt eterne. 
       <lb ed="#C" n="2"/>vniuersalis magis est causa quam particularis 
     </p>

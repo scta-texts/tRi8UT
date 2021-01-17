@@ -1,9 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>De disciplina scholarium</title>
-            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author>
+            <respStmt>
                <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
                <resp>Transcription Editor</resp>
                <resp>TEI Encoder</resp>
@@ -29,7 +33,8 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -46,7 +51,7 @@
    <text xml:lang="la">
       <front>
          <div xml:id="starts-on">
-            <pb ed="#C" n="79"/>
+            <pb ed="#C" n="80"/>
             
          </div>
       </front>
@@ -58,7 +63,7 @@
       <!--80.xml-->
     </p>
             <p xml:id="tRi8UT-f15619-d1e117">
-               <pb ed="#C" n="80"/>
+               <pb ed="#C" n="81"/>
                <lb ed="#C" n="1"/>Logica est scientia veri salsique indagatrix prudentia obest multum 
     </p>
             <p xml:id="tRi8UT-f15619-d1e124">
@@ -158,7 +163,7 @@
             <p xml:id="tRi8UT-f15619-d1e290">
                <lb ed="#C" n="42"/>hieronrmus Ingenia liberaliter educata facilius verecundia quam 
       <!--81.xml-->
-      <pb ed="#C" n="81"/>
+      <pb ed="#C" n="82"/>
                <lb ed="#C" n="1"/>metus superat. 
     </p>
             <p xml:id="tRi8UT-f15619-d1e301">

@@ -1,9 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Commendatio</title>
-            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author>
+            <respStmt>
                <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
                <resp>Transcription Editor</resp>
                <resp>TEI Encoder</resp>
@@ -29,7 +33,8 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -46,7 +51,7 @@
    <text xml:lang="la">
       <front>
          <div xml:id="starts-on">
-            <pb ed="#C" n="99"/>
+            <pb ed="#C" n="100"/>
             
          </div>
       </front>
@@ -57,7 +62,7 @@
                <lb ed="#C" n="36"/>⁋ Sequitur extemporalis Commendatio phie 
       <lb ed="#C" n="37"/>Aristo. cum eiusdem vita et moribus 
       <!--100.xml-->
-      <pb ed="#C" n="100"/>
+      <pb ed="#C" n="101"/>
                <lb ed="#C" n="1"/>Hilosophia. id est amor seu studium sapientie. ab ipo Aristo 
       <lb ed="#C" n="2"/>tele et sctis Patribus in tres partes diuiditur. vtputa in Rationa 
       <lb ed="#C" n="3"/>u lem Naturale et Moralem Prima verborum propetates et structu 
@@ -102,7 +107,7 @@
       <lb ed="#C" n="40"/>vnus) Nicomachum nomine in vrbe sua Stagyritana (que in mace 
       <lb ed="#C" n="41"/>ponia florebat) Primatem virumque grauissime autoritatem. quae vel tanta 
       <!--101.xml-->
-      <pb ed="#C" n="101"/>
+      <pb ed="#C" n="102"/>
                <lb ed="#C" n="1"/>pollebat naturali industria vt qualitates hominum ex facie dinosce 
       <lb ed="#C" n="2"/>ret Mic cum in puerulo prognosceret diuini quid latere. indit ei nomen Ari 
       <lb ed="#C" n="3"/>stoteles. quod est interpretatum optimus finis. siquidem aristos est optimus (non 
@@ -145,7 +150,7 @@
       <lb ed="#C" n="40"/>philosophiam negligeret Siquidem interdiu armis et noctu litteris 
       <lb ed="#C" n="41"/>operam tribuit Nec magnus ille mundi domitor Aristotelem secus 
       <!--102.xml-->
-      <pb ed="#C" n="102"/>
+      <pb ed="#C" n="103"/>
                <lb ed="#C" n="1"/>ac philippum patrem suum dilexit Unde cum bellica laude et Im 
       <lb ed="#C" n="2"/>perii cupiditate per totum mundum ferueret ad auditum ipsius per 
       <lb ed="#C" n="3"/>uenit Aristotelem amicorum precibus expugnatum in codices re¬ 
@@ -190,7 +195,7 @@
       <lb ed="#C" n="40"/>(quam idem phus lynceis oculis abditissima queque nature penetrando. 
       <lb ed="#C" n="41"/>toti pene mundo incognita reserauit) hominem instituit quae pacto vnus 
       <!--103.xml-->
-      <pb ed="#C" n="103"/>
+      <pb ed="#C" n="104"/>
                <lb ed="#C" n="1"/>mundus omnibus partibus inter se congruentibus coheret et nititur Inde quae 
       <lb ed="#C" n="2"/>que ex admirando mouentium et mobilium ordie vnum primum inuestigare mo 
       <lb ed="#C" n="3"/>torem. a quae quia cumctis emanat esse et viuereterno a nobis sacrificio est studi 
@@ -233,7 +238,7 @@
       <lb ed="#C" n="40"/>mentose apis collocauerat) mentem eousque attollebat vt noticiam substan 
       <lb ed="#C" n="41"/>tiarum contingeret superce estium. et exinde totius mundi primi principis a quo 
       <!--104.xml-->
-      <pb ed="#C" n="104"/>
+      <pb ed="#C" n="105"/>
                <lb ed="#C" n="1"/>celum et vniuersa natura dependet. simplicissimam vnitatem. quo cognito se 
       <lb ed="#C" n="2"/>toto mentis amore in eum conuertens non multo post tempore felici morte quiescit 
       <lb ed="#C" n="3"/>Auno a natiuitate sum sexagesimo tertio qui climactaricus ab astrolo¬ 
@@ -277,7 +282,7 @@
       <lb ed="#C" n="41"/>butionem Hic vero philosophus vitam suam a teneris vnguiculis. ad supremum 
       <lb ed="#C" n="42"/>vsque diem pro ea re. et cognitione veri et boni electione flagrans ineffabili stu 
       <!--105.xml-->
-      <pb ed="#C" n="105"/>
+      <pb ed="#C" n="106"/>
                <lb ed="#C" n="1"/>dio consumpsit. Taceo opprobria que pro vnius dei cultum accepit. taces 
       <lb ed="#C" n="2"/>exilium quod pro eodentam fortiter prtulit. taceo frequentes elehemosynas vs¬ 
       <lb ed="#C" n="3"/>que ad sui iopiam indigentibus erogatas: taceo item tot gentes tot vrbes quais 
@@ -321,7 +326,7 @@
       <lb ed="#C" n="41"/>totus pene mundus iam oli nouit Nolo hoc explicareslet causa eo maxie iuuetur quam 
       <lb ed="#C" n="42"/>frequentissime idipsum factitatum sit a nreis doctoribus quando Thomam Aqui¬ 
       <!--106.xml-->
-      <pb ed="#C" n="106"/>
+      <pb ed="#C" n="107"/>
                <lb ed="#C" n="1"/>natem a positionibus magri sui venerabilis Alberti quies tantum salua fide complec 
       <lb ed="#C" n="2"/>ti potuisset immo in hodiernam vsque diem in scholis a doctissimis professas)  
       <lb ed="#C" n="3"/>videmus ad alias opiones defecisse Quod itidem de Ioanne dcoto con Car 
@@ -365,7 +370,7 @@
       <lb ed="#C" n="41"/>nibus deterruit. quaie vel ad voluptificas elubesque fabulas vel ventosam 
       <lb ed="#C" n="42"/>eloquentiam aut alio sese diuertentes. liuore quodam Aristoteli vel male 
       <!--107.xml-->
-      <pb ed="#C" n="107"/>
+      <pb ed="#C" n="108"/>
                <lb ed="#C" n="1"/>dicunt vel notam mendaciter inustitant hi ex illiusmodi sunt grege cuius 
       <lb ed="#C" n="2"/>vnicum solatium est contractis rugatisque naribus doctos carpre. pueros ter 
       <lb ed="#C" n="3"/>rere. et in angulis garrire tenebrosis At inter gloriosos prudentesque vi 
@@ -398,7 +403,7 @@
       <lb ed="#C" n="28"/>tura quam studio fuit phs ageret radices At de his quidem obiter adiectis 
       <lb ed="#C" n="29"/>plusquam dignum sit immoratus est sermo. 
       <!--108.xml-->
-      <pb ed="#C" n="108"/>
+      <pb ed="#C" n="109"/>
                <lb ed="#C" n="1"/>Um Deus magnum fabricaret orbem 
       <lb ed="#C" n="2"/> Et polos alto sinuaret arcu 
       <lb ed="#C" n="3"/>Iussit eterna rutilare pulchrum 
@@ -440,7 +445,7 @@
       <lb ed="#C" n="39"/>Premio. mundi fuit in beatum 
       <lb ed="#C" n="40"/>Limen itura. 
       <!--109.xml-->
-      <pb ed="#C" n="109"/>
+      <pb ed="#C" n="110"/>
                <lb ed="#C" n="1"/>Dumque ei cultum dare singularem 
       <lb ed="#C" n="2"/>Cogitat. pulchris Areten capillis 
       <lb ed="#C" n="3"/>Forte prospexit spaciosa solam 
@@ -483,7 +488,7 @@
       <lb ed="#C" n="40"/>Pulueris fumos. Solymique munus 
       <lb ed="#C" n="41"/>Balsama regni 
       <!--110.xml-->
-      <pb ed="#C" n="110"/>
+      <pb ed="#C" n="111"/>
                <lb ed="#C" n="1"/>Rideo merees alio petitas 
       <lb ed="#C" n="2"/>Sole. rostratis cupide carinis 
       <lb ed="#C" n="3"/>Et per ignoti sinuola vectas 

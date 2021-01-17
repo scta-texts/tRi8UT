@@ -1,9 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Liber causarum</title>
-            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author>
+            <respStmt>
                <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
                <resp>Transcription Editor</resp>
                <resp>TEI Encoder</resp>
@@ -29,7 +33,8 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -46,7 +51,7 @@
    <text xml:lang="la">
       <front>
          <div xml:id="starts-on">
-            <pb ed="#C" n="50"/>
+            <pb ed="#C" n="51"/>
             
          </div>
       </front>
@@ -89,7 +94,7 @@
     </p>
             <p xml:id="tRi8UT-f10095-d1e170">
       <!--51.xml-->
-               <pb ed="#C" n="51"/>
+               <pb ed="#C" n="52"/>
                <lb ed="#C" n="1"/>Omnis intelligentia est plena formis. id est spenbus intelligibilibus 
     </p>
             <p xml:id="tRi8UT-f10095-d1e179">
@@ -152,7 +157,7 @@
       <lb ed="#C" n="40"/>tandi modos Aristoteles sic commiscet. inuicenque contrectat vt non facile 
       <lb ed="#C" n="41"/>(etiam ab eruditem quandoque prehis bene intelligatur de qua certum sub capitulis 
       <!--52.xml-->
-      <pb ed="#C" n="52"/>
+      <pb ed="#C" n="53"/>
                <lb ed="#C" n="1"/>felicitate loquatur. Prima est nobis necessario exoprandam. Secuoda pro 
       <lb ed="#C" n="2"/>tranquillo vite statum homnibus opportuna. Et tertia ad magnifica con 
       <lb ed="#C" n="3"/>ficienda generosum stimulat animum 
