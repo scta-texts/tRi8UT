@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 5</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 5</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="54"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f10822"><!-- alias="ethics-l5" -->
+            <head xml:id="tRi8UT-f10822-Hd1e107">Liber 5</head>
+            <p xml:id="tRi8UT-f10822-d1e110">
+               <lb ed="#C" n="28"/>⁋ Sequuntur autori. quinti libri ethicorum 
+    </p>
+            <p xml:id="tRi8UT-f10822-d1e115">
+               <lb ed="#C" n="29"/>vr I vnum oppositorum dicitur multis modis. et reliquum 
+    </p>
+            <p xml:id="tRi8UT-f10822-d1e120">
+               <lb ed="#C" n="30"/>Que simpliciter sunt bona homnibus pro his orat et illa querunt. 
+    </p>
+            <p xml:id="tRi8UT-f10822-d1e125">
+               <lb ed="#C" n="31"/>Preclarissima virtutum est iusticia. scilicet egitima. vnde prouer¬ 
+    </p>
+            <p xml:id="tRi8UT-f10822-d1e131">
+               <lb ed="#C" n="32"/>lbio dicitur neque hesperus neque luciferita mirabilis sicut iusticia 
+    </p>
+            <p xml:id="tRi8UT-f10822-d1e136">
+               <lb ed="#C" n="33"/>Principatus virum ostendet. 
+    </p>
+            <p xml:id="tRi8UT-f10822-d1e141">
+               <lb ed="#C" n="34"/>Pessumus est ille qui non solum vtitur malicia ad se sed etiam ad alios 
+    </p>
+            <p xml:id="tRi8UT-f10822-d1e146">
+               <lb ed="#C" n="35"/>Optimus est ille qui non solum vtitur bonitate id est vertute ad se sed etiam ad alios. 
+    </p>
+            <p xml:id="tRi8UT-f10822-d1e151">
+               <lb ed="#C" n="36"/>Duplex est iusticia scilicet totalis et partialis. Partialis est duplex scilicet commuta¬ 
+      <lb ed="#C" n="37"/>tiua et distributiua Commutatiua est duplex scilicet voluntaria et non vo 
+      <lb ed="#C" n="38"/>luntaria. Non voluntaria est duplex iliest occulta et manifesta. occulta 
+      <lb ed="#C" n="39"/>vt furtum adulterium. manifesta vt vincula et verbera 
+    </p>
+            <p xml:id="tRi8UT-f10822-d1e162">
+               <lb ed="#C" n="40"/>Minus malum est magis elegibile maiori malo
+    </p>
+            <p xml:id="tRi8UT-f10822-d1e168">
+      <!--55.xml-->
+               <pb ed="#C" n="55"/>
+               <lb ed="#C" n="1"/>Ubicunque reperitur magis et minus ibi reperitur medium et equale. 
+    </p>
+            <p xml:id="tRi8UT-f10822-d1e177">
+               <lb ed="#C" n="2"/>Tanta est difficultas scire quanta est medicum esse. 
+    </p>
+            <p xml:id="tRi8UT-f10822-d1e182">
+               <lb ed="#C" n="3"/>Oportet illi qui bene fecit. famulari. 
+    </p>
+            <p xml:id="tRi8UT-f10822-d1e187">
+               <lb ed="#C" n="4"/>Deuarius est mensura omnim rerum. quia est fideiussor noster in omni ad  
+      <lb ed="#C" n="5"/>itersitate vel necessitate pro qualibet rem qua indigemus. 
+    </p>
+            <p xml:id="tRi8UT-f10822-d1e194">
+               <lb ed="#C" n="6"/>Primum institutum debet custodiri Princeps debet custodire iustum. 
+    </p>
+            <p xml:id="tRi8UT-f10822-d1e199">
+               <lb ed="#C" n="7"/>Duplex est ius scilicet naturale et legale. Naturale et quod apud omes habet 
+      <lb ed="#C" n="8"/>eandem potentiam. Legale autem institutum est a lege 
+    </p>
+            <p xml:id="tRi8UT-f10822-d1e207">
+               <lb ed="#C" n="9"/>Sacrificare diis. id est deo et suis simpliciter est naturale. sed sacrificare 
+      <lb ed="#C" n="10"/>hoc vel illud isti vel illi est ad placitum 
+    </p>
+            <p xml:id="tRi8UT-f10822-d1e214">
+               <lb ed="#C" n="11"/>Tex probibet seiplum interficere 
+    </p>
+            <p xml:id="tRi8UT-f10822-d1e219">
+               <lb ed="#C" n="12"/>Nullus proprie potest sibiipsi iniuriam facere.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

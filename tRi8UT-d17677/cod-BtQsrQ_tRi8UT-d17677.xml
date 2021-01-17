@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>De longitudine et brevitate vitae</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>De longitudine et brevitate vitae</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="38"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d17677"><!-- alias="pn-deLongitudine" -->
+            <head xml:id="tRi8UT-d17677-Hd1e107">De longitudine et brevitate vitae</head>
+            <div xml:id="tRi8UT-d17682">
+               <head xml:id="tRi8UT-d17677-Hd1e112">Aristoteles</head> 
+               <!-- is this still by Aristotle? -->
+               <p xml:id="tRi8UT-d17677-d1e117">
+                  <lb ed="#C" n="32"/>⁋ Autorita. libro de logitudine et breuitate vite.
+        </p>
+               <p xml:id="tRi8UT-d17677-d1e122">
+                  <lb ed="#C" n="33"/>⁋S Entes que sunt in calidis subaudi temperatis) regionibus sunt 
+          <lb ed="#C" n="34"/> longioris vite quam que sunt in frigidis.
+        </p>
+               <p xml:id="tRi8UT-d17677-d1e129">
+                  <lb ed="#C" n="35"/>Corruptis animalibus corrumpuntur scientie et sanitates quanoe in eis sunt. ve 
+          <lb ed="#C" n="36"/>rum est quod scientie corrumpuntur secundum hunc modum intelligendi quo in¬ 
+          <lb ed="#C" n="37"/>sunt nobis pro statu huius vite.
+        </p>
+               <p xml:id="tRi8UT-d17677-d1e139">
+                  <lb ed="#C" n="38"/>Quicquid corrumpitur a suo contrario corrumpitur.
+        </p>
+               <p xml:id="tRi8UT-d17677-d1e144">
+                  <lb ed="#C" n="39"/>Id quod in se est corrumptibile in nullo alio loco est incorruptibile
+        </p>
+               <p xml:id="tRi8UT-d17677-d1e149">
+                  <lb ed="#C" n="40"/>Impossibile est habenti materiam non existere contrarium. 
+        </p>
+               <p xml:id="tRi8UT-d17677-d1e154">
+                  <lb ed="#C" n="41"/>Minor fatma consumitur a maiori per accdens. quia alimentum quod illa 
+          <!--39.xml-->
+          <pb ed="#C" n="39"/>
+                  <lb ed="#C" n="1"/>consumit multo tempore. hoc multa famma consumit paruo tempore 
+        </p>
+               <p xml:id="tRi8UT-d17677-d1e165">
+                  <lb ed="#C" n="2"/>Locus continens rem. vel operatur ad gen erationem velis ad conseruatio 
+          <lb ed="#C" n="3"/>nem rei. vel contraria rei operatur. 
+        </p>
+               <p xml:id="tRi8UT-d17677-d1e172">
+                  <lb ed="#C" n="4"/>Inter animalia longissime vite sunt ceruus et coruus 
+        </p>
+               <p xml:id="tRi8UT-d17677-d1e178">
+                  <lb ed="#C" n="5"/>Uita animalis fit per calidum et humidum. 
+        </p>
+               <p xml:id="tRi8UT-d17677-d1e183">
+                  <lb ed="#C" n="6"/>Senectus frigida est et sicca 
+        </p>
+               <p xml:id="tRi8UT-d17677-d1e188">
+                  <lb ed="#C" n="7"/>Animalia multum coeuntia multum senescunt. quia sperma quod est superfiuum 
+          <lb ed="#C" n="8"/>nutrimenti emissum exiccat. et propter hoc mulus logioris est vite quam 
+          <lb ed="#C" n="9"/>asinus vel equus ex quibus gene ratur. quia ipe non geuerat. 
+        </p>
+               <p xml:id="tRi8UT-d17677-d1e197">
+                  <lb ed="#C" n="10"/>Masculi si coitum non faciunt naturaliter sunt logioris vite quam fe 
+          <lb ed="#C" n="11"/>melle. quia masculus calidior est quam femella. sed si masculi multum co¬ 
+          <lb ed="#C" n="12"/>eant breuioris sunt vite femellis. 
+        </p>
+               <p xml:id="tRi8UT-d17677-d1e206">
+                  <lb ed="#C" n="13"/>Cabor exiccat et senectutem inducit. 
+        </p>
+               <p xml:id="tRi8UT-d17677-d1e211">
+                  <lb ed="#C" n="14"/>Unde multum laborantes magis senescunt 
+        </p>
+            </div>
+            <div xml:id="tRi8UT-d17789">
+               <head xml:id="tRi8UT-d17677-Hd1e219">Commentator</head>
+               <p xml:id="tRi8UT-d17677-d1e222">
+                  <lb ed="#C" n="15"/>⁋ Commentator.
+        </p>
+               <p xml:id="tRi8UT-d17677-d1e227">
+          Complexio iuuenum est calida et humida. se 
+          <lb ed="#C" n="16"/>num vero est frigida et sicca 
+        </p>
+               <p xml:id="tRi8UT-d17677-d1e232">
+                  <lb ed="#C" n="17"/>Castrati plus viuunt quam non castratim propter paucitatem coitus. 
+        </p>
+               <p xml:id="tRi8UT-d17677-d1e237">
+                  <lb ed="#C" n="18"/>Propter paucitatem coitus viuitlplus mulus quam equus vel asinus 
+          <lb ed="#C" n="19"/>et femelle quam masculi. 
+        </p>
+               <p xml:id="tRi8UT-d17677-d1e245">
+                  <lb ed="#C" n="20"/>Qui habitant in regionibus calidis et humidis logioris sunt vite per 
+          <lb ed="#C" n="21"/>accidens propter paucitatem putrefactionis.
+        </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

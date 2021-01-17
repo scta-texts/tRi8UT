@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 1</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 1</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="87"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f16880"><!-- alias="priorAn-l1" -->
+            <head xml:id="tRi8UT-f16880-Hd1e107">Liber 1</head>
+            <p xml:id="tRi8UT-f16880-d1e110">
+               <lb ed="#C" n="23"/>⁋ Sequuntur autori. primi libri Priorum Aristo. 
+    </p>
+            <p xml:id="tRi8UT-f16880-d1e115">
+               <lb ed="#C" n="24"/>Et in libris priorum tractatur de dicibili complexo ordinato ad oem mate 
+      <lb ed="#C" n="25"/>riam indifferenter scilicet de generatioali modo faciendi syllogismum Set in libro poste¬ 
+      <lb ed="#C" n="26"/>iorum tractatur de dicibili complexo contracto ad aliquam materiam determi 
+      <lb ed="#C" n="27"/>natam scilicet de syllogismis demonstratiuis. In topicis vero quantum ad mate 
+      <lb ed="#C" n="28"/>riam probabilem In elenchis autem quantum ad materiam sophisticam. quia de syllogis 
+      <lb ed="#C" n="29"/>mis sophisticis et apparentibus sed non existentibus 
+    </p>
+            <p xml:id="tRi8UT-f16880-d1e131">
+               <lb ed="#C" n="30"/>PRopositio est oratio affirmatiua vel negatiua alicuius de 
+      <lb ed="#C" n="31"/>aliquo vel alicuius ab aliquo 
+    </p>
+            <p xml:id="tRi8UT-f16880-d1e138">
+               <lb ed="#C" n="32"/>Terminus est in que resoluitur propositio. 
+    </p>
+            <p xml:id="tRi8UT-f16880-d1e144">
+               <lb ed="#C" n="33"/>Syllogismus est oratio in qua quibusdam positis aliud quidem 
+      <lb ed="#C" n="34"/>ab his quae posita sunt ex necessitate accidit. eo quod hec sunt id est primisse. 
+    </p>
+            <p xml:id="tRi8UT-f16880-d1e151">
+               <lb ed="#C" n="35"/>Dici de omni est quando nihil est sumere subiecti distributi maioris 
+      <lb ed="#C" n="36"/>quin de eo dicatur predicatum 
+    </p>
+            <p xml:id="tRi8UT-f16880-d1e158">
+               <lb ed="#C" n="37"/>Dici de nullo per oppositum. 
+    </p>
+            <p xml:id="tRi8UT-f16880-d1e163">
+               <lb ed="#C" n="38"/>Uniuersalis negatiua et particularis affirmatiua simpliciter conuertuntur 
+    </p>
+            <p xml:id="tRi8UT-f16880-d1e168">
+               <lb ed="#C" n="39"/>Uniuersalis affirmatiua conuertitur in particularem affirmatiuam 
+    </p>
+            <p xml:id="tRi8UT-f16880-d1e173">
+               <lb ed="#C" n="40"/>Quando oppositum consintis repugnat ancedenti. tunc consntia fuit bona 
+    </p>
+            <p xml:id="tRi8UT-f16880-d1e179">
+               <lb ed="#C" n="41"/>Maiori exnti de necario et minori de inesse conclusio erit de necessarior 
+    </p>
+            <p xml:id="tRi8UT-f16880-d1e184">
+               <lb ed="#C" n="42"/>Quicquid sequitur ad anecedens sequitur ad consequens. 
+      <!--88.xml-->
+    </p>
+            <p xml:id="tRi8UT-f16880-d1e191">
+               <pb ed="#C" n="88"/>
+               <lb ed="#C" n="1"/>Syllogismus est necessarius ex ponibilibus et expositis. vnde sumitur 
+      <lb ed="#C" n="2"/>quicquid est vtrum de exponente. etiam est verum de exposito. vnde expo¬ 
+      <lb ed="#C" n="3"/>nentis et expositi eadem est veritas 
+    </p>
+            <p xml:id="tRi8UT-f16880-d1e202">
+               <lb ed="#C" n="4"/>Qnde vtraque primissarum est de necessario. tunc conclusio erit de necessario 
+    </p>
+            <p xml:id="tRi8UT-f16880-d1e207">
+               <lb ed="#C" n="5"/>Possibili posito in esse nullum sequitur impossibile. 
+    </p>
+            <p xml:id="tRi8UT-f16880-d1e212">
+               <lb ed="#C" n="6"/>Continges dicitur duobus modis. vno mo quod fit frequenter. vt hominem ca 
+      <lb ed="#C" n="7"/>nescere in senectute. et tale dicitur contingens innatum. alio modo dicitur contingens 
+      <lb ed="#C" n="8"/>quod quantum est de se habet se indifferenter ad esse et ad non esse. vt me ambulare 
+      <lb ed="#C" n="9"/>terremotum fieri. et tale dicitur contingens infinitum. et est qui exitente non impossibili 
+      <lb ed="#C" n="10"/>ipo tantum posito in esse. nihil propter hoc erit impossibile 
+    </p>
+            <p xml:id="tRi8UT-f16880-d1e226">
+               <lb ed="#C" n="11"/>Onicumque ex opposito consequentis infertur oppositum anecedentis. tunc prima 
+      <lb ed="#C" n="12"/>(consequentia fuit bona 
+    </p>
+            <p xml:id="tRi8UT-f16880-d1e233">
+               <lb ed="#C" n="13"/>Omnis syllogismus habet fieri per 
+      <lb ed="#C" n="14"/>tres terminos et duas propositiones et vnam conclusionem 
+    </p>
+            <p xml:id="tRi8UT-f16880-d1e240">
+               <lb ed="#C" n="15"/>Exempia ponimus non vt ita sint. sed vt sentiant addiscentes quae addiscunt 
+    </p>
+            <p xml:id="tRi8UT-f16880-d1e245">
+               <lb ed="#C" n="16"/>Et dicit Commentator super tercium de anima. quod philosophus parum curauit de exemplis 
+      <lb ed="#C" n="17"/>vera ne essent an falia. sed maxime de rebus 
+    </p>
+            <p xml:id="tRi8UT-f16880-d1e252">
+               <lb ed="#C" n="18"/>Non idem significat esse non album. et non esse album 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

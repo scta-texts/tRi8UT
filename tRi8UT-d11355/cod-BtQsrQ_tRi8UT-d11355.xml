@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 7</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 7</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="8"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d11355"><!-- alias="aa-met-7" -->
+            <head xml:id="tRi8UT-d11355-Hd1e107">Liber 7</head>
+            <div xml:id="tRi8UT-d11360">
+               <head xml:id="tRi8UT-d11355-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d11355-d1e115">
+                  <lb ed="#C" n="26"/>⁋ Sequuntur auto. vii ist metaphysice Aristote. 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e120">
+                  <lb ed="#C" n="27"/>ACcidentia non sunt entia. sed quid entis 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e125">
+                  <lb ed="#C" n="28"/>Materia prima secundum se nec est quid nec est quantum. nec qua 
+        <lb ed="#C" n="29"/>le. nec aliquid eorum quibus ens est determinatu.
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e132">
+                  <lb ed="#C" n="30"/>Disciplina fit in omnibus per magis nobis nota. 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e138">
+                  <lb ed="#C" n="31"/>Definitio est sermo indicas quid est esse rei per essentialia 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e143">
+                  <lb ed="#C" n="32"/>Definitio accidentium fit per additamentum scilicet. substantie 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e148">
+                  <lb ed="#C" n="33"/>Unde accidens definitur per aliquod extraneum a sua natuia scilicet per substantiam 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e153">
+                  <lb ed="#C" n="34"/>Compositorum non est definitio sed simplicium terminorum 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e158">
+                  <lb ed="#C" n="35"/>In entibus per se idem est quidditas et quid habens quidditatem 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e163">
+                  <lb ed="#C" n="36"/>Omne accidens concretu duo signaut scilicet forma accidentalem et subiectum 
+        <lb ed="#C" n="37"/>eius. sicut album signat albedine et subiectum albedinis. 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e171">
+                  <lb ed="#C" n="38"/>Omnia que fiunt vel fiunt a natura vel ab arte vel a casu. 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e176">
+                  <lb ed="#C" n="39"/>Materia est ex quo res potest esse vel non esse Ex sanitate in anima fit sanitas in 
+        na<lb ed="#C" n="40" break="no"/>tura
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e183">
+                  <lb ed="#C" n="41"/>Materia non fit nec forma sed totum compositum. 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e188">
+                  <lb ed="#C" n="42"/>Particulare non generat nisi particulare. sed vniversale nec generat nec generatur 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e193">
+                  <lb ed="#C" n="43"/>Uniuersalia non sunt sepata a singularibus secundum esse. vt voluit plato. sed 
+        <lb ed="#C" n="44"/>sunt in eis secundum esse. quia predicantur de eis predicatione essentiali et dire 
+        <lb ed="#C" n="45"/>cta. vt dicendo hoc est homo.
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e202">
+        <!--9.xml-->
+                  <pb ed="#C" n="9"/>
+                  <lb ed="#C" n="1"/>Omnis predicatio fit a forma 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e212">
+                  <lb ed="#C" n="2"/>Omnes partes definitionis sunt forme. licet aliquo modum habeant materie. 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e217">
+                  <lb ed="#C" n="3"/>Natura humana non est nisi in his carnibus et in his ossibus 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e222">
+                  <lb ed="#C" n="4"/>Generans et generatum conveniunt in specie et sunt vniuoca. 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e227">
+                  <lb ed="#C" n="5"/>Sperma facit ad generationem sicut artifex ad artificiata 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e232">
+                  <lb ed="#C" n="6"/>Definitio est sermo habens partes 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e237">
+        Nihil contingit vno nomine tantum definiri 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e241">
+                  <lb ed="#C" n="7"/>Singularium nec est scientia neque definitio. quia quando recedunt a sensu tunc 
+        <lb ed="#C" n="8"/>non est certum aut manifestum vtrum sint vel non sint 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e248">
+                  <lb ed="#C" n="9"/>Materia secundum se est ignota. 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e253">
+                  <lb ed="#C" n="10"/>Nihil aliud debet esse in definitione nisi genus et differentia 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e258">
+                  <lb ed="#C" n="11"/>Definitio est vna propter vltimam disterentiam. 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e263">
+                  <lb ed="#C" n="12"/>Ex duobus entibus in actu non fit tertium in natura. 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e268">
+                  <lb ed="#C" n="13"/>Actus separat et distinguit 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e274">
+        Forma est causa essendi in rebus. 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e277">
+                  <lb ed="#C" n="14"/>Unde forma dat esse rei
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d11533">
+               <head xml:id="tRi8UT-d11355-Hd1e285">Commentator</head>
+               <p xml:id="tRi8UT-d11355-d1e288">
+                  <lb ed="#C" n="15"/>⁋ Commentator
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e293">
+                  <lb ed="#C" n="16"/>Indiuiduum substantie est prius indiuiduis accidentium 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e298">
+                  <lb ed="#C" n="17"/>Substantia indiuidualis et demonstratiua non est vna nisi per formam 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e303">
+                  <lb ed="#C" n="18"/>Sicut extra materiam non cognoscuntur due forme sic nec in anima 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e309">
+                  <lb ed="#C" n="19"/>Impossibile est vt due forme separate a materia transmutent materiam 
+        im<lb ed="#C" n="20" break="no"/>mediate. quia nihil transmutat materiam nisi corpus 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e316">
+                  <lb ed="#C" n="21"/>Causa multitudinis generabilium ab vno generantem est multiplicatio 
+        mate<lb ed="#C" n="22" break="no"/>riarum in quas agens agit 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e323">
+                  <lb ed="#C" n="23"/>Proprium est substantie inter alia 
+        praedicamen<lb ed="#C" n="24" break="no"/>ta vt ante substantia generatam sit alia substantia sibi similis sed non est 
+        necessari<lb ed="#C" n="25" break="no"/>um vt ante qualitatem generatam sit alia qualitas agens. sed bene est aliquid ante 
+        <lb ed="#C" n="26"/>qualitatem. vt est potentia qualitas. scilicet materia 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e334">
+                  <lb ed="#C" n="27"/>Materia non cognoscitur per se sed per formam 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e339">
+                  <lb ed="#C" n="28"/>Qui nescit rem nullum nomen et imponit sine dat. quia nullus aliquod 
+        no<lb ed="#C" n="29" break="no"/>men dat ei quod non noscit. vn habemus quod rebus nobis notem nomina imponimus. 
+      </p>
+               <p xml:id="tRi8UT-d11355-d1e346">
+                  <lb ed="#C" n="30"/>Forma non est elementum nec elementatum. sed est substantia addita 
+        ele<lb ed="#C" n="31" break="no"/>mento. vt dicit <sic>Aristotiles</sic>
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

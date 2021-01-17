@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 8</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 8</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d18855"><!-- alias="deanimalibus-l8" -->
+            <head xml:id="tRi8UT-d18855-Hd1e107">Liber 8</head>
+            <div xml:id="tRi8UT-d18860">
+               <head xml:id="tRi8UT-d18855-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d18855-d1e115">
+                  <lb ed="#C" n="19"/>⁋ Autorita. octaui libri de animalibus Aristo. 
+      </p>
+               <p xml:id="tRi8UT-d18855-d1e120">
+                  <lb ed="#C" n="20"/> E ratione boni autoris est semper iudicare sermones dicentis. 
+      </p>
+               <p xml:id="tRi8UT-d18855-d1e125">
+                  <lb ed="#C" n="21"/> Debemus inspicere formas rerum et delectari in opifice qui fecit eas 
+      </p>
+               <p xml:id="tRi8UT-d18855-d1e130">
+                  <lb ed="#C" n="22"/>Ex isto firmiter teneo Aristotelem sepenumero solere dei sapientie lau¬ 
+        <lb ed="#C" n="23"/>des exoluere immortales. qui hanc pulcerrimam mundi fabricam rationem et or 
+        <lb ed="#C" n="24"/>dine gubernat sapientissimo Alioquin non diceret primo Topicorum. 
+        <lb ed="#C" n="25"/>si quispiam addubitaret an deum oporteat vereri. illum non indigere ratione. sed 
+        <lb ed="#C" n="26"/>pena. quasi diceret hoc per se manifestum esse 
+      </p>
+               <p xml:id="tRi8UT-d18855-d1e144">
+                  <lb ed="#C" n="27"/>Magis concupiscimus scire aliquid modicum de rebus honorabilibus et al 
+        <lb ed="#C" n="28"/>tissimis. licet probabiliter illud tantum sciamus. quam scire multum de rebus per 
+        <lb ed="#C" n="29"/>certitudinem minus nobilibus et vilioribus. 
+      </p>
+               <p xml:id="tRi8UT-d18855-d1e153">
+                  <lb ed="#C" n="30"/>In quolibet generatione rerum necesse est prius considerare comunia seorsum. et  
+        <lb ed="#C" n="31"/>postea proprium vniuscuiusque illius generis. 
+      </p>
+               <p xml:id="tRi8UT-d18855-d1e160">
+                  <lb ed="#C" n="32"/>Natura est sicut motor ad complementum rerum. 
+      </p>
+               <p xml:id="tRi8UT-d18855-d1e165">
+                  <lb ed="#C" n="33"/>Natura cuiuslibet rem est rei ad quam est praeparata. 
+      </p>
+               <p xml:id="tRi8UT-d18855-d1e170">
+                  <lb ed="#C" n="34"/>Nullum ens naturaliter natum est ociose: vnde in omnibus anima 
+        <lb ed="#C" n="35"/>libus est res nobilis 
+      </p>
+               <p xml:id="tRi8UT-d18855-d1e177">
+                  <lb ed="#C" n="36"/>Creatio corporis et membrorum est propter animam 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

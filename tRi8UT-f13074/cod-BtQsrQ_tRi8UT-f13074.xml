@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 1</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 1</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="66"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f13074"><!-- alias="rhetor-l1" -->
+            <head xml:id="tRi8UT-f13074-Hd1e107">Liber 1</head>
+            <p xml:id="tRi8UT-f13074-d1e110">
+               <lb ed="#C" n="43"/>⁋ Autoritates super primum libro rhetoricorum.
+    </p>
+            <p xml:id="tRi8UT-f13074-d1e115">
+               <lb ed="#C" n="44"/>se hetorica est assecutiua dialectice
+    </p>
+            <p xml:id="tRi8UT-f13074-d1e120">
+               <lb ed="#C" n="45"/>E Litigantis non est aliud nisiostendere. quia res est vel non est aut 
+      <!--67.xml-->
+      <pb ed="#C" n="67"/>
+               <lb ed="#C" n="1"/>quia perfecta est vel non. et vtrum sit iusta vel iniusta oportet ipsum iudicem co 
+      <lb ed="#C" n="2"/>gnoscere et non addiscere a litigantibus. 
+      <lb ed="#C" n="3"/>facilius est habere vnum vel paucos bene sapientes quam plures. 
+    </p>
+            <p xml:id="tRi8UT-f13074-d1e136">
+               <lb ed="#C" n="4"/>Amor. odium et proprium commodum sepe faciunt iudicem non cognoscere vtrum 
+    </p>
+            <p xml:id="tRi8UT-f13074-d1e142">
+               <lb ed="#C" n="5"/>Rhetorica docet iusta et vera persuadere et contraria eorum fugere 
+    </p>
+            <p xml:id="tRi8UT-f13074-d1e147">
+               <lb ed="#C" n="6"/>Si inconueniens et turpe est aliquem se non posse defendere corpore multo 
+      <lb ed="#C" n="7"/>magis inconueniens est et turpe non posse defendere sermone et ratione 
+    </p>
+            <p xml:id="tRi8UT-f13074-d1e154">
+               <lb ed="#C" n="8"/>Nulla ars considerat particulare. quia particularia sunt infinita et non scibilia 
+    </p>
+            <p xml:id="tRi8UT-f13074-d1e159">
+               <lb ed="#C" n="9"/>De necessariis et impossibilibus non consiliamur. sed de contingentibus et ali¬ 
+      <lb ed="#C" n="10"/>ter se habere potentibus que in nostra potestate sunt 
+    </p>
+            <p xml:id="tRi8UT-f13074-d1e166">
+               <lb ed="#C" n="11"/>Nobilitas gentis vel ciuitatis est hoies antiquos esse praesides principes 
+      <lb ed="#C" n="12"/>et insignes. et multos insignes ex eis prodiuisse 
+    </p>
+            <p xml:id="tRi8UT-f13074-d1e173">
+               <lb ed="#C" n="13"/>Nobilitas singularis est qui a viris ac mulieribus fit propter diuitias vel 
+      <lb ed="#C" n="14"/>virtutes vel propter aliquod aliud propter quod homo honoratur. 
+    </p>
+            <p xml:id="tRi8UT-f13074-d1e181">
+               <lb ed="#C" n="15"/>Honor est benefactiue operationis signum. quia illi maxime et iuste honoran 
+      <lb ed="#C" n="16"/>tur. qui benficia dare possunt. vt deus et homines boni. 
+    </p>
+            <p xml:id="tRi8UT-f13074-d1e188">
+               <lb ed="#C" n="17"/>Multi sine virtutibus corporis longeui inueniuntur 
+    </p>
+            <p xml:id="tRi8UT-f13074-d1e193">
+               <lb ed="#C" n="18"/>Consilium non est de fine. sed de his que sunt ad finem 
+    </p>
+            <p xml:id="tRi8UT-f13074-d1e198">
+               <lb ed="#C" n="19"/>Exercitium vt in pluribus conseruat sanitatem. 
+    </p>
+            <p xml:id="tRi8UT-f13074-d1e203">
+               <lb ed="#C" n="20"/>Cuius contrarium est malum illud est bonum. 
+    </p>
+            <p xml:id="tRi8UT-f13074-d1e208">
+               <lb ed="#C" n="21"/>Quicquid fuerit superabundans et magen quam esse debeat hoc est malum 
+      <lb ed="#C" n="22"/>facilia sunt quaecumque sine tristicia sunt et inmodico tempore sunt. sicut simpliciter 
+      <lb ed="#C" n="23"/>ad simpliciter. ita magen ad magmn. maximum ad maximum. et econuerso. 
+    </p>
+            <p xml:id="tRi8UT-f13074-d1e218">
+               <lb ed="#C" n="24"/>Sine causa et principio imposibile est aliquid esse vel fieri. 
+    </p>
+            <p xml:id="tRi8UT-f13074-d1e223">
+               <lb ed="#C" n="25"/>Subtiliter videre melius est quam subtilitersodorare. quia visus melior est 
+      <lb ed="#C" n="26"/>(odoratu. 
+    </p>
+            <p xml:id="tRi8UT-f13074-d1e230">
+               <lb ed="#C" n="27"/>Pulcrius est esse amatorem sociorum quam pecuniarum. 
+    </p>
+            <p xml:id="tRi8UT-f13074-d1e235">
+               <lb ed="#C" n="28"/>Multa que naturaliter non sunt delectabilia cum assuefacta fuerint 
+      <lb ed="#C" n="29"/>delectabilia sunt. quia inconsueta vsu molliuntur 
+    </p>
+            <p xml:id="tRi8UT-f13074-d1e242">
+               <lb ed="#C" n="30"/>Quod consuetum est velut innatum est. quia consuetudo est similis nature 
+    </p>
+            <p xml:id="tRi8UT-f13074-d1e247">
+               <lb ed="#C" n="31"/>Diligere est delectabile. quia nullus diligit vnum nisi delectetur in eo 
+    </p>
+            <p xml:id="tRi8UT-f13074-d1e253">
+               <lb ed="#C" n="32"/>Addiscere aliquid delectabile est. Omne consuetum est delectabiie. 
+    </p>
+            <p xml:id="tRi8UT-f13074-d1e258">
+               <lb ed="#C" n="33"/>Iustum est ei gratiam facere quaie gratiam fecit. 
+    </p>
+            <p xml:id="tRi8UT-f13074-d1e263">
+               <lb ed="#C" n="34"/>Iustum est auxiliare amicis 
+    </p>
+            <p xml:id="tRi8UT-f13074-d1e268">
+               <lb ed="#C" n="35"/>⁋ Leonardus Aretinus
+    </p>
+            <p xml:id="tRi8UT-f13074-d1e273">
+      Inuenies apud Aristotelem locos nulltus eloquem 
+      <lb ed="#C" n="36"/>tie capaces eloquentissime ab eo tractatos. rebusque obscurissimis 
+      <lb ed="#C" n="37"/>splendorem et claritate per eloquentiam attulisse At vitio traslatorem corrup¬ 
+      <lb ed="#C" n="38"/>tus est hinc me accinti vt eundem de nouo latinum redderem
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

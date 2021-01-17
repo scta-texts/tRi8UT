@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 10</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 10</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="58"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f11584"><!-- alias="ethics-l10" -->
+            <head xml:id="tRi8UT-f11584-Hd1e107">Liber 10</head>
+            <p xml:id="tRi8UT-f11584-d1e110">
+               <lb ed="#C" n="26"/>⁋ Sequuntur autorita. x. libri ethicorum Aristo. 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e115">
+               <lb ed="#C" n="27"/>Nactibus humanis minus creditur sermonibus quam operibus 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e120">
+               <lb ed="#C" n="28"/>Unde sermones dissonat opribus sensibilibus tuc contenunt 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e125">
+               <lb ed="#C" n="29"/>Ex quibus res generantur in hec resoluuntur. 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e131">
+               <lb ed="#C" n="30"/>Omnis virtus in corpore existens fatigabilis est. 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e136">
+               <lb ed="#C" n="31"/>Quedam delectant que posimodu non delectant 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e141">
+               <lb ed="#C" n="32"/>Unusquisque maxime operatur in illo quod maxime diligit. 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e146">
+               <lb ed="#C" n="33"/>Delectatio tenet operantem in opere Et ergo signum generati habitus 
+      <lb ed="#C" n="34"/>est desectatio in opere. 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e153">
+               <lb ed="#C" n="35"/>Operatio delectabilior minus delectabilem expellit. vne am antes phy¬ 
+      <lb ed="#C" n="36"/>stul as non possunt intendere sermonibus. 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e160">
+               <lb ed="#C" n="37"/>Non potentes continue laborare requie indigent. 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e166">
+               <lb ed="#C" n="38"/>Philosophia habet delectationes admirabiles puritate et firmitate 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e171">
+               <lb ed="#C" n="39"/>Ultima felicitas homnis consistit in optima operatione 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e176">
+               <lb ed="#C" n="40"/>Optime potentie sunt respectu optimi subiecti 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e181">
+               <lb ed="#C" n="41"/>Speculatio ipsius prime veritatis est ipsa felicitas 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e186">
+      <!--59.xml-->
+               <pb ed="#C" n="59"/>
+               <lb ed="#C" n="1"/>Uita contemplatiua melior est quam vita actiua quae est vita secundum hominem. quia vi 
+      <lb ed="#C" n="2"/>ta contemplatiua est vita diuina Istud consonat sacris litteris quamquam Cicero re¬ 
+      <lb ed="#C" n="3"/>pugnet. 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e199">
+               <lb ed="#C" n="4"/>Duplex est vita scilicet contemplatiua et politica. inter quas con¬ 
+      <lb ed="#C" n="5"/>templatiua est melior cum sit diuina. alia vero humana 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e207">
+               <lb ed="#C" n="6"/>Unusquisque opera sua dirigere debet ad bene viuendum secundum optimum eorum que 
+      <lb ed="#C" n="7"/>sunt in ipso Ex quo verbo Aristotilem fuisse hominem syncere vite concludo 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e214">
+               <lb ed="#C" n="8"/>Optimum in homine est intellectus. quia licet intellectus sit minimus in 
+      <lb ed="#C" n="9"/>quantitate. tamen maximus est in potestate et praeciositate 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e221">
+               <lb ed="#C" n="10"/>Unumquodque dicitur maximum quod est principalissimum sui. et hoc potest dici intellectus 
+      <lb ed="#C" n="11"/>est principalissimum hominis ex quo iterum habemus quod denominatio fit a principaliori. 
+      <lb ed="#C" n="12"/>proprium opus dei est speculatio. 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e230">
+               <lb ed="#C" n="13"/>Homo felix siue sapiens indiget aliqualiter rebus exterioribus. quia natu 
+      <lb ed="#C" n="14"/>ra per se non est sufficiens speculari. sed oportet quod habeat corpus sanum cy¬ 
+      <lb ed="#C" n="15"/>bum bonum et reliquum famulatum. non tamen indiget multis ac magis rebus. quia non 
+      <lb ed="#C" n="16"/>oportet felicem el philosophum esse dominum terre et maris. 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e241">
+               <lb ed="#C" n="17"/>Moderate deitati non minus agunt bona quam potentes. immo etiam magis. vnde 
+      <lb ed="#C" n="18"/>dicitur quod moderate ditati sunt felices. quia magis agunt secundum veritatem vel intellectum 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e248">
+               <lb ed="#C" n="19"/>Homo secundum intellectum operans et habens curam est bene dispositus. et ideo amantissimus 
+      <lb ed="#C" n="20"/>(esse videtur 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e256">
+               <lb ed="#C" n="21"/>Negocia suscipimus. vt ocium habeamus. Et bellum geri¬ 
+      <lb ed="#C" n="22"/>mus vt in pace denegamus 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e263">
+               <lb ed="#C" n="23"/>Simonides cum homnibus persuaderet nullam esse curam habendam de cognitione 
+      <lb ed="#C" n="24"/>diuina. Aristo. eum acriter reprehendit dicens quod homo debet se ad immortalia et di 
+      <lb ed="#C" n="25"/>uina trahere quantum ut. quia tanto homo fit nobilior quanto post nobiliori approp¬ 
+      <lb ed="#C" n="26"/>(pinquat 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e274">
+               <lb ed="#C" n="27"/>Homo maxime sapiens maxime felix est 
+      <lb ed="#C" n="28"/>Sermones consonantes operibus sunt acceptandi. dissonantes vero sus 
+      <lb ed="#C" n="29"/>picandi. quia scientie religiositas deo placet. 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e283">
+               <lb ed="#C" n="30"/>Non facile est homines ex antiquam consuetudine transmutari per. sermones. 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e288">
+               <lb ed="#C" n="31"/>Multi plus coacti obediunt necessitati quam sermoni 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e293">
+               <lb ed="#C" n="32"/>Quidam sunt dispositi ad virtutes ex natura. quidam ex consuetudine. quidam 
+      <lb ed="#C" n="33"/>per doctrinam. et ad hoc quod doctrina habeat efficaciam in auditoribus oportet 
+      <lb ed="#C" n="34"/>animam auditoris esse dispositam et praeparatam sicut terra antequam nutriat semen. 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e303">
+               <lb ed="#C" n="35"/>Oportet bonos prouocare ad virtutes per praemia. malos autem per penas in¬ 
+      <lb ed="#C" n="36"/>sanabiles totaliter examinare 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e310">
+               <lb ed="#C" n="37"/>⁋ Schotus 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e315">
+      An vera felicitas proueniat homini a deo an per studium et exerci 
+      <lb ed="#C" n="38"/>tium virtutis Aristotiles videtur dubitasse. quoniam naturali lumine ad veram 
+      <lb ed="#C" n="39"/>felicitatem. Nature humane ham est pertingibile. et ergo eam esse demonstrative non conclusit 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e322">
+               <lb ed="#C" n="40"/>Nihilominus eam posuit et credidit. vt patet ex multis passibus librorum eius: 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e327">
+               <lb ed="#C" n="41"/>⁋ Quidam philosophus 
+    </p>
+            <p xml:id="tRi8UT-f11584-d1e332">
+      Quod plato de deo sensit ab iudeorum lege suffuratus 
+      <lb ed="#C" n="42"/>est. non enim naturaliter processit via 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 1</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 1</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="98"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f18920"><!-- alias="elenchi-l1" -->
+            <head xml:id="tRi8UT-f18920-Hd1e107">Liber 1</head>
+            <p xml:id="tRi8UT-f18920-d1e110">
+               <lb ed="#C" n="20"/>⁋ Sequuntut autori. primi libro elenchorum Aristo. 
+    </p>
+            <p xml:id="tRi8UT-f18920-d1e115">
+               <lb ed="#C" n="21"/>Lenchus est syllogismus contradictionis ab en id est in siue contra. et  
+      <lb ed="#C" n="22"/>lexis. id est sermo vel dictio. Uide supra ante librum prorum. 
+    </p>
+            <p xml:id="tRi8UT-f18920-d1e122">
+               <lb ed="#C" n="23"/>Imperiti velut loge distantes speculantur. 
+    </p>
+            <p xml:id="tRi8UT-f18920-d1e127">
+               <lb ed="#C" n="24"/>Non contingit res ipas nobiscum ferre ad disputationem. sed in 
+      <lb ed="#C" n="25"/>disputationibus nomnibus pro rebus vtimur 
+    </p>
+            <p xml:id="tRi8UT-f18920-d1e135">
+               <lb ed="#C" n="26"/>Nomnia sunt finita. res vero infinite. quaire necesse est vnum nomen plura significare 
+    </p>
+            <p xml:id="tRi8UT-f18920-d1e140">
+               <lb ed="#C" n="27"/>Qui vertutum vocabulorum sunt ignari de facili pralogisantur id est decipiuntur. 
+    </p>
+            <p xml:id="tRi8UT-f18920-d1e145">
+               <lb ed="#C" n="28"/>Quidam magis appetut se videri esse sapientes et non esse quam esse et non vi 
+      <lb ed="#C" n="29"/>deri. vt Sophiste. 
+    </p>
+            <p xml:id="tRi8UT-f18920-d1e152">
+               <lb ed="#C" n="30"/>Sophistica est scientia apparens et non existens. 
+    </p>
+            <p xml:id="tRi8UT-f18920-d1e157">
+               <lb ed="#C" n="31"/>Sophista est copiosus ab apparenti scientia et non existente. 
+    </p>
+            <p xml:id="tRi8UT-f18920-d1e162">
+               <lb ed="#C" n="32"/>Duo sunt opera sapientis sophiste quorum primum est. non mentiri de quibus 
+      <lb ed="#C" n="33"/>nouit. et alterum posse mentientem ostendere id est conuincere. Sunt tamen sex 
+      <lb ed="#C" n="34"/>opera sapientis simpliciter. qui metaphysica enumerat. 
+    </p>
+            <p xml:id="tRi8UT-f18920-d1e172">
+               <lb ed="#C" n="35"/>Oportet addiscentem credere. donec melius sapiat. 
+    </p>
+            <p xml:id="tRi8UT-f18920-d1e177">
+               <lb ed="#C" n="36"/>Elenchus est contradictio vnius et eiusdem non nonis solum. sed rei et nomis 
+      <lb ed="#C" n="37"/>non synonymi. sed eiusdem. secundum idem. similiter. et in eodem tempore 
+    </p>
+            <p xml:id="tRi8UT-f18920-d1e184">
+               <lb ed="#C" n="38"/>Eadem est definitio vnius solius rei. et vnius simpliciter. vt homis et vnius homnis 
+    </p>
+            <p xml:id="tRi8UT-f18920-d1e189">
+               <lb ed="#C" n="39"/>Comunia et generalia sunt quibus scitis nescitur tamen ars sed ipsis igno 
+      <lb ed="#C" n="40"/>ratis necesse est artem ignorari 
+    </p>
+            <p xml:id="tRi8UT-f18920-d1e196">
+               <lb ed="#C" n="41"/>Omnes etiam idiote. vsque ad quid arguunt. quia sine artem participant 
+      <!--99.xml-->
+      <pb ed="#C" n="99"/>
+               <lb ed="#C" n="1"/>illud de qui artificialiter est logica. vnde duplex est logica scilicet artificialis et na¬ 
+      <lb ed="#C" n="2"/>turali Ex logica naturali acquisita est artificialis et hoc per studium et laborem 
+    </p>
+            <p xml:id="tRi8UT-f18920-d1e209">
+               <lb ed="#C" n="3"/>Omnes artes vtutur quibusdam comunib 
+    </p>
+            <p xml:id="tRi8UT-f18920-d1e215">
+               <lb ed="#C" n="4"/>Difficile est multa conspicere. quia vni intentus. altero remittitur. 
+    </p>
+            <p xml:id="tRi8UT-f18920-d1e220">
+               <lb ed="#C" n="5"/>Iniuriam pati melius est quam alteri nocere 
+    </p>
+            <p xml:id="tRi8UT-f18920-d1e225">
+               <lb ed="#C" n="6"/>Homines turbati et irati. minus considerare possunt orationes 
+    </p>
+            <p xml:id="tRi8UT-f18920-d1e230">
+               <lb ed="#C" n="7"/>Appositis iuxta se contrariis et maiora et minora videntur. Ex quo ha 
+      <lb ed="#C" n="8"/>bemus quod opposita iuxta se posita magis elucescunt. 
+    </p>
+            <p xml:id="tRi8UT-f18920-d1e237">
+               <lb ed="#C" n="9"/>⁋ Uersor super. iiii. metaph. Qui bene sciunt terminorum significationes 
+      <lb ed="#C" n="10"/>sunt prope videre verum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 2</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 2</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f19060"><!-- alias="elenchi-l2" -->
+            <head xml:id="tRi8UT-f19060-Hd1e107">Liber 2</head>
+            <p xml:id="tRi8UT-f19060-d1e110">
+               <lb ed="#C" n="11"/>⁋ Autorita. secundi libri elenchorum Aristo. 
+    </p>
+            <p xml:id="tRi8UT-f19060-d1e115">
+               <lb ed="#C" n="12"/>Uod simus sepe transpositum ignoramus. 
+    </p>
+            <p xml:id="tRi8UT-f19060-d1e120">
+               <lb ed="#C" n="13"/>aE Ad interrogationes plures non est danda vna responsio sed plures 
+    </p>
+            <p xml:id="tRi8UT-f19060-d1e125">
+               <lb ed="#C" n="14"/>Recta solutio vel fit per distictionem multitudis vniversa per interpositionem falsi 
+    </p>
+            <p xml:id="tRi8UT-f19060-d1e131">
+               <lb ed="#C" n="15"/>Omnium orationum que sunt propter idem eadem est solutioree¬ 
+    </p>
+            <p xml:id="tRi8UT-f19060-d1e136">
+               <lb ed="#C" n="16"/>Hoc horum dicitur multipliciter. vel vt est alicuius possessio vel vt est pars alicuius 
+      <lb ed="#C" n="17"/>multitudins 
+    </p>
+            <p xml:id="tRi8UT-f19060-d1e143">
+               <lb ed="#C" n="18"/>Nihil dat quod non habet Boreas ledit pauperem 
+    </p>
+            <p xml:id="tRi8UT-f19060-d1e148">
+               <lb ed="#C" n="19"/>Nihil probibet eande orationem plures habere fallendi occasiones 
+    </p>
+            <p xml:id="tRi8UT-f19060-d1e153">
+               <lb ed="#C" n="20"/>Diuitie sunt bone sapienti. sed insipienti et non recte vtenti non sunt bone 
+    </p>
+            <p xml:id="tRi8UT-f19060-d1e158">
+               <lb ed="#C" n="21"/>In non facere intelligitur facere. et vniversalier in negatione intelligitur affirmatio 
+    </p>
+            <p xml:id="tRi8UT-f19060-d1e164">
+               <lb ed="#C" n="22"/>Nasus curuus dicitr simus. sed pes curuus dicitur rynchus. 
+    </p>
+            <p xml:id="tRi8UT-f19060-d1e169">
+               <lb ed="#C" n="23"/>Principium est maximum et difficilimum et omuium et optimum 
+    </p>
+            <p xml:id="tRi8UT-f19060-d1e174">
+               <lb ed="#C" n="24"/>Difficilimum est principium alicuius artis inuenire. sed ipo inuento faci 
+      <lb ed="#C" n="25"/>le est ipsum addere et augere reliquum. 
+    </p>
+            <p xml:id="tRi8UT-f19060-d1e181">
+               <lb ed="#C" n="26"/>Principium est minimum in quantitate. potestate vero maximum. 
+    </p>
+            <p xml:id="tRi8UT-f19060-d1e186">
+               <lb ed="#C" n="27"/>⁋ Thomas Aquinatis Aristote. nulquam errauit circa aliquod vere scibile 
+    </p>
+            <p xml:id="tRi8UT-f19060-d1e191">
+               <lb ed="#C" n="28"/>⁋ Lactantius di vita est optanda sapienti profecto nullam aliam ob causamviuere 
+      <lb ed="#C" n="29"/>optaueri. quam vt aliquid efficiam quod vita dignum sit et vtilitatem legentibus affe 
+      <lb ed="#C" n="30"/>(rat 
+    </p>
+            <p xml:id="tRi8UT-f19060-d1e201">
+               <lb ed="#C" n="31"/>⁋ Nota verbum sctn Isidori hispalensis epi libro secundo etymolo¬ 
+      <lb ed="#C" n="32"/>giarum quod dialecticam id est logica siue pehiam rationalem primi phi in suis dictio 
+      <lb ed="#C" n="33"/>nibus id est sermonibus habuerunt. non tantum ad artis redigere peritiam 
+    </p>
+            <p xml:id="tRi8UT-f19060-d1e210">
+               <lb ed="#C" n="34"/>Post hos Aristo. ad regulas huius doctrine argumeta perduxit. et di 
+      <lb ed="#C" n="35"/>alecticam numcupauir pro eo quod in ea de dictis disputatur. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

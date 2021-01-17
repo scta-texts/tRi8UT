@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 2</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 2</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="4"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d1e425"><!-- alias="aa-met-l2" -->
+            <head xml:id="tRi8UT-d1e425-Hd1e107">Liber 2</head>
+            <div xml:id="tRi8UT-d1e427">
+               <head xml:id="tRi8UT-d1e425-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d1e425-d1e115">
+                  <lb ed="#C" n="12"/>⁋ Sequuntur autorita. secundi libro metaphy. Aristo.
+      </p>
+               <p xml:id="tRi8UT-d1e425-d1e120">
+                  <lb ed="#C" n="13"/>SIcut se habet oculus nycticoracis ad lumen solis viversal diei sic 
+        <lb ed="#C" n="14"/>ose habet noster intellectus ad manifest ssima nature id est ad deum et 
+        <lb ed="#C" n="15"/>auod substantias separatas et ad naturas rerum subtilium.
+      </p>
+               <p xml:id="tRi8UT-d1e425-d1e129">
+                  <lb ed="#C" n="16"/>Non solum his dicere grans iustum est quirum opinionibus aliquis 
+        <lb ed="#C" n="17"/>conicauit. sed etiam his qui superficialiter enunciarunt. quia hi etiam conferunt 
+        <lb ed="#C" n="18"/>aliquid. habitum em nostrum preexercitati sunt
+      </p>
+               <p xml:id="tRi8UT-d1e425-d1e138">
+        
+                  <lb ed="#C" n="19"/>Vocando phoiam scientiam veritatis recte se habet 
+      </p>
+               <p xml:id="tRi8UT-d1e425-d1e144">
+                  <lb ed="#C" n="20"/>Finis scientie speculatiue veritas est. practice vero opus. 
+      </p>
+               <p xml:id="tRi8UT-d1e425-d1e149">
+                  <lb ed="#C" n="21"/>Uerumi nescimus sine causa 
+      </p>
+               <p xml:id="tRi8UT-d1e425-d1e154">
+                  <lb ed="#C" n="22"/>Quicquid est causa aliorum vt tale. illud est maxime tale. vt ignis qui est max 
+        <lb ed="#C" n="23"/>ime tale: quia ignis est causa caloris aliis. ideo ipe est maxime talis 
+      </p>
+               <p xml:id="tRi8UT-d1e425-d1e161">
+                  <lb ed="#C" n="24"/>Illud quod est causa quare alia sunt vera. illud est verissimum. 
+      </p>
+               <p xml:id="tRi8UT-d1e425-d1e166">
+                  <lb ed="#C" n="25"/>Unumquodque sicut se habet ad entitatem. sic se habet ad veritatem 
+      </p>
+               <p xml:id="tRi8UT-d1e425-d1e171">
+                  <lb ed="#C" n="26"/>In nullo generatione causarum conuenit ire in infiuitum. sed semper est deuenire ad  
+        <lb ed="#C" n="27"/>aliquod quod est primum in illo genere. vnde conuenit deuenire ad primum fi 
+        <lb ed="#C" n="28"/>nem. primam materiam. et prima formam 
+      </p>
+               <p xml:id="tRi8UT-d1e425-d1e181">
+                  <lb ed="#C" n="29"/>Primum semper est causa posterioris. Beneratio vnius est corruptio alterius 
+      </p>
+               <p xml:id="tRi8UT-d1e425-d1e186">
+                  <lb ed="#C" n="30"/>Generatio est medium inter esse et non esse 
+      </p>
+               <p xml:id="tRi8UT-d1e425-d1e191">
+                  <lb ed="#C" n="31"/>Dupliciter dicitur aliquid fieri ex aliis. vniversa. quia ex puero fit vir. ex aurora di 
+        <lb ed="#C" n="32"/>es Uel sic. ex aere fit aqua. et vniversalte ex incompleto completum 
+      </p>
+               <p xml:id="tRi8UT-d1e425-d1e198">
+                  <lb ed="#C" n="33"/>Impossibile est principium sempiternum ex quo fit generatio corrumpi scilicet materi 
+        <lb ed="#C" n="34"/>sam primam 
+      </p>
+               <p xml:id="tRi8UT-d1e425-d1e205">
+                  <lb ed="#C" n="35"/>Qui infinitum agunt naturam boni latenter auterunt Ex quo 
+        <lb ed="#C" n="36"/>habetur quod finis et bonum conuertuntur 
+      </p>
+               <p xml:id="tRi8UT-d1e425-d1e212">
+                  <lb ed="#C" n="37"/>Nullum agens naturale siue intellectuale ab intentione finis absoluitur 
+      </p>
+               <p xml:id="tRi8UT-d1e425-d1e218">
+                  <lb ed="#C" n="38"/>Quicquid intellectus intelligit ipsum prius sciuit 
+      </p>
+               <p xml:id="tRi8UT-d1e425-d1e223">
+                  <lb ed="#C" n="39"/>In omni eo quod mouetur necesse es intelligi materiam 
+      </p>
+               <p xml:id="tRi8UT-d1e425-d1e228">
+                  <lb ed="#C" n="40"/>Tunc scire putamus rem cum causas rei cognoscimus 
+      </p>
+               <p xml:id="tRi8UT-d1e425-d1e233">
+                  <lb ed="#C" n="41"/>Auditiones contingunt secundum consuetudinem entibus id est hominibus 
+      </p>
+               <p xml:id="tRi8UT-d1e425-d1e238">
+                  <lb ed="#C" n="42"/>Sicut consueuimus ita dignamur loqui 
+      </p>
+               <p xml:id="tRi8UT-d1e425-d1e243">
+        Consuetum semper notius est.
+      </p>
+               <p xml:id="tRi8UT-d1e425-d1e247">
+        
+        <!--5.xml-->
+                  <pb ed="#C" n="5"/>
+                  <lb ed="#C" n="1"/>Quantam vim habeant que consueta sunt. leges ostendunt 
+      </p>
+               <p xml:id="tRi8UT-d1e425-d1e256">
+                  <lb ed="#C" n="2"/>In quibusdam fabularia puerilia magen valent propter veritatem conseruandam. 
+      </p>
+               <p xml:id="tRi8UT-d1e425-d1e261">
+                  <lb ed="#C" n="3"/>Absurdum est simul querere scientia et modum sciendi
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d1e584">
+               <head xml:id="tRi8UT-d1e425-Hd1e269">Commentator</head>
+               <p xml:id="tRi8UT-d1e425-d1e272">
+                  <lb ed="#C" n="4"/>⁋ Commenta. 
+      </p>
+               <p xml:id="tRi8UT-d1e425-d1e277">
+                  <quote xml:id="tRi8UT-d1e425-Qd1e279" source="http://scta.info/resource/xch7dn-d1e61-d1e111" synch="24-50">Comprehensio veritatis non est impossibilis in multis rebus et hoc 
+        <lb ed="#C" n="5"/>ideo. quia nos habemus desiderium naturale ad sciendum veritatem</quote>
+               </p>
+               <p xml:id="tRi8UT-d1e425-d1e285">
+                  <lb ed="#C" n="6"/>
+                  <quote xml:id="tRi8UT-d1e425-Qd1e289" source="http://scta.info/resource/xch7dn-d1e61-d1e111" synch="65-72">Nihil est ociosum in natura.</quote> 
+               </p>
+               <p xml:id="tRi8UT-d1e425-d1e293">
+                  <lb ed="#C" n="7"/>Principia se habent in scientia. sicut ianua in domo quam nullus ignorat.
+        <!-- possible here http://scta.info/resource/xch7dn-d1e61-d1e222@43-48, but i"m not sure -->
+        <!-- hamasse has these two sections as one entry -->
+        <lb ed="#C" n="8"/>Quod Aristo. <quote xml:id="tRi8UT-d1e425-Qd1e303" source="http://scta.info/resource/xch7dn-d1e61-d1e272" synch="94-126">nostrum intellectum assimilat in intelligendo substantias separatas 
+        ocu<lb ed="#C" n="9" break="no"/>lo vespertilionis. non in hoc impossibilitatem demonstrat. sed difficultatem</quote> 
+               </p>
+               <p xml:id="tRi8UT-d1e425-d1e310">
+                  <lb ed="#C" n="10"/>
+                  <quote xml:id="tRi8UT-d1e425-Qd1e314" source="http://scta.info/resource/xch7dn-d1e61-d1e339" synch="57-84">Nullus per se potest inuenire scientias speculatiuas et practicas in maiori 
+        par<lb ed="#C" n="11" break="no"/>te. quia non completur nisi per iuuamentum prioris ad subsequentem. et si prior non 
+        fuis<lb ed="#C" n="12" break="no"/>set subsequens non esset</quote> 
+               </p>
+               <p xml:id="tRi8UT-d1e425-d1e322">
+                  <lb ed="#C" n="13"/>
+                  <quote xml:id="tRi8UT-d1e425-Qd1e326" source="http://scta.info/resource/xch7dn-d1e61-d1e523" synch="65-87">Prima causa est magis digna in esse et veritate quam 
+        <lb ed="#C" n="14"/>alia omnia. quia omnia entia acquirunt veritatem et esse a prima causa</quote> 
+               </p>
+               <p xml:id="tRi8UT-d1e425-d1e332">
+                  <lb ed="#C" n="15"/>
+                  <quote xml:id="tRi8UT-d1e425-Qd1e336" source="http://scta.info/resource/xch7dn-d1e61-d1e1306" synch="18-25">Qui destruit finem. destruit omne bonum. et nihil percipit</quote> 
+               </p>
+               <p xml:id="tRi8UT-d1e425-d1e340">
+                  <lb ed="#C" n="16"/>Consuetudo audiendi apologos et fabulas magnum est impedimentum in 
+        co<lb ed="#C" n="17" break="no"/>gnitione veritatis. 
+        <!-- can't find this -->
+      </p>
+               <p xml:id="tRi8UT-d1e425-d1e349">
+                  <lb ed="#C" n="18"/>
+                  <quote xml:id="tRi8UT-d1e425-Qd1e353" source="http://scta.info/resource/xch7dn-d1e61-d1e1845" synch="310-320">Ars logice est quedam vtilis via in omnibus scientiis et 
+        <lb ed="#C" n="19"/>est modus sciendi in vnaquaque scientia</quote>.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

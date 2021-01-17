@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 8</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 8</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="9"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d11608"><!-- alias="aa-met-8" -->
+            <head xml:id="tRi8UT-d11608-Hd1e107">Liber 8</head>
+            <div xml:id="tRi8UT-d11613">
+               <head xml:id="tRi8UT-d11608-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d11608-d1e115">
+                  <lb ed="#C" n="32"/>⁋ Sequuntur autorita. viii libro meta. Aristote.
+      </p>
+               <p xml:id="tRi8UT-d11608-d1e120">
+                  <lb ed="#C" n="33"/>OMnes substantie sensibiles materiam habent
+      </p>
+               <p xml:id="tRi8UT-d11608-d1e125">
+                  <lb ed="#C" n="34"/>Triplex est substantia. scilicet forma materia et compositum. 
+        <lb ed="#C" n="35"/>Substantia. id est forma substantialis dat esse. 
+      </p>
+               <p xml:id="tRi8UT-d11608-d1e132">
+                  <lb ed="#C" n="36"/>Definitiones essentiales quadam dantur per formam tantum quidam per materiam tantum. que 
+        <lb ed="#C" n="37"/>dam per vtrumque: et prime sunt definitiones imperfecte 
+      </p>
+               <p xml:id="tRi8UT-d11608-d1e140">
+                  <lb ed="#C" n="38"/>In separatis a materia idem est quidditas et quidditatem habens. sed in aliis 
+        <lb ed="#C" n="39"/>(non sunt idem sed differunt 
+      </p>
+               <p xml:id="tRi8UT-d11608-d1e147">
+                  <lb ed="#C" n="40"/>Definitiones et forme rerum comparantur 
+        nu<lb ed="#C" n="41" break="no"/>mero. quia sicut in numero addita vnitate vel ablata non manet eadem 
+        <lb ed="#C" n="42"/>species numeri. sed alia et alia. sic ablata vel addita aliqua definitione vel 
+        <lb ed="#C" n="43"/>forma non manent eedem spens sed variantur. 
+      </p>
+               <p xml:id="tRi8UT-d11608-d1e158">
+        Item sicut nuerus non fuscipit 
+        <lb ed="#C" n="44"/>magis et minus. sic nec definitiones vel forme magis et minus suscipiunt
+      </p>
+               <p xml:id="tRi8UT-d11608-d1e163">
+        <!--10.xml-->
+                  <pb ed="#C" n="10"/>
+                  <lb ed="#C" n="1"/>Licet omnium sit vna materia prima. tamen cuiuslibet est materia propria
+      </p>
+               <p xml:id="tRi8UT-d11608-d1e172">
+                  <lb ed="#C" n="2"/>Si agens fuerit diuersumi a materia diuersa. factu est diuersum
+      </p>
+               <p xml:id="tRi8UT-d11608-d1e177">
+                  <lb ed="#C" n="3"/>Forsan sunt quaedam naturalia quae non habent materiam vel si habent non habent 
+        <lb ed="#C" n="4"/>talem qualem genernatioabilia et corruptibilia. sed solum materiam mobilem secundum locum 
+      </p>
+               <p xml:id="tRi8UT-d11608-d1e185">
+                  <lb ed="#C" n="5"/>Hic dicit commentator quod per hoc dantur intelligi corpora celestia in quibus non 
+        <lb ed="#C" n="6"/>est materia cuius esse est in potentia ad corruptionem. sed materia eorum est ali 
+        <lb ed="#C" n="7"/>quid existens in actum scilicet corpus. io dignius habet nomen subiectum quam materia 
+      </p>
+               <p xml:id="tRi8UT-d11608-d1e194">
+                  <lb ed="#C" n="8"/>Non omnium est materia. sed solum quirum est generatio et transmutatio ad inuicem. et 
+        <lb ed="#C" n="9"/>quicumque sunt intransmutabilia horum non est materia scilicet cum priuatione. 
+      </p>
+               <p xml:id="tRi8UT-d11608-d1e201">
+                  <lb ed="#C" n="10"/>Causa vnitatis definitonis est. quod vna pars eius est vt materia et alia vt 
+        <lb ed="#C" n="11"/>forma. sed causa vnitatis materie et forme non est nisi quod unum eorum est in po 
+        <lb ed="#C" n="12"/>tentia. aliud vero in actu. vnde nulla est alia ca vnitatis eorum nisi mo¬ 
+        <lb ed="#C" n="13"/>tor qui extrahit materiam de potentia in actum
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d11716">
+               <head xml:id="tRi8UT-d11608-Hd1e215">Commentator</head>
+               <p xml:id="tRi8UT-d11608-d1e218">
+                  <lb ed="#C" n="14"/>⁋ Commentator 
+      </p>
+               <p xml:id="tRi8UT-d11608-d1e223">
+        Forma secundum definitionem est a materia separata sed non 
+        <lb ed="#C" n="15"/>secundum esse. quia impossibile est formam separari a materia secundum rem 
+      </p>
+               <p xml:id="tRi8UT-d11608-d1e228">
+        Essentia ma<lb ed="#C" n="16"/>terie 
+        est medium inter esse in actu et non esse in actu. 
+      </p>
+               <p xml:id="tRi8UT-d11608-d1e233">
+        Forma dat esse rei
+      </p>
+               <p xml:id="tRi8UT-d11608-d1e237">
+                  <lb ed="#C" n="17"/>⁋ Corpora celestia non habent materiam que sit in potentia ad corpus. 
+        <lb ed="#C" n="18"/>sed eorum materia est aliquid existens in actu. scilicet corpus. ideo digni 
+        <lb ed="#C" n="19"/>us habet nomen subiectum quam materia. 
+      </p>
+               <p xml:id="tRi8UT-d11608-d1e246">
+        Sicut transmutatio facit sci 
+        <lb ed="#C" n="20"/>re materiam. sic operatio formam 
+      </p>
+               <p xml:id="tRi8UT-d11608-d1e251">
+                  <lb ed="#C" n="21"/>Exitus alicuius de pona ad actum non largitur ei multitudinem sed perfectionem 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

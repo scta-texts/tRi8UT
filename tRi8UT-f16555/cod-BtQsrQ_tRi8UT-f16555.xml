@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Peri hermeneias</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Peri hermeneias</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="85"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f16555"><!-- alias="PeriHermeneias" -->
+            <head xml:id="tRi8UT-f16555-Hd1e107">Peri hermeneias</head>
+            <p xml:id="tRi8UT-f16555-d1e110">
+               <lb ed="#C" n="34"/>⁋ Autorita. librorum perihermenias. de quae tale (vt Isidorus testatur se 
+      <lb ed="#C" n="35"/>cumndo etymologiarum) habetur prouerbium Aristoteles quando periherme¬ 
+      <lb ed="#C" n="36"/>nias scriptitabat calamum in mente tingebat. Et dicitur a prepatione peri. 
+      <lb ed="#C" n="37"/>is. de et heremenia. nie id est interpretatio et sunt due dictiones. vni Merme¬ 
+      <lb ed="#C" n="38"/>nici dicuntur interpretes somniorum. 
+    </p>
+            <p xml:id="tRi8UT-f16555-d1e123">
+               <lb ed="#C" n="39"/>A qui sunt in voce sunt earum quae sunt in anima passionum note et 
+      <lb ed="#C" n="40"/>ea quiescribuntur. eorum quae sunt in voce: et sre scripte sunt signa vocum 
+    </p>
+            <p xml:id="tRi8UT-f16555-d1e130">
+               <lb ed="#C" n="41"/>Circa compositionem et diuisionem consistit varitas et falsitas 
+    </p>
+            <p xml:id="tRi8UT-f16555-d1e135">
+               <lb ed="#C" n="42"/>Cum dicitur cathonis est vel non est neque verum neque falsum fcatur. 
+      <lb ed="#C" n="43"/>ex quo conuniter trabitur quod verum et falsum presupponunt congruum 
+    </p>
+            <p xml:id="tRi8UT-f16555-d1e143">
+               <lb ed="#C" n="44"/>Uerbum est nota eorum que de altero dicuntur 
+    </p>
+            <p xml:id="tRi8UT-f16555-d1e148">
+               <lb ed="#C" n="45"/>Nomen infinitum equaliter dicitur de ente et non de ente 
+      <!--86.xml-->
+    </p>
+            <p xml:id="tRi8UT-f16555-d1e155">
+               <pb ed="#C" n="86"/>
+               <lb ed="#C" n="1"/>Significare est intellectum coustituere 
+    </p>
+            <p xml:id="tRi8UT-f16555-d1e162">
+               <lb ed="#C" n="2"/>Plato voluit orioionem igncare naturaliter. quod falsum esse ostendit Aristo 
+      <lb ed="#C" n="3"/>teles. quia ad placitum significat 
+    </p>
+            <p xml:id="tRi8UT-f16555-d1e169">
+               <lb ed="#C" n="4"/>Hoc verbum est sicncat quandam compositionem quam sine extremis non est intelligere 
+    </p>
+            <p xml:id="tRi8UT-f16555-d1e174">
+               <lb ed="#C" n="5"/>Necesse est ommen euunciationem constitui ex verbo. vn sine verbo perfe 
+      <lb ed="#C" n="6"/>cta non redditur oratio. 
+    </p>
+            <p xml:id="tRi8UT-f16555-d1e182">
+               <lb ed="#C" n="7"/>Rerum alie sunt vniuersales alie particulares 
+    </p>
+            <p xml:id="tRi8UT-f16555-d1e187">
+               <lb ed="#C" n="8"/>Uniuersale est quod aptum natum est praedicari de pluribus 
+    </p>
+            <p xml:id="tRi8UT-f16555-d1e192">
+               <lb ed="#C" n="9"/>Et singulare quod non. Quod fit non est. 
+      <lb ed="#C" n="10"/>(neri vniversaliter 
+    </p>
+            <p xml:id="tRi8UT-f16555-d1e199">
+               <lb ed="#C" n="11"/>Hoc signum omis non est vniversale. sed consignificat vniversalt im est designat terminum te¬ 
+    </p>
+            <p xml:id="tRi8UT-f16555-d1e204">
+               <lb ed="#C" n="12"/>De futuris contingentibus non est determinata veritas. 
+    </p>
+            <p xml:id="tRi8UT-f16555-d1e209">
+               <lb ed="#C" n="13"/>Unum tantum opponitur vn 
+    </p>
+            <p xml:id="tRi8UT-f16555-d1e215">
+               <lb ed="#C" n="14"/>Omnis affirmatio vilus negatio autem est vera aut falsalicet non determina 
+      <lb ed="#C" n="15"/>te sed non potest esse simul vera et falsa. 
+    </p>
+            <p xml:id="tRi8UT-f16555-d1e222">
+               <lb ed="#C" n="16"/>Non omnia fiunt ex necessitate. sed multa fiunt a casu et ad vtrumlibet. 
+    </p>
+            <p xml:id="tRi8UT-f16555-d1e227">
+               <lb ed="#C" n="17"/>Propter nostrum affirmare vel neganre nihil fequitur in re 
+    </p>
+            <p xml:id="tRi8UT-f16555-d1e232">
+               <lb ed="#C" n="18"/>Nos videmur esse principium futurorum multorum. ab eo quod consiliamur et aga 
+      <lb ed="#C" n="19"/>mus aliquid.Nomnia et verba transposita idem ienicant 
+    </p>
+            <p xml:id="tRi8UT-f16555-d1e239">
+               <lb ed="#C" n="20"/>Duplex est necessitas. scilicet absoluta et conditionata. 
+    </p>
+            <p xml:id="tRi8UT-f16555-d1e244">
+               <lb ed="#C" n="21"/>Dem quod est quando est. necesse est esse. et omne quod non est quando non est nece est non esse 
+      <lb ed="#C" n="22"/>sed omne quod est simpliciter esse. est necesse. 
+    </p>
+            <p xml:id="tRi8UT-f16555-d1e252">
+               <lb ed="#C" n="23"/>⁋ Petrus de iuo louaniensis. sicut inter phos et medicos est drima 
+      <lb ed="#C" n="24"/>quomon sanum et egrum circa corpus animalis opponantur. phis dicentibus quod 
+      <lb ed="#C" n="25"/>immediate. medicem vero quod mediate. Tale fuit problema inter logicos ab 
+      <lb ed="#C" n="26"/>antiquae de vero et falso circa enunciationem. quia de futuro contigenti enuciationes 
+      <lb ed="#C" n="27"/>ex natura rei nec vere videntur nec false. sed neutre. quibusda tantum alitur placuit 
+      <lb ed="#C" n="28"/>Sicut doctor ille magistraliter discussit 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

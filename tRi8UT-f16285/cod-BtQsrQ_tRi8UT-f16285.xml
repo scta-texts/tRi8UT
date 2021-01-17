@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praedicamenta</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praedicamenta</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="84"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f16285"><!-- alias="praedicamenta" -->
+            <head xml:id="tRi8UT-f16285-Hd1e107">Praedicamenta</head>
+            <p xml:id="tRi8UT-f16285-d1e110">
+               <lb ed="#C" n="8"/>⁋ Sequitur liber praedicamentorum vtilissimus Aristotelis. quem (vt The¬ 
+      <lb ed="#C" n="9"/>miltius attestatur) Aristo. anno etatis sue. xv. edidit Logica siue Diale 
+      <lb ed="#C" n="10"/>ctica a phis dicitur instrumentum Aristo. quae de se quidem potest dicere Discutiens ve¬ 
+      <lb ed="#C" n="11"/>rum sinuola problemata soluo Corruit in tenebras me sine qui graditur 
+      <lb ed="#C" n="12"/>quia rationibus subtilissimis vera secernit a falsis. hic vero agit de parte 
+      <lb ed="#C" n="13"/>Mllogismi remota scilicet de termino. sed de parte propinqua agitur in libro periher 
+      <lb ed="#C" n="14"/>meniarum scilicet de enunciatione prout accipit formam propositionis 
+      <lb ed="#C" n="15"/>Quiuoca dicuntur quorum nomen solum est comune et ratio sub 
+      <lb ed="#C" n="16"/> stantie secundum illud nomen est diuersa. 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e132">
+               <lb ed="#C" n="17"/>Uniuoca dicuntur per contrarium. 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e137">
+               <lb ed="#C" n="18"/>Denominatiua dicuntur quecumque ab aliquo solo casu drima sunt 
+      <lb ed="#C" n="19"/>et secundum illud nomen habent appellationem. vt ab albedine anibus. 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e144">
+               <lb ed="#C" n="20"/>Grammaticus dicitur denoinatiue a grammatica. vnde habemus. quod concretum 
+      <lb ed="#C" n="21"/>denominatiue dicitur ab abstracto. 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e152">
+               <lb ed="#C" n="22"/>Impossibile est esse accidens sine eo in quo est id est sine subiecto. 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e157">
+               <lb ed="#C" n="23"/>Omnis color est in corpore 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e162">
+               <lb ed="#C" n="24"/>Scientia est in anima. sicut accidens in subiecto 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e167">
+               <lb ed="#C" n="25"/>Quando alterum de altero predicatur vt de subiecto. quecumque de eo quod pre. 
+      <lb ed="#C" n="26"/>dicatur dicuntur. omnia etiam de subiecto dicuntur 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e174">
+               <lb ed="#C" n="27"/>Diuersorum generum et non subalternatim positorum diuerse sunt spens et orie. 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e179">
+               <lb ed="#C" n="28"/>Superiora de inferioribus semper predicantur 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e185">
+               <lb ed="#C" n="29"/>Decem sunt entia incoplexa. vt substantia quantitas etc. 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e190">
+               <lb ed="#C" n="30"/>Non exnentibus primis substantiis. id est idiuiduis impossibile est aliquod aliorum re¬ 
+      <lb ed="#C" n="31"/>(manere 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e197">
+               <lb ed="#C" n="32"/>A principali substantia. id est indiuiduo substantie nulla exit 
+      <lb ed="#C" n="33"/>praedicatio. et hoc secundum ordinem alicuius quinque praedicabilium. 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e204">
+               <lb ed="#C" n="34"/>Comune est omni substantie in subiecto non esse. 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e209">
+               <lb ed="#C" n="35"/>Opposita habent fieri circa indem 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e214">
+               <lb ed="#C" n="36"/>Omnis substantia videtur hoc aliquid signifiare et hoc indubitabile et verum est 
+      <lb ed="#C" n="37"/>in primis substantiis. in secundis similiter videtur sub appellationis figura. 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e222">
+               <lb ed="#C" n="38"/>Ab eo quod res est vel non est oratio dicitur vera vel falsa 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e227">
+               <lb ed="#C" n="39"/>Quantitatis aliud continuum aliud discretum. 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e232">
+               <lb ed="#C" n="40"/>Quod semel est dictumcin quantitatibus positionem non habentibus in continuo 
+      <lb ed="#C" n="41"/>amplius resumi non potest. eo quod partes ille non sunt permanentes. quia partes tem 
+      <lb ed="#C" n="42"/>poris et numeri et orationis non contingit iterato sumi 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e241">
+      <!--85.xml-->
+               <pb ed="#C" n="85"/>
+               <lb ed="#C" n="1"/>Magnum paruum longum breue non sunt in genere quantitatis. sed rela 
+      <lb ed="#C" n="2"/>tionis. quia vnumquodque eorum dicitur ad aliquid  
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e252">
+               <lb ed="#C" n="3"/>Si magnum paruum per se diceretur numquam mons diceretur paruus nec gra 
+      <lb ed="#C" n="4"/>nuium milii magnum. Ex quo trahitur illa autoritas quod per se est tale. 
+      <lb ed="#C" n="5"/>semper et respectu cuiuslibet est tale 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e261">
+               <lb ed="#C" n="6"/>Quanta est superficies tantum album esse dicis. 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e267">
+               <lb ed="#C" n="7"/>Aliquando nomnina fingere necesse est si alicui nomen non fuerit impositum 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e272">
+               <lb ed="#C" n="8"/>Multa sunt animalia capita non habentia. vt ostrea et conchilia 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e277">
+               <lb ed="#C" n="9"/>Multa sunt scibilia de quibus non est scientia Scibile praus est scientia. 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e282">
+               <lb ed="#C" n="10"/>Relativa sic se habent quod posita se ponunt et pempta se pimunt id est sunt simil or 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e287">
+               <lb ed="#C" n="11"/>Quicumque definite nouerit vnum relatiuorum. definite 
+      <lb ed="#C" n="12"/>ctu et occasu 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e294">
+               <lb ed="#C" n="13"/>Partes substantie sunt substantie 
+      <lb ed="#C" n="14"/>(noscituruis est et reliquum 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e302">
+               <lb ed="#C" n="15"/>Dubitare de singulis non est inutile. quia sicut dicit alibi. Uolentem addis 
+      <lb ed="#C" n="16"/>cere necesse est eu prius bene dubitare 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e309">
+               <lb ed="#C" n="17"/>Qualitas est secundum quam quales esse dicimur 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e314">
+               <lb ed="#C" n="18"/>Scia est de numero permanentium et difficile mobilium. vt si quis medio¬ 
+      <lb ed="#C" n="19"/>criter sumit scientiam. nisi forte grandis fiat permutatio ab egritudine veli 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e321">
+               <lb ed="#C" n="20"/>⁋ Boetius dicit. quod scientia festinata marcescit. 
+      <lb ed="#C" n="21"/>(ab aliqui hmoi. 
+      <lb ed="#C" n="22"/>mediocriter autem sumpta augmentatur et crescit 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e330">
+               <lb ed="#C" n="23"/>Si vnum contrariorum fuerit quale et reliquum erit quale 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e335">
+               <lb ed="#C" n="24"/>Si vnum contrariorum fuerit in natura non propterea oportet reliquum esse 
+      <lb ed="#C" n="25"/>in natura vt omnibus existentibus sanis non est egritudo. Et istud intelli 
+      <lb ed="#C" n="26"/>gitur de contrariis non ppetuis. sed naturalibus. 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e345">
+               <lb ed="#C" n="27"/>Prius dicitur quadruplicite scilicet natura. tempore. ordine. et dignitate 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e350">
+               <lb ed="#C" n="28"/>Sanitas et egritudo sunt contraria immediata 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e355">
+               <lb ed="#C" n="29"/>Species simul sunt sub genere. Idem dicit Boetius quod spens sunt coequiue 
+      <lb ed="#C" n="30"/>sub eodengne 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e362">
+               <lb ed="#C" n="31"/>Motui quies est contraria 
+    </p>
+            <p xml:id="tRi8UT-f16285-d1e367">
+               <lb ed="#C" n="32"/>Motus sex sunt species. generatio. corruptio. augmentatio. diminu¬ 
+      <lb ed="#C" n="33"/>tio. alteratio. secundum locum mutatio 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 3</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 3</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="42"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d18349"><!-- alias="deanimalibus-l3" -->
+            <head xml:id="tRi8UT-d18349-Hd1e107">Liber 3</head>
+            <div xml:id="tRi8UT-d18354">
+               <head xml:id="tRi8UT-d18349-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d18349-d1e115">
+                  <lb ed="#C" n="8"/>⁋ Sequuntur autori. tertii libro de animalibus
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e120">
+                  <lb ed="#C" n="9"/>S post abscissionem non crescit neque solidatur. 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e125">
+                  <lb ed="#C" n="10"/>Ossa leonum ita dura sunt quod si collidantur reddunt ignem 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e130">
+                  <lb ed="#C" n="11"/>Proprium homnis est canescere in senectute. 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e136">
+                  <lb ed="#C" n="12"/>I In castratis pubes non harbescit. 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e141">
+                  <lb ed="#C" n="13"/>Lac animalium habeutium multas mamillas non conuenit ad caseum 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e146">
+                  <lb ed="#C" n="14"/>Omne animal multi sanguinis est multi seminis 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e151">
+                  <lb ed="#C" n="15"/>Omne corpus sanguineum cito putrescit. 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e156">
+                  <lb ed="#C" n="16"/>Testiculi et matrices sunt organa principalia ad generationem 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e161">
+                  <lb ed="#C" n="17"/>Mulieres habentes matrices densas et duras non concipiunt 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e167">
+                  <lb ed="#C" n="18"/>Homo inter animalia est multi seminis. 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e172">
+                  <lb ed="#C" n="19"/>Lac ouis capree vacce multum conuenit caseo 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e177">
+                  <lb ed="#C" n="20"/>Lac nigrarum mulierum est melius et purius lacte albarum mulierum 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e182">
+                  <lb ed="#C" n="21"/>Coagulum leporis valet contra fluxum ventris. 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e187">
+                  <lb ed="#C" n="22"/>Nullum animali mutat cornua nisi ceruus 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e192">
+                  <lb ed="#C" n="23"/>Animal diuersorum colorum est diuersi coloris in corio 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e198">
+                  <lb ed="#C" n="24"/>Balline multum ouantes cito moriuntur. 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e203">
+                  <lb ed="#C" n="25"/>Qua loga acutiorum capitum producunt mares. oua vero rotumda et obtusa 
+        <lb ed="#C" n="26"/>(feias 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e210">
+                  <lb ed="#C" n="27"/>Demelle non inueniuntur in ouis in quibus sunt duo vitelli 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e215">
+                  <lb ed="#C" n="28"/>Masculus columbe cubat oua per diem. femina vero per noctem. 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e220">
+                  <lb ed="#C" n="29"/>Non sunt animalia vnius speciei que se naturaliter comedunt 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e225">
+                  <lb ed="#C" n="30"/>In omnibus animalibus est appetitus coitus et delectatio 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e231">
+                  <lb ed="#C" n="31"/>Omne quadrupes desiderat coitum magis in vere. 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e236">
+                  <lb ed="#C" n="32"/>Bonum est vt parentes corrigant ociosos filios. ideo rectores apum 
+        <lb ed="#C" n="33"/>ociosas a se euciunt 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e243">
+                  <lb ed="#C" n="34"/>Omines pisces a principio pregnati sunt boni 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e248">
+                  <lb ed="#C" n="35"/>Omnia animalia naturaliter appetunt delectationem. 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e253">
+                  <lb ed="#C" n="36"/>In annis nubilibus mammille incipiunt crassari 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e258">
+                  <lb ed="#C" n="37"/>Aries et capra vnius anni cocunt. sed debile est quod generant. 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e264">
+                  <lb ed="#C" n="38"/>Canis et porcus octo mensium coeunt. sed debile est quod generant. 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e269">
+                  <lb ed="#C" n="39"/>Canis viuit vsque ad. xiiii. annos. porcus vero ad xi. 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e274">
+                  <lb ed="#C" n="40"/>Equus duorum vel trium annorum coit. sed debile est quod generat. 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e279">
+                  <lb ed="#C" n="41"/>Equus est fortis a quaettuor annis vsque ad. xv. annos et coit vsque ad. xx. 
+        <lb ed="#C" n="42"/>annos. et viuit vsque ad. xx v annos. et hoc certis in locis. 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e286">
+        <!--43.xml-->
+                  <pb ed="#C" n="43"/>
+                  <lb ed="#C" n="1"/>⁋ Nota hic quidam incipiunt librum sextum: et verius. quia xix. sunt libri. Ari¬ 
+        <lb ed="#C" n="2"/>stotelis de animalibus 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e297">
+                  <lb ed="#C" n="3"/>Femina elephantis pregnata omnino non tangitur a masculo. post partum 
+        <lb ed="#C" n="4"/>vero quiescit post triduum 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e305">
+                  <lb ed="#C" n="5"/>Mutatio vocis est signum motus ad coitum 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e310">
+                  <lb ed="#C" n="6"/>Pedumcule generant lendes Musce vero generant vermes 
+        <lb ed="#C" n="7"/>olumbe ouat omni mense et pullificant si locus mansionis sue fuerit ca¬ 
+        <lb ed="#C" n="8"/>lidus et cibus earum patus. aliquando non nisi in estate pullificant. et eorum pulli me 
+        <lb ed="#C" n="9"/>(iores sunt in vere 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e321">
+                  <lb ed="#C" n="10"/>Nulli animali accidit menstruum sicut mulieribus 
+      </p>
+               <p xml:id="tRi8UT-d18349-d1e326">
+                  <lb ed="#C" n="11"/>Item hic quidam incipiunt librum septimum. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

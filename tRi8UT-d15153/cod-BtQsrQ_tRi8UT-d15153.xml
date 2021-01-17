@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 1</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 1</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="25"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d15153"><!-- alias="deanima-l1" -->
+            <head xml:id="tRi8UT-d15153-Hd1e107">Liber 1</head>
+            <div xml:id="tRi8UT-d15158">
+               <head xml:id="tRi8UT-d15153-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d15153-d1e115">
+                  <lb ed="#C" n="39"/>⁋ Autorita. super primum libro de anima Aristo.
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e120">
+                  <lb ed="#C" n="40"/>SCientia est. de numero bonorum honorabilium 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e125">
+                  <lb ed="#C" n="41"/>Una scientia est melior alia. vel quia est de nobiliori subiecto vel 
+        <lb ed="#C" n="42"/>squia est certior altera. et propter hec vtraque. scientia de anima est nobi 
+        <!--26.xml-->
+        <pb ed="#C" n="26"/>
+                  <lb ed="#C" n="1"/>lior et aliis scientiis naturalibus Cognitio de anima vtilis est ad oem meli 
+        <lb ed="#C" n="2"/>sr veritatem et maxime ad scientiam naturalem 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e141">
+                  <lb ed="#C" n="3"/>Anima est tanquam principium omnim animalium Aliorum alia sunt principia. 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e147">
+                  <lb ed="#C" n="4"/>Aial vniversale autihil est aut posterius est. quia nihil non est in rerum natura vt vo 
+        <lb ed="#C" n="5"/>luit plato. velrs si est tunc posterius est vt notio rei siue intentio posterior est ipsa re 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e154">
+                  <lb ed="#C" n="6"/>Accidentia subaudi propria) magnam partem conferunt ad cognoscedum quod 
+        <lb ed="#C" n="7"/>quid est. id est ipsum subiectum. 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e161">
+                  <lb ed="#C" n="8"/>Omnis demonstrationis principium est quod quid est id est definitio subiecti. 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e166">
+                  <lb ed="#C" n="9"/>Omes operationes que suunt in animatis sunt totius compositi ex cor¬ 
+        <lb ed="#C" n="10"/>pore et animat et non ex anima tantum 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e173">
+                  <lb ed="#C" n="11"/>Unde nulla operatio animae est propria quae non communicetur corpori. vnde ipsum 
+        <lb ed="#C" n="12"/>intelligere non est proprium animae sed totius coniuncti. 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e180">
+                  <lb ed="#C" n="13"/>Intellectus vel est phantasia vel non est sine phantasia. 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e186">
+                  <lb ed="#C" n="14"/>Triplex est definitio. vna est que datur per materiam tantum. vt cum dicitur domus est 
+        <lb ed="#C" n="15"/>quid constans ex lapidibus et lignis. Alia est quod datur per formam tantum. vt cum dicitur do 
+        <lb ed="#C" n="16"/>mus est quoddam cooperimentum defendens nos a caumatibus id est caloribus et im 
+        <lb ed="#C" n="17"/>bribus Tertia est quo datur per vtrumque scilicet cum dicitur domus est cooperimentum quod¬ 
+        <lb ed="#C" n="18"/>dam defendens nos a caumanibus et imbribus constans ex lapidibus et lignis 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e199">
+                  <lb ed="#C" n="19"/>Naturalis definit per materiam tantum. vel per materiam et formam simul 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e204">
+                  <lb ed="#C" n="20"/>Impossibile est corpora animalium resurgere 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e209">
+                  <lb ed="#C" n="21"/>Dicere animam gaudere viversa tristari sine corpore simile est. ac si quis dicat eam texere 
+        <lb ed="#C" n="22"/>(ledificare 
+        <lb ed="#C" n="23"/>di senex haberet oculos vt iuuenis videret vt iuuenis 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e218">
+                  <lb ed="#C" n="24"/>Intellectus est quid diuinum impassibile et incoriuptibile. 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e223">
+                  <lb ed="#C" n="25"/>Melius est dicere quod homo intelligat per animam quam econuerso. 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e229">
+                  <lb ed="#C" n="26"/>Intelligere nostrum corrumpitur aliquo interius corrupto scilicet phantasia 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e234">
+                  <lb ed="#C" n="27"/>Oportet artificem vti organis. animam vero corpore 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e239">
+                  <lb ed="#C" n="28"/>Non quelibet anima potest intrare quodlibet corpus. sed quelibet anima requi 
+        <lb ed="#C" n="29"/>rit proprium corpus 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e246">
+                  <lb ed="#C" n="30"/>Anima secundum platonem est res manens seipsum mouens 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e251">
+                  <lb ed="#C" n="31"/>Rectum est iudex sui et obliqui 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e256">
+                  <lb ed="#C" n="32"/>Egrediente anima a corpore corpus marcescit et expirat.
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d15310">
+               <head xml:id="tRi8UT-d15153-Hd1e264">Commentator</head>
+               <p xml:id="tRi8UT-d15153-d1e267">
+                  <lb ed="#C" n="33"/>⁋ Commentator. 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e272">
+        Artes non differunt a se inuicem nisi vel demonstrationis 
+        <lb ed="#C" n="34"/>confirmatione vel nobilitate subiecti vel vtroque modo 
+        <lb ed="#C" n="35"/>dubiectum scientie de anima nobilius est subiectis aliarum scientiarum. et demonstratio 
+        <lb ed="#C" n="36"/>eius magis est firma. et ideo praecedit alias scientias 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e281">
+                  <lb ed="#C" n="37"/>Aialia sunt nobilissima corpora generabilium et corruptibilium 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e286">
+                  <lb ed="#C" n="38"/>Actus et ponna sunt drine maxie opposite et repiuntur in vnoquique praedicamento 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e292">
+                  <lb ed="#C" n="39"/>Intellectus ages caulat vniuersalitate in rebus 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e297">
+                  <lb ed="#C" n="40"/>Intellectus secundum essentiam est abstractus a corpore. et tamen impossibile 
+        <lb ed="#C" n="41"/>est vt intelligat aliquid humanitus sine imaginatione. 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e304">
+                  <lb ed="#C" n="42"/>Membra leonis non differunt a membris cerui nisi propter di¬ 
+        <!--27.xml-->
+        <pb ed="#C" n="27"/>
+                  <lb ed="#C" n="1"/>uersitatem anime leonis ab anima ceruit 
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d15364">
+               <head xml:id="tRi8UT-d15153-Hd1e318">Albertus</head>
+               <p xml:id="tRi8UT-d15153-d1e321">
+                  <lb ed="#C" n="2"/>⁋ Albertus
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e326">
+        Ille Auerrois quasi in essentiam ipsius animae peruenit
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d15378">
+               <head xml:id="tRi8UT-d15153-Hd1e332">Themisitus</head>
+               <p xml:id="tRi8UT-d15153-d1e335">
+                  <lb ed="#C" n="3"/>⁋ Themistius
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e340">
+        Cum multa sint dicta Aristo. que vtique aliquis mirabitur. 
+        <lb ed="#C" n="4"/>magis omnibus mirari conuenit negocium de anima. 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e345">
+                  <lb ed="#C" n="5"/>Si veritatem de anima cognouimus valde introductorium est nobis ad  
+        <lb ed="#C" n="6"/>oem veritatem. nam ad oes partes phie insignes dat occasiones. 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e352">
+                  <lb ed="#C" n="7"/>Aia seipam cognoscens digna est de aliis fidem facere. sed si ipsa decepta 
+        <lb ed="#C" n="8"/>fuerit. de qui tunc fidem facere putabitur quasi dicat de nullo. 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e360">
+                  <lb ed="#C" n="9"/>Nihil est ociosum in natura: sed vnicuique enti est opus attributum. 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e365">
+                  <lb ed="#C" n="10"/>Benus est quidam conceptus summatim collectus ex similitudine singularium 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e370">
+                  <lb ed="#C" n="11"/>Intellectu nihil est diuinius Nomnibus permittitur vti aliquis vt vult. 
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e375">
+                  <lb ed="#C" n="12"/>His quae secundum apparentias poeticas recipiunt fabulas nihil videtur esse de¬ 
+        <lb ed="#C" n="13"/>risiblius sicut nec in his qui occultum querunt intellectum in eis. sunt enim fi 
+        <lb ed="#C" n="14"/>cticio. spiritu ad inuicem consute. et ad delectationem excitandam in lucem edite. 
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d15434">
+               <head xml:id="tRi8UT-d15153-Hd1e388">Heimericus de Campo</head>
+               <p xml:id="tRi8UT-d15153-d1e391">
+                  <lb ed="#C" n="15"/>⁋ heimericus de capo
+      </p>
+               <p xml:id="tRi8UT-d15153-d1e396">
+        Brabantinus Anima intellectiua est spiraculum 
+        <lb ed="#C" n="16"/>vite a deo productum in corpore humano 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 6</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 6</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="96"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f18583"><!-- alias="topica-l6" -->
+            <head xml:id="tRi8UT-f18583-Hd1e107">Liber 6</head>
+            <p xml:id="tRi8UT-f18583-d1e110">
+               <lb ed="#C" n="37"/>⁋ Sequuntur autori. vi. topicorum Aristo. 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e115">
+               <lb ed="#C" n="38"/>GEnus maxime eorum quae sunt in definitione videtur definiti subiectam ignicare 
+      <lb ed="#C" n="39"/> facilius est quodlibet fecisse quam bene fecisse 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e122">
+               <lb ed="#C" n="40"/>Oportet definientem planissima interptatione vti. eo quod causa cognoscendi redditur 
+      <lb ed="#C" n="41"/>definitio. vnde definitio non dacibtet esse obscura nec aliquid superfiui continere 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e129">
+               <lb ed="#C" n="42"/>Ductio et commensuratio sunt equiuoca. Ex quo habetur comuniter quod 
+      <lb ed="#C" n="43"/>omne nomen verbale in tio est equocum eo quod tria fenica scilicet agentis actionem 
+      <!--97.xml-->
+      <pb ed="#C" n="97"/>
+               <lb ed="#C" n="1"/>rei passe passionem. et ipsam rem passam siue actum intermedium 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e143">
+               <lb ed="#C" n="2"/>Equiuocorum non est definitio. vnde solius vniuoci est definitio. 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e148">
+               <lb ed="#C" n="3"/>Illud est superfiuum in definitione quie ablato quod remanet satis manifestat 
+      <lb ed="#C" n="4"/>(quod definitur 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e155">
+               <lb ed="#C" n="5"/>Omne consuetum est obscurum 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e160">
+               <lb ed="#C" n="6"/>Omnes transferentes se secundum aliquam similitudinem se transferunt. 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e165">
+               <lb ed="#C" n="7"/>Imago est cuius generatio est per similitudinem 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e170">
+               <lb ed="#C" n="8"/>Qui bene definit contraria consignificat. 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e176">
+               <lb ed="#C" n="9"/>Flegma est humidum primum a cibus indigestum 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e181">
+               <lb ed="#C" n="10"/>Definitio debet dari per priora et notiora. quia omnis doctrina et omnis disci 
+      <lb ed="#C" n="11"/>plina ex prioribus et notioribus fit 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e188">
+               <lb ed="#C" n="12"/>Si vniuersali dicto addatur et particulare et econtra est superfluum. 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e193">
+               <lb ed="#C" n="13"/>Unius et eiusdem rei non possunt esse plures definitiones. sed tantum vna 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e198">
+               <lb ed="#C" n="14"/>Omis bona definitio debet constare ex genere et differentiis. quia ista sunt 
+      <lb ed="#C" n="15"/>priora et notiora quam species que definitur 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e205">
+               <lb ed="#C" n="16"/>Simpliciter notum est quod omnibus notum est. 
+      <lb ed="#C" n="17"/>e est vnum cognosci absque reliqui 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e213">
+               <lb ed="#C" n="18"/>Oppositorum est eadem disciplina 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e218">
+               <lb ed="#C" n="19"/>In definitione vnius correlatiui dicitet poni relatnum et econtra. quia impossibi¬ 
+      <lb ed="#C" n="20"/>(quia in generatione propinqui fit 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e225">
+               <lb ed="#C" n="21"/>Dies est latio solis superhemisperium nostrum 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e230">
+               <lb ed="#C" n="22"/>In definitioe cuiuslibet rei non debet poni genus propinquum et remotum 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e235">
+               <lb ed="#C" n="23"/>Grammatica est scientia scribendi et recte intelligendi illud quod profertu 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e240">
+               <lb ed="#C" n="24"/>Omnis differentia specifica cum genere facit speciem. 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e246">
+               <lb ed="#C" n="25"/>Senus per se non predicatur de differentia. 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e251">
+               <lb ed="#C" n="26"/>In definitione proprie passionis debet poni subiectum. quia causa 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e256">
+               <lb ed="#C" n="27"/>Omnis definitio data per accidens est vituperanda 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e261">
+               <lb ed="#C" n="28"/>Definitio data per coniunctionem copulatiua vel disiunctiuam vituperanda 
+      <lb ed="#C" n="29"/>est. Et hoc nisi in ea innuatur quedam diuisio. 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e268">
+               <lb ed="#C" n="30"/>Finis in vnoquique est optimum grata cuius sunt alia. Oens honorem appetunt 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e273">
+               <lb ed="#C" n="31"/>Impossibile est incorporeum corpori commisceri. Ita quod ex eis fiat mixtum 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e279">
+               <lb ed="#C" n="32"/>Non solum qui clam sumit sed etiam qui vult clam sumere latro est 
+    </p>
+            <p xml:id="tRi8UT-f18583-d1e284">
+               <lb ed="#C" n="33"/>Eiusdem non sunt plures definitiones 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

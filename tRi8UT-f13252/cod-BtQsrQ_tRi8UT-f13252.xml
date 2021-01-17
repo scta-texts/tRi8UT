@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 2</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 2</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="67"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f13252"><!-- alias="rhetor-l2" -->
+            <head xml:id="tRi8UT-f13252-Hd1e107">Liber 2</head>
+            <p xml:id="tRi8UT-f13252-d1e110">
+               <lb ed="#C" n="39"/>⁋ Autoritates secundi libro rhetoricorum Aristo. 
+    </p>
+            <p xml:id="tRi8UT-f13252-d1e115">
+               <lb ed="#C" n="40"/>Ra est appetitus cum tristicia punitiuus propter paruipen 
+      <lb ed="#C" n="41"/>s sionem suipsius vel suorum 
+    </p>
+            <p xml:id="tRi8UT-f13252-d1e122">
+               <lb ed="#C" n="42"/> Ad omnem iram sequitur delectatio propter spem puniendi 
+    </p>
+            <p xml:id="tRi8UT-f13252-d1e127">
+      <!--68.xml-->
+               <pb ed="#C" n="68"/>
+               <lb ed="#C" n="1"/>Unde dicit homerus. quod ira est dulcior melle stillante. 
+    </p>
+            <p xml:id="tRi8UT-f13252-d1e137">
+               <lb ed="#C" n="2"/>Infirmi coeuntes. bellantes. amantes. sitientes. et vniuersaliter desiderantes 
+      <lb ed="#C" n="3"/>aliquid et non consequentes illud de facili irascuntur. 
+    </p>
+            <p xml:id="tRi8UT-f13252-d1e144">
+               <lb ed="#C" n="4"/>Si quis in phia cupit delectari irascetur quo eam decepit. 
+    </p>
+            <p xml:id="tRi8UT-f13252-d1e149">
+               <lb ed="#C" n="5"/>Obliuio est signum paruipensionis 
+    </p>
+            <p xml:id="tRi8UT-f13252-d1e154">
+               <lb ed="#C" n="6"/>Mansuetudo est quietatio ireNullus seipsum paruipendit 
+    </p>
+            <p xml:id="tRi8UT-f13252-d1e159">
+               <lb ed="#C" n="7"/>Seruos arrogantes et contradicentes magis flagellamus 
+    </p>
+            <p xml:id="tRi8UT-f13252-d1e164">
+               <lb ed="#C" n="8"/>Manifesta negare irreueretia est 
+    </p>
+            <p xml:id="tRi8UT-f13252-d1e170">
+      Tempus quietat ira 
+    </p>
+            <p xml:id="tRi8UT-f13252-d1e173">
+               <lb ed="#C" n="9"/>Amicus est qui amat et econuerso qui amatur 
+    </p>
+            <p xml:id="tRi8UT-f13252-d1e178">
+               <lb ed="#C" n="10"/>Amicus gaudet de nobis et dolet de tristibus sui amici 
+    </p>
+            <p xml:id="tRi8UT-f13252-d1e183">
+               <lb ed="#C" n="11"/>Signa. voluntatis sunt delectationes et tristicie 
+    </p>
+            <p xml:id="tRi8UT-f13252-d1e188">
+               <lb ed="#C" n="12"/>Separi ab amicis et consuetis miserabile est 
+      <lb ed="#C" n="13"/>ra est seminarum inimicicie et odii Laudare praesentem adulari est 
+    </p>
+            <p xml:id="tRi8UT-f13252-d1e195">
+               <lb ed="#C" n="14"/>Aliquem sua propriacum laude narrardiactantia est 
+    </p>
+            <p xml:id="tRi8UT-f13252-d1e201">
+               <lb ed="#C" n="15"/>Hinc Aristoteles voluit in neutram partem quemquam de se debere loqui. 
+    </p>
+            <p xml:id="tRi8UT-f13252-d1e206">
+               <lb ed="#C" n="16"/>Turpe est ignorare quod omnibus scire contingit 
+    </p>
+            <p xml:id="tRi8UT-f13252-d1e211">
+               <lb ed="#C" n="17"/>De malum erubescibile est. de bonis aut opribus nullus erube scere dobitetfigu 
+      <lb ed="#C" n="18"/>(us odit figulum 
+    </p>
+            <p xml:id="tRi8UT-f13252-d1e218">
+               <lb ed="#C" n="19"/>Superare ab inimicis mirabile est  
+    </p>
+            <p xml:id="tRi8UT-f13252-d1e223">
+               <lb ed="#C" n="20"/>Similis simili inuidet si in hoc quod sunt similes vnus excedit alium vn 
+      <lb ed="#C" n="21"/>nobilitas est progenitorum. nobilitas attenditur secundum vrtutem geenaeris 
+    </p>
+            <p xml:id="tRi8UT-f13252-d1e230">
+               <lb ed="#C" n="22"/>Benerosum non dicitur de generatione sed a natura. 
+    </p>
+            <p xml:id="tRi8UT-f13252-d1e236">
+               <lb ed="#C" n="23"/>Multi sunt qui indigent habentibus 
+    </p>
+            <p xml:id="tRi8UT-f13252-d1e241">
+               <lb ed="#C" n="24"/>Peiores sunt nuper ditati quam ditati ab antiem 
+    </p>
+            <p xml:id="tRi8UT-f13252-d1e246">
+               <lb ed="#C" n="25"/>Si sine arte et operatione aliquid fieri possibile est. magis per artem et 
+      <lb ed="#C" n="26"/>curam aliquid fieri possibile est Unde vbi veri phi fuerunt draesides fe 
+      <lb ed="#C" n="27"/>lix fuit ciuitas. similitr impie et sacrilege agunt qui dicunt fieri deos et qui mori 
+      <lb ed="#C" n="28"/>dicunt eos. vt de Ioue pote fabulantur 
+    </p>
+            <p xml:id="tRi8UT-f13252-d1e257">
+               <lb ed="#C" n="29"/>Nihil est sine causaOmnis fur malignus est. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

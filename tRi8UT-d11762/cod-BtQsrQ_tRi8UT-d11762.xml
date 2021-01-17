@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 9</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 9</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="10"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d11762"><!-- alias="aa-met-9" -->
+            <head xml:id="tRi8UT-d11762-Hd1e107">Liber 9</head>
+            <div xml:id="tRi8UT-d11767">
+               <head xml:id="tRi8UT-d11762-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d11762-d1e115">
+                  <lb ed="#C" n="22"/>⁋ Sequuntur autorita. ix. libri meta. Aristotelis
+      </p>
+               <p xml:id="tRi8UT-d11762-d1e120">
+                  <lb ed="#C" n="23"/>MUltiplex est potentia. scilicet actiua et passiua.
+      </p>
+               <p xml:id="tRi8UT-d11762-d1e125">
+                  <lb ed="#C" n="24"/>Potentia actiua est principium transmutandi aliud inquantum aliud
+      </p>
+               <p xml:id="tRi8UT-d11762-d1e130">
+                  <lb ed="#C" n="25"/>Potentia passiua est principium transmutandi ab altero inquatum 
+        <lb ed="#C" n="26"/>sab altero.
+      </p>
+               <p xml:id="tRi8UT-d11762-d1e138">
+                  <lb ed="#C" n="27"/>Nihil agit in seipsum
+      </p>
+               <p xml:id="tRi8UT-d11762-d1e143">
+                  <lb ed="#C" n="28"/>Nihil patitur in seipso.
+      </p>
+               <p xml:id="tRi8UT-d11762-d1e148">
+                  <lb ed="#C" n="29"/>Potentia rationalis valet ad opposita. irrationalis vero ad vnum tantum.
+      </p>
+               <p xml:id="tRi8UT-d11762-d1e153">
+                  <lb ed="#C" n="30"/>Eadem est scientia contrariorum.
+      </p>
+               <p xml:id="tRi8UT-d11762-d1e158">
+                  <lb ed="#C" n="31"/>Nihil fit quod impossibile est fieri.
+      </p>
+               <p xml:id="tRi8UT-d11762-d1e163">
+                  <lb ed="#C" n="32"/>Actus simpliciter praecedit potentiam. in vno autem indiuiduo potentia 
+        <lb ed="#C" n="33"/>(precedit actum
+      </p>
+               <p xml:id="tRi8UT-d11762-d1e171">
+                  <lb ed="#C" n="34"/>Duplex est actio. quedam est transiens in materiam extra. vt edificatio. et il¬ 
+        <lb ed="#C" n="35"/>la dicitur factio vel operatio factiua. quedam est immanens siue intra manens 
+        <lb ed="#C" n="36"/>in operante. vt est visio vel intellectio. et illa dicitur actio actiua 
+      </p>
+               <p xml:id="tRi8UT-d11762-d1e180">
+                  <lb ed="#C" n="37"/>Sempiternum prius est corruptibili 
+      </p>
+               <p xml:id="tRi8UT-d11762-d1e185">
+                  <lb ed="#C" n="38"/>Non est timendum quod caelum stet. id est a motu quiescat. 
+      </p>
+               <p xml:id="tRi8UT-d11762-d1e190">
+                  <lb ed="#C" n="39"/>Materia cuius esse est in potentia est causa fatigationis 
+      </p>
+               <p xml:id="tRi8UT-d11762-d1e195">
+                  <lb ed="#C" n="40"/>In bonis est actus melior potentia. In malis vero est potentia melior 
+        <lb ed="#C" n="41"/>actu. quod patet. quia actu sanum esse est melius quam posse fieri sanum. sed posse 
+        <lb ed="#C" n="42"/>fieri infirmum melius est quam actu esse infirmum 
+      </p>
+               <p xml:id="tRi8UT-d11762-d1e204">
+                  <lb ed="#C" n="43"/>In eternis non est malum neque corruptio neque peccatum.
+      </p>
+               <p xml:id="tRi8UT-d11762-d1e210">
+        <!--11.xml-->
+                  <pb ed="#C" n="11"/>
+                  <lb ed="#C" n="1"/>Malum semper sequitur pena
+      </p>
+               <p xml:id="tRi8UT-d11762-d1e219">
+                  <lb ed="#C" n="2"/>Omne quod cognoscitur cognoscitur secundum quod est in actu 
+      </p>
+               <p xml:id="tRi8UT-d11762-d1e224">
+                  <lb ed="#C" n="3"/>Circa entia vere in actum id est circa substantias separatas non fit deceptio sed 
+        <lb ed="#C" n="4"/>ignorantia. non tamen talis ignorantia sicut est cecitas. 
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d11889">
+               <head xml:id="tRi8UT-d11762-Hd1e234">Commentator</head>
+               <p xml:id="tRi8UT-d11762-d1e237">
+                  <lb ed="#C" n="5"/>⁋ Commentator 
+      </p>
+               <p xml:id="tRi8UT-d11762-d1e242">
+        Qui tollit a rebus suas proprias operationes non habet 
+        <lb ed="#C" n="6"/>cerebrum aptum natum ad ome bonum. quia tollit ab eis eorum proprias essentias.
+      </p>
+               <p xml:id="tRi8UT-d11762-d1e247">
+                  <lb ed="#C" n="7"/>Nihil agit actione aliquam ad quam non habet potentiam
+      </p>
+               <p xml:id="tRi8UT-d11762-d1e252">
+                  <lb ed="#C" n="8"/>O dii deorum quorum opifex ego sum. natura vestra corruptibiles estis 
+        <lb ed="#C" n="9"/>mea autem voluntate incorruptibiles 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

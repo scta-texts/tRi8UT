@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 7</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 7</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="65"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f12877"><!-- alias="poli-l7" -->
+            <head xml:id="tRi8UT-f12877-Hd1e107">Liber 7</head>
+            <p xml:id="tRi8UT-f12877-d1e110">
+               <lb ed="#C" n="43"/>⁋ Autorita. septimi libri politicorum Aristo. 
+      <!--66.xml-->
+      <pb ed="#C" n="66"/>
+               <lb ed="#C" n="1"/>I Riplex est bonum scilicet honum animae. bonum corporis. et bonum extrinsecus proue 
+      <lb ed="#C" n="2"/>(niens. 
+    </p>
+            <p xml:id="tRi8UT-f12877-d1e123">
+               <lb ed="#C" n="3"/>Sine his quaetuor vertutibus scilicet fortitudine temperantia 
+      <lb ed="#C" n="4"/>iusticia. et prudentia quae cardinales appellantur. nemo dicitur esse beatus. 
+    </p>
+            <p xml:id="tRi8UT-f12877-d1e130">
+               <lb ed="#C" n="5"/>Omnis excessus rerum vel nocet vel nihil proficit. 
+    </p>
+            <p xml:id="tRi8UT-f12877-d1e135">
+               <lb ed="#C" n="6"/>Anima est praeciosior corpore et omni possessione. 
+    </p>
+            <p xml:id="tRi8UT-f12877-d1e141">
+               <lb ed="#C" n="7"/>Anime bonum preciosius est omnibus bonis 
+    </p>
+            <p xml:id="tRi8UT-f12877-d1e146">
+               <lb ed="#C" n="8"/>Teste deo. quod in omnibus exterioribus bonis non est vera felicitas. quia felix quis est 
+      <lb ed="#C" n="9"/>qui nullo exteriorum bonorum vtitur. quis dubitabit Arist. hoc sensisse celestem feli 
+      <lb ed="#C" n="10"/>(citatem 
+    </p>
+            <p xml:id="tRi8UT-f12877-d1e155">
+               <lb ed="#C" n="11"/>Duplex est felicitas scilicet politica et contemplatiua. inter quis conten¬ 
+      <lb ed="#C" n="12"/>platiua est melior et purior. quia secundum eam homo est sepatus a corpore secundum electionem 
+    </p>
+            <p xml:id="tRi8UT-f12877-d1e162">
+               <lb ed="#C" n="13"/>Bonum anime est optimum et elegibilissimu 
+    </p>
+            <p xml:id="tRi8UT-f12877-d1e167">
+               <lb ed="#C" n="14"/>Non est possibile politiam esse optimam sine moderata abundantia 
+    </p>
+            <p xml:id="tRi8UT-f12877-d1e172">
+               <lb ed="#C" n="15"/>Felicitas est perfectus vsus virtutis. quod fit in dei fruitione. 
+    </p>
+            <p xml:id="tRi8UT-f12877-d1e178">
+               <lb ed="#C" n="16"/>Potentia est in iunioribus prudentia vero in senioribus 
+    </p>
+            <p xml:id="tRi8UT-f12877-d1e183">
+               <lb ed="#C" n="17"/>Necesse est futurum principen subditum fuisse 
+      <lb ed="#C" n="18"/>finis generationis vt in piuribus in viris est nuerus. lxx. annorum. in mulieribus 
+      <lb ed="#C" n="19"/>(vo. xl. aut quandoque id lest 
+    </p>
+            <p xml:id="tRi8UT-f12877-d1e192">
+               <lb ed="#C" n="20"/>Mulieribus convenit coniugari circa annum. x viii. viris autem circa. xx vii. 
+    </p>
+            <p xml:id="tRi8UT-f12877-d1e197">
+               <lb ed="#C" n="21"/>Iuuenum coitus prauus est ad generationem filiorum. similiter et senum. 
+    </p>
+            <p xml:id="tRi8UT-f12877-d1e202">
+               <lb ed="#C" n="22"/>Lactis alimentum maxime est familiare corporibus puerorum. 
+    </p>
+            <p xml:id="tRi8UT-f12877-d1e207">
+               <lb ed="#C" n="23"/>Bonum est pueris esse sine vino. 
+    </p>
+            <p xml:id="tRi8UT-f12877-d1e213">
+               <lb ed="#C" n="24"/>Iuuenis custodiendi sunt vt non dicant nec audiant aliquod turpe. quia ex di 
+      <lb ed="#C" n="25"/>cere et audire aliquid turpium facile eos facere aliquid turpium contingit. 
+    </p>
+            <p xml:id="tRi8UT-f12877-d1e220">
+               <lb ed="#C" n="26"/>Iuuenes maxime ab ebrietate custodiendi sunt. 
+    </p>
+            <p xml:id="tRi8UT-f12877-d1e225">
+               <lb ed="#C" n="27"/>Omnia amamus magis in principio Ars supplet defectum nature
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

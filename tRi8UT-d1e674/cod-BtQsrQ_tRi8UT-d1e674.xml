@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 3</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 3</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d1e674"><!-- alias="aa-met-3" -->
+            <head xml:id="tRi8UT-d1e674-Hd1e107">Liber 3</head>
+            <div xml:id="tRi8UT-d1e679">
+               <head xml:id="tRi8UT-d1e674-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d1e674-d1e115">
+                  <lb ed="#C" n="20"/>Sequuntur autori. iii libro metaphy. Aristo.
+      </p>
+               <p xml:id="tRi8UT-d1e674-d1e120">
+                  <lb ed="#C" n="21"/>DUbitatorum solutio est veritatis inquisitio
+      </p>
+               <p xml:id="tRi8UT-d1e674-d1e125">
+                  <lb ed="#C" n="22"/>Ignorantis non est soluere. id est determinare. 
+      </p>
+               <p xml:id="tRi8UT-d1e674-d1e130">
+                  <lb ed="#C" n="23"/>Ueritatem quaerentes sine dubitatione similes sunt ignorantibus quae ire 
+        <lb ed="#C" n="24"/>oportet 
+      </p>
+               <p xml:id="tRi8UT-d1e674-d1e138">
+                  <lb ed="#C" n="25"/>In mathematicis non est bonum neque finis. id est per cau 
+        <lb ed="#C" n="26"/>sam finalem non demonstrat mathematica 
+      </p>
+               <p xml:id="tRi8UT-d1e674-d1e145">
+                  <lb ed="#C" n="27"/>Finis et bonum idem sunt. 
+      </p>
+               <p xml:id="tRi8UT-d1e674-d1e150">
+                  <lb ed="#C" n="28"/>Magis dicimus illum scire ratione qui scit affirmatiue quam quae scit negatiue. 
+      </p>
+               <p xml:id="tRi8UT-d1e674-d1e155">
+                  <lb ed="#C" n="29"/>Unius rei est vna definitio 
+      </p>
+               <p xml:id="tRi8UT-d1e674-d1e160">
+                  <lb ed="#C" n="30"/>Ens et vnum non sunt genera 
+      </p>
+               <p xml:id="tRi8UT-d1e674-d1e165">
+        <!-- might not need to be a line break -->
+                  <lb ed="#C" n="31"/>Differentiae non sunt extra rationem generis.
+      </p>
+               <p xml:id="tRi8UT-d1e674-d1e173">
+                  <lb ed="#C" n="32"/>Non contingit ponere domum praeter hanc vel ista domum id est particularem. 
+      </p>
+               <p xml:id="tRi8UT-d1e674-d1e178">
+                  <lb ed="#C" n="33"/>Unum numero et singulare non differunt 
+      </p>
+               <p xml:id="tRi8UT-d1e674-d1e183">
+                  <lb ed="#C" n="34"/>Omnes theologi qui antiquitus fecerunt deos faciebant principia entium et 
+        <lb ed="#C" n="35"/>dixerunt prima esse principia immortalia quae gustauerunt nectar et manna. illa 
+        <lb ed="#C" n="36"/>vero mortalia quae non gustauerant. sed hoc non est verum 
+      </p>
+               <p xml:id="tRi8UT-d1e674-d1e192">
+                  <lb ed="#C" n="37"/>Eterna non indigent cibo 
+      </p>
+               <p xml:id="tRi8UT-d1e674-d1e197">
+                  <lb ed="#C" n="38"/>Corruptibilium et incorruptibilium non sunt eadem principia 
+      </p>
+               <p xml:id="tRi8UT-d1e674-d1e202">
+                  <lb ed="#C" n="39"/>Impossibile est aliquid fieri ex non ente
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d1e777">
+               <head xml:id="tRi8UT-d1e674-Hd1e210">Commentator</head>
+               <p xml:id="tRi8UT-d1e674-d1e213">
+        <!-- might not need to be its own line -->
+                  <lb ed="#C" n="40"/>⁋ Commentatori.
+      </p>
+               <p xml:id="tRi8UT-d1e674-d1e220">
+                  <lb ed="#C" n="41"/>
+                  <quote xml:id="tRi8UT-d1e674-Qd1e224" source="http://scta.info/resource/xch7dn-d1e69-d1e405" synch="10-18">Qui nescit quid querit. nescit quid inuenit</quote>
+               </p>
+               <p xml:id="tRi8UT-d1e674-d1e228">
+                  <lb ed="#C" n="42"/>
+                  <quote xml:id="tRi8UT-d1e674-Qd1e232" source="http://scta.info/resource/xch7dn-d1e69-d1e1344" synch="107-112">Finis est melior omnibus causis</quote>
+               </p>
+               <p xml:id="tRi8UT-d1e674-d1e236">
+                  <lb ed="#C" n="43"/>
+                  <quote xml:id="tRi8UT-d1e674-Qd1e240" source="http://scta.info/resource/xch7dn-d1e69-d1e3948" synch="16-22">Idem numero et singulare idem sunt cum particulari</quote>
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

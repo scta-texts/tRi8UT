@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 1</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 1</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="2"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d1e167"><!-- alias="aa-met-l1" -->
+            <head xml:id="tRi8UT-d1e167-Hd1e107">Liber 1</head>
+            <div xml:id="tRi8UT-d1e172">
+               <head xml:id="tRi8UT-d1e167-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d1e167-d1e115">
+      <!--3.xml-->
+                  <pb ed="#C" n="3"/>
+                  <lb ed="#C" n="1"/>⁋ Sequuntur nunc autoritates philosophi. id est amatoris sapientie 
+      <lb ed="#C" n="2"/>Et primo primi libri metaphysicorum
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e126">
+                  <lb ed="#C" n="3"/>OMnes homines naturaliter scire desiderant
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e131">
+                  <lb ed="#C" n="4"/>Sensus visus multas nobis differentias demonstrat
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e136">
+                  <lb ed="#C" n="5"/>Solum hominum genus arte et ratione viuit. 
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e142">
+                  <lb ed="#C" n="6"/>Experientia facit artem. inexperientia vero casum 
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e147">
+                  <lb ed="#C" n="7"/>Actus et operationes sunt circa singularia. quia medicus non sanat hominem in 
+      <lb ed="#C" n="8"/>comuni. sed socratem vel aliquem alium in particulari. similiter in aliis 
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e154">
+                  <lb ed="#C" n="9"/>Experientia est cognitio singularium. ars vero vniuersalium. 
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e159">
+                  <lb ed="#C" n="10"/>Artifex est sapientior experto. architectus manuali artifice. quia causas 
+      <lb ed="#C" n="11"/>subiectorum scit. 
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e166">
+                  <lb ed="#C" n="12"/>Signum scientis est posse docere 
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e171">
+                  <lb ed="#C" n="13"/>Conueniens est quemlibet artificem inuenieutem vltra communes sensus extolli. non 
+      <lb ed="#C" n="14"/>solum propter aliquam inuentorum vtilitatem. sed tanquam sapientem et ab aliis differentem 
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e179">
+                  <lb ed="#C" n="15"/>Scientes quorum scientie ad vsum non sunt. sapientiores et honorabilio¬ 
+      <lb ed="#C" n="16"/>res sunt illis quorum scientie sunt ad vsum. 
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e186">
+                  <lb ed="#C" n="17"/>Sapientia est scientia primarum et altissimarum causarum. 
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e191">
+                  <lb ed="#C" n="18"/>Sapientem oportet scire omnia in vniversali et scire difficillima. et habre scien 
+      <lb ed="#C" n="19"/>tiam certiorem. et scire reddere causas iporum quae scit. et habere scientiam quae subordi¬ 
+      <lb ed="#C" n="20"/>net alias scientias subseruientes. et habere scientiam quae suiipsius sit causa et non alterius 
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e200">
+                  <lb ed="#C" n="21"/>Sapientem non ordinari sed ordinare oportet id est sapientis et regere. et non regi. 
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e205">
+                  <lb ed="#C" n="22"/>Hi soli docent qui causas de singulis docent. 
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e210">
+                  <lb ed="#C" n="23"/>Que maxime sunt vniuersalia difficillima sunt ad cognoscendum ho 
+      <lb ed="#C" n="24"/>minibus quia a sensibus sunt remotissima 
+      <lb ed="#C" n="25"/>finis est bonum vniuscuiusque rei. et vniuersaliter est optimum in omni natura 
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e220">
+                  <lb ed="#C" n="26"/>Sapientia. id est metaphysica non est scientia practica. sed speculatiua. quia 
+      <lb ed="#C" n="27"/>propter nullum est: sed est solum propter fugam ignorantie 
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e227">
+                  <lb ed="#C" n="28"/>Propter admirari nunc homines et primo ceperunt philosophari 
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e232">
+                  <lb ed="#C" n="29"/>Philomites. id est fabularum auditor aliqualiter est philosophus. quia fabula ex miris et 
+      <lb ed="#C" n="30"/>raris constituitur. 
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e239">
+                  <lb ed="#C" n="31"/>Summi sacerdotes et antiqui philosophi acquisitis vite 
+      <lb ed="#C" n="32"/>necessariis inceperunt philosophari. 
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e246">
+                  <lb ed="#C" n="33"/>Qui dubitat et admiratur ignorare videtur. 
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e251">
+                  <lb ed="#C" n="34"/>Homo liber dicitur quae suiipsius et non alterius gratia est 
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e257">
+                  <lb ed="#C" n="35"/>Humanam natura multipliciter est ancilla. tam ex parte anime quam corporis 
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e262">
+                  <lb ed="#C" n="36"/>Secundum simonidem solus deus habet honorem et sapientiam id est metaphysicam. 
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e267">
+                  <lb ed="#C" n="37"/>Diuinum non inuidet 
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e272">
+      Multa mentiuntur poete. id est fingunt 
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e275">
+                  <lb ed="#C" n="38"/>Nulla scientia est nobilior et melior metaphysica. quia ipsa est maxime 
+      <lb ed="#C" n="39"/>diuina. cum sit de deo. tum quia deus maxime habet eam. vnde alie necessario¬ 
+      <lb ed="#C" n="40"/>res sunt hominibus. dignior vero nulla. 
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e284">
+                  <lb ed="#C" n="41"/>Deus videtur esse causa omnium et principium quoddam 
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e290">
+      <!-- hamasse has this coming after "tunc unumquodque -->
+                  <lb ed="#C" n="42"/>Quattuor sunt cause scilicet materialis. formalis. efficiens et finalis
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e297">
+      
+      <!--4.xml-->
+                  <pb ed="#C" n="4"/>
+                  <lb ed="#C" n="1"/>Tunc vnumquodque scire arbitramur cum primam causam scire putamus 
+      <lb ed="#C" n="2"/>vel cum causas eius cognoscimus
+    </p>
+               <p xml:id="tRi8UT-d1e167-d1e308">
+                  <lb ed="#C" n="3"/>In fundamento nature id est in materia prima nihil est actu distinctum. sed  
+      <lb ed="#C" n="4"/>omnes forme sunt distinguibiliter in ea secundum veros philosophos. 
+    </p>
+            </div>
+            <div xml:id="tRi8UT-d1e378">
+               <head xml:id="tRi8UT-d1e167-Hd1e318">Commentator</head>
+               <p xml:id="tRi8UT-d1e167-d1e321">
+                  <lb ed="#C" n="5"/>⁋ Commentator 
+      </p>
+               <p xml:id="tRi8UT-d1e167-d1e326">
+                  <quote xml:id="tRi8UT-d1e167-Qd1e328" source="http://scta.info/resource/xch7dn-d1e53-d1e2208" synch="248-274">Materia prima nullam formam habet omnino neque
+        <lb ed="#C" n="6"/>versalem nec particula rem. sed recipit primo formam vniversaem et mediante illa reci¬ 
+        <lb ed="#C" n="7"/>pit oens alias formas vsque ad indiuiduales.</quote>
+               </p>
+               <p xml:id="tRi8UT-d1e167-d1e336">
+                  <lb ed="#C" n="8"/>
+                  <quote xml:id="tRi8UT-d1e167-Qd1e340" source="http://scta.info/resource/xch7dn-d1e53-d1e1336" synch="24-40">Species non est forma tantum. sed etiam quid aggregatum ex materia et forma</quote> 
+               </p>
+               <p xml:id="tRi8UT-d1e167-d1e344">
+                  <lb ed="#C" n="9"/>Item <quote xml:id="tRi8UT-d1e167-Qd1e348" source="http://scta.info/resource/xch7dn-d1e53-d1e3363" synch="104-119">vniuersale non habet esse nisi quod est in anima</quote>. 
+      </p>
+               <p xml:id="tRi8UT-d1e167-d1e353">
+        <!-- hamesse doesn't seem to have this; can't find in Averroes; not sure what status of this is. -->
+                  <lb ed="#C" n="10"/>Albertus Admiratio est agonia seu cordis suspensio in stuporem 
+        <lb ed="#C" n="11"/>magni prodign in sensu apparentis 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber causarum</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber causarum</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="50"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f10095"><!-- alias="liberCausarum" -->
+            <head xml:id="tRi8UT-f10095-Hd1e107">Liber causarum</head>
+            <p xml:id="tRi8UT-f10095-d1e110">
+               <lb ed="#C" n="29"/>⁋ Sequuntur outo. libri causarum Aristo. Et vt alii volunt 
+      <lb ed="#C" n="30"/>Proculi eius auditoris 
+    </p>
+            <p xml:id="tRi8UT-f10095-d1e117">
+               <lb ed="#C" n="31"/>OMnis causa primaria plus influit in causatum suum quam causa secundaria 
+    </p>
+            <p xml:id="tRi8UT-f10095-d1e122">
+               <lb ed="#C" n="32"/>Quicquid potest causa scundua potest et causa prima nobiliori et altiori tntum modo 
+    </p>
+            <p xml:id="tRi8UT-f10095-d1e127">
+               <lb ed="#C" n="33"/>Quicquid est causa cause etiam est causa causati. 
+    </p>
+            <p xml:id="tRi8UT-f10095-d1e133">
+               <lb ed="#C" n="34"/>Omnis anima nobilis habet tres operationes. quia in ea est operatio animal intellectualis et di 
+      <lb ed="#C" n="35"/>(uina. 
+    </p>
+            <p xml:id="tRi8UT-f10095-d1e140">
+               <lb ed="#C" n="36"/>Prima causa est superior causa omnim narratione 
+    </p>
+            <p xml:id="tRi8UT-f10095-d1e145">
+               <lb ed="#C" n="37"/>Cause secunde illuminantur a lumine prime cause 
+    </p>
+            <p xml:id="tRi8UT-f10095-d1e150">
+               <lb ed="#C" n="38"/>Intelligentia est substantia que non diuiditur 
+    </p>
+            <p xml:id="tRi8UT-f10095-d1e155">
+               <lb ed="#C" n="39"/>Omnis intelligentia fixa est essentia propter bonitatem puram que est cau 
+      <lb ed="#C" n="40"/>sa prima. vnde causa prima est pura bonitas. 
+    </p>
+            <p xml:id="tRi8UT-f10095-d1e162">
+               <lb ed="#C" n="41"/>Prima causa non habet hyliatiu id est aliquid materiale. sed omnis intelligentia et 
+      <lb ed="#C" n="42"/>anima habt hyliatin id est aliquid per modum potentie. 
+    </p>
+            <p xml:id="tRi8UT-f10095-d1e170">
+      <!--51.xml-->
+               <pb ed="#C" n="51"/>
+               <lb ed="#C" n="1"/>Omnis intelligentia est plena formis. id est spenbus intelligibilibus 
+    </p>
+            <p xml:id="tRi8UT-f10095-d1e179">
+               <lb ed="#C" n="2"/>Quanto aliquid est propinquius prime cause tanto est simplicius. 
+    </p>
+            <p xml:id="tRi8UT-f10095-d1e184">
+               <lb ed="#C" n="3"/>Omnis virgis vnita fortior est seipsa dispsa. 
+    </p>
+            <p xml:id="tRi8UT-f10095-d1e189">
+               <lb ed="#C" n="4"/>Causa prima regit oes res creatas praeter hoc quod commiscetur cum eis 
+    </p>
+            <p xml:id="tRi8UT-f10095-d1e194">
+               <lb ed="#C" n="5"/>Causa prima influit bonitatem suam rebus vno influxum. sed res non recipi 
+      <lb ed="#C" n="6"/>unt illam bonitate equaliter. sed secundum capacitatem nature 
+    </p>
+            <p xml:id="tRi8UT-f10095-d1e201">
+               <lb ed="#C" n="7"/>Causa prima est diues per seipsam. 
+    </p>
+            <p xml:id="tRi8UT-f10095-d1e207">
+               <lb ed="#C" n="8"/>Causa prima est super ome nomen quod nominari potest. 
+    </p>
+            <p xml:id="tRi8UT-f10095-d1e212">
+               <lb ed="#C" n="9"/>Omnis intelligentia diuina facir res per hoc quod est intelligentia. et regit 
+      <lb ed="#C" n="10"/>eas per hoc quod ipsa est diuina. vt habemus quod regere est dininum. 
+    </p>
+            <p xml:id="tRi8UT-f10095-d1e219">
+               <lb ed="#C" n="11"/>Animam rationalis creatur in horionte eternitatis et temporis. 
+    </p>
+            <p xml:id="tRi8UT-f10095-d1e224">
+               <lb ed="#C" n="12"/>Causa prima existit in omnibus rebus secundum dispositionem vna. sed omnia non consistunt 
+      <lb ed="#C" n="13"/>in prima causa secundum dispoaitionem vnam. sed secundum multas. 
+    </p>
+            <p xml:id="tRi8UT-f10095-d1e231">
+               <lb ed="#C" n="14"/>Anquam ad philosophiam moralem quam phorum Rex diligentissime. immo quantum in 
+      <lb ed="#C" n="15"/>genium tulit in hoc mortali carcere hospitatum. describit fiat aggressus. non 
+      <lb ed="#C" n="16"/>tabit lector Aristotelem in ea trifariam explicasse felicitatem Primam et vita 
+      <lb ed="#C" n="17"/>ti consonam posuit consistere in speculatione primi obiecti et cognitione vltimi 
+      <lb ed="#C" n="18"/>Pappetibii. quod est prima omnim rerum causa id est deus quae felicitate (inquit. x. Ethicorum)  
+      <lb ed="#C" n="19"/>non sic viuit homo vt homo. sed vt diuinum in eo exiis. Uult praeterea quod hanc ne 
+      <lb ed="#C" n="20"/>mo perfecte potest comprehendere in statu huius vite At ea habita satiatur oe sciendi 
+      <lb ed="#C" n="21"/>desiderium Et istuod apparet conforme Oraculo christi apuod Ioanne capr. xos. ex 
+      <lb ed="#C" n="22"/>arato. vbi legimus quod hec est vita eterna vt coguoscamus te deum etc. Alia 
+      <lb ed="#C" n="23"/>ponitur felicitas humana. politica seu ciuilis. cuius effectus est congruenter nature 
+      <lb ed="#C" n="24"/>viuere Et hanc Stoici in sua academia praedicabant Postea aut Cicero 
+      <lb ed="#C" n="25"/>et Seneca in sua phia vehemeter extulerunt. Putantes habitem vite ne 
+      <lb ed="#C" n="26"/>cessariis virtute propter se fore exquirendam eiusque primium honorem Ratio ei quaere 
+      <lb ed="#C" n="27"/>ad id mouebat erat. quaoniam incertum fuit apro eos an anima rationalis immortali 
+      <lb ed="#C" n="28"/>tatem esset habitura. quamquam super eo negocio legatur disputatum. Minc asserue 
+      <lb ed="#C" n="29"/>runt terribilissimum omnim terribilium esse mortem. eo quod mortuis non videretur 
+      <lb ed="#C" n="30"/>accidere neque bonum neque malum. moderabant tantm hanc passionem quantum pote 
+      <lb ed="#C" n="31"/>rant ipsa fortitudie Tertio excogitatum fuit genus felicitatus quae homo pos hanc e 
+      <lb ed="#C" n="32"/>vitam in posteritatum viuit memoria et hoc per egregia facinora aut inuctum 
+      <lb ed="#C" n="33"/>insigne. alia ve opora et monumenta praeclara sub hac luce confecta. Sic qui¬ 
+      <lb ed="#C" n="34"/>dem mlti reges et Qratores Mistorici Poete Pictores Statuarii. et 
+      <lb ed="#C" n="35"/>id genus homnim curabant felicitati Itaque Uirgilius in sua Eneide Miso 
+      <lb ed="#C" n="36"/>et Eurialo sibique eternitatem pollicitus est. et Ouidius sua metamorpho 
+      <lb ed="#C" n="37"/>si gioriatur se immortalitate assequutum. Et hoc qui templum incendit Diane. alii 
+      <lb ed="#C" n="38"/>que inumeri Primam Aristoteles firmiter tenuit quemadmodum ex va¬ 
+      <lb ed="#C" n="39"/>ruis librorum eius passibus quaesque phice doctus compire poterit Mos tres felici 
+      <lb ed="#C" n="40"/>tandi modos Aristoteles sic commiscet. inuicenque contrectat vt non facile 
+      <lb ed="#C" n="41"/>(etiam ab eruditem quandoque prehis bene intelligatur de qua certum sub capitulis 
+      <!--52.xml-->
+      <pb ed="#C" n="52"/>
+               <lb ed="#C" n="1"/>felicitate loquatur. Prima est nobis necessario exoprandam. Secuoda pro 
+      <lb ed="#C" n="2"/>tranquillo vite statum homnibus opportuna. Et tertia ad magnifica con 
+      <lb ed="#C" n="3"/>ficienda generosum stimulat animum 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

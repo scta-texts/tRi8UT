@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ad Lucilium Balbum</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Ad Lucilium Balbum</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="71"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f13994"><!-- alias="SenecaAdLucillum" -->
+            <head xml:id="tRi8UT-f13994-Hd1e107">Ad Lucilium Balbum</head>
+            <p xml:id="tRi8UT-f13994-d1e110">
+               <lb ed="#C" n="26"/>⁋ Sequuntur autoritates morales Senece ad Lucilium balbum 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e115">
+      Et 
+      <lb ed="#C" n="27"/>hoc congruo ordine ante progressum ad logicalia Aristo. et aliorum 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e120">
+               <lb ed="#C" n="28"/>Urpissima est iactura quae fit per ignorantiam et negligentiam 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e125">
+               <lb ed="#C" n="29"/>Ubi diuersa sunt cybaria ibi nutrimeta pauca. quia diuersa mi 
+      <lb ed="#C" n="30"/>(nus alunt¬ 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e133">
+               <lb ed="#C" n="31"/>Peregrini multa habent hospitia. nullas amicitias. 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e138">
+               <lb ed="#C" n="32"/>Nihil impedit ita sanitatem. sicut crebra remediorum tentatio autem immutaton 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e143">
+               <lb ed="#C" n="33"/>Teta paupertas est res honesta. verbum est apuod epicureos a deneca inuentum. 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e148">
+               <lb ed="#C" n="34"/>Non qui parum habet est pauper. sed qui plus cupit 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e153">
+               <lb ed="#C" n="35"/>Cum amico omia delibera. sed de amico prus. 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e158">
+               <lb ed="#C" n="36"/>Utrumque est vitium omni credere et nulli. 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e164">
+               <lb ed="#C" n="37"/>Pessimum est quod habemus autoritates senum. vitia vero puerorum 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e169">
+               <lb ed="#C" n="38"/>Nullius rei iocunda est possessio sine socio 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e174">
+               <lb ed="#C" n="39"/>Unum exemplum luxurie sine auaricie multa mala facit 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e179">
+               <lb ed="#C" n="40"/>Cum illis conversari debes qui te iocundum facturi sunt vel meliorem 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e184">
+               <lb ed="#C" n="41"/>Nihil refert qualis status tuus sit si videtur tibi malus. 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e189">
+      <!--72.xml-->
+               <pb ed="#C" n="72"/>
+               <lb ed="#C" n="1"/>Sic viue cum hominibus tanquam deus videat 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e199">
+               <lb ed="#C" n="2"/>Sic loquere cum deo tanquam homines audiant 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e204">
+               <lb ed="#C" n="3"/>Quid est turpius quam senem viuere insipienter 
+      <lb ed="#C" n="4"/>dine studio philosophie eger est animus. 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e211">
+               <lb ed="#C" n="5"/>Mon iubeo te semper scribere libros ac tabulas Pugillaribus enim dan¬ 
+      <lb ed="#C" n="6"/>dum est interuallum omnino. 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e218">
+               <lb ed="#C" n="7"/>Pugilibus datur requies. non vt virtus spolietur. sed magis acuatur 
+      <lb ed="#C" n="8"/>dcio neminem beate viuere non posse sine studio sapientie 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e225">
+               <lb ed="#C" n="9"/>Bonam vitam perfecta sapientia efficit. 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e230">
+               <lb ed="#C" n="10"/>Non sit quod nos a phia remoueat. nec paupertas nec alicuius rei indigentia 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e236">
+               <lb ed="#C" n="11"/>Nemo dignus est deo nisi opes contempserit 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e241">
+               <lb ed="#C" n="12"/>Philosophia docet nos facere et discernere. 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e246">
+               <lb ed="#C" n="13"/>Magnus est ille qui in diuitius pauper est. 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e251">
+               <lb ed="#C" n="14"/>Nemo diues nasciturPeiores morimur quam nascimur 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e256">
+               <lb ed="#C" n="15"/>Incertum est qui loco mors te expectat. itaque tum eam in omni expectes. 
+      <lb ed="#C" n="16"/>di quis percipit prhiam. ita securuis moritur sicut nascitur. 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e263">
+               <lb ed="#C" n="17"/>Sola virtus prestat gaudium perpetuum et securum 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e269">
+               <lb ed="#C" n="18"/>Mens bona non accommodatur nec emitur et si venalis esset non ha 
+      <lb ed="#C" n="19"/>deret emptorem. sed mala quotidie emitur 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e276">
+               <lb ed="#C" n="20"/>Initium sapientie est cognitio peccati 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e281">
+               <lb ed="#C" n="21"/>Qui peccare se nescit corrigi non vult. 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e286">
+               <lb ed="#C" n="22"/>Generosus animus concitatur ad honesta 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e291">
+               <lb ed="#C" n="23"/>Magni animi est magna contennere 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e296">
+      Nemo bonus est sine deo. 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e300">
+               <lb ed="#C" n="24"/>Quid est facilius. propria in homine aut aliena laudare 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e305">
+               <lb ed="#C" n="25"/>Non faciunt meliore equum aurei freni 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e310">
+               <lb ed="#C" n="26"/>Nemo gloriari debet nisi de suo 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e315">
+               <lb ed="#C" n="27"/>Lauda hominem in illoquod nec dari nec eripi potest. sed quod proprium ho 
+      <lb ed="#C" n="28"/>minis est. sed hoc non est domus vel vestis pulera vel familia multa 
+      <lb ed="#C" n="29"/>vel femina formosa. sed animus et ratio perfecta 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e324">
+               <lb ed="#C" n="30"/>Philosophia platonem nobilem non accepit. sed eum nobilem fecit 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e329">
+               <lb ed="#C" n="31"/>Philosophia nullum reiicit. sed lucet omnibus 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e335">
+               <lb ed="#C" n="32"/>Sic cum inferiori viuas quemadmodum tecum superiorem viuere velis 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e340">
+               <lb ed="#C" n="33"/>Nulla seruitus turpior quam voluntaria 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e345">
+               <lb ed="#C" n="34"/>Nihil est tam pertinax quod pruigil operatio et diligens cura non expugnat vel 
+      <lb ed="#C" n="35"/>(pemollit 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e352">
+               <lb ed="#C" n="36"/>Philosophiae seruias. quia ipsi seruire libertas est 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e357">
+               <lb ed="#C" n="37"/>Si vis amari tunc ama. 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e362">
+               <lb ed="#C" n="38"/>Quicquid est ingenitum alicui nouleue arte vincitur 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e368">
+               <lb ed="#C" n="39"/>Ille btissimus est et securus sui possessor qui crastinum diem sine sollicitudine 
+      <lb ed="#C" n="40"/>expectat. 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e375">
+               <lb ed="#C" n="41"/>Numquam enim intatum contra vrtutes nequitia inualescit vt nullum 
+      <lb ed="#C" n="42"/>phie sacrum et vencrabile vestigium aut nomen permaneat. 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e382">
+               <lb ed="#C" n="43"/>Aubulitas anime copia ciborum impeditur. 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e387">
+      <!--73.xml-->
+               <pb ed="#C" n="73"/>
+               <lb ed="#C" n="1"/>Philosophia non consistit in verbis sed in rebus 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e396">
+               <lb ed="#C" n="2"/>Philosophia animam subleuat. fabricat vitam. disponit actiones. regit 
+      <lb ed="#C" n="3"/>agenda. et omittenda demonstrat. 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e403">
+               <lb ed="#C" n="4"/>Naturam modum petit 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e409">
+      ⁋ Nature desideria sunt infinita 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e412">
+               <lb ed="#C" n="5"/>Generosos animos labor nutrit 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e417">
+               <lb ed="#C" n="6"/>Teipum felicem facies si intellexeris illa esse bona quibus vertus est admixta 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e422">
+               <lb ed="#C" n="7"/>Quid est bonum nisi rerum scientia Quid est malum nisi rerum imperitia 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e427">
+               <lb ed="#C" n="8"/>Hoc est summum bonum quod si occupas incipis esse deorum socius 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e432">
+               <lb ed="#C" n="9"/>Ad summum bonum tutum est iter et iocundum 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e438">
+               <lb ed="#C" n="10"/>Natura dedit tibi illa bona quae si non deseris par deo consurges. sed te pa 
+      <lb ed="#C" n="11"/>rem deo pecunia non facit: quia deus talium nihil habet. nec praetexta. quia deus nu 
+      <lb ed="#C" n="12"/>dus est. nec fama. nec ostensio tui in populo quae deus non nouit. nec turba 
+      <lb ed="#C" n="13"/>seruorum sequentium te. quia maximus et potentissimus regit omnia. nec forma 
+      <lb ed="#C" n="14"/>nec vires. quia nihil eorum est quod non patiatur vetustatem. quid ergo te deo pa¬ 
+      <lb ed="#C" n="15"/>rem facit. certe animus bonus rectus et magnus. 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e454">
+               <lb ed="#C" n="16"/>Habent autem nihil aliud homines nisi deum in humano corpore hospitatum. 
+      <lb ed="#C" n="17"/>
+               <!-- line coord error -->
+            </p>
+            <p xml:id="tRi8UT-f13994-d1e463">
+               <lb ed="#C" n="18"/>Ad philosohpiam te transter si vis esse sanus. si securuis. si beatus. si liber. 
+      <lb ed="#C" n="19"/>di vis omnia tibi subuci subiice te rationi. multos enim reges si ratio te rexerit 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e470">
+               <lb ed="#C" n="20"/>Multum proficit sermo si paulatim irresperit animo 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e475">
+               <lb ed="#C" n="21"/>Plato voluit neminem esse regem nisi ex seruis ee ortum. et neminem esse seruum 
+      <lb ed="#C" n="22"/>nisi ex regibus esse ortum. sed omnia illa varietas fortune miscuit et in sursum 
+      <lb ed="#C" n="23"/>deorsum narura fortune iactauit. sed ista non videntur considerate dicta 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e484">
+               <lb ed="#C" n="24"/>Non refert quam multos libros. sed quam bona habeas. 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e490">
+               <lb ed="#C" n="25"/>Uirga omne murmur compescitur 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e495">
+               <lb ed="#C" n="26"/>Philosophia hoc mihi promittit vt me deo parem faciet 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e500">
+               <lb ed="#C" n="27"/>Punctum est quid minimum et ad huc puncto aliquid minus. 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e505">
+               <lb ed="#C" n="28"/>Dociles natura nos edidit et rationem nobis dedit imperfectam. quae tantum perfici potest. 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e510">
+               <lb ed="#C" n="29"/>Omnia impedimenta dimitte et vaca rationi tota mente. 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e515">
+               <lb ed="#C" n="30"/>Ad philosophiam totam mentem conuerte huic assiste. hanc cole. et tunc ingens interuali 
+      <lb ed="#C" n="31"/>lum est inter te et ceteros homines. oens ei mortales anecedes. et dute non mul 
+      <lb ed="#C" n="32"/>ctum anecedent 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e525">
+               <lb ed="#C" n="33"/>Ocium et solitudo non faciunt hominem bonum 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e530">
+               <lb ed="#C" n="34"/>Nulla subtilitas est sine difficultate Omnia habere nemo potest. 
+      <lb ed="#C" n="35"/>dingulis rebus modum exhibeas Omnis ars est imitatio nature 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e537">
+               <lb ed="#C" n="36"/>Contemptus corporis est tota libertas 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e542">
+               <lb ed="#C" n="37"/>Mon ex difformitate corporis defedatur animus. sed ex pulcritudine 
+      <lb ed="#C" n="38"/>anime defedatur corpus et non econtra. 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e549">
+               <lb ed="#C" n="39"/>Intellectus nihil aliud est quam in corpus humanum diuini spuns pars immersa 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e554">
+               <lb ed="#C" n="40"/>O quam contempta est ars 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e560">
+               <lb ed="#C" n="41"/>Momo nisi super humanam rationem se erexerit homo non est 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e565">
+               <lb ed="#C" n="42"/>Nulla victoria maior est quam vitia domare. 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e570">
+      <!--74.xml-->
+               <pb ed="#C" n="74"/>
+               <lb ed="#C" n="1"/>Principium in rebus est erigere animum super iniurias et promissa fortitu 
+      <lb ed="#C" n="2"/>dine leto animo aduersa posse tolerare. 
+    </p>
+            <p xml:id="tRi8UT-f13994-d1e581">
+               <lb ed="#C" n="3"/>Sapor pabuli manet in lacte. vis vini in aceto. quia nulla res est que 
+      <lb ed="#C" n="4"/>non sapiat naturam eius ex qua nascitur. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

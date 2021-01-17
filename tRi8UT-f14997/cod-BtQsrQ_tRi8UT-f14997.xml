@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 1</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 1</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="76"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f14997"><!-- alias="deconsol-l1" -->
+    <!-- De consolatione philosophia -->
+            <head xml:id="tRi8UT-f14997-Hd1e109">Liber 1</head>
+            <p xml:id="tRi8UT-f14997-d1e112">
+               <lb ed="#C" n="29"/>⁋ Sequuntur autori. ex primo libro de consolatione philosophiae ipsius Boetii Ani 
+      <lb ed="#C" n="30"/>c Manlii. torquati. patricii consulis romani viri orthodoxi quem 
+      <lb ed="#C" n="31"/>Theodoricus rex ostrogottorum papie incarcerauit. anno Anastasii. xii  
+      <lb ed="#C" n="32"/>quie est annus christi quingentesimus quartus. et postea necauit scilicet anno christi. 
+      <lb ed="#C" n="33"/>ccecce. xxiii. et papa ioannem primo Rauenne incarceratum occidit 
+    </p>
+            <p xml:id="tRi8UT-f14997-d1e125">
+               <lb ed="#C" n="34"/>Armina qui quondam studio forente peregi 
+    </p>
+            <p xml:id="tRi8UT-f14997-d1e130">
+               <lb ed="#C" n="35"/>Mlebilis heum mestos cogor inire modos. 
+    </p>
+            <p xml:id="tRi8UT-f14997-d1e136">
+               <lb ed="#C" n="36"/>Mors hominum felix que se nec dulcibus annis 
+    </p>
+            <p xml:id="tRi8UT-f14997-d1e141">
+               <lb ed="#C" n="37"/>iInserit. et mestis sepe vocata venit 
+    </p>
+            <p xml:id="tRi8UT-f14997-d1e146">
+               <lb ed="#C" n="38"/>Quid me felicem totiens iactastis amici 
+    </p>
+            <p xml:id="tRi8UT-f14997-d1e151">
+               <lb ed="#C" n="39"/>Qui cecidit. stabili non erat ille gradu 
+    </p>
+            <p xml:id="tRi8UT-f14997-d1e156">
+               <lb ed="#C" n="40"/>Poete officium non est hominem in aduersis consolari. sed philosophi. 
+    </p>
+            <p xml:id="tRi8UT-f14997-d1e161">
+               <lb ed="#C" n="41"/>Beata est respublica cui princeps sapiens dominatur. 
+      <!--77.xml-->
+    </p>
+            <p xml:id="tRi8UT-f14997-d1e169">
+               <pb ed="#C" n="77"/>
+               <lb ed="#C" n="1"/>Philosophia omnium virtutum est magistra 
+    </p>
+            <p xml:id="tRi8UT-f14997-d1e176">
+               <lb ed="#C" n="2"/>Imprudentia rerum merita mutare non potest 
+    </p>
+            <p xml:id="tRi8UT-f14997-d1e181">
+               <lb ed="#C" n="3"/>Prauorum exercitus si alosior sit. sapiens tantum non est. quia a nullo duce regitur. 
+    </p>
+            <p xml:id="tRi8UT-f14997-d1e186">
+               <lb ed="#C" n="4"/>Deteriora velle nostri defectus est. 
+    </p>
+            <p xml:id="tRi8UT-f14997-d1e191">
+               <lb ed="#C" n="5"/>Minuit se quodammon probantis conscientie secretum quotiens ostentando 
+      <lb ed="#C" n="6"/>se vel iactando de factis suis recipit famen precium id est mercedem 
+    </p>
+            <p xml:id="tRi8UT-f14997-d1e198">
+               <lb ed="#C" n="7"/>Ostelliferi conditor orbis qui prpetuo nixus solio. rapido caelum turbi 
+      <lb ed="#C" n="8"/>ne. versas. legemque pati sydera cogis. 
+    </p>
+            <p xml:id="tRi8UT-f14997-d1e206">
+               <lb ed="#C" n="9"/>Omnia certo fine gubernas 
+    </p>
+            <p xml:id="tRi8UT-f14997-d1e211">
+               <lb ed="#C" n="10"/>Noim solos respuis actus 
+    </p>
+            <p xml:id="tRi8UT-f14997-d1e216">
+               <lb ed="#C" n="11"/>Non solum quod ante oculos situm est sufficit intueri.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

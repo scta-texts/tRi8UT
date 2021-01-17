@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Commendatio</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Commendatio</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="99"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f19173"><!-- alias="commendatio" -->
+            <head xml:id="tRi8UT-f19173-Hd1e107">Commendatio</head>
+            <p xml:id="tRi8UT-f19173-d1e110">
+               <lb ed="#C" n="36"/>⁋ Sequitur extemporalis Commendatio phie 
+      <lb ed="#C" n="37"/>Aristo. cum eiusdem vita et moribus 
+      <!--100.xml-->
+      <pb ed="#C" n="100"/>
+               <lb ed="#C" n="1"/>Hilosophia. id est amor seu studium sapientie. ab ipo Aristo 
+      <lb ed="#C" n="2"/>tele et sctis Patribus in tres partes diuiditur. vtputa in Rationa 
+      <lb ed="#C" n="3"/>u lem Naturale et Moralem Prima verborum propetates et structu 
+      <lb ed="#C" n="4"/>ram exigit ac argumentationes instruere docet ne falsa pro vero 
+      <lb ed="#C" n="5"/>subrepant Scuonda rerum naturam in qui maxime relucet bonitas prime cau¬ 
+      <lb ed="#C" n="6"/>se scrutatur. et ex nature effectibus in noticia vnius et primi consurgit moto¬ 
+      <lb ed="#C" n="7"/>ris Tertia nostrum componit anim et actus eius dirigit. vt homo felicitabilis per 
+      <lb ed="#C" n="8"/>vtutes summu et finale assequatur appetibile in cuius speculatione et frui 
+      <lb ed="#C" n="9"/>tione consistit vltima hominis felicitas. Mas tres phie spens nature lux no¬ 
+      <lb ed="#C" n="10"/>ster Aristoteles (vt praecipuus attestatur suus Commentator Auerrois in  
+      <lb ed="#C" n="11"/>exordio physice auscultationis) adinuenit et compleuit. Inuenit enim quoniam 
+      <lb ed="#C" n="12"/>oe quod ab antiquis scriptum est non foret dignum optinere partis nomen. aut 
+      <lb ed="#C" n="13"/>principii Compleuit quidem. eo quod nullus eorum qui sequuti sunt. quicquam poterit ap¬ 
+      <lb ed="#C" n="14"/>ponere quod de inexhausto illius fonte sufficiente non duceret originem Mec 
+      <lb ed="#C" n="15"/>item errorem alicuius quantitatis in dictis eius deprehendere Et talem vertutem esse in 
+      <lb ed="#C" n="16"/>vno indiuiduo extraneum est et miraculosum in natura. et diuinus ma 
+      <lb ed="#C" n="17"/>gis vocitandus est quam humanus. Manc glatiosus noster hieronymus do¬ 
+      <lb ed="#C" n="18"/>ctrine consumationem absque mentis stupore non praeterut quando in Regula Bet 
+      <lb ed="#C" n="19"/>lehemitica confitetur Aristotilem fuisse phorum principen et absque dubitatione 
+      <lb ed="#C" n="20"/>prodigium grandeque miraculum in tota natura cui pene videtur infusum quic¬ 
+      <lb ed="#C" n="21"/>quid naturaliter capax est humanum genus Cui non dissonant Auli 
+      <lb ed="#C" n="22"/>Bellum in libro noctium atticarum. viri iudicio Augustini libro nono 
+      <lb ed="#C" n="23"/>de ciuitate dei elegantissimi eloquum et multum facunde scientie Ari 
+      <lb ed="#C" n="24"/>stoteles (infit phus rei omnis humane peritissimus statura proportioneque cor 
+      <lb ed="#C" n="25"/>poris pulcherrimus ad veritate et bonum vniuersi demonstrandum quasi a 
+      <lb ed="#C" n="26"/>deo natus videtur Augustinus vero quamquam Platonicus illud phicum pectus 
+      <lb ed="#C" n="27"/>absque laude non commemorabat dum exclamaret Summus Aristoteles trum 
+      <lb ed="#C" n="28"/>tinando cacumina rerum In duo diuisit quicquid in orbe fuit Et quia ingenio 
+      <lb ed="#C" n="29"/>praeditus erat acutissimo quod ad oens phlhsorie partes idoneum et sufficiens foret 
+      <lb ed="#C" n="30"/>non cessabat phari quin sciret quid in rerum natura latitaret. quid in mori¬ 
+      <lb ed="#C" n="31"/>bus appetendum esset. atque fugiendum. quid in ipsis rtocinandi regulis certa con 
+      <lb ed="#C" n="32"/>nexione traheretur. aut quid non esset coniis vel etiam repugnaret. quod aniad  
+      <lb ed="#C" n="33"/>uertens vehemens ille orator Qui. fabius addubitabat Aristotilem 
+      <lb ed="#C" n="34"/>scientia rerum. an scriptorum copia. an eloquendi suauitate. an inuentionum acu 
+      <lb ed="#C" n="35"/>mine. an varietate operum clariorem diceret. 
+    </p>
+            <p xml:id="tRi8UT-f19173-d1e197">
+               <lb ed="#C" n="36"/>⁋ Solent ea de re praelerique dubitatione moueri. vne huic viro tanta ob¬ 
+      <lb ed="#C" n="37"/>uenerit et ingenii et vite felicitas. vt vnius admiratione tota posteritas 
+      <lb ed="#C" n="38"/>teneatur. Responsum est Patrem habuit natura generosum et medicinali 
+      <lb ed="#C" n="39"/>scientia praelarum Uiricanit hMomerus medicus praecio multos equanerit v 
+      <lb ed="#C" n="40"/>vnus) Nicomachum nomine in vrbe sua Stagyritana (que in mace 
+      <lb ed="#C" n="41"/>ponia florebat) Primatem virumque grauissime autoritatem. quae vel tanta 
+      <!--101.xml-->
+      <pb ed="#C" n="101"/>
+               <lb ed="#C" n="1"/>pollebat naturali industria vt qualitates hominum ex facie dinosce 
+      <lb ed="#C" n="2"/>ret Mic cum in puerulo prognosceret diuini quid latere. indit ei nomen Ari 
+      <lb ed="#C" n="3"/>stoteles. quod est interpretatum optimus finis. siquidem aristos est optimus (non 
+      <lb ed="#C" n="4"/>ares vt insipientes hallucinantur quod martem significat) et telos finis. quod 
+      <lb ed="#C" n="5"/>postea vt omnibus constat effectibus docuit dum optimum finem ex nature 
+      <lb ed="#C" n="6"/>legibus demonstraret. vnumque deum summum et primum esse habendum predica 
+      <lb ed="#C" n="7"/>ret Cuius amore quando etati appropinquiret senecte salubriter exulabat 
+      <lb ed="#C" n="8"/>Mater dicta est hhestiada quae ex honesto stemnmate principum Sta¬ 
+      <lb ed="#C" n="9"/>gyritane prouincie deiscendit Insuper sortitus est (vt ipse profiteturu) animam 
+      <lb ed="#C" n="10"/>bonam. detestantem vitia et in qual libet contendentem virtutes Cui natura 
+      <lb ed="#C" n="11"/>corpus substrauit aptissimum adeo proceris et magnificis per vniuersum 
+      <lb ed="#C" n="12"/>lineamentis et artubus decoratum. vt tam nobili anime famularetur Inde 
+      <lb ed="#C" n="13"/>fausto sub lucem editus sidere comitur sancte laudabiliturque in Edibus pa¬ 
+      <lb ed="#C" n="14"/>ternis educatur. vt naturali virtuti et optime indoli ex egregia istituti 
+      <lb ed="#C" n="15"/>one morum et discipline manifestum quem scientie tum virtutis accederet in¬ 
+      <lb ed="#C" n="16"/>crementum Et quondaom vt idem docet libro decimo Ethices. Unusquisque ad  
+      <lb ed="#C" n="17"/>bene viuendum sua destinabit opora secundum optimum eorum que sunt in ipso. 
+      <lb ed="#C" n="18"/>elegit du puerum excederet phari quod opus erat honestissimum. creuit 
+      <lb ed="#C" n="19"/>ad summum in phia. ita vt nihil tam arduum esset quod illa eminentissimi 
+      <lb ed="#C" n="20"/>vbertas ingenii nequiret superare. nec quicquam in scibilibus adeo prplexum 
+      <lb ed="#C" n="21"/>vel acquisitu laboriosum. quod homo ille veritatis amore intrepedus ag 
+      <lb ed="#C" n="22"/>gredi non auderet. arbitrans egre mentis indicium esse formidare inexpta. 
+      <lb ed="#C" n="23"/>qui factum est vt nihil in natura ta occultum. nihil tam eleuatum foret quod ei 
+      <lb ed="#C" n="24"/>praelusum permaneret. Me sunt assignate cause et occasiones huius cele 
+      <lb ed="#C" n="25"/>bris ingenii consumateque virtutis et doctrine. Porro piusquam annum attin 
+      <lb ed="#C" n="26"/>geret tricesimum factus est ex vita sua modestissima et ingenii et vrturis 
+      <lb ed="#C" n="27"/>claritate apud complures gentes homo excellentis fame (vt etiam fatetur Au¬ 
+      <lb ed="#C" n="28"/>gustinus libro octauo de Ciuitate diuina ita vt Philippus Macedo 
+      <lb ed="#C" n="29"/>num Rex Alexandro nato exultaret quod ea tempestate filium habe¬ 
+      <lb ed="#C" n="30"/>ret quae tam clarus floreret phus. et habito cosilio mittit Alexandrum gram 
+      <lb ed="#C" n="31"/>matice tunc loquentem certis cum Qratoribus Athenas ad Lyceum id est asia 
+      <lb ed="#C" n="32"/>num gymnasium enixius mandato regis Aristoteli supplicantibus vt suam 
+      <lb ed="#C" n="33"/>phiam in hoc adolescente dignaretur experimento comprobare Annuit (vt 
+      <lb ed="#C" n="34"/>erat natura facilis regali petitioni Aristoteles At Alexander praeceptis et 
+      <lb ed="#C" n="35"/>doctrina mgri sui squem integro decenssio traditur audiuisse eam consecutus 
+      <lb ed="#C" n="36"/>est sapientiam vt totum ferme mundum non minus prudentia quam militari 
+      <lb ed="#C" n="37"/>classe intra duodecim annos suo subinceret imperio Et felix nimirum 
+      <lb ed="#C" n="38"/>si vitia quorundam pedagogorum suorum non contraxisset. Mic tanto 
+      <lb ed="#C" n="39"/>incalebat philosophico amore vt nequaquam inter armorum strepitus 
+      <lb ed="#C" n="40"/>philosophiam negligeret Siquidem interdiu armis et noctu litteris 
+      <lb ed="#C" n="41"/>operam tribuit Nec magnus ille mundi domitor Aristotelem secus 
+      <!--102.xml-->
+      <pb ed="#C" n="102"/>
+               <lb ed="#C" n="1"/>ac philippum patrem suum dilexit Unde cum bellica laude et Im 
+      <lb ed="#C" n="2"/>perii cupiditate per totum mundum ferueret ad auditum ipsius per 
+      <lb ed="#C" n="3"/>uenit Aristotelem amicorum precibus expugnatum in codices re¬ 
+      <lb ed="#C" n="4"/>degisse et in propatulum addiscendam communicasse philosophiam Quod 
+      <lb ed="#C" n="5"/>tantus Rex adeo moleste tulit vt ex castris suis (que in asia fixerat)  
+      <lb ed="#C" n="6"/>ad eum in hec verba (vt Menesycrates refert) incunctanter scriberet 
+    </p>
+            <p xml:id="tRi8UT-f19173-d1e323">
+               <lb ed="#C" n="7"/>⁋ Alexander Aristoteli felicitatem. haud abs te recte factum est quod 
+      <lb ed="#C" n="8"/>speculatiuas disciplinas edidisti. quae ei in re iam nos et nobiscum aliti 
+      <lb ed="#C" n="9"/>ceteris praecellemus si quibus eruditi sumus studia. ceperint esse omnibus co 
+      <lb ed="#C" n="10"/>munia Mallem ego singulari disciplina quam potentia prestare Ua 
+      <lb ed="#C" n="11"/>le. Intelligebat enivero Alexander (quamuis plures extarent philoso 
+      <lb ed="#C" n="12"/>phantium secte se vegeta solidaque imbutum phia. que sic philosopho 
+      <lb ed="#C" n="13"/>rum instrumentis. hoc est rationibus erat comunita vt quisque eam doctus 
+      <lb ed="#C" n="14"/>se vel contra Socratem nihil scientem. vel Plationem enygmata cu 
+      <lb ed="#C" n="15"/>dentem. aut Thaletem igniuomum. aut Democritum atomis cir¬ 
+      <lb ed="#C" n="16"/>cumfusum. et item omigenas philosophorum hereses fabularum inte¬ 
+      <lb ed="#C" n="17"/>gumentis aut tenebricosis philosophiam inuolueris inumbran¬ 
+      <lb ed="#C" n="18"/>tes vndequaque contegere et vindicare facile posset Omiquidem sicut om 
+      <lb ed="#C" n="19"/>nis planetarum virtus (vtastruunt Mathematici) vno sole continet 
+      <lb ed="#C" n="20"/>sic omne verum philosophicum non affectatis sphingos enygnatur 
+      <lb ed="#C" n="21"/>scirpis. non sinuosis fabellarum latebris. sed dissimulanter sed subtilissi 
+      <lb ed="#C" n="22"/>me solius Aristotelis philosophia concluditur. vt cuique monumenta 
+      <lb ed="#C" n="23"/>eius euoluenti praespicuum est Uidemus equidem. quanto conatu quan¬ 
+      <lb ed="#C" n="24"/>ta ve industria moralis virtutes ad heroicas. seu habitus infusos vt 
+      <lb ed="#C" n="25"/>aiunt theologi. hominem adaptantes discusserit. quibus iuxta di¬ 
+      <lb ed="#C" n="26"/>ctamen recte rationis hominibus optimam viuendi praescripsit normam 
+      <lb ed="#C" n="27"/>a qua si lex etiam vniuersaliter loquendo recedat. iam non lex est sed 
+      <lb ed="#C" n="28"/>mera quasi iniquitas Per has ei virtutes tanque per debita media scala 
+      <lb ed="#C" n="29"/>tim ducit hominem versus stabilem terminum felicitatis que est sum 
+      <lb ed="#C" n="30"/>mus actus summe potentie circa obiectum summum. quo adepto 
+      <lb ed="#C" n="31"/>quietatur omnis vis appetitiua quoties homo summo bono per¬ 
+      <lb ed="#C" n="32"/>frui affectat huic et hice supponit physicen. quoniam physicus cog¬ 
+      <lb ed="#C" n="33"/>noscens se quattuor principiis contrariis esse conflatum. vt necesse 
+      <lb ed="#C" n="34"/>sit ipsum compositum ex elementorum defatigatione in sua resolui 
+      <lb ed="#C" n="35"/>componentia et quandoque interiturum. erit fortior Nec mortem 
+      <lb ed="#C" n="36"/>tantopere timebit cum omnino se sciat moriturum Erit magna¬ 
+      <lb ed="#C" n="37"/>nimus. liberalis. cum sciat se tandem diuitias relicturum. et nihil in 
+      <lb ed="#C" n="38"/>hac terra habiturum preter famam nominis sempiternam si virtu 
+      <lb ed="#C" n="39"/>ti operam dedit et iusticiam excoluit. hec item naturalis scientia 
+      <lb ed="#C" n="40"/>(quam idem phus lynceis oculis abditissima queque nature penetrando. 
+      <lb ed="#C" n="41"/>toti pene mundo incognita reserauit) hominem instituit quae pacto vnus 
+      <!--103.xml-->
+      <pb ed="#C" n="103"/>
+               <lb ed="#C" n="1"/>mundus omnibus partibus inter se congruentibus coheret et nititur Inde quae 
+      <lb ed="#C" n="2"/>que ex admirando mouentium et mobilium ordie vnum primum inuestigare mo 
+      <lb ed="#C" n="3"/>torem. a quae quia cumctis emanat esse et viuereterno a nobis sacrificio est studi 
+      <lb ed="#C" n="4"/>ose colendus Istis aneposuit vniversalem methodum a grecis logicen appella 
+      <lb ed="#C" n="5"/>tam. quae discendi ardorem prouocans insatiabilem. intellectum acuit. vera segre 
+      <lb ed="#C" n="6"/>gat a falsis. sola recto lumine contemplationis scire facit. et ratiocinando 
+      <lb ed="#C" n="7"/>rerum causas concludere docet. quam solus Aristot. ad formam disciplinamque 
+      <lb ed="#C" n="8"/>primus redegit. Cum vero tantus nature scrutator adnitens de omni phia 
+      <lb ed="#C" n="9"/>bene mereri opora sua bonorum exhortatione in aliorum manus migrare per 
+      <lb ed="#C" n="10"/>misisset Protinus inuidie nigro squalentia tabo. Tecta petunt. et virulem 
+      <lb ed="#C" n="11"/>to inuidorum liuore. scilicet quod de dis male sentiret. eo quod vnum deum qui entium 
+      <lb ed="#C" n="12"/>vniuersitati vt autor et custos sempiterne vigilie preesset ratione docere 
+      <lb ed="#C" n="13"/>tentaret. apud magistratum Atheniensem dolole quidem et furtim defert O 
+      <lb ed="#C" n="14"/>labores homnim quam incerti. vn hoc illustris emensor nature intellectuali lu¬ 
+      <lb ed="#C" n="15"/>mine tam praecellenter a deo dotatus se bene meritum ire sperabat Ine vt crimi 
+      <lb ed="#C" n="16"/>nosus a Triticis inculpatur At Senatus aduertens Aristotelem quum 
+      <lb ed="#C" n="17"/>morum integritate potentissimis constipatum amicis. tum doctrina sufful 
+      <lb ed="#C" n="18"/>tum exuberatissima Identidem propter quod Socrates toxicatus interunt de 
+      <lb ed="#C" n="19"/>Aristotele et metu et scandali obortione. quam timebat euenturam. pa¬ 
+      <lb ed="#C" n="20"/>nefactus. saniori consilio vsus. se scire dissimulat. Quod pespendentes hi 
+      <lb ed="#C" n="21"/>obtrectatores amplius exagitati diuertunt linguas suas modo ad contu 
+      <lb ed="#C" n="22"/>meliam et infamiam modo ad nugamenta et efficta mendacia quamodocumque 
+      <lb ed="#C" n="23"/>poterant in tam insignem virum exacuere. vt saltem opprobrio et conuitus 
+      <lb ed="#C" n="24"/>in eum euomerent quod etelosa mens et felle grauata maligno conceptasset. 
+      <lb ed="#C" n="25"/>Aristoteles ex aduerso non modo vel inuectiuis vel maledictis (vt quidam 
+      <lb ed="#C" n="26"/>assolent) minime repugnat. Uerum in omnim bonorum supreffluente remu¬ 
+      <lb ed="#C" n="27"/>neratore confidens hec omnia. vt fortis phus (quem nec metus exani 
+      <lb ed="#C" n="28"/>mat. nec dolor corrumpit neque ira inflammat sed inter densissimas spi 
+      <lb ed="#C" n="29"/>nas speciosos legit flores) mansuete perferebat Spem vultum simulans 
+      <lb ed="#C" n="30"/>primit altum corde dolorem Nouissime vero cum sua mansuetudine nihil 
+      <lb ed="#C" n="31"/>proficeret. post aliquot annos tante cedens inuidie contumelieque in regio 
+      <lb ed="#C" n="32"/>nem secessit huboicam. que confinis est Attice. vbi comitantibus eum Au¬ 
+      <lb ed="#C" n="33"/>ditoribus suis in vrbe Chalchide que metropolis erat Euboic Peri 
+      <lb ed="#C" n="34"/>patum instaurans reliquum vite in optimo mentis. vigore gloriose 
+      <lb ed="#C" n="35"/>transegit In ouo exilio rerum naturam contemplatione transcendens stupen 
+      <lb ed="#C" n="36"/>dum opus Metaphysicen e que phorum dicitur theologia Isque ad  
+      <lb ed="#C" n="37"/>duodecim libros absoluit. et proficiscens a sciendi desiderio (quod omni¬ 
+      <lb ed="#C" n="38"/>bus ingenitum demonstrat per species vniuersi ordinis (quas in intelle 
+      <lb ed="#C" n="39"/>etu possibili diutino temporis studio sigillati congesserat et in modum argu 
+      <lb ed="#C" n="40"/>mentose apis collocauerat) mentem eousque attollebat vt noticiam substan 
+      <lb ed="#C" n="41"/>tiarum contingeret superce estium. et exinde totius mundi primi principis a quo 
+      <!--104.xml-->
+      <pb ed="#C" n="104"/>
+               <lb ed="#C" n="1"/>celum et vniuersa natura dependet. simplicissimam vnitatem. quo cognito se 
+      <lb ed="#C" n="2"/>toto mentis amore in eum conuertens non multo post tempore felici morte quiescit 
+      <lb ed="#C" n="3"/>Auno a natiuitate sum sexagesimo tertio qui climactaricus ab astrolo¬ 
+      <lb ed="#C" n="4"/>gis nominatur constans ex septenario numero atque binario septies in se re 
+      <lb ed="#C" n="5"/>plicatis. quem Chaldei primo inuenientes putabat homini multum natu¬ 
+      <lb ed="#C" n="6"/>rali ob occulti quampiam fati latentiam periculosum esse Defuncto qui 
+      <lb ed="#C" n="7"/>dem Aristotele et multorum inuidia edaci tempore (vt fit) paululum foret attri 
+      <lb ed="#C" n="8"/>ta. tanta eius philosophia paucis labentibus annis cepit autoritate complecti quod 
+      <lb ed="#C" n="9"/>Athenienses ex ea sufficienter persuasi in honorem vnius dei (quem ignotum ap¬ 
+      <lb ed="#C" n="10"/>pellitabant) statuam publice erigerent. quam dum armarium legis et euangelica 
+      <lb ed="#C" n="11"/>tuba paulus christi apostolus coram gentibus nomen dei portatu 
+      <lb ed="#C" n="12"/>rus Athenis offenderet. illum esse pro salute humani generis natum 
+      <lb ed="#C" n="13"/>et diebus suis crucifixum et a se quoque scitum illi populo gentili salu 
+      <lb ed="#C" n="14"/>briter exponebat ⁋ Est preterea in dubium a non nullis quandoque 
+      <lb ed="#C" n="15"/>reuocatum. An Aristoteles de facto fuerit in statu salutis vel dam 
+      <lb ed="#C" n="16"/>nationis eterne Respondent peritiores. non esse possibile a quoquam vi 
+      <lb ed="#C" n="17"/>uente sciri indubitatim hominem vel damnatum iri vel saluari debere nisi 
+      <lb ed="#C" n="18"/>probata dei reuelatio interueniat Uerumtamen hoc omnibus constat. 
+      <lb ed="#C" n="19"/>Aristotelem multo tempore legis euangelice precessisse promulgationnem 
+      <lb ed="#C" n="20"/>et sub nature lumine coniuxisse Insuper a nullo sane mentis doctore ne 
+      <lb ed="#C" n="21"/>gatur quin extra mosaicam legem plerique in statum fuerint salutis. sicuti 
+      <lb ed="#C" n="22"/>patet de Iob et amicis eius. et Saba. tertio Regum decimo. et Naa 
+      <lb ed="#C" n="23"/>man syro quarto Regum quinto. et item Cyro personarum Rege Esaie 
+      <lb ed="#C" n="24"/>xlv. et Dario hesdre sexto. et de multis aliis qui omnes vt tenet Pos 
+      <lb ed="#C" n="25"/>tillator et ceteri interpretes veteris instrumenti ob cultum vnius dei 
+      <lb ed="#C" n="26"/>extra iudaismum in statum fuerunt salutis Lex quippe iudaica deitus 
+      <lb ed="#C" n="27"/>data solum Iudeos terram promissionis incolentes obligabat. quia 
+      <lb ed="#C" n="28"/>vt canit Psalmista psalmos. cxlvii. deus non fecit tanliter omni nationi. et Amos 
+      <lb ed="#C" n="29"/>tertio Tantummodo vos cognoui. addit glosa. dando vobis legem 
+      <lb ed="#C" n="30"/>Quod autem Aristoteles poterat sub lege nature salutem eterne bea¬ 
+      <lb ed="#C" n="31"/>titudinis consequi. non videtur probatu difficile. si modo aduerta 
+      <lb ed="#C" n="32"/>mus deum pro omni tempore sufficienter generi humano de illo quod 
+      <lb ed="#C" n="33"/>ei maxime necessarium erat. immo propter quod homo in hoc erum 
+      <lb ed="#C" n="34"/>noso munndo nascatur prouidisse. quod si quisquam negare praesummeret haut pro¬ 
+      <lb ed="#C" n="35"/>cul ab heresi ab esse crederetur. siquidem scriptum est Sapientie primo. Sa 
+      <lb ed="#C" n="36"/>nabiles fecit deus nationes orbis terrarum Et Paulus vas electionis 
+      <lb ed="#C" n="37"/>Timothei secundo clamnant Deus vult omnes homines saluos fieri 
+      <lb ed="#C" n="38"/>et ad cognitionem veritatis. id est dici peruenire Insuper nec negatur quod mi 
+      <lb ed="#C" n="39"/>sericors deus facienti quod in se est (vt puta vnum recognoscere deum 
+      <lb ed="#C" n="40"/>et ipsum remuneratorem omnium sperare) vnquam denegabit eternam retri¬ 
+      <lb ed="#C" n="41"/>butionem Hic vero philosophus vitam suam a teneris vnguiculis. ad supremum 
+      <lb ed="#C" n="42"/>vsque diem pro ea re. et cognitione veri et boni electione flagrans ineffabili stu 
+      <!--105.xml-->
+      <pb ed="#C" n="105"/>
+               <lb ed="#C" n="1"/>dio consumpsit. Taceo opprobria que pro vnius dei cultum accepit. taces 
+      <lb ed="#C" n="2"/>exilium quod pro eodentam fortiter prtulit. taceo frequentes elehemosynas vs¬ 
+      <lb ed="#C" n="3"/>que ad sui iopiam indigentibus erogatas: taceo item tot gentes tot vrbes quais 
+      <lb ed="#C" n="4"/>vel ab excidio sua sapientia praeseruauit vel disiectas et prostratas autori 
+      <lb ed="#C" n="5"/>bus reconciliauit atque restituit. quae protestationes btintudinis eterne quam 
+      <lb ed="#C" n="6"/>expectabat de eo dant locupletissimas. Nec obstat si quippiam sub lege 
+      <lb ed="#C" n="7"/>scripserit nature quod fides non habet orthodoxa. mundi ppetuitatem vo 
+      <lb ed="#C" n="8"/>lo. quia mundum esse creatum nec ab Aristote. nec a quaequam viuete naturalilpo 
+      <lb ed="#C" n="9"/>test indagari ratione. immo principiis refragatur prohie. eo quod illis non contineatur 
+      <lb ed="#C" n="10"/>quire non erit circa id vels huiusmodi quaecque merito culpandus Sentes siqui 
+      <lb ed="#C" n="11"/>dem (vt vas electionis pautus ad Romanos capite secundo testis est )non 
+      <lb ed="#C" n="12"/>habentes legen naturaliter ea quae sunt legen faciunt. sic Arisio. cui Moseos 
+      <lb ed="#C" n="13"/>codex datus non est ipse sibi erat lex ondens opus leguen quam in corde suo 
+      <lb ed="#C" n="14"/>scriptam habebat testimonium illi reddente conscientia sua. et illud videtur com 
+      <lb ed="#C" n="15"/>forme oraeulo euangelico Ioannis x v. exarato. dicente Thristo Si non 
+      <lb ed="#C" n="16"/>venissem et loquutus fuissem eise scilicet mysteria deius peccatum non haberent 
+      <lb ed="#C" n="17"/>Als iustam videntur excusationem posse ptendere Sic pplures sctint doctores 
+      <lb ed="#C" n="18"/>in primitiua eccieia et citra. mlta senserunt quae posteri magen illuminati pe 
+      <lb ed="#C" n="19"/>nitus renuunt danant atque reiuiciunt. quae in medium afferre non erat hoc locuos ⁋ Po 
+      <lb ed="#C" n="20"/>stremo emergunt aliquo dubia circa Arist. phie traditionem stricti absoluem 
+      <lb ed="#C" n="21"/>da. Et vt a primis initium repetamus. solet quibusdam magen lurida bile quam 
+      <lb ed="#C" n="22"/>necessario lacessitis stomachum mouere quaere hoc phus Platoniccuius Se 
+      <lb ed="#C" n="23"/>cte quandoque auditor extitit) sua phia fuerit ausus contrarie. Uerum ne res 
+      <lb ed="#C" n="24"/>vana et profecto stulta futili argumentatione efficiatur ambigua. paucis id  
+      <lb ed="#C" n="25"/>dilui potest si solum intellexerimus studium phicum ad hoc non esse institutum vt succes 
+      <lb ed="#C" n="26"/>sores maiorum suorum errata defendant at sequantur. siquidem naturale est bono 
+      <lb ed="#C" n="27"/>ad alterius peccatu icitari. sed ad disquirendum quod in rerum natura se habeat 
+      <lb ed="#C" n="28"/>vitas. immo teste venerabili Beda in homiliis Utilius scandalum nasci per 
+      <lb ed="#C" n="29"/>mittitur quam vritas relinquitur. Aristoteles reuera perspiciens credulum Plato 
+      <lb ed="#C" n="30"/>nem in multum aberrare non Platoni infensus erat. siquidem amicus docrates. 
+      <lb ed="#C" n="31"/>amicus plato. maxia libet amica veritas. sed errores proscribebat. verum super 
+      <lb ed="#C" n="32"/>duxit quod vt cultu maneret iugiter viuido firmis ratioibus fideliter fulci 
+      <lb ed="#C" n="33"/>uit. per quod architectus ille phie tantum christianis praestitit theologem bonum. quain 
+      <lb ed="#C" n="34"/>tum impraesentiarum effari nequimus fatenter ipimet theologi quod eatenus homo the 
+      <lb ed="#C" n="35"/>ologirabit. quaetenus ante phatus sit. Nec id studium theologis dumtaxat. sed 
+      <lb ed="#C" n="36"/>omnibus ad bonas artes properantibus summopre phibetur necarium. Quod se 
+      <lb ed="#C" n="37"/>des aplurica et sctint pres maturo attendentes consilio. statuerunt publico de 
+      <lb ed="#C" n="38"/>creto Aristotelis libros patentibus gymnasis debere a doctem profiteri. vt 
+      <lb ed="#C" n="39"/>vitas phica in ancillam et obsequium theologie sumeretur gratuite. quod quamdili 
+      <lb ed="#C" n="40"/>gentissime demonstrarunt et Alber. et Tho. et dcotus et reliqui id genus scptores 
+      <lb ed="#C" n="41"/>totus pene mundus iam oli nouit Nolo hoc explicareslet causa eo maxie iuuetur quam 
+      <lb ed="#C" n="42"/>frequentissime idipsum factitatum sit a nreis doctoribus quando Thomam Aqui¬ 
+      <!--106.xml-->
+      <pb ed="#C" n="106"/>
+               <lb ed="#C" n="1"/>natem a positionibus magri sui venerabilis Alberti quies tantum salua fide complec 
+      <lb ed="#C" n="2"/>ti potuisset immo in hodiernam vsque diem in scholis a doctissimis professas)  
+      <lb ed="#C" n="3"/>videmus ad alias opiones defecisse Quod itidem de Ioanne dcoto con Car 
+      <lb ed="#C" n="4"/>tonem suum praeceptorem liquido pareSuperioribus etm seculi hilarium hieronpa 
+      <lb ed="#C" n="5"/>rursus hieronymum Augustinus etc. absque simulatione redarguit. me 
+      <lb ed="#C" n="6"/>lius existimantes ab oprtio amico quam scam dissentire vitate Alterum quod in 
+      <lb ed="#C" n="7"/>quistionem a non nullis vertitur est Propter quid Aristoteles phiam suam tam 
+      <lb ed="#C" n="8"/>duro sub stylo transmisit ad posteros. Ad quod due assignantur rationes 
+      <lb ed="#C" n="9"/>Prior. Ne Antiqui ccotra quis Aristote. ingenum acumine. phatus est acer¬ 
+      <lb ed="#C" n="10"/>rimo)quaerele sumerent occasionem se plus canoris musicis aut exestuanti 
+      <lb ed="#C" n="11"/>oratione convictos quam vera et efficaci demonstratione Uidemus palam exper 
+      <lb ed="#C" n="12"/>tissimos Oratores fiumine orionis copiosissimo spumantibus ver¬ 
+      <lb ed="#C" n="13"/>bis inuicem deseuire. sicque causam suam coloribus instruere et fucare rheto 
+      <lb ed="#C" n="14"/>ricis. vt cui debeatur palma iudicatum sit vel ab eruditissimis difficil 
+      <lb ed="#C" n="15"/>limum. quis oro inter Demosthenem et Eschynem inter Ciceronem et Salu¬ 
+      <lb ed="#C" n="16"/>stium Carronem et Lelium hogium et Laurentium aliosque innumeros ta eth¬ 
+      <lb ed="#C" n="17"/>nicos quam eccliasticos horrifico inuectiuarum fulmie digladiantes non affe 
+      <lb ed="#C" n="18"/>ctatam sed iustam excutiet sententiam. adeo hercule orionis pompora et clau¬ 
+      <lb ed="#C" n="19"/>sularum mulsedine humanum soluunt animm Propter quod etiam in forociuili 
+      <lb ed="#C" n="20"/>Tesarea Iura certas sub regulas et constitutiones quibus hodie iudicatur 
+      <lb ed="#C" n="21"/>multo sudore sunt reducta Ne posthac opus foret Oratores rhetori 
+      <lb ed="#C" n="22"/>co spum afslatos per ampullosa et sesquipedalia verba tanto orionis strepitu 
+      <lb ed="#C" n="23"/>et controuersiolis vicissim stridere. quod minime viro convenit christiano 
+      <lb ed="#C" n="24"/>Nec quisquam suspicetur Aristotelem hac insigni eloquentia non granditer callu 
+      <lb ed="#C" n="25"/>isse. Est in primis sua Rhetorica tam honesta tam fiorida tam copiosa 
+      <lb ed="#C" n="26"/>orione descripta. quae adco graphice clausulis finitur interpuctisque ceditur. 
+      <lb ed="#C" n="27"/>vt in arcem putetur eloquentie stetisse Testis adest magnus Cicero ad princi 
+      <lb ed="#C" n="28"/>pium noue Rhetorices quod noster Aristoteles arti oratorie plurima ad  
+      <lb ed="#C" n="29"/>iumenta atque ornamenta subministrauit atque tribus in generibus rerum ver 
+      <lb ed="#C" n="30"/>sari rhetoris officium aperuit demonstratiuo. deliberatiuo et iudiciali Et 
+      <lb ed="#C" n="31"/>in dialogo ad hortensium sic ait Aristo. siumen oriois aureum effudit No 
+      <lb ed="#C" n="32"/>uerat is demum officium poete quo ea quae gesta sunt vere in aliquas spens 
+      <lb ed="#C" n="33"/>obliquis figurationibus cu decore aliquo conuersa honeste et iucunditer tra¬ 
+      <lb ed="#C" n="34"/>duci debeat. Quid multa. hunc sic emeritum contueor phaum A quo ceu fon 
+      <lb ed="#C" n="35"/>te penui Uatum veriftuis ora rigantur aquis Posterior ratio est Ut ne 
+      <lb ed="#C" n="36"/>que fagiciosi quique neque homines pigri. quai omnibus bonis artibus indigni 
+      <lb ed="#C" n="37"/>sunt immo quorum tabifico spiritu tam diuinum contaminatur bonum 
+      <lb ed="#C" n="38"/>hanc venerandam apprehendereunt philosophiam. que solum vir¬ 
+      <lb ed="#C" n="39"/>tutis est merces. sudoris comes. socia ieiuniorum non saturitatis. conm 
+      <lb ed="#C" n="40"/>tinentie non luxurie Istud reuera non paucos a terendis phie limi 
+      <lb ed="#C" n="41"/>nibus deterruit. quaie vel ad voluptificas elubesque fabulas vel ventosam 
+      <lb ed="#C" n="42"/>eloquentiam aut alio sese diuertentes. liuore quodam Aristoteli vel male 
+      <!--107.xml-->
+      <pb ed="#C" n="107"/>
+               <lb ed="#C" n="1"/>dicunt vel notam mendaciter inustitant hi ex illiusmodi sunt grege cuius 
+      <lb ed="#C" n="2"/>vnicum solatium est contractis rugatisque naribus doctos carpre. pueros ter 
+      <lb ed="#C" n="3"/>rere. et in angulis garrire tenebrosis At inter gloriosos prudentesque vi 
+      <lb ed="#C" n="4"/>tos clarissimorum doctissimorumque hominum vtus et scientia popularem vincit 
+      <lb ed="#C" n="5"/>infamiam et fastuoso cuique praelucet arroganti 
+    </p>
+            <p xml:id="tRi8UT-f19173-d1e795">
+               <lb ed="#C" n="6"/>⁋ Ultimo loco determinandum restat Cur Aristoteles tam disparem habe 
+      <lb ed="#C" n="7"/>at modum loquendi quod a quibusdam eius volumina transcurrentibus taxetur 
+      <lb ed="#C" n="8"/>qundoque a seipo dissidere Ad quod forte non erit multum difficile respondere 
+      <lb ed="#C" n="9"/>s mo sciuerimus quam ratione hic phus sic peripateticus princeps appellatus 
+      <lb ed="#C" n="10"/>Peripateo quidem grece apuodo latinos sonat inambulo seu deambulo In  
+      <lb ed="#C" n="11"/>peripateticuo quasi deambulans Aristotelis namque in tradenda phia con¬ 
+      <lb ed="#C" n="12"/>suetudinis erat aliorum phorum libros accurate perambulare. vt sic erratum 
+      <lb ed="#C" n="13"/>antiquirum quibus tamen gratias dicit) incompabili pene veritatis ardore 
+      <lb ed="#C" n="14"/>citra cuiusvis iniuria radicitus euulsis. veram et firmis vallatam demonstra 
+      <lb ed="#C" n="15"/>tionibus adduceret phiam. qui certe philosophandi ritus ab omnibus peripate 
+      <lb ed="#C" n="16"/>tice doctrie professoribus in huc vsque diem obseruatus est studiosissime. Non 
+      <lb ed="#C" n="17"/>adquiesco coniectantibus eum logis ambulacris spaciando semper docuisse hincque 
+      <lb ed="#C" n="18"/>peripatetici nomen sortitum esse. Proinde loquendi morem sepenumero 
+      <lb ed="#C" n="19"/>ceteris phis sernat comunem esiquidem in Topicis idem ait loquendum est 
+      <lb ed="#C" n="20"/>vt plures) quiad locuos se offerat vbi necessarium sit illum exuere et saniorem 
+      <lb ed="#C" n="21"/>inducere. quod non ab omnibus acceptum quisdam in magnos impegit errores. com 
+      <lb ed="#C" n="22"/>plusculos vero ad duomnd concitauit Aristotelem a seipso quandoque discrepa 
+      <lb ed="#C" n="23"/>re. et reuocatum ad auras phie sue in publico magistrorum consessu ipsis de 
+      <lb ed="#C" n="24"/>latrantibus nequire tutamenta prestare. quod quam temerarium quam arrogans quam de 
+      <lb ed="#C" n="25"/>nique stultum sit proclamare. haud indiscussum praeterirem. si huic disceptatium 
+      <lb ed="#C" n="26"/>cule concessa fuerit euagandi licentia. ostenderem profecto quid Philopopi effi 
+      <lb ed="#C" n="27"/>caciter possent concludere quod nusquam in phia Aristotelis qui non secius na 
+      <lb ed="#C" n="28"/>tura quam studio fuit phs ageret radices At de his quidem obiter adiectis 
+      <lb ed="#C" n="29"/>plusquam dignum sit immoratus est sermo. 
+      <!--108.xml-->
+      <pb ed="#C" n="108"/>
+               <lb ed="#C" n="1"/>Um Deus magnum fabricaret orbem 
+      <lb ed="#C" n="2"/> Et polos alto sinuaret arcu 
+      <lb ed="#C" n="3"/>Iussit eterna rutilare pulchrum 
+      <lb ed="#C" n="4"/>Lampade solem 
+      <lb ed="#C" n="5"/>Iussit et lunam dubia micantem 
+      <lb ed="#C" n="6"/>Luce sublimes agitare curruis 
+      <lb ed="#C" n="7"/>Et per obscuras aliena ferre 
+      <lb ed="#C" n="8"/>Lumina noctes. 
+      <lb ed="#C" n="9"/>Aureis celum variauit astris 
+      <lb ed="#C" n="10"/>Que per ingentes reuoluta gyros 
+      <lb ed="#C" n="11"/>fata dispensant. humilisque terre 
+      <lb ed="#C" n="12"/>Regna gubernant 
+      <lb ed="#C" n="13"/>Aeris tractus auium canoris 
+      <lb ed="#C" n="14"/>Cantibus. terras nemorum virenti 
+      <lb ed="#C" n="15"/>fronde. diuersis decorauit altum 
+      <lb ed="#C" n="16"/>Piscibus equor 
+      <lb ed="#C" n="17"/>Nunc ad argutos philomena cantus 
+      <lb ed="#C" n="18"/>Suttur aptauit. didicitque voces 
+      <lb ed="#C" n="19"/>psithacus nostras. nituit superbo 
+      <lb ed="#C" n="20"/>Tergore pauo 
+      <lb ed="#C" n="21"/>Barbaram citrum preciosus Atlas 
+      <lb ed="#C" n="22"/>Ida funebrem peperit cypressum 
+      <lb ed="#C" n="23"/>Pelion quercus Solyme tulerunt. 
+      <lb ed="#C" n="24"/>Baliama sylue 
+      <lb ed="#C" n="25"/>Et tagus fuluo nocituruis auro 
+      <lb ed="#C" n="26"/>Mlaxit. et Croesi viridem per oram 
+      <lb ed="#C" n="27"/>Tydius cursu properauit hermus 
+      <lb ed="#C" n="28"/>Inuidioso 
+      <lb ed="#C" n="29"/>Tunc per humentes pelagi meatus 
+      <lb ed="#C" n="30"/>Squammea cinctus populi caterua 
+      <lb ed="#C" n="31"/>Post suum fluctus equitauit altos 
+      <lb ed="#C" n="32"/>Prothea delphin 
+      <lb ed="#C" n="33"/>Sic Deus celi maris atque terre 
+      <lb ed="#C" n="34"/>fecit ornatum. tamen ad decorem 
+      <lb ed="#C" n="35"/>Mentis humane magis applicauit. 
+      <lb ed="#C" n="36"/>Artis acumen 
+      <lb ed="#C" n="37"/>Mens enim summo nimium parenti 
+      <lb ed="#C" n="38"/>Cnara. pro vite sapienter acte 
+      <lb ed="#C" n="39"/>Premio. mundi fuit in beatum 
+      <lb ed="#C" n="40"/>Limen itura. 
+      <!--109.xml-->
+      <pb ed="#C" n="109"/>
+               <lb ed="#C" n="1"/>Dumque ei cultum dare singularem 
+      <lb ed="#C" n="2"/>Cogitat. pulchris Areten capillis 
+      <lb ed="#C" n="3"/>Forte prospexit spaciosa solam 
+      <lb ed="#C" n="4"/>Ire per arua 
+      <lb ed="#C" n="5"/>Nanque flammantis meditans olympi 
+      <lb ed="#C" n="6"/>Lumen et cursus Arete volantes. 
+      <lb ed="#C" n="7"/>Nomen aptabat numerumquam claris 
+      <lb ed="#C" n="8"/>Addidit astris 
+      <lb ed="#C" n="9"/>Iam maris fluxum tumidosque fluctus 
+      <lb ed="#C" n="10"/>Norat. et quare tremebunda tellus 
+      <lb ed="#C" n="11"/>Nuctuet. quare aculetur aer 
+      <lb ed="#C" n="12"/>Nubilus ignes. 
+      <lb ed="#C" n="13"/>Norat et linguas hominumque mores 
+      <lb ed="#C" n="14"/>Et quibus falli solet et refelli. 
+      <lb ed="#C" n="15"/>Ueritas tecto male nota vultu 
+      <lb ed="#C" n="16"/>Norat elenchos 
+      <lb ed="#C" n="17"/>fecerat nostre documenta vite 
+      <lb ed="#C" n="18"/>Et quibus celi peteremus arcem 
+      <lb ed="#C" n="19"/>Sortis humane miserata casum 
+      <lb ed="#C" n="20"/>fecerat artes 
+      <lb ed="#C" n="21"/>Hanc Deus menti comitem ducemque 
+      <lb ed="#C" n="22"/>fecit vt casus patienter omnes 
+      <lb ed="#C" n="23"/>ferret. et nullo scelorum tumultu. 
+      <lb ed="#C" n="24"/>Deiceretur 
+      <lb ed="#C" n="25"/>Ipsa nos duros vocat in labores. 
+      <lb ed="#C" n="26"/>Nec dies nobis sinit ociosos. 
+      <lb ed="#C" n="27"/>Hoc ait nostros petiuisse celum 
+      <lb ed="#C" n="28"/>Calle parentes 
+      <lb ed="#C" n="29"/>⁋ hermani Buschi Donasteriensis 
+      <lb ed="#C" n="30"/>pse cum solus varios retracto 
+      <lb ed="#C" n="31"/>Exitus vite studiumque nostre. 
+      <lb ed="#C" n="32"/>Dispar. et curas sibi dissidentes 
+      <lb ed="#C" n="33"/>Cassaque vota. 
+      <lb ed="#C" n="34"/>Rideo partos hominum triumphos 
+      <lb ed="#C" n="35"/>Regium nomen. nitidamque rubri. 
+      <lb ed="#C" n="36"/>Littoris concham. tyrioque pictas 
+      <lb ed="#C" n="37"/>Murice vestes 
+      <lb ed="#C" n="38"/>Rideo quicquid legit Astur auri 
+      <lb ed="#C" n="39"/>Fertiles campos lybie Sabei 
+      <lb ed="#C" n="40"/>Pulueris fumos. Solymique munus 
+      <lb ed="#C" n="41"/>Balsama regni 
+      <!--110.xml-->
+      <pb ed="#C" n="110"/>
+               <lb ed="#C" n="1"/>Rideo merees alio petitas 
+      <lb ed="#C" n="2"/>Sole. rostratis cupide carinis 
+      <lb ed="#C" n="3"/>Et per ignoti sinuola vectas 
+      <lb ed="#C" n="4"/>Littora ponti 
+      <lb ed="#C" n="5"/>Rideo thermas: celebres et arcus 
+      <lb ed="#C" n="6"/>Porticus. spectacia. natationes 
+      <lb ed="#C" n="7"/>Citreos orbes. niueoque ductas 
+      <lb ed="#C" n="8"/>Marmore villas. 
+      <lb ed="#C" n="9"/>Rideo lusus. hilaresque mensas 
+      <lb ed="#C" n="10"/>Et puellarum fragilem decorem 
+      <lb ed="#C" n="11"/>Plectra. concentus. coreas. rosarum 
+      <lb ed="#C" n="12"/>Sutile textum 
+      <lb ed="#C" n="13"/>Rideo luxum habyloniorum 
+      <lb ed="#C" n="14"/>Indie regum Sybariticos. et 
+      <lb ed="#C" n="15"/>Persicos miror nihil apparatus 
+      <lb ed="#C" n="16"/>Deliciasque. 
+      <lb ed="#C" n="17"/>Rideo lauti patinas Apici 
+      <lb ed="#C" n="18"/>Prandia Antoni. simul et Uitelli 
+      <lb ed="#C" n="19"/>Prodigos mores. epulasque Martis 
+      <lb ed="#C" n="20"/>Pontificumque. 
+      <lb ed="#C" n="21"/>Mutat et carpit malefida sors hec 
+      <lb ed="#C" n="22"/>Saudia et quedam minuit senectus 
+      <lb ed="#C" n="23"/>Integer sanguis. bona forma. cedunt 
+      <lb ed="#C" n="24"/>Omnia morti 
+      <lb ed="#C" n="25"/>Sola non languet speciosa virtus 
+      <lb ed="#C" n="26"/>Omnibus gemmis. opibusque maior 
+      <lb ed="#C" n="27"/>Uiuit. et nunquam decus exolescit 
+      <lb ed="#C" n="28"/>Artis honeste. 
+      <lb ed="#C" n="29"/>⁋ Tetrastychon hap. mam. de formoso et studioso 
+      <lb ed="#C" n="30"/>Iuncta venustati probitas iuuenilis in aurc 
+      <lb ed="#C" n="31"/>Candida purpureis lilia mixta rosis 
+      <lb ed="#C" n="32"/>Additus in calatho violis amaranthus eburns 
+      <lb ed="#C" n="33"/>Et cum purpureo medica mala croco. 
+      <lb ed="#C" n="34"/>⁋ Et tantum de Aristotelis et aliorum quorundam Phorum autoritatibus 
+      <lb ed="#C" n="35"/>cum aliis plerisque in hoc opusculo contentis Impressum est in pubr¬ 
+      <lb ed="#C" n="36"/>lica Calchographia Liberorum bone memorie henrici Quentel. 
+      <lb ed="#C" n="37"/>Anno redemptionis septimo supra Millesimum quingentesimum. 
+      <lb ed="#C" n="38"/>in profesto Laurentui martyris. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>De pomo et morte</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>De pomo et morte</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f13922"><!-- alias="dePomoEtMorte" -->
+            <head xml:id="tRi8UT-f13922-Hd1e107">De pomo et morte</head>
+            <p xml:id="tRi8UT-f13922-d1e110">
+               <lb ed="#C" n="8"/>⁋ Sequuntur autori. libro de pomo et morte. 
+    </p>
+            <p xml:id="tRi8UT-f13922-d1e115">
+               <lb ed="#C" n="9"/>Epius mihi phia visa est res diuina. quia per eam in dei atque na 
+      <lb ed="#C" n="10"/>ture cognitionem ascendimus. 
+    </p>
+            <p xml:id="tRi8UT-f13922-d1e122">
+               <lb ed="#C" n="11"/>Mors nihil est nisi recessus anime a corpore 
+    </p>
+            <p xml:id="tRi8UT-f13922-d1e127">
+               <lb ed="#C" n="12"/>Sapiens debet letari de morte sua et non dolere. eo quod quandoque 
+      <lb ed="#C" n="13"/>corporis passionibus liberabitur et immortali vita fruetur 
+    </p>
+            <p xml:id="tRi8UT-f13922-d1e135">
+               <lb ed="#C" n="14"/>Philosophia docet hominem cognoscere et se et suum creatorem 
+    </p>
+            <p xml:id="tRi8UT-f13922-d1e140">
+               <lb ed="#C" n="15"/>Docentes alios. mentiri non debent. 
+    </p>
+            <p xml:id="tRi8UT-f13922-d1e145">
+               <lb ed="#C" n="16"/>Togica est similis scorpioni in tyriaca quae licet de se sit venenum. tantm in ty 
+      <lb ed="#C" n="17"/>riaca existens remedium prestat dolorem patienti. 
+    </p>
+            <p xml:id="tRi8UT-f13922-d1e152">
+               <lb ed="#C" n="18"/>Beata est anima quae non fuit infecta prauis operationibus huius mundi 
+    </p>
+            <p xml:id="tRi8UT-f13922-d1e157">
+               <lb ed="#C" n="19"/>Homo moriens debet confidere in creatore suo 
+    </p>
+            <p xml:id="tRi8UT-f13922-d1e162">
+               <lb ed="#C" n="20"/>Ue animae peccatrici. quae non habet posse redeundi ad locum suum vne exiuit. quaea 
+      <lb ed="#C" n="21"/>turpia opora delectationes carnales impediunt eius ascensum sursum. Ex hac 
+      <lb ed="#C" n="22"/>sententia Aristo. habtur eum firmiter credidisse animam rationalem aliam esse habitu 
+      <lb ed="#C" n="23"/>ram vitam. Et quamquam ratione id non demonstrauerit. eo factum est. quia secundum Scotum 
+      <lb ed="#C" n="24"/>in quaerto sententiarum solum probabiliter prarsuaderi potest. et non demonstrari. Minc de 
+      <lb ed="#C" n="25"/>Aristotele dicitur quod vebi intellectus Aristotelis defecit ibi affectus eius ascendit. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

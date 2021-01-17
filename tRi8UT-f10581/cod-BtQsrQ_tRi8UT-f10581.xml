@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 3</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 3</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f10581"><!-- alias="ethics-l3" -->
+            <head xml:id="tRi8UT-f10581-Hd1e107">Liber 3</head>
+            <p xml:id="tRi8UT-f10581-d1e110">
+               <lb ed="#C" n="21"/>⁋ Sequuntur autoritates. iii libro ethico. Aristo. 
+    </p>
+            <p xml:id="tRi8UT-f10581-d1e115">
+               <lb ed="#C" n="22"/>VIolentum est cuius principium est extra non conferente vim passo. 
+    </p>
+            <p xml:id="tRi8UT-f10581-d1e120">
+               <lb ed="#C" n="23"/>Melius est mori quam facere contra bonum virtutis Ex quo dicto 
+      <lb ed="#C" n="24"/>facile perpenditur quam honestissime vite fuerit Aristoteles 
+    </p>
+            <p xml:id="tRi8UT-f10581-d1e127">
+               <lb ed="#C" n="25"/>Mtile est legistatoribus de his considerare vt statuant honores 
+      <lb ed="#C" n="26"/>bene agentibus et penas peccantibus 
+    </p>
+            <p xml:id="tRi8UT-f10581-d1e135">
+               <lb ed="#C" n="27"/>Ignorantia exculat peccatum. 
+    </p>
+            <p xml:id="tRi8UT-f10581-d1e140">
+               <lb ed="#C" n="28"/>Consilium non est de fine. sed de his que sunt ad finem 
+    </p>
+            <p xml:id="tRi8UT-f10581-d1e145">
+               <lb ed="#C" n="29"/>Quod primum est in intentione debet esse vltimum in executione 
+    </p>
+            <p xml:id="tRi8UT-f10581-d1e150">
+               <lb ed="#C" n="30"/>Homo est principium suarum operationum. Et ergo nequaquam fato regitur. 
+    </p>
+            <p xml:id="tRi8UT-f10581-d1e155">
+               <lb ed="#C" n="31"/>Bonum voluntarium est quod simpliciter est bonum 
+    </p>
+            <p xml:id="tRi8UT-f10581-d1e160">
+               <lb ed="#C" n="32"/>Bonus singula recte iudicat Mullus bonus est vel beatus nisi volens. 
+    </p>
+            <p xml:id="tRi8UT-f10581-d1e166">
+               <lb ed="#C" n="33"/>Nos sumus domini operationum nostrarum a principio vsque ad finem 
+    </p>
+            <p xml:id="tRi8UT-f10581-d1e171">
+               <lb ed="#C" n="34"/>Qualis vnusquisque est talis videtur sibi esse finis. 
+    </p>
+            <p xml:id="tRi8UT-f10581-d1e176">
+               <lb ed="#C" n="35"/>Terribilissimum omnium terribilium est mors. 
+    </p>
+            <p xml:id="tRi8UT-f10581-d1e181">
+               <lb ed="#C" n="36"/>Fortitudo est aggressio terribilium vbi mors imminet propter bonum saluan¬ 
+      <lb ed="#C" n="37"/>(dum 
+    </p>
+            <p xml:id="tRi8UT-f10581-d1e188">
+               <lb ed="#C" n="38"/>Milites primo fugiunt. ciues vero permanentes sunt et moriuntur. 
+    </p>
+            <p xml:id="tRi8UT-f10581-d1e193">
+               <lb ed="#C" n="39"/>In repentinis cognoscitur habitus 
+    </p>
+            <p xml:id="tRi8UT-f10581-d1e199">
+               <lb ed="#C" n="40"/>Desiderium pueri oportet esse secundum preceptum doctoris. 
+    </p>
+            <p xml:id="tRi8UT-f10581-d1e204">
+               <lb ed="#C" n="41"/>In naturalibus desideriis pauci peccant 
+    </p>
+            <p xml:id="tRi8UT-f10581-d1e209">
+               <lb ed="#C" n="42"/>⁋ Schotus
+    </p>
+            <p xml:id="tRi8UT-f10581-d1e214">
+      A voluntate prima est ratio bonitatis moralis
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

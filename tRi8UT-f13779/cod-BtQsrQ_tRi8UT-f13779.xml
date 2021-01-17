@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>De regimine principum</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>De regimine principum</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="70"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f13779"><!-- alias="DeRegiminePrincipum" -->
+            <head xml:id="tRi8UT-f13779-Hd1e107">De regimine principum</head>
+            <p xml:id="tRi8UT-f13779-d1e110">
+               <lb ed="#C" n="23"/>⁋ De regimine principum Aristo. eruditio 
+    </p>
+            <p xml:id="tRi8UT-f13779-d1e115">
+               <lb ed="#C" n="24"/>Eo nihil est difficile. et sine eo nihil est possibile possideri. 
+    </p>
+            <p xml:id="tRi8UT-f13779-d1e120">
+               <lb ed="#C" n="25"/> Quicquid datur indigno perditur 
+      <lb ed="#C" n="26"/>dumma bonitas est in rege abstinere a pecuniis et possessionibus spditorum 
+    </p>
+            <p xml:id="tRi8UT-f13779-d1e127">
+               <lb ed="#C" n="27"/>Cunc solent homines timere regem quando vident eum timere deum 
+      <lb ed="#C" n="28"/>dumma sapientia est in rege seipsum regere. honorificum est regi a mul 
+      <lb ed="#C" n="29"/>tiloquio se abstinere. quia verba sapientis statera poderabuntur 
+    </p>
+            <p xml:id="tRi8UT-f13779-d1e137">
+               <lb ed="#C" n="30"/>Nimia familiaritas cotemptu parit 
+    </p>
+            <p xml:id="tRi8UT-f13779-d1e142">
+               <lb ed="#C" n="31"/>Noli appetere quod transitorium est. sed procura tibi diuitias immortales. 
+    </p>
+            <p xml:id="tRi8UT-f13779-d1e147">
+               <lb ed="#C" n="32"/>Dirige semper cogitationes in bonum 
+    </p>
+            <p xml:id="tRi8UT-f13779-d1e152">
+               <lb ed="#C" n="33"/>Noli te inclinare ad coitum mulieris. quia coitus est quidam propetas porcorum. 
+    </p>
+            <p xml:id="tRi8UT-f13779-d1e157">
+               <lb ed="#C" n="34"/>Que gloria tibi est si exerces vicium irronabilium animalium et actus brutorum. 
+    </p>
+            <p xml:id="tRi8UT-f13779-d1e162">
+               <lb ed="#C" n="35"/>Ex istis concluditur Aristo. fuisse hominem castissime vite. quamquam Diogenes 
+    </p>
+            <p xml:id="tRi8UT-f13779-d1e168">
+               <lb ed="#C" n="36"/>Laertius nequiter ab emulis Aristotelis informatus eum nigro stigmate 
+      <lb ed="#C" n="37"/>inurere conatus sit. At in illustres viros nil mala lingua potest 
+    </p>
+            <p xml:id="tRi8UT-f13779-d1e175">
+               <lb ed="#C" n="38"/>Coitus est destructio corporis et abbreuiatio vite 
+    </p>
+            <p xml:id="tRi8UT-f13779-d1e180">
+               <lb ed="#C" n="39"/>Caue effundere sanguinem humanum 
+    </p>
+            <p xml:id="tRi8UT-f13779-d1e185">
+               <lb ed="#C" n="40"/>Facta circa praeterita documeta daunt in futuris. 
+    </p>
+            <p xml:id="tRi8UT-f13779-d1e190">
+               <lb ed="#C" n="41"/>Minorem ne contempseris. quia minor ascendere potest ad honores et tunc potem 
+      <lb ed="#C" n="42"/>(tior erit ad nocendum 
+    </p>
+            <p xml:id="tRi8UT-f13779-d1e197">
+               <lb ed="#C" n="43"/>Deus glori osus nihil facit ociosum Sine vacuo est natura 
+    </p>
+            <p xml:id="tRi8UT-f13779-d1e203">
+               <lb ed="#C" n="44"/>Ad potentiam intellectus nihil est difficile. Cuncta sunt scibilia via rationis 
+      <lb ed="#C" n="45"/>futura si presciantur facilius tolerantur et prudentius declinantur. 
+    </p>
+            <p xml:id="tRi8UT-f13779-d1e210">
+      <!--71.xml-->
+               <pb ed="#C" n="71"/>
+               <lb ed="#C" n="1"/>Conseruatis sanitatis melior est omni medicina 
+    </p>
+            <p xml:id="tRi8UT-f13779-d1e219">
+               <lb ed="#C" n="2"/>Necessitas non habet legem. quia contraria esset rationi 
+    </p>
+            <p xml:id="tRi8UT-f13779-d1e224">
+               <lb ed="#C" n="3"/>Mutatio consuetudinis non est subita sed successiua 
+    </p>
+            <p xml:id="tRi8UT-f13779-d1e229">
+               <lb ed="#C" n="4"/>Interiora a superioribus reguntur. 
+    </p>
+            <p xml:id="tRi8UT-f13779-d1e234">
+               <lb ed="#C" n="5"/>Iusticia regnantis vtilior est subditis quam fertilitas temporis 
+    </p>
+            <p xml:id="tRi8UT-f13779-d1e240">
+               <lb ed="#C" n="6"/>Consilium est oculus futurorum 
+    </p>
+            <p xml:id="tRi8UT-f13779-d1e245">
+               <lb ed="#C" n="7"/>Nobilissimum animalium est homo. quia nexus dei et mundi. et participium omnis creature 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

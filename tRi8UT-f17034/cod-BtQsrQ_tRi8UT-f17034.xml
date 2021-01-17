@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 2</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 2</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f17034"><!-- alias="priorAn-l2" -->
+            <head xml:id="tRi8UT-f17034-Hd1e107">Liber 2</head>
+            <p xml:id="tRi8UT-f17034-d1e110">
+               <lb ed="#C" n="19"/>⁋ Sequuntur autori. secundi libri priorum Aristote. 
+      <lb ed="#C" n="20"/>  falso bene sequitur verum occasionaliter. licet numquam formalitur. sed ex vero 
+    </p>
+            <p xml:id="tRi8UT-f17034-d1e117">
+               <lb ed="#C" n="21"/>Tnumquam sequitur falium. sed emper verum Unde Ex falso verum. ex vo nil nisi verum 
+    </p>
+            <p xml:id="tRi8UT-f17034-d1e122">
+               <lb ed="#C" n="22"/>Petere quod est in principis est quando demonstratur propositum quod fit quattuor 
+      <lb ed="#C" n="23"/>modis. Primo modo quando demonstratur omnino propositum. Scuodo quando de 
+      <lb ed="#C" n="24"/>monstratur per ignotiora. Tertio quando demonstratur per ea que aliqualiter sunt 
+      <lb ed="#C" n="25"/>ignota. Quarto quando prius demonstratur per posterius 
+    </p>
+            <p xml:id="tRi8UT-f17034-d1e133">
+               <lb ed="#C" n="26"/>Si conclusio est falsa oportet aliquam premissarum esse falsam. 
+    </p>
+            <p xml:id="tRi8UT-f17034-d1e139">
+               <lb ed="#C" n="27"/>Quando extrema convertuntur necesse est medium conuerti. 
+    </p>
+            <p xml:id="tRi8UT-f17034-d1e144">
+               <lb ed="#C" n="28"/>Magis eligendum est velle bene agere quam agere. vnim magis eligenda est vo¬ 
+      <lb ed="#C" n="29"/>luntas sine actione quam actio bona sine voluntate. quod est catholicum dictum 
+    </p>
+            <p xml:id="tRi8UT-f17034-d1e151">
+               <lb ed="#C" n="30"/>Instatia est propositio propositioni cotraria 
+    </p>
+            <p xml:id="tRi8UT-f17034-d1e156">
+               <lb ed="#C" n="31"/>Enthimema constant ex incotibus et signis. vn icos est probabilis propositio. 
+    </p>
+            <p xml:id="tRi8UT-f17034-d1e161">
+               <lb ed="#C" n="32"/>Probabile est quod scitur esse verum vt in pluribus vn icos est propositio quae 
+      <lb ed="#C" n="33"/>scitur esse vera vt in pluribus vt odire odientes. et amare amates. 
+    </p>
+            <p xml:id="tRi8UT-f17034-d1e168">
+               <lb ed="#C" n="34"/>Signum est propositio demonstratiua et necessaria et probabilis 
+    </p>
+            <p xml:id="tRi8UT-f17034-d1e174">
+               <lb ed="#C" n="35"/>Per signa corporis nobis nota syllogisamus. scilicet dispositiones cor 
+      <lb ed="#C" n="36"/>poris nobis ignotas 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

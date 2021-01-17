@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>De vita et morte</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>De vita et morte</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d17932"><!-- alias="pn-deVitaEtMorte" -->
+            <head xml:id="tRi8UT-d17932-Hd1e107">De vita et morte</head>
+            <p xml:id="tRi8UT-d17932-d1e110">
+               <lb ed="#C" n="2"/>⁋ Sequuntur auto. libro de vita et morte Aristo. 
+    </p>
+            <p xml:id="tRi8UT-d17932-d1e115">
+               <lb ed="#C" n="3"/>Ous et vita sunt comunia omnibus animalibus 
+    </p>
+            <p xml:id="tRi8UT-d17932-d1e120">
+               <lb ed="#C" n="4"/>Mors senum est sine dolore et tristicia. quia nullo dolore elis 
+      <lb ed="#C" n="5"/>po contingente moriuntur. et hocin compratione ad iuuenes quirum mors est 
+      <lb ed="#C" n="6"/>(acerba 
+    </p>
+            <p xml:id="tRi8UT-d17932-d1e129">
+               <lb ed="#C" n="7"/>Uita est mansio anime in corpore 
+    </p>
+            <p xml:id="tRi8UT-d17932-d1e135">
+               <lb ed="#C" n="8"/>Animalia respirantia sustocantur vel moriuntur in humido 
+    </p>
+            <p xml:id="tRi8UT-d17932-d1e140">
+               <lb ed="#C" n="9"/>Sanguis praius fit in corde. quia nondum distinctis venis. sed solo corde 
+      <lb ed="#C" n="10"/>generato videtur animal habere sanguinem 
+    </p>
+            <p xml:id="tRi8UT-d17932-d1e147">
+               <lb ed="#C" n="11"/>Cor semper mouetur et vene semper mouentur. quia omens vene sunt a corde 
+    </p>
+            <p xml:id="tRi8UT-d17932-d1e152">
+               <lb ed="#C" n="12"/>Aeris ingressus in pectus animalis vocatur inspiratio. exitus autem respiratio. 
+    </p>
+            <p xml:id="tRi8UT-d17932-d1e157">
+               <lb ed="#C" n="13"/>Calor cordis humidi quae est in ipso tumescere faciens et ebulire. facit pul 
+      <lb ed="#C" n="14"/>sum cordis 
+    </p>
+            <p xml:id="tRi8UT-d17932-d1e164">
+               <lb ed="#C" n="15"/>Pulmo habet se circa cor. sicut follis
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

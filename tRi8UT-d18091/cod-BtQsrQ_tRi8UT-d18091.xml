@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 1</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 1</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="40"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d18091"><!-- alias="deanimalibus-l1" -->
+            <head xml:id="tRi8UT-d18091-Hd1e107">Liber 1</head>
+            <div xml:id="tRi8UT-d18096">
+               <head xml:id="tRi8UT-d18091-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d18091-d1e115">
+                  <lb ed="#C" n="39"/>⁋ Sequuntur autori. super pri libro de animalibus 
+      </p>
+               <p xml:id="tRi8UT-d18091-d1e120">
+                  <lb ed="#C" n="40"/>Uenadmodum pluma est in auibus sic squama in piscibus 
+      </p>
+               <p xml:id="tRi8UT-d18091-d1e125">
+                  <lb ed="#C" n="41"/>Omnia animalia quae gignunt sibi similia habent oculos praeter talpam quae 
+        <lb ed="#C" n="42"/> est praeuata oculis. quod patet quia oino non videt. sed si quis abscin 
+        <lb ed="#C" n="43"/>t dit coreum quod est supra loca oculorum eius subtiliter inuenit 
+        <!--41.xml-->
+        <pb ed="#C" n="41"/>
+                  <lb ed="#C" n="1"/>loco oculorum eius. ex quo patet naturam in nullo deficere 
+      </p>
+               <p xml:id="tRi8UT-d18091-d1e141">
+                  <lb ed="#C" n="2"/>Mobilissimum et altissimum apud nos notius et magis fixum animal est homo 
+        <lb ed="#C" n="3"/>dicut omnia metalla et omnia frusta auri et argenti ad aurum mundissimum ma 
+        <lb ed="#C" n="4"/>nifestantur. ita dispoationes omnim animalium manifestantur cum ad hominem comparantur. 
+      </p>
+               <p xml:id="tRi8UT-d18091-d1e151">
+                  <lb ed="#C" n="5"/>Partes corporis in homine sunt create e posite secundum creationem ex typo 
+        <lb ed="#C" n="6"/>totius mundiaror 
+      </p>
+               <p xml:id="tRi8UT-d18091-d1e158">
+                  <lb ed="#C" n="7"/>Umbilicus est radix ventris 
+      </p>
+               <p xml:id="tRi8UT-d18091-d1e163">
+                  <lb ed="#C" n="8"/>In cerebro omino non est sanguis neque vena 
+      </p>
+               <p xml:id="tRi8UT-d18091-d1e168">
+                  <lb ed="#C" n="9"/>Non nominatur facies in aliquo animali preter quam in homine 
+      </p>
+               <p xml:id="tRi8UT-d18091-d1e173">
+                  <lb ed="#C" n="10"/>Frons paruam significat bonitatem motus 
+      </p>
+               <p xml:id="tRi8UT-d18091-d1e178">
+                  <lb ed="#C" n="11"/>Frons lata significat prauitatem discretionis 
+      </p>
+               <p xml:id="tRi8UT-d18091-d1e184">
+                  <lb ed="#C" n="12"/>Frons rotundam significat iracundiam. 
+      </p>
+               <p xml:id="tRi8UT-d18091-d1e189">
+                  <lb ed="#C" n="13"/>Omne animal habens aures habet eas mobiles praeter hominem 
+      </p>
+               <p xml:id="tRi8UT-d18091-d1e194">
+                  <lb ed="#C" n="14"/>Aures multum peminentes et magne. stoliditatem et garrulitatem sfencantur. 
+      </p>
+               <p xml:id="tRi8UT-d18091-d1e199">
+                  <lb ed="#C" n="15"/>Sternutatio secundum quod fingunt homines) est signum verificationis facti 
+        <lb ed="#C" n="16"/>autem dicti illius temporis. 
+      </p>
+               <p xml:id="tRi8UT-d18091-d1e206">
+                  <lb ed="#C" n="17"/>Nasus elephantis est magnus et fortis et vtitur eo loco manus in 
+        <lb ed="#C" n="18"/>accipiendo cibum et potum et alia quibus indiget 
+      </p>
+               <p xml:id="tRi8UT-d18091-d1e213">
+                  <lb ed="#C" n="19"/>Oos leonis collo est continuum 
+      </p>
+               <p xml:id="tRi8UT-d18091-d1e219">
+                  <lb ed="#C" n="20"/>Splen hominis est simile spleni porci. 
+      </p>
+               <p xml:id="tRi8UT-d18091-d1e224">
+                  <lb ed="#C" n="21"/>Uenter. id est stomachus hominis est similis ventri canis 
+      </p>
+               <p xml:id="tRi8UT-d18091-d1e229">
+                  <lb ed="#C" n="22"/>Extremitas virge virilis dicitur preputium. 
+        <lb ed="#C" n="23"/>ditus cordis est in medio pectoris in brutis. sed in homine declinat 
+        <lb ed="#C" n="24"/>modicum ad sinistram partem
+      </p>
+               <p xml:id="tRi8UT-d18091-d1e238">
+        <!-- unclear?? an assertion from the physics here? -->
+                  <lb ed="#C" n="25"/>⁋ Physici. In corpore humano generauit natura tot membra quot 
+        <lb ed="#C" n="26"/>dies sunt in anno
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

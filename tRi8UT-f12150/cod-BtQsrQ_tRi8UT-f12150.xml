@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 1</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 1</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="62"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f12150"><!-- alias="poli-l1" -->
+            <head xml:id="tRi8UT-f12150-Hd1e107">Liber 1</head>
+            <p xml:id="tRi8UT-f12150-d1e110">
+               <lb ed="#C" n="5"/>⁋ Sequuntur autoritates super primum librum politicorum 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e115">
+               <lb ed="#C" n="6"/>Dicitur em politicus. liber vrbane vite. hoc est qui tractat de gubernatione 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e120">
+               <lb ed="#C" n="7"/>Ciuitatis seu vrbis Als potest inscribi. Liber Aristo. de republica. 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e125">
+               <lb ed="#C" n="8"/>Omines ratione et intellectu vigentes. naturaliter aliorum do 
+      <lb ed="#C" n="9"/>mini sunt duces et rectores Et erae doins indoctus est sicut 
+      <lb ed="#C" n="10"/>asinus coronatus Et dauid. Erudimini quae iudicatis terram 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e135">
+               <lb ed="#C" n="11"/>Natura non facit nisi vnum instrumentu ad vnum opus. Et 
+      <lb ed="#C" n="12"/>hoc primo et per se. Bos pauperibus est pro seruo 
+      <lb ed="#C" n="13"/>homo naturaliter est animal politicum et ciuile Et qui inciuilis est propter natu 
+      <lb ed="#C" n="14"/>ram. et non fortunam. aut prauus est. aut melior quam homo. vt heroicus. Hoc 
+      <lb ed="#C" n="15"/>Aristoteles dicit contra platonem qui voluit Ciuitatem non natura sed neces 
+      <lb ed="#C" n="16"/>sitate constare. Cuius oppositum Aristo. magistraliter deducit 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e151">
+               <lb ed="#C" n="17"/>Nullum animal a natura habet rationem nisi homo. 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e156">
+               <lb ed="#C" n="18"/>Homini sermonem natura dedit. quia animal est commuicatiuum et sociale. 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e161">
+               <lb ed="#C" n="19"/>Pars separata a toto non remanet nisi equiuoce 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e166">
+               <lb ed="#C" n="20"/>Homo solitarius vel est deus. id est diuinam ducens vitam versal bestia id est bstialis vite. 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e171">
+               <lb ed="#C" n="21"/>Sicut oprtimum animalium est homo fruens lege sic pessimum animalium est homo a le 
+      <lb ed="#C" n="22"/>ge et iusticia recedens. vt tyrani. etc  
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e179">
+               <lb ed="#C" n="23"/>Seuissima iniusticia est habens arma. scilicet sciendi nocere 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e184">
+               <lb ed="#C" n="24"/>Sine necessariis impossibile est viuere. 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e189">
+               <lb ed="#C" n="25"/>Scruus naturaliter non est suupius sed alterius 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e194">
+               <lb ed="#C" n="26"/>Opus quod fit a melioribus semper melius est. 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e199">
+               <lb ed="#C" n="27"/>Ondecumque ex multum vnum constituitur. inter illa vnum erit regens. aliud vero rectum 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e204">
+               <lb ed="#C" n="28"/>Anima naturaliter dominatur corpori. sicut dis seruo 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e210">
+               <lb ed="#C" n="29"/>Utile est corpus regi ab anima. ab his enim duobus coniunctis homo constituitur 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e215">
+               <lb ed="#C" n="30"/>Et confitetur Aristoteles in quidam loco se a deo sortitum esse animam bonam et 
+      <lb ed="#C" n="31"/>corpus nature snbiectum dominio ipsius animae quod certe abhorrent a 
+      <lb ed="#C" n="32"/>vitio naturaliter tendit in virtutes. Qui ergo corpus habuerint in¬ 
+      <lb ed="#C" n="33"/>dispositum atque operationibus anime rebelle. hi per frequentatos actus vir 
+      <lb ed="#C" n="34"/>tutis et exercitia laudabilia id animae iperio adaptabut Ne monstrum in cor 
+      <lb ed="#C" n="35"/>pore etiam monstrum fiat in anima 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e231">
+               <lb ed="#C" n="36"/>Item vtile est omnitus animalibus regi ab homine. 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e236">
+               <lb ed="#C" n="37"/>Regens naturaliter dignius est recto. 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e241">
+               <lb ed="#C" n="38"/>Masculinum genus naturaliter est dignius feminino 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e246">
+               <lb ed="#C" n="39"/>Uirius et malicia determinant sibi senuos et siberos nobiles et igno¬ 
+      <lb ed="#C" n="40"/>(biles 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e254">
+               <lb ed="#C" n="41"/>Homines reputant dignum ex honis fieri ho¬ 
+      <!--63.xml-->
+      <pb ed="#C" n="63"/>
+               <lb ed="#C" n="1"/>num. sicut ex homine fieri hominem. 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e265">
+               <lb ed="#C" n="2"/>Dupliciter dicitur seruus. Uno modo secundum naturam. alio modo secundum legen positam 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e270">
+               <lb ed="#C" n="3"/>Non est possibile naturaliter viuere sine cybo 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e275">
+               <lb ed="#C" n="4"/>Plurimum genus homnim ex terra et fructibus domesticis viuunt. 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e280">
+               <lb ed="#C" n="5"/>Natura scilicet naturans. id est deus facit omnia animalia propter hominem. 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e285">
+               <lb ed="#C" n="6"/>Duplices sunt diuitie scilicet naturales et artificiales. naturales sunt pos 
+      <lb ed="#C" n="7"/>sessiones rerum. artificiales vero sunt possessiones pecunie 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e293">
+               <lb ed="#C" n="8"/>Desiderium diuitiarum vadit in infinitum. et cum etate crescit 
+      <lb ed="#C" n="9"/>facile est prehis ditari si volunt. quia solum ad mensura viuere debent. 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e300">
+               <lb ed="#C" n="10"/>Magis et minus diuersificant speciem 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e305">
+               <lb ed="#C" n="11"/>Consilium mulieris est inualidum. pueri vero imperfectum. 
+    </p>
+            <p xml:id="tRi8UT-f12150-d1e310">
+               <lb ed="#C" n="12"/>Silentium mulieris prestat ornatum 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

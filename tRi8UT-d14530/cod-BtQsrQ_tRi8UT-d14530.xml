@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 1</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 1</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d14530"><!-- alias="degen-l1" -->
+            <head xml:id="tRi8UT-d14530-Hd1e107">Liber 1</head>
+            <div xml:id="tRi8UT-d14535">
+               <head xml:id="tRi8UT-d14530-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d14530-d1e115">
+                  <lb ed="#C" n="7"/>Incipiunt autoritates primi libri de generatione. 
+      </p>
+               <p xml:id="tRi8UT-d14530-d1e120">
+                  <lb ed="#C" n="8"/>OMnium transmutationem habentium ad seinuicem eadem est materia 
+      </p>
+               <p xml:id="tRi8UT-d14530-d1e125">
+                  <lb ed="#C" n="9"/>Ad pauca. id es niversalia respicientes de facili enunciant 
+      </p>
+               <p xml:id="tRi8UT-d14530-d1e130">
+                  <lb ed="#C" n="10"/>Generatio est quando totum scilicet compositum ex materia et forma trans 
+        <lb ed="#C" n="11"/>mutatur in totum nullo subiecto sensibiliter remanente eodem 
+      </p>
+               <p xml:id="tRi8UT-d14530-d1e138">
+                  <lb ed="#C" n="12"/>Qualitas symbola id est similis scilicet in spem et non in nuero eadem manet in generato 
+        <lb ed="#C" n="13"/>(et corrupto. 
+      </p>
+               <p xml:id="tRi8UT-d14530-d1e145">
+                  <lb ed="#C" n="14"/>Ex nihilo nihil fit 
+      </p>
+               <p xml:id="tRi8UT-d14530-d1e150">
+                  <lb ed="#C" n="15"/>Sola terra iudice caret 
+      </p>
+               <p xml:id="tRi8UT-d14530-d1e155">
+                  <lb ed="#C" n="16"/>Passiones non sunt separabiles a subiectis 
+      </p>
+               <p xml:id="tRi8UT-d14530-d1e160">
+                  <lb ed="#C" n="17"/>Snatio vnius et corruptio alterius propter hoc generatio et corruptio sunt 
+        <lb ed="#C" n="18"/>(eterna. 
+      </p>
+               <p xml:id="tRi8UT-d14530-d1e167">
+                  <lb ed="#C" n="19"/>Quod non est cognitum non est ens 
+      </p>
+               <p xml:id="tRi8UT-d14530-d1e173">
+                  <lb ed="#C" n="20"/>Hyle id est materia prima maxime est subiectum generationis et corruptionis sus¬ 
+        <lb ed="#C" n="21"/>ceptibile. vne subiectum generationis et corruptionis est materia prima. 
+      </p>
+               <p xml:id="tRi8UT-d14530-d1e180">
+                  <lb ed="#C" n="22"/>Materia non est quantitas. sed est illud cuius terminus est quantitas 
+      </p>
+               <p xml:id="tRi8UT-d14530-d1e185">
+                  <lb ed="#C" n="23"/>Materia nunquam separatur ab aliqua forma 
+      </p>
+               <p xml:id="tRi8UT-d14530-d1e190">
+                  <lb ed="#C" n="24"/>Omne agens naturaliter in agendo repatitur. 
+      </p>
+               <p xml:id="tRi8UT-d14530-d1e195">
+                  <lb ed="#C" n="25"/>Agens et patiens sunt in principio dissimilia et in fine sunt similia. 
+        <lb ed="#C" n="26"/>similia quidem in genere. dissimilia vero in specie 
+      </p>
+               <p xml:id="tRi8UT-d14530-d1e202">
+                  <lb ed="#C" n="27"/>Agens et patiens non agunt nisi approximata. 
+        <lb ed="#C" n="28"/>finis non agit nisi metaphorice 
+      </p>
+               <p xml:id="tRi8UT-d14530-d1e210">
+                  <lb ed="#C" n="29"/>Mabitibus id est tormis exinntibus in materia cessat omnis motus et transmutatio 
+      </p>
+               <p xml:id="tRi8UT-d14530-d1e215">
+                  <lb ed="#C" n="30"/>Elementa non manent actu in mixto. sed virtute id est remisse. 
+      </p>
+               <p xml:id="tRi8UT-d14530-d1e220">
+                  <lb ed="#C" n="31"/>Mixtio est miscibilium alteratorum vnio Non corruptorum. 
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d14651">
+               <head xml:id="tRi8UT-d14530-Hd1e228">Commentator</head>
+               <p xml:id="tRi8UT-d14530-d1e231">
+                  <lb ed="#C" n="32"/>⁋ Commen.
+      </p>
+               <p xml:id="tRi8UT-d14530-d1e236">
+        Omne ens naturaliter est cognitum a nobis. et quod non est cogni¬ 
+        <lb ed="#C" n="33"/>tum a nobis non est ens naturaliter.
+      </p>
+               <p xml:id="tRi8UT-d14530-d1e241">
+        ⁋ Mon est credendum quod ille primus 
+        <lb ed="#C" n="34"/>magister. scilicet Aristo. aliquid sine forti ratione dixerit
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d14672">
+               <head xml:id="tRi8UT-d14530-Hd1e249">Albertus</head>
+               <p xml:id="tRi8UT-d14530-d1e252">
+                  <lb ed="#C" n="35"/>⁋ Albertus 
+      </p>
+               <p xml:id="tRi8UT-d14530-d1e257">
+        Quid mihi de miraculis diuinis in phia cum de rebus naturali 
+        <lb ed="#C" n="36"/>(bus loquir 
+      </p>
+               <p xml:id="tRi8UT-d14530-d1e262">
+                  <lb ed="#C" n="37"/>Compositio secunda paesupponit compositionem prima. quia co¬ 
+        <lb ed="#C" n="38"/>positio prima est secunde compositionis causa. 
+      </p>
+               <p xml:id="tRi8UT-d14530-d1e269">
+                  <lb ed="#C" n="39"/>Prima compositio est compositio ex materia et forma. sed compo¬ 
+        <lb ed="#C" n="40"/>sitio. secunda est accidentis et subiecti
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

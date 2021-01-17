@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 1</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 1</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="24"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d14911"><!-- alias="meteor-l1" -->
+            <head xml:id="tRi8UT-d14911-Hd1e107">Liber 1</head>
+            <div xml:id="tRi8UT-d14916">
+               <head xml:id="tRi8UT-d14911-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d14911-d1e115">
+                  <lb ed="#C" n="36"/>⁋ Incipiuntur autori. super primum libro meteororum
+      </p>
+               <p xml:id="tRi8UT-d14911-d1e120">
+        Et dicitur a meta. id est de et teorum 
+        <lb ed="#C" n="37"/>id est videre secundum Albertum quia est de his quae visu accipiuntur in aere genita si 
+        <lb ed="#C" n="38"/>cut sunt cometa iris halo etc. 
+      </p>
+               <p xml:id="tRi8UT-d14911-d1e127">
+                  <lb ed="#C" n="39"/>Undus constat ex quattuor elementis. 
+      </p>
+               <p xml:id="tRi8UT-d14911-d1e132">
+                  <lb ed="#C" n="40"/>Totus mundus sensibilis contiguus. id est immediatus est lationi¬ 
+        <lb ed="#C" n="41"/>bus supioribus celi sensibilis. vt inde tota eius vertus gubernetur. Motus 
+        <lb ed="#C" n="42"/>celi est prpetuus. Motus celi est primus omnium motuum inferiorum. 
+      </p>
+               <p xml:id="tRi8UT-d14911-d1e142">
+        <!--25.xml-->
+                  <pb ed="#C" n="25"/>
+                  <lb ed="#C" n="1"/>Corpora celestia motu suo generant calorem in istis inferioribus. ipsa tantum 
+        <lb ed="#C" n="2"/>non recipiunt pegrinas. id est extraneas impssiones. quia calefieri non pratenet. 
+      </p>
+               <p xml:id="tRi8UT-d14911-d1e153">
+                  <lb ed="#C" n="3"/>Aer et ignis mouentur circulariter 
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d14965">
+               <head xml:id="tRi8UT-d14911-Hd1e161">Commentator</head>
+               <p xml:id="tRi8UT-d14911-d1e164">
+                  <lb ed="#C" n="4"/>Cometa 
+      </p>
+               <p xml:id="tRi8UT-d14911-d1e169">
+        non est stella sed est quedam impressio aeris 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 2</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 2</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="23"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d14704"><!-- alias="degen-l2" -->
+            <head xml:id="tRi8UT-d14704-Hd1e107">Liber 2</head>
+            <div xml:id="tRi8UT-d14709">
+               <head xml:id="tRi8UT-d14704-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d14704-d1e115">
+                  <lb ed="#C" n="41"/>⁋ Autorita. libro secundi de generatione Aristo. 
+      </p>
+               <p xml:id="tRi8UT-d14704-d1e120">
+                  <lb ed="#C" n="42"/>Rementa actiua et passiua sunt ad inuicem cum subiecto 
+      </p>
+               <p xml:id="tRi8UT-d14704-d1e125">
+                  <lb ed="#C" n="43"/>Calidum est quod congregat homogenea inquantum homogenea id est uae sut 
+        <lb ed="#C" n="44"/>eiusdem generationis et segregat heterogenia id est quae sunt diuersi generations. 
+      </p>
+               <p xml:id="tRi8UT-d14704-d1e132">
+                  <lb ed="#C" n="45"/>Frigidum est quod congregat tam heterogenea quam homogenea 
+        <!--24.xml-->
+        <pb ed="#C" n="24"/>
+               </p>
+               <p xml:id="tRi8UT-d14704-d1e142">
+                  <lb ed="#C" n="1"/>Humidum est quod male est terminabile termino proprio. bene tamen ter 
+        <lb ed="#C" n="2"/>minabile termino alieno Siccum est quod bene est terminabile termi 
+        <lb ed="#C" n="3"/>non proprio. male autem termino alieno. 
+      </p>
+               <p xml:id="tRi8UT-d14704-d1e151">
+                  <lb ed="#C" n="4"/>Calidum et frigidum hnmidum et siccum sunt prime qualitates elementorum 
+        <lb ed="#C" n="5"/>ad quas omnes alie reducuntur. 
+      </p>
+               <p xml:id="tRi8UT-d14704-d1e158">
+                  <lb ed="#C" n="6"/>Quattuor sunt elementa scilicet terra quae est frigida et sicca. aqua quae est frigi¬ 
+        <lb ed="#C" n="7"/>da et humida. aer quo est calidus et humidus. et ignis qui est calidus et siccus 
+      </p>
+               <p xml:id="tRi8UT-d14704-d1e165">
+                  <lb ed="#C" n="8"/>In habentibus symbolum id est similitudinem facilis est trasitus. id est transmutatio 
+        <lb ed="#C" n="9"/>facilius est vnum transmutari quam multa. 
+      </p>
+               <p xml:id="tRi8UT-d14704-d1e172">
+                  <lb ed="#C" n="10"/>lamma est fumus ardens 
+      </p>
+               <p xml:id="tRi8UT-d14704-d1e177">
+                  <lb ed="#C" n="11"/>Infinita pertransire est impossibile 
+      </p>
+               <p xml:id="tRi8UT-d14704-d1e183">
+                  <lb ed="#C" n="12"/>Necesse est corpora mixta per se stare ex elementis omnibus et non ex vno tantum. 
+      </p>
+               <p xml:id="tRi8UT-d14704-d1e188">
+                  <lb ed="#C" n="13"/>Ex eisdem sumus et nutrimur 
+      </p>
+               <p xml:id="tRi8UT-d14704-d1e193">
+                  <lb ed="#C" n="14"/>Materia est causa quare aliqua possunt esse 
+      </p>
+               <p xml:id="tRi8UT-d14704-d1e198">
+                  <lb ed="#C" n="15"/>Ignis est contrarius aque et aer terre. 
+      </p>
+               <p xml:id="tRi8UT-d14704-d1e203">
+                  <lb ed="#C" n="16"/>Materie est pati. agere alicuius potentie. scilicet forme. 
+      </p>
+               <p xml:id="tRi8UT-d14704-d1e208">
+                  <lb ed="#C" n="17"/>Ignis sine superiori agente quod est caelum deterius agit quam organum artificis sit 
+      </p>
+               <p xml:id="tRi8UT-d14704-d1e214">
+                  <lb ed="#C" n="18"/>Motus solis et aliorum planetarum in obliquo circulo est (ne artifice 
+        <lb ed="#C" n="19"/>causa generationis et corruptionis rerum inferiorum 
+      </p>
+               <p xml:id="tRi8UT-d14704-d1e221">
+                  <lb ed="#C" n="20"/>Contrariorum contrarie sunt cause 
+      </p>
+               <p xml:id="tRi8UT-d14704-d1e226">
+                  <lb ed="#C" n="21"/>Idem manens idem. semper aptum natum est facere idem 
+      </p>
+               <p xml:id="tRi8UT-d14704-d1e231">
+                  <lb ed="#C" n="22"/>Generatio et corruptio sunt perpetue 
+      </p>
+               <p xml:id="tRi8UT-d14704-d1e236">
+                  <lb ed="#C" n="23"/>Adueniente sole animalia redibunt. recedente vero peribunt. 
+      </p>
+               <p xml:id="tRi8UT-d14704-d1e241">
+                  <lb ed="#C" n="24"/>Uita et tempus vniuscuiusque numerum habet et mensuratur certa peri¬ 
+        <lb ed="#C" n="25"/>odo. id est certa reuolutione et mensura 
+      </p>
+               <p xml:id="tRi8UT-d14704-d1e249">
+                  <lb ed="#C" n="26"/>Natura semper desiderat quod melius est 
+      </p>
+               <p xml:id="tRi8UT-d14704-d1e254">
+                  <lb ed="#C" n="27"/>Melius est esse quam non esse 
+      </p>
+               <p xml:id="tRi8UT-d14704-d1e259">
+                  <lb ed="#C" n="28"/>Impossibile est omia semper manere eadem numero. propter loge distare 
+        <lb ed="#C" n="29"/>(a primo principio 
+      </p>
+               <p xml:id="tRi8UT-d14704-d1e266">
+                  <lb ed="#C" n="30"/>Generatio et corruptio praepetuantur circulariter. et non secundum rectitudinem 
+      </p>
+               <p xml:id="tRi8UT-d14704-d1e271">
+                  <lb ed="#C" n="31"/>Quorum substantia deperit non redeunt eadem numero. sed specie 
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d14876">
+               <head xml:id="tRi8UT-d14704-Hd1e279">Commentator</head>
+               <p xml:id="tRi8UT-d14704-d1e282">
+                  <lb ed="#C" n="32"/>⁋ Commentator. 
+      </p>
+               <p xml:id="tRi8UT-d14704-d1e287">
+        Concauum orbis lune est quasi forma ignis 
+        <lb ed="#C" n="33"/>Tempora anni circulariter currunt propter motu solis circulare. 
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d14892">
+               <head xml:id="tRi8UT-d14704-Hd1e295">Alberts</head>
+               <p xml:id="tRi8UT-d14704-d1e298">
+                  <lb ed="#C" n="34"/>⁋ Albertus
+      </p>
+               <p xml:id="tRi8UT-d14704-d1e303">
+        Generatio fit in physico contactu trium elementorum Ignis autem 
+        <lb ed="#C" n="35"/>per radios solares induentes vrtutem eius ad locum discendit generationis 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

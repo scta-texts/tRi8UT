@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>De memoria et reminiscentia</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>De memoria et reminiscentia</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="36"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d17279"><!-- alias="pn-deMemoria" -->
+            <head xml:id="tRi8UT-d17279-Hd1e107">De memoria et reminiscentia</head>
+            <div xml:id="tRi8UT-d17284">
+               <head xml:id="tRi8UT-d17279-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d17279-d1e115">
+                  <lb ed="#C" n="38"/>⁋ Autorita. li de memoria et reminiscentia 
+          <lb ed="#C" n="39"/>(turotem 
+        </p>
+               <p xml:id="tRi8UT-d17279-d1e122">
+                  <lb ed="#C" n="40"/>Emoria. nec est praesentium nec futurorum sed tantum praeteritorum 
+        </p>
+               <p xml:id="tRi8UT-d17279-d1e127">
+                  <lb ed="#C" n="41"/>Unde sensus est praesentium. memoria praeteritorum. spes vero velrsa opinio fu 
+        </p>
+               <p xml:id="tRi8UT-d17279-d1e132">
+                  <lb ed="#C" n="42"/>Memoria est alicuius apprehensi sensus vel intellectus iterata resumptio 
+        </p>
+               <p xml:id="tRi8UT-d17279-d1e138">
+                  <lb ed="#C" n="43"/>Intellectus noster non intelligit sine continuo et tempore. 
+        </p>
+               <p xml:id="tRi8UT-d17279-d1e143">
+                  <lb ed="#C" n="44"/>Species vel similitudo rei cosiderata secundum se existens in anima est ima¬ 
+          <lb ed="#C" n="45"/>ginabilis et intelligibilis. sed considerata vt est alicuius similitudo 
+          <!--37.xml-->
+          <pb ed="#C" n="37"/>
+                  <lb ed="#C" n="1"/>quod prius fuit sensatum vel intellectum. sic est memorabilis. 
+        </p>
+               <p xml:id="tRi8UT-d17279-d1e156">
+                  <lb ed="#C" n="2"/>Meditationes memoriam saluant. 
+        </p>
+               <p xml:id="tRi8UT-d17279-d1e161">
+                  <lb ed="#C" n="3"/>Meditari est aliquid considerare multotiens non secundum se sed secundum imaginem alicuius 
+        </p>
+               <p xml:id="tRi8UT-d17279-d1e166">
+                  <lb ed="#C" n="4"/>Reminiscentia differt a memoria. quia reminiscentia tantum est in homnibus sed  
+          <lb ed="#C" n="5"/>memoria etiam est in animalibus Reminiscentia non est memoria. sed sequitur 
+          <lb ed="#C" n="6"/>memoriam. quia procedit ab aliquo retento in memoria. 
+        </p>
+               <p xml:id="tRi8UT-d17279-d1e175">
+                  <lb ed="#C" n="7"/>Omnis reminiscentia vel fit a re ipsa vel sibi simili vta contrario 
+        </p>
+               <p xml:id="tRi8UT-d17279-d1e181">
+                  <lb ed="#C" n="8"/>Que ordinem habent bene reminiscibilia sunt. 
+        </p>
+               <p xml:id="tRi8UT-d17279-d1e186">
+                  <lb ed="#C" n="9"/>Quidam semel videntes magis memorantur quam alii multotiens videntes. 
+        </p>
+               <p xml:id="tRi8UT-d17279-d1e191">
+                  <lb ed="#C" n="10"/>Quidam nolentes reminisci non possunt dimittere reminiscentiam sicut 
+          <lb ed="#C" n="11"/>melancholici. quia phantasmata maxime mouent eos contra velle eorum 
+        </p>
+               <p xml:id="tRi8UT-d17279-d1e198">
+                  <lb ed="#C" n="12"/>Pueri et multum senes immemores sunt propter nimium motum acciden 
+          <lb ed="#C" n="13"/>talem in corporibus eorum
+        </p>
+            </div>
+            <div xml:id="tRi8UT-d17380">
+               <head xml:id="tRi8UT-d17279-Hd1e208">Commentator</head>
+               <p xml:id="tRi8UT-d17279-d1e211">
+                  <lb ed="#C" n="14"/>⁋ Commenta. 
+        </p>
+               <p xml:id="tRi8UT-d17279-d1e216">
+          Quattuor sunt vortutes animae sensitiue interiores scilicet sen¬ 
+          <lb ed="#C" n="15"/>sus communis. imaginatio siue phantasia. estimatiua quae in homnibus dicitur cogita¬ 
+          <lb ed="#C" n="16"/>tiua et memoria Imaginatio est in interiori parte cerebri. estimatiua 
+          <lb ed="#C" n="17"/>in media. memoria vero in posteriori parte.
+        </p>
+            </div>
+            <div xml:id="tRi8UT-d17400">
+               <head xml:id="tRi8UT-d17279-Hd1e228">Thomas brabanti</head>
+               <p xml:id="tRi8UT-d17279-d1e231">
+                  <lb ed="#C" n="18"/>⁋ Thomas brabanti. 
+        </p>
+               <p xml:id="tRi8UT-d17279-d1e236">
+          ingenium per humiditatem viget. memoria per siccitatem 
+        </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

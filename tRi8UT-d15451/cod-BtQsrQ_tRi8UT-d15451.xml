@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 2</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 2</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="27"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d15451"><!-- alias="deanima-l2" -->
+            <head xml:id="tRi8UT-d15451-Hd1e107">Liber 2</head>
+            <div xml:id="tRi8UT-d15456">
+               <head xml:id="tRi8UT-d15451-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d15451-d1e115">
+                  <lb ed="#C" n="17"/>⁋ Sequuntur autori. ii libro de anima. 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e120">
+                  <lb ed="#C" n="18"/>TRiplex est substantia rerum scilicet matria. forma et compositum 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e125">
+                  <lb ed="#C" n="19"/>Materia est potentia. forma vero actus 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e130">
+                  <lb ed="#C" n="20"/>Duplex est actus scilicet primus et secundus. Primus vt scientia. daecundus vt specu¬ 
+        <lb ed="#C" n="21"/>(lari secundum scientiam 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e138">
+                  <lb ed="#C" n="22"/>Naturalia sunt principia artificialium 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e143">
+                  <lb ed="#C" n="23"/>Anima est actus. id est perfectio absoluta et completio corporis organici physi¬ 
+        <lb ed="#C" n="24"/>ci vitam habentis in potentia. scilicet ad opera vite 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e150">
+                  <lb ed="#C" n="25"/>Non oportet quirere vtrum ex anima et corpore fiat vnum et vniversalie ex materia forma 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e155">
+                  <lb ed="#C" n="26"/>Si oculus esset animal visus esset vtique anima eius 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e160">
+                  <lb ed="#C" n="27"/>Animatum differt ab inaiato in viuendo. 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e165">
+                  <lb ed="#C" n="28"/>Uiuere dicitur quadrupliciter. scilicet vegetare. sentire. intelligere. et mouere 
+        <lb ed="#C" n="29"/>secundum locum. et si vnum istorum alicut inest hoc dicitur viuere 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e173">
+                  <lb ed="#C" n="30"/>Anima mouet corpus ad oem differentiam positionis scilicet sursum. deorsum 
+        <lb ed="#C" n="31"/>sinistrorsum. dextrorsum. ante et retro 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e180">
+                  <lb ed="#C" n="32"/>Animal est animal propter sensum tactus 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e185">
+                  <lb ed="#C" n="33"/>Aia est principium quae primo et principaliter viuimus intelligimus sentimus et mo 
+        <lb ed="#C" n="34"/>(uemur secundum locum 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e192">
+                  <lb ed="#C" n="35"/>Quattuor sunt potentie animae principales scilicet vege¬ 
+        <lb ed="#C" n="36"/>tatiua sensitiua et secundum locum motiua et intellectiua. he sic se habent ad inui¬ 
+        <lb ed="#C" n="37"/>cem quod vegetatiua potest esse absque sensitiua. vt patet in plantis et non econuerso. et 
+        <lb ed="#C" n="38"/>sensitiua sine motiua secundum locum manet. vt patet in quibusdam animalibus conchi¬ 
+        <lb ed="#C" n="39"/>libus et non econuerso. et tam secundum locum motiua quam sensitiua praeseut esse sine intel 
+        <lb ed="#C" n="40"/>lectiua. vt patet in animalibus brutis et non econuerso. 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e208">
+                  <lb ed="#C" n="41"/>In plantis est vna anima in actu. sed multe in potentia. et ideo par 
+        <lb ed="#C" n="42"/>tes eorum abcise viuunt 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e215">
+                  <lb ed="#C" n="43"/>Intellectus separatur ab aliis potentiis animae sicut prptuum a corruptibili 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e221">
+        <!--28.xml-->
+                  <pb ed="#C" n="28"/>
+                  <lb ed="#C" n="1"/>Non solum scimus anima sed etiam scientia. et etiam non solum sanamur sanitate sed sa 
+        <lb ed="#C" n="2"/>(namur corpore 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e232">
+                  <lb ed="#C" n="3"/>Unde non solum omnis comparatio dependet a forma. sed  
+        <lb ed="#C" n="4"/>etiam a materia. principalius tamen dependet a forma. 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e239">
+                  <lb ed="#C" n="5"/>Actus actiuorum sunt in patiente praedisposito Potentie cognoscuntur 
+        <lb ed="#C" n="6"/>per actus. actus vero per obiecta 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e246">
+                  <lb ed="#C" n="7"/>Naturalissimum em operum est in viuentibus quaecumquam perfecta sunt et non orbata 
+        <lb ed="#C" n="8"/>et que generationem non habent spontaneam. generare sibi simile. vt esse diuinum et 
+        <lb ed="#C" n="9"/>immortale participent secundum id quod paesent. Et istud intelligitur inter tres po 
+        <lb ed="#C" n="10"/>tentias animae vegetatiue. quia animae intellectiue ipsum intelligere est maxime na¬ 
+        <lb ed="#C" n="11"/>turale quo etiam homo assequitur vltimam felicitatem. 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e259">
+                  <lb ed="#C" n="12"/>Mihil de numero corruptibiliumbtingit idem numero manere semper tamen 
+        <lb ed="#C" n="13"/>potest vnum permanere in specie per generationem. 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e266">
+                  <lb ed="#C" n="14"/>Scientia est vniuersalium 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e272">
+                  <lb ed="#C" n="15"/>Uniuersalia sunt in anima. sed particularia sunt extra animam 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e277">
+                  <lb ed="#C" n="16"/>Anima intelligit quando vult. sed non sentit quando vult. quia obiectum intellectus 
+        <lb ed="#C" n="17"/>est in anima vt vniversale. obiectum sensus est extra animam vt particulare. 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e284">
+                  <lb ed="#C" n="18"/>Duplex est sensibil scilice pr se et per accus. per accidens vt est aliqui substantia par¬ 
+        <lb ed="#C" n="19"/>ticularis. vt diarrt filius 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e291">
+        Sensibile per se est duplex scilicet comne et proprium. 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e294">
+                  <lb ed="#C" n="20"/>Commnia sensibilia sunt quinque scilicet magnitudo. motus. quies. numerus. et figura. 
+        <lb ed="#C" n="21"/>abtet proprium est quod per se sentitur ab vno sensu. vt color a visu. et sic de singulis 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e301">
+                  <lb ed="#C" n="22"/>Quinque sunt sensus scilicet visus. auditus. odoratus tactus. et gustus. 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e307">
+                  <lb ed="#C" n="23"/>Sensus non decipitur circa proprium obiectum. 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e312">
+                  <lb ed="#C" n="24"/>Color est visibil per se. 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e317">
+        Lumen est actus diaphoni secundum quod diaphonum 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e320">
+                  <lb ed="#C" n="25"/>Diaphonum est aliquod corpus praespicuum. vt aer aqua et corpus celeste 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e325">
+                  <lb ed="#C" n="26"/>Lumen nec est corpus nec fiuxus corporis. 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e330">
+                  <lb ed="#C" n="27"/>Lumen est hypostesis colorum id est de formali constitutione quod et Uirgilius in¬ 
+        <lb ed="#C" n="28"/>tellexit <ref xml:id="tRi8UT-d15451-Rd1e336">sexto Eeneidos</ref> cum dixit Et rebus nox abstulit atra colorem 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e341">
+                  <lb ed="#C" n="29"/>Impossibile est duo corpora esse in eodem loco 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e346">
+                  <lb ed="#C" n="30"/>Illuminatio non fit successiue et in tempore. sed fit in instanti. et subito. 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e351">
+                  <lb ed="#C" n="31"/>Tenebra est priuatio luminis Color non est visibilis sine lumine. quia eius 
+        <lb ed="#C" n="32"/>(pntia constituitur color 
+        <lb ed="#C" n="33"/>densibile positum supier sensum non facit sensationem 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e360">
+                  <lb ed="#C" n="34"/>Sonus causatur ex collisione corporum aerem violenter frangentium 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e365">
+                  <lb ed="#C" n="35"/>Echo est sonus scundario factus ex reprcussione soni prius facti 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e370">
+                  <lb ed="#C" n="36"/>Nox est sonus animati tantum. 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e376">
+                  <lb ed="#C" n="37"/>Uox est repercussio aeris inspirati ad vocalem arteream cum imagine sgnicandi. 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e381">
+                  <lb ed="#C" n="38"/>Inanimatum nullum vocat. 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e386">
+                  <lb ed="#C" n="39"/>Lingue congruunt duo officia seu opora nature scilicet in gustum et loquelam 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e391">
+                  <lb ed="#C" n="40"/>Homo praue odorat. et odoratum habet peiorem multis animalibus sed gustum 
+        <lb ed="#C" n="41"/>et tactum habet certiorem omnibus animalibus 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e398">
+                  <lb ed="#C" n="42"/>Anima est causa corporis viuentis in triplici genere cause. scilicet forma 
+        <lb ed="#C" n="43"/>lis. finalis et efficientis 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e405">
+        <!--29.xml-->
+                  <pb ed="#C" n="29"/>
+                  <lb ed="#C" n="1"/>Duplex est finis scilicet finis gratia cuius et finis quo id est finis extra et finis 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e415">
+                  <lb ed="#C" n="2"/>Nihil proprie nutritur naturaliter nisi viuum. 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e420">
+                  <lb ed="#C" n="3"/>Tres sunt pone animae vegetatiue scilicet nutritiua augmentativa et generativa 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e425">
+                  <lb ed="#C" n="4"/>Radices in plantis sunt similes oribus in animalibus quia ambo nutrimentum suscipiunt 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e430">
+                  <lb ed="#C" n="5"/>Ignis augmentatur in infinitum quousque fuerit combustibile. 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e435">
+                  <lb ed="#C" n="6"/>Omnium natura constantium certus est terminus et ratio magnitudinis. et augmenti. 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e440">
+                  <lb ed="#C" n="7"/>Alimentum ante decoctionem est contrarium et dissimile alito. sed  
+        <lb ed="#C" n="8"/>post decoctionem erit sibi simile 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e448">
+                  <lb ed="#C" n="9"/>Necesse est omne viuens quamdiu viuit nutriri 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e453">
+                  <lb ed="#C" n="10"/>Nihil generat seipsum sed saluat 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e458">
+                  <lb ed="#C" n="11"/>Agens et patiens in principio sunt dissimilia. in fine vero similia 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e463">
+                  <lb ed="#C" n="12"/>Duplex est potentia. scilicet propinqua et remota. siue potentia coniuncta 
+        <lb ed="#C" n="13"/>actui et distans ab actu. Remota vt puer dicitur habre potentiam mi 
+        <lb ed="#C" n="14"/>litandi. Propinqua vt homo adultus 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e472">
+                  <lb ed="#C" n="15"/>Omnia appellare a fine iustum est. 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e477">
+                  <lb ed="#C" n="16"/>Passio dicitur dupliciter Uno modo capitur pro transmutatione quandam quae sit cum ab 
+        <lb ed="#C" n="17"/>iectione contrarii. et illa dicitur passio proprie dicta Alio modo idem est quod salus 
+        <lb ed="#C" n="18"/>et perfectio alicuius in potentia ab aliquo quod non est in actu. et illa dicitur passio 
+        <lb ed="#C" n="19"/>metaphorice. vt est sentire. intelligere et sic de aliis 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e489">
+                  <lb ed="#C" n="20"/>Scientia est vniuersalium 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e494">
+                  <lb ed="#C" n="21"/>Homo est prudentissimum animali 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e499">
+                  <lb ed="#C" n="22"/>Molles carne apertos mente dicimus. duros vero ineptos. 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e504">
+                  <lb ed="#C" n="23"/>Nihil est gustabile sine humido 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e509">
+                  <lb ed="#C" n="24"/>Caro non est medium tactus. sed aliquid circa carnem sicut neruus. 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e514">
+                  <lb ed="#C" n="25"/>Omnis sensus est susceptiuus specierum. sensibilium sine matria. sicut 
+        <lb ed="#C" n="26"/>cera suscipit figuram sigilli sine ferro et auro. 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e522">
+                  <lb ed="#C" n="27"/>Excellens sensibile corrumpit sensum. 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e527">
+                  <lb ed="#C" n="28"/>Abeuntibus sensibilibus remanet species in phantasia. 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e532">
+                  <lb ed="#C" n="29"/>Non est necesse omne mouens moueri. 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e537">
+                  <lb ed="#C" n="30"/>Sensus communis est potentia anime que discernit sensibilia diuersorum 
+        <lb ed="#C" n="31"/>sensuum in vno et eodem tempore. sicut dulce et album in lacte 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e544">
+                  <lb ed="#C" n="32"/>Sicut dicit homerus poeta: talis est intellectus in homnibus terrenis qua 
+        <lb ed="#C" n="33"/>lem inducit pater filiorum deorumque. id est sol 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e551">
+                  <lb ed="#C" n="34"/>Deceptio et ignorantia magis proprie est in animalibus quam scientia. quia in ip¬ 
+        <lb ed="#C" n="35"/>sis magis perficitur ignorantia quam scientia 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e559">
+                  <lb ed="#C" n="36"/>Eadem est scientia contrariorum. 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e564">
+                  <lb ed="#C" n="37"/>Phantasia est motus factus a sensu secundum actum. secundum quem animalia multa agunt et 
+        <lb ed="#C" n="38"/>(patiuntur. 
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d15918">
+               <head xml:id="tRi8UT-d15451-Hd1e574">Commentator</head>
+               <p xml:id="tRi8UT-d15451-d1e577">
+                  <lb ed="#C" n="39"/>⁋ Commentator 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e582">
+        Anima est substantia et non accidens 
+        <lb ed="#C" n="40"/>forme substantiales equiuoce esse in subiecto dicuntur. quia subiectum forme 
+        <lb ed="#C" n="41"/>substantialis est ens in pona quod non est in actu nisi per formam. sed subiectum 
+        ac<lb ed="#C" n="42" break="no"/>cidentis est aliquod existens in actum scilicet compositum ex materia forma Unde 
+        <!--30.xml-->
+        <pb ed="#C" n="30"/>
+                  <lb ed="#C" n="1"/>habemus quod omne quod aduenit enti in actu est accidens 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e598">
+                  <lb ed="#C" n="2"/>Compositum ex forma et materia non dicitur nisi quia forma est vna. 
+        <lb ed="#C" n="3"/>forme rerum artificialium sunt accidentia 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e605">
+                  <lb ed="#C" n="4"/>Indiuiduum non est nisi per formam suam 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e611">
+                  <lb ed="#C" n="5"/>Corpora celestia non habent de vertutibus animae nisi intellectum et voluntatem 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e616">
+                  <lb ed="#C" n="6"/>Omne ens naturaliter desiderat permanentiam eternam 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e621">
+                  <lb ed="#C" n="7"/>Natura semper agit propter aliquid tanquam propter finem. 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e626">
+                  <lb ed="#C" n="8"/>Diuersitas formarum est causa diuersitatis materiarum 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e631">
+                  <lb ed="#C" n="9"/>Omne recipiens debet esse denudatum a natura recipti 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e636">
+                  <lb ed="#C" n="10"/>Stelle non videntur de die propter maius lumen. scilicet solis 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e642">
+                  <lb ed="#C" n="11"/>Homo boni tactus semper est discretus. sic est etiam de aliis sensibus 
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d15994">
+               <head xml:id="tRi8UT-d15451-Hd1e650">Albertus</head>
+               <p xml:id="tRi8UT-d15451-d1e653">
+                  <lb ed="#C" n="12"/>⁋ Albertus 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e658">
+        Clade facta in terra grecorum venerunt vultures et tigri¬ 
+        <lb ed="#C" n="13"/>des a quingentis miliaribus ad cadauera mortuorum
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d16010">
+      <!-- commentator again?? This is unusual; needs dbcheck -->
+               <head xml:id="tRi8UT-d15451-Hd1e668">Commentator</head>
+               <p xml:id="tRi8UT-d15451-d1e671">
+                  <lb ed="#C" n="14"/>⁋ Commentator 
+      </p>
+               <p xml:id="tRi8UT-d15451-d1e676">
+        Locus est similis et equalis locato 
+        <lb ed="#C" n="15"/>Sensus semper dicit vtrum non in vniversalibus sed in propriis et particularibus. sed in 
+        <lb ed="#C" n="16"/>tellectus semper dicit vtrum in vniversalibus non autem in propriis Temistius 
+        <lb ed="#C" n="17"/>Omnia artificialia habent rationem accidentis respectu naturalium. 
+        <lb ed="#C" n="18"/>Quibuscumque de numero mortalium natura dedit intellectum. his promi¬ 
+        <lb ed="#C" n="19"/>sit singulas potentias in ministerium intellectus. 
+        <lb ed="#C" n="20"/>densus non decipitur circa suum sensibile proprium seruatem tribus conditionibus quae 
+        <lb ed="#C" n="21"/>stun. debita dispoto medii. debita dispo organi. et debita obiecti distantia 
+        <lb ed="#C" n="22"/>Ea que scimus sunt minima respectu corum quae ignoramus.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

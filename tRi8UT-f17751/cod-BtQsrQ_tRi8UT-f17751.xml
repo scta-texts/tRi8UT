@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 2</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 2</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="92"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f17751"><!-- alias="postAn-l2" -->
+            <head xml:id="tRi8UT-f17751-Hd1e107">Liber 2</head>
+            <p xml:id="tRi8UT-f17751-d1e110">
+               <lb ed="#C" n="21"/>⁋ Sequuntur autori. ii libri posteriorum Aristo. 
+    </p>
+            <p xml:id="tRi8UT-f17751-d1e115">
+               <lb ed="#C" n="22"/>QUestiones sunt equales numero his que vere scimus 
+    </p>
+            <p xml:id="tRi8UT-f17751-d1e120">
+               <lb ed="#C" n="23"/> Questiones sunt quattuor scilicet quid est propter quid. si est. et quia est et iste 
+      <lb ed="#C" n="24"/>reducuntur ad questionem medii. quia omnis questio est questio medii 
+    </p>
+            <p xml:id="tRi8UT-f17751-d1e127">
+               <lb ed="#C" n="25"/>Unius inquantum vnius vna est scientia 
+    </p>
+            <p xml:id="tRi8UT-f17751-d1e133">
+               <lb ed="#C" n="26"/>Definitio est cognitio substantie et ipsius quod quid est 
+    </p>
+            <p xml:id="tRi8UT-f17751-d1e138">
+               <lb ed="#C" n="27"/>Impossibile est quod quid est scire et ignorare si est 
+    </p>
+            <p xml:id="tRi8UT-f17751-d1e143">
+               <lb ed="#C" n="28"/>Ipsius quod quid est non est demonstratio 
+    </p>
+            <p xml:id="tRi8UT-f17751-d1e148">
+               <lb ed="#C" n="29"/>Per omne genus cause contingit demonstrare 
+    </p>
+            <p xml:id="tRi8UT-f17751-d1e153">
+               <lb ed="#C" n="30"/>Scire opinamur cum causas rei cognoscimus 
+    </p>
+            <p xml:id="tRi8UT-f17751-d1e158">
+               <lb ed="#C" n="31"/>Quattuor sunt cause  Caula et medium sunt idem. 
+    </p>
+            <p xml:id="tRi8UT-f17751-d1e164">
+               <lb ed="#C" n="32"/>Unum et idem nsn contingit esse propter quid. et quid est. vt si queratur. quid est to 
+      <lb ed="#C" n="33"/>nitruus. et dicitur quod est extinctio ignis in nube. et si queratur propter quid to 
+      <lb ed="#C" n="34"/>nat. dicitur quia in nube ignis extinguitur 
+    </p>
+            <p xml:id="tRi8UT-f17751-d1e173">
+               <lb ed="#C" n="35"/>Ambulatio post cenam est causa sanitatis propter hoc. quia facit non emi 
+      <lb ed="#C" n="36"/>nere cibuos in ore stomachi. sed descendere. 
+    </p>
+            <p xml:id="tRi8UT-f17751-d1e180">
+               <lb ed="#C" n="37"/>Interpositio terre inter solem et lunam est causa eclypsis. 
+    </p>
+            <p xml:id="tRi8UT-f17751-d1e185">
+               <lb ed="#C" n="38"/>Medium in demonstratione est ratio primi et vltimi termini id est maioris extremi 
+      <lb ed="#C" n="39"/>tatum quae secundum Albertum est proprie passionis definitio. secundum Thomam vero subiecti 
+    </p>
+            <p xml:id="tRi8UT-f17751-d1e192">
+               <lb ed="#C" n="40"/>Causa et effectus debent esse proportionata. vnde eius quod est in fieri 
+      <lb ed="#C" n="41"/>debet esse causa in fieri. et eius quod est in facto esse debet esse causa in 
+      <lb ed="#C" n="42"/>facto esse et cetera. 
+    </p>
+            <p xml:id="tRi8UT-f17751-d1e201">
+               <lb ed="#C" n="43"/>Sicut se habet linea ad punctum sic se habet illud quod fit ad factum esse 
+      <!--93.xml-->
+    </p>
+            <p xml:id="tRi8UT-f17751-d1e209">
+               <pb ed="#C" n="93"/>
+               <lb ed="#C" n="1"/>Quedam sunt semper. quedam vt frequenter. vt non omnes masculini sunt 
+      <lb ed="#C" n="2"/>barbati in maxillis semper sed vt frequenter 
+    </p>
+            <p xml:id="tRi8UT-f17751-d1e218">
+               <lb ed="#C" n="3"/>Ex singularibus oportet vniuersalia accipere 
+    </p>
+            <p xml:id="tRi8UT-f17751-d1e223">
+               <lb ed="#C" n="4"/>Equiuocationes magis latent in vniversalibus quam in inferioribus 
+      <lb ed="#C" n="5"/>fiuuius magis fluit in fine mensis. quia finis mensis est humidior quia luna 
+      <lb ed="#C" n="6"/>(onium habet super humida. 
+    </p>
+            <p xml:id="tRi8UT-f17751-d1e232">
+               <lb ed="#C" n="7"/>Omnis arbor habens lata folia fiuit 
+    </p>
+            <p xml:id="tRi8UT-f17751-d1e237">
+               <lb ed="#C" n="8"/>Nluere est succum densatum habere. 
+    </p>
+            <p xml:id="tRi8UT-f17751-d1e242">
+               <lb ed="#C" n="9"/>Causa est prior eo cuius est causa. et hoc ad minus secundum naturam. 
+    </p>
+            <p xml:id="tRi8UT-f17751-d1e248">
+               <lb ed="#C" n="10"/>Omne animal habens cornua caret dentibus in superiori mandibula quia 
+      <lb ed="#C" n="11"/>materia dentium vertitur in cornua 
+    </p>
+            <p xml:id="tRi8UT-f17751-d1e255">
+               <lb ed="#C" n="12"/>Ex sensu in nobis fit memoria. ex multis memoriis expimentum 
+    </p>
+            <p xml:id="tRi8UT-f17751-d1e260">
+               <lb ed="#C" n="13"/>Uniuersale quiescens in anima est principium artis et scientie 
+    </p>
+            <p xml:id="tRi8UT-f17751-d1e265">
+               <lb ed="#C" n="14"/>Sentire est singularis. sed sensus est vniuersalis 
+    </p>
+            <p xml:id="tRi8UT-f17751-d1e270">
+               <lb ed="#C" n="15"/>Principiorum habitus non est scientia sed intellectus. 
+    </p>
+            <p xml:id="tRi8UT-f17751-d1e275">
+               <lb ed="#C" n="16"/>Uniuersale est vnum in multis et vnum preter multa 
+    </p>
+            <p xml:id="tRi8UT-f17751-d1e281">
+               <lb ed="#C" n="17"/>Principia non cognoscimus per demonstrationem sed per inductionem 
+      <lb ed="#C" n="18"/>vie. sensus et memorie 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

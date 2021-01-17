@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Oeconomica</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Oeconomica</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="60"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f11891"><!-- alias="Oeconimcae" -->
+            <head xml:id="tRi8UT-f11891-Hd1e107">Oeconomica</head>
+            <p xml:id="tRi8UT-f11891-d1e110">
+               <lb ed="#C" n="13"/>⁋ Sequuntur autori. libro Economice Aristo. 
+    </p>
+            <p xml:id="tRi8UT-f11891-d1e115">
+               <lb ed="#C" n="14"/>⁋ Iuitas est domorum pluritas praediis et possessionibus abundans ad bene 
+      <lb ed="#C" n="15"/> viuedum ordiata. 
+    </p>
+            <p xml:id="tRi8UT-f11891-d1e122">
+      Comicatio viri et feie in animalibus irrationabilibus est so 
+      <lb ed="#C" n="16"/>lum gra prolis procreande. in hominibus vero non solum gra illi. sed etia gra alteri 
+      <lb ed="#C" n="17"/>vtilitatum scilicet vt quae parentes potentes fecerunt filiis impotentibus iterum reportet 
+      <lb ed="#C" n="18"/>a potentibus filiis parentes impotentes et senio confecti 
+      <lb ed="#C" n="19"/>Natura facit vnum animalium coniugabilium forte scilicet masculum vt vlciscatur pre</p>
+            <p xml:id="tRi8UT-f11891-d1e133">
+               <lb ed="#C" n="20"/>fortitudine sibi illata. aliud vero debile scilicet feiam vt magis se custodiat 
+      <lb ed="#C" n="21"/>(pre timore 
+    </p>
+            <p xml:id="tRi8UT-f11891-d1e141">
+               <lb ed="#C" n="22"/>Uir non dicitur iniuriari femine vt feia non iniurietur ei 
+    </p>
+            <p xml:id="tRi8UT-f11891-d1e146">
+               <lb ed="#C" n="23"/>Iniuriari feine est virum cum extranea muliere coire. sed iniuriari viro femi 
+      <lb ed="#C" n="24"/>nam est feiam coire cum extraneo viro. secundum hesiodum poetam Uirum opor 
+      <lb ed="#C" n="25"/>tet id est expedit viro puellam ducere in vxorem vt doceat eam bonos mores. 
+      <lb ed="#C" n="26"/>or iuuecula est fsexihilior vidua 
+    </p>
+            <p xml:id="tRi8UT-f11891-d1e157">
+               <lb ed="#C" n="27"/>Dissimilitudines morum inter virum et mulierem nequaquam sunt amande 
+    </p>
+            <p xml:id="tRi8UT-f11891-d1e162">
+               <lb ed="#C" n="28"/>Due sunt spens seruorum scilicet procurator et operatorOportet seruis tria dare opora 
+      <lb ed="#C" n="29"/>et penam id est disciplinam. et victum sufficientem. quia sine mercede impossibile es opeora 
+      <lb ed="#C" n="30"/>ri 
+    </p>
+            <p xml:id="tRi8UT-f11891-d1e171">
+               <lb ed="#C" n="31"/>Nictus aut est merces seruorum quao tantum sine aliis duobus facu secuum pertinacem 
+    </p>
+            <p xml:id="tRi8UT-f11891-d1e176">
+               <lb ed="#C" n="32"/>Nemo aliorum bona et propria similiter curat et equaliter 
+    </p>
+            <p xml:id="tRi8UT-f11891-d1e182">
+               <lb ed="#C" n="33"/>Quidam interrogatus quid magis impiguat equum. rndit ocuius domini Atius inter 
+      <lb ed="#C" n="34"/>rogatus. quale stercus optimum ad pinguedum agrum. resnedit vestigia domini. 
+    </p>
+            <p xml:id="tRi8UT-f11891-d1e189">
+               <lb ed="#C" n="35"/>Rarissimum est negligentibus doinis seruos esse sollicitos. 
+    </p>
+            <p xml:id="tRi8UT-f11891-d1e194">
+               <lb ed="#C" n="36"/>Nunquam expedit dum esse sine custodia. sic nec ciuitatem. 
+    </p>
+            <p xml:id="tRi8UT-f11891-d1e199">
+               <lb ed="#C" n="37"/>Surgereide nocte. ad sanitatem. ad phiam. ad bonam dispositionem vtile est 
+    </p>
+            <p xml:id="tRi8UT-f11891-d1e204">
+               <lb ed="#C" n="38"/>Mec questus vestimentorum. nec fora. nec multitudo auri. tanta est ad mulie¬ 
+      <lb ed="#C" n="39"/>ris vtutem. quaenta est modestia in quilibet opore et desiderium honeste et composite 
+      <lb ed="#C" n="40"/>(vite 
+    </p>
+            <p xml:id="tRi8UT-f11891-d1e213">
+               <lb ed="#C" n="41"/>Quanto quis diligentius obsequitur. tantam maiorem gratiam obtinebit 
+    </p>
+            <p xml:id="tRi8UT-f11891-d1e219">
+               <lb ed="#C" n="42"/>Nisi parentes pueris exemplum probitatem vite dederit incusabilem ad inuicem 
+      <lb ed="#C" n="43"/>penet habere causam 
+    </p>
+            <p xml:id="tRi8UT-f11891-d1e226">
+               <lb ed="#C" n="44"/>Si mulier cognouit virum sibi iustum ac fidelem esse. ipsa 
+      <lb ed="#C" n="45"/>etiam circa ipsum iustaet fidelis erit 
+    </p>
+            <p xml:id="tRi8UT-f11891-d1e233">
+               <lb ed="#C" n="46"/>Multo grauius virhonestus fert si honore priuetur quam si omnia bonasua 
+      <lb ed="#C" n="47"/>(auferant. 
+    </p>
+            <p xml:id="tRi8UT-f11891-d1e240">
+               <lb ed="#C" n="48"/>Non dicitet hosane mentis vbique et ad quamlibet mulierem mittere semen suum 
+    </p>
+            <p xml:id="tRi8UT-f11891-d1e245">
+      <!--61.xml-->
+               <pb ed="#C" n="61"/>
+               <lb ed="#C" n="1"/>SEquuntur autoritates octo librorum Politicorum Aristotelis quos 
+      <lb ed="#C" n="2"/> priusquam aggrediamur sciet lector Platonem aliquit libros de repub 
+      <lb ed="#C" n="3"/>lica secundum quis iudicio ipius Ciuitates Regi deberent edidisse. De quibus 
+      <lb ed="#C" n="4"/>firmianus merito Tbhristianus Cicero appellatus libro ii Ca. xxi. et. xxii. sic 
+      <lb ed="#C" n="5"/>seribit Uideamus quid platonem Socrates docuerit. qui cum totam physi¬ 
+      <lb ed="#C" n="6"/>cauam repundiasset. eo se contulit vt de vrtute atque officio quireret Docente igi 
+      <lb ed="#C" n="7"/>tur Socrate mrimonia inquit communia esse debebunt scilicet vt ad eandem mulierem 
+      <lb ed="#C" n="8"/>multi viri tanquam canes confiuant. et Is vtique obtineat qui viribus vicerit. 
+    </p>
+            <p xml:id="tRi8UT-f11891-d1e269">
+               <lb ed="#C" n="9"/>Aut si sapientes sunt vt phi. expectent vt vicibus tamquam Lupanar habant O 
+      <lb ed="#C" n="10"/>miram platonis iniquitate. Ubi est igitur vertus castitatur. Ubi fides coniugalis. 
+    </p>
+            <p xml:id="tRi8UT-f11891-d1e277">
+               <lb ed="#C" n="11"/>Que si tollas. omnis iusticia sublata est. Insuper idem plato dixit beatas 
+    </p>
+            <p xml:id="tRi8UT-f11891-d1e282">
+               <lb ed="#C" n="12"/>Ciuitates futuras esse. si aut plhsi regnarent. aut Reges philosopharem 
+      <lb ed="#C" n="13"/>tur huic quae tam iniqui viro regnum dares qui aliis sustulisset sua. aliis con 
+      <lb ed="#C" n="14"/>donasset aliena. prostituisset pudiciciam mulierum. quae nullus vnquam non modo 
+      <lb ed="#C" n="15"/>rex. sed ne tyranus quidem fecit. Quam vero intulit plato rationem huius consilii sic 
+      <lb ed="#C" n="16"/>inqui Ciuitas concors erit et mutui amoris constricta vinculis. si oens omnim 
+      <lb ed="#C" n="17"/>fuerintr et mariti et patres et vxores et liberi. Que ista confusio generationis huma 
+      <lb ed="#C" n="18"/>ni est. Quo seruari potest charitas. vbi nihil est certum quod ametur. Que vir 
+      <lb ed="#C" n="19"/>tus in illa promiscua voluptate locum habet. Quis honorem tanquam patri 
+      <lb ed="#C" n="20"/>deferet cum vn natus sit nesciat. Ex quo fit. vt non tantum alienum pro patre 
+      <lb ed="#C" n="21"/>habeat. sed etiam patrem pro alieno. Quid quod uxor potest esse communis. filius vero 
+      <lb ed="#C" n="22"/>non potest. quem concipi non nisi ex vno necesse e. Perit eat illi vni communitas ipsa 
+      <lb ed="#C" n="23"/>reclamante natura. Superest vt tantummo concordie causa vxores velint esse 
+      <lb ed="#C" n="24"/>ciones. At nulla vehementior discordiarum est causa quam vnius femine a 
+      <lb ed="#C" n="25"/>multis maribus appetitio. quod Plato et Socrates. si rationem non poterat 
+      <lb ed="#C" n="26"/>exemplis certe potuissent admoneri. et mutorum animalium que vel ob hoc 
+      <lb ed="#C" n="27"/>etiam acerrime pugnent. et hominum qui sempe ob eam rem grauissima. in 
+      <lb ed="#C" n="28"/>ter se bella gesserunt. Redegit ergo Plato humanam vitam ad similitu 
+      <lb ed="#C" n="29"/>dinem. non dico mutorum sed pecudum et beluarum. Nam volucres pene oens 
+      <lb ed="#C" n="30"/>faciunt matrimonia et paria iunguntur et nidos suos tanque geniales 
+      <lb ed="#C" n="31"/>thoros concordi mente defendunt. et fetus suos quia certi sunt amat 
+      <lb ed="#C" n="32"/>At hic Plato contra morem homnim. contraque naturam. stultiora sibi que se 
+      <lb ed="#C" n="33"/>queretur elegit Et quoniam videbat in ceteris animalibus officia marium fe 
+      <lb ed="#C" n="34"/>minarumque esse indiuisa. existimauit oportere etia mulieres militare. et 
+      <lb ed="#C" n="35"/>conciliis publicis interesse et magistratus gerere et imperia suscipe Ita 
+      <lb ed="#C" n="36"/>que his arma et equos assignauit consequens est. vt lana et telam viris. et in 
+      <lb ed="#C" n="37"/>fantium gestationes. Nec vidit impossibilia esse ex eo quod adhuc in orbe 
+      <lb ed="#C" n="38"/>terre neque tam stulta neque tam varia vlla gens extiterit que hoc mo¬ 
+      <lb ed="#C" n="39"/> do viueret. Ex his facile potest quisque commiectare quod Platonis et Socra¬ 
+      <lb ed="#C" n="40"/>tis dogma non erat nisi criminis fons et fomes et vertutum omim extermi 
+      <lb ed="#C" n="41"/>nium. quod tamen nonulli etiam variis laudibus non verentur suis libris im 
+      <!--62.xml-->
+      <pb ed="#C" n="62"/>
+               <lb ed="#C" n="1"/>miscere. Uos ergo adolescentes (iniquissima Platonis doctrina pe 
+      <lb ed="#C" n="2"/>nitus explosa) ad hunc illustrem philosophumAristotelem naturali procedem 
+      <lb ed="#C" n="3"/>tem et luminem et equitate vos conuertite quem et Studia complectuntur vni 
+      <lb ed="#C" n="4"/>uersalia. et sedes approbauit apostolica.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

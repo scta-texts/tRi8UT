@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 16</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 16</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d19797"><!-- alias="deanimalibus-l16" -->
+            <head xml:id="tRi8UT-d19797-Hd1e107">Liber 16</head>
+            <div xml:id="tRi8UT-d19802">
+               <head xml:id="tRi8UT-d19797-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d19797-d1e115">
+                  <lb ed="#C" n="3"/>⁋ Autorita. libri decimisexti de animalibus 
+      </p>
+               <p xml:id="tRi8UT-d19797-d1e120">
+                  <lb ed="#C" n="4"/>Mbrio in prima sua generatione viuit vita simili vite plante 
+      </p>
+               <p xml:id="tRi8UT-d19797-d1e125">
+                  <lb ed="#C" n="5"/>Pili decaluati non redeunt. folia vero arborum et plume auium 
+      </p>
+               <p xml:id="tRi8UT-d19797-d1e130">
+                  <lb ed="#C" n="6"/>I redeunt. quia caluicies est propter mutationem etatis et defectum hu 
+      </p>
+               <p xml:id="tRi8UT-d19797-d1e136">
+                  <lb ed="#C" n="7"/>Mmidi radicalis quae irreuocabilis est. casus vero foliorum et plume 
+        <lb ed="#C" n="8"/>est propter mutationem temporum quorum reditus est circularis. 
+      </p>
+               <p xml:id="tRi8UT-d19797-d1e143">
+                  <lb ed="#C" n="9"/>Homines tantum caluescunt et non cetera animalia. quia homo habet de cerebro 
+        <lb ed="#C" n="10"/>valde multum et humidum. 
+      </p>
+               <p xml:id="tRi8UT-d19797-d1e150">
+                  <lb ed="#C" n="11"/>Homo tantum caluescit in anteriori parte capitem. quia illic est cerebrum valde multum. 
+      </p>
+               <p xml:id="tRi8UT-d19797-d1e155">
+                  <lb ed="#C" n="12"/>Non fluunt folia de arboribus in quibus est humor pinguis. vt in hede¬ 
+        <lb ed="#C" n="13"/>ra. taxo. palmis. lauro 
+      </p>
+               <p xml:id="tRi8UT-d19797-d1e162">
+                  <lb ed="#C" n="14"/>In animalibus color pilorum est secundum colorem cutis in homine vero non. quia 
+        <lb ed="#C" n="15"/>quidam homines habent corium valde album. et nigros crines cuius tau¬ 
+        <lb ed="#C" n="16"/>ia est. quia cutis homnis est valde tenuis respectu aliorum animalium. et ideo 
+        <lb ed="#C" n="17"/>non mutant materiam pilorum 
+      </p>
+               <p xml:id="tRi8UT-d19797-d1e173">
+                  <lb ed="#C" n="18"/>Animalia comedentia dulces cibos diuersificantur in coloribus 
+      </p>
+               <p xml:id="tRi8UT-d19797-d1e179">
+                  <lb ed="#C" n="19"/>Multa animalia in infirmitate mutant colorem et iaon coruus visus est albus et 
+        <lb ed="#C" n="20"/>(passer albus. 
+      </p>
+               <p xml:id="tRi8UT-d19797-d1e186">
+                  <lb ed="#C" n="21"/>Digestio fit ex calore 
+      </p>
+               <p xml:id="tRi8UT-d19797-d1e191">
+                  <lb ed="#C" n="22"/>Oculus eminens et extensus non bene videt a remotis. sed oculus profundus 
+        <lb ed="#C" n="23"/>bene videt remota. quia eius motus non diuiditur nec consumitur 
+      </p>
+               <p xml:id="tRi8UT-d19797-d1e198">
+                  <lb ed="#C" n="24"/>Acumen et bonitas sensus distinguitur duobus modis vel in sentiendo re 
+        <lb ed="#C" n="25"/>mote vel distinguendo differentias astrorum. 
+      </p>
+               <p xml:id="tRi8UT-d19797-d1e205">
+                  <lb ed="#C" n="26"/>Sonus videtur esse medium inter esse et non esse. inter viuere et non viuere 
+      </p>
+               <p xml:id="tRi8UT-d19797-d1e210">
+                  <lb ed="#C" n="27"/>Puberes plus delectantur in coitum quam cetera etas et quantoplus assues¬ 
+        <lb ed="#C" n="28"/>cunt tanto plus appetunt. 
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d19910">
+               <head xml:id="tRi8UT-d19797-Hd1e220">Thomas Brabantinus</head>
+               <p xml:id="tRi8UT-d19797-d1e223">
+                  <lb ed="#C" n="29"/>⁋ Thomas Brabantinus. 
+      </p>
+               <p xml:id="tRi8UT-d19797-d1e228">
+        Est quodam genus canum quod fures odoratum 
+        <lb ed="#C" n="30"/>sentit et a ceteris homnibus odio discernit implacabili 
+      </p>
+               <p xml:id="tRi8UT-d19797-d1e233">
+                  <lb ed="#C" n="31"/>⁋ Idem Ealciameta in pedibus ex pelle canis arteticam sanant. 
+      </p>
+               <p xml:id="tRi8UT-d19797-d1e238">
+                  <lb ed="#C" n="32"/>⁋ Idem Calidum lac asininum confortat dentes si sumatur et dentes cum eo fricent 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 5</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 5</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f18492"><!-- alias="topica-l5" -->
+            <head xml:id="tRi8UT-f18492-Hd1e107">Liber 5</head>
+            <p xml:id="tRi8UT-f18492-d1e110">
+               <lb ed="#C" n="18"/>⁋ Sequuntur autori. <unclear>vi</unclear> libro topicorum Aristo 
+    </p>
+            <p xml:id="tRi8UT-f18492-d1e118">
+               <lb ed="#C" n="19"/>I aliquid dicitur esse proprium alterius et non separat ipsum ab omnibus 
+      <lb ed="#C" n="20"/>aliis non bene assignatum est proprium 
+    </p>
+            <p xml:id="tRi8UT-f18492-d1e125">
+               <lb ed="#C" n="21"/>Gratia discendi proprium assignatur. vnde proprium debet sem 
+      <lb ed="#C" n="22"/>per assignari per notiora. 
+    </p>
+            <p xml:id="tRi8UT-f18492-d1e132">
+               <lb ed="#C" n="23"/>Sentire dicitur dupliciter. scilicet habere sensum et sensu vti 
+    </p>
+            <p xml:id="tRi8UT-f18492-d1e138">
+               <lb ed="#C" n="24"/>Conturbat audientem quod frequenter dicitur 
+    </p>
+            <p xml:id="tRi8UT-f18492-d1e143">
+               <lb ed="#C" n="25"/>Opposita sunt simul natura. quia sunt species eiusdem generis 
+    </p>
+            <p xml:id="tRi8UT-f18492-d1e148">
+               <lb ed="#C" n="26"/>De sensibile extra sensum factum incertum fit. quia dubium est vtrum ita sit ver 
+      <lb ed="#C" n="27"/>(non sit quando recedit a sensu. 
+    </p>
+            <p xml:id="tRi8UT-f18492-d1e155">
+               <lb ed="#C" n="28"/>Ignotum est cum occiderit sol si adhuc fera¬ 
+      <lb ed="#C" n="29"/>tur super terram. eo quod nos tunc amisimus sensum. 
+    </p>
+            <p xml:id="tRi8UT-f18492-d1e162">
+               <lb ed="#C" n="30"/>Eisde inquantum eadem eadem insunt vel non insunt 
+    </p>
+            <p xml:id="tRi8UT-f18492-d1e167">
+               <lb ed="#C" n="31"/>Et qui omino instant omnino aduersandum est 
+    </p>
+            <p xml:id="tRi8UT-f18492-d1e173">
+               <lb ed="#C" n="32"/>Quod per super abundantiam dicitur vni soli conuenit 
+    </p>
+            <p xml:id="tRi8UT-f18492-d1e178">
+               <lb ed="#C" n="33"/>Tres sunt spens ignis scilicet lux. famma. et caarbus et hoc est verum secundum opinionem aliquirum 
+    </p>
+            <p xml:id="tRi8UT-f18492-d1e183">
+               <lb ed="#C" n="34"/>Sicut simpliciter ad simpliciter. ita magis ad magn. maximum ad maximum 
+      <lb ed="#C" n="35"/>(et econuerso 
+    </p>
+            <p xml:id="tRi8UT-f18492-d1e190">
+               <lb ed="#C" n="36"/>Impossibile est idem esse proprium plurium 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prologus</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author>
+           <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prologus</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="1"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d1e5ad"><!-- alias="prologus" -->
+            <head xml:id="tRi8UT-d1e5ad-Hd1e108">Prologus</head>
+            <p xml:id="tRi8UT-d1e5ad-d1e111">
+               <pb ed="#C" n="1"/>
+               <lb ed="#C" n="1"/>prologus Compendii Authori 
+      <lb ed="#C" n="2"/>tatum quorundam philosophorum presertim tamen Aristotelis ad  
+      <lb ed="#C" n="3"/>eorum vtilitatem quibus vel ad populum conuenit declamationes 
+      <lb ed="#C" n="4"/>facere aut in Scholis ex eisdem prompte disserere. 
+      <lb ed="#C" n="5"/>Um enim aristotelice tam ad populum declamanti quam in ar¬ 
+      <lb ed="#C" n="6"/>tibus studenti. non modicum sententie fulgentioris cognitionis 
+      <lb ed="#C" n="7"/>cuiuslibet scientie praebeat robur atque fulcimen. ideo impraesentiarum 
+      <lb ed="#C" n="8"/>pro magistralibus breuibusque sermonum introductionibus ad  
+      <lb ed="#C" n="9"/>populum ac eorumdem suis certis in locis. mebrisque ornatioribus relucen 
+      <lb ed="#C" n="10"/>tiis eiusdem. Aristotelis in via naturali (vt commentator inquit super primo li 
+      <lb ed="#C" n="11"/>bro physicorum) luminis mundi cuius ortus primum carpsit huius vite auras. 
+      <lb ed="#C" n="12"/>anno quindecimo Mennonis qui et artarxerses decimi regis persarum in 
+      <lb ed="#C" n="13"/>Stagyra ciuitate thracie quae est pars macedonie. fuit aut filius nicomachi 
+      <lb ed="#C" n="14"/>medici et phestiade quae et ab esculapio discenderunt. florens athenis annis 
+      <lb ed="#C" n="15"/>trecentis et circiter octoginta ante christi natiuitatem tempore Alexandri mag 
+      <lb ed="#C" n="16"/>ni deecimi mancedonie regis cuius noster aristoteles summus pariterque 
+      <lb ed="#C" n="17"/>honestissimus praeceptor extitit. fiunt aut thematum in sermonem intentum intro 
+      <lb ed="#C" n="18"/>ductiones sequentibus et pluribu aliis. Principio per magistralem sententiam. verbi 
+      <lb ed="#C" n="19"/>gratia Sit thema illud Luce. xi. Beati quae audiunt verbum dei. etc Intro 
+      <lb ed="#C" n="20"/>duc sic. dicit Aristote. primo de animalibus Omne animal habens aures habet eas 
+      <lb ed="#C" n="21"/>mobiles praeter hominem. et hoc ratione nobilis complexionis. nam vt dicit ibidem. si 
+      <lb ed="#C" n="22"/>cut aurum excellit omne metallum. sic homo omne animal cum sit animal rationale mor 
+      <lb ed="#C" n="23"/>tale. discipline susceptibile. mansuetum natura Igitur cum talis sit. iugiter 
+      <lb ed="#C" n="24"/>verba salutis intente attendat. domino dicente Math. xiii. luce. viii. Apo 
+      <lb ed="#C" n="25"/>calis. ii et iii Qui habet aures audiendi audiat In quibus verbis praetenditur vir 
+      <lb ed="#C" n="26"/>tus sensibilis siue sensualis audiendi quae et in animalibus intellectualis et 
+      <lb ed="#C" n="27"/>affectualis quae tantum in homnibus psalmos. xliiii. Audi filia Ecce primum. et vide. 
+      <lb ed="#C" n="28"/>considera secundum. et inclina aurem tuam perpende tertium Et dicit Augusti. xii  
+      <lb ed="#C" n="29"/>li. confessionum. Locutus es domine voce forti ad aurem meam. Qui igitur ne¬ 
+      <lb ed="#C" n="30"/>gligenter audit verbum dei tantum peccat ac si christi corpus acceptum expue¬ 
+      <lb ed="#C" n="31"/>ret in terram. primo quaestione primo. Interrogo vos fratres. et est textus Augusti. quem 
+      <lb ed="#C" n="32"/>tamen caute lege huius etiam aures crescent in aures asininas. id est in ter 
+      <lb ed="#C" n="33"/>ram. vel confusionem vt narrat Ouidius libro viii. metamorphoseos quae dicitur a 
+      <lb ed="#C" n="34"/>meta. id est trans et morphosis. id est mutatio quae dicitur de mida negligenter 
+      <lb ed="#C" n="35"/>auschultatore symphonie inter phebum id est solem et pana. id est deum ru¬ 
+      <lb ed="#C" n="36"/>sticorum Deinde est igitur Beati: qui audiunt verbum dei et custodiunt illud  
+      <lb ed="#C" n="37"/>Item sit thema Non veni vocare iustos. sed peccatores Matthei. ix. lu¬ 
+      <lb ed="#C" n="38"/>ce. v. Introduc sic. dicit Augusti. super ioanne Magis est iustificare im 
+      <lb ed="#C" n="39"/>pium quam caelum creare. subiungit causam Caelum et terra transibunt. electorum 
+      <lb ed="#C" n="40"/>autem spiritualis iustificatio permanebit Idem in libro de natura et gra¬ 
+      <!--2.xml-->
+      <pb ed="#C" n="2"/>
+               <lb ed="#C" n="1"/>tia non potest homo bene et ordinate viuere nisi lumine gratie diuinita¬ 
+      <lb ed="#C" n="2"/>tis adiuuetur Est enim gratia quasi quaedam radius lucis eterne quem qui per 
+      <lb ed="#C" n="3"/>ceperit ei non resistendo illuminabitur. qui vero eidem obicem ponit in tene¬ 
+      <lb ed="#C" n="4"/>bris exterioribus permanebit Causa aut aduentus christi in carnem fuit 
+      <lb ed="#C" n="5"/>iustificare impios Luce. xix. Uenit filius homnis quairere et saluum facere 
+      <lb ed="#C" n="6"/>quod perierat primo ad Thimo. primo christus venit in hunc mundum praectionres 
+      <lb ed="#C" n="7"/>saluos facere Augusti. in libro de verbis dni Tolle morbos. tolle vulne 
+      <lb ed="#C" n="8"/>ra. et nulla erit causa medicine Idem libro xiii. de trini. licet cui omnia equa¬ 
+      <lb ed="#C" n="9"/>liter subiacent sanande miserie nostre. alius fuerit modus possibilis. 
+      <lb ed="#C" n="10"/>sed conuenientior non fuit quam christum incarnari. vt homo et deus videri 
+      <lb ed="#C" n="11"/>posset quem homo esset secuturuis. Dicit ergo. non veni vocare iustos sed  
+      <lb ed="#C" n="12"/>peccatores decdondo potest fieri introductio per quandam diuisionem. vt si thema 
+      <lb ed="#C" n="13"/>fuerit de iudicio dic. Quattuor requirutur ad iudicium dei. Primum 
+      <lb ed="#C" n="14"/>est tuba populum convocans Scuodm scriptura nephas declarans. Terti 
+      <lb ed="#C" n="15"/>um sententia condemnans Quartum minister sententiam iudicis exequens. 
+      <lb ed="#C" n="16"/>Tertio fieri potest a sensu contrario ipsius thematis. Item quarto syllogi 
+      <lb ed="#C" n="17"/>stice sic. Quicumque adheret deo. bonitatis eius fontem largissime experi 
+      <lb ed="#C" n="18"/>tur. sed corpus subditum peccatis deo non adheret. cum sola chritas di¬ 
+      <lb ed="#C" n="19"/>uidat inter filios dei et sathane. igitur corpus subditum peccatis fontem 
+      <lb ed="#C" n="20"/>bonitatis dei non experitur. Et sic consequenter in omni modo et figura 
+      <lb ed="#C" n="21"/>Multa alia hic adduci possent de quibus ad praesens est supersedendum vnum 
+      <lb ed="#C" n="22"/>tamen est mente tenendum quod introductio sermonis habet se sicut exordium si¬ 
+      <lb ed="#C" n="23"/>ue origo epistolaris. ideo summopere cauendum est ne sit nimis longa 
+      <lb ed="#C" n="24"/>ita vt impediat executionem membrorum ipsius sermonis. als esset vitio 
+      <lb ed="#C" n="25"/>sa. Et semper debet genenatioaliter congruere et coincidere cum materia thematis 
+      <lb ed="#C" n="26"/>vt sua vi quasiad modum sete introducat materiam thematis praintentam 
+      <lb ed="#C" n="27"/>Et ad hoc quammaxime valent dicta Aristo. dapietumque aliorum. igitur etc.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

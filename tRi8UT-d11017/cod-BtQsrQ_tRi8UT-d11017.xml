@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 5</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 5</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="6"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d11017"><!-- alias="aa-met-5" -->
+            <head xml:id="tRi8UT-d11017-Hd1e107">Liber 5</head>
+            <div xml:id="tRi8UT-d11022">
+               <head xml:id="tRi8UT-d11017-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d11017-d1e115">
+        <!--7.xml-->
+                  <pb ed="#C" n="7"/>
+                  <lb ed="#C" n="1"/>⁋ Sequuntur autori. v. libri metaphysice Aristo.
+      </p>
+               <p xml:id="tRi8UT-d11017-d1e124">
+                  <lb ed="#C" n="2"/>Ot modis dicitur principium quot modis dicitur causa. quia omes cau 
+        <lb ed="#C" n="3"/> se sunt principia sed non econuerso 
+      </p>
+               <p xml:id="tRi8UT-d11017-d1e131">
+                  <lb ed="#C" n="4"/>Principium et primum idem sunt. quia omne principium est primum 
+      </p>
+               <p xml:id="tRi8UT-d11017-d1e136">
+                  <lb ed="#C" n="5"/>Quattuor sunt cause scilicet materialis. formalis. efficiens et finalis. 
+      </p>
+               <p xml:id="tRi8UT-d11017-d1e142">
+                  <lb ed="#C" n="6"/>Aliqui sibiinuicem poaeset esse cause vt exercitium est causa sanitatis et econuerso. 
+      </p>
+               <p xml:id="tRi8UT-d11017-d1e147">
+                  <lb ed="#C" n="7"/>Idem se aliter habens est causa oppositorum sicut gubernator nauis per suam praesen 
+        <lb ed="#C" n="8"/>tiam est causa salutis nauis: sed per suam absentiam est causa perditionis eiusdem 
+      </p>
+               <p xml:id="tRi8UT-d11017-d1e154">
+                  <lb ed="#C" n="9"/>Finis est optimum rei 
+      </p>
+               <p xml:id="tRi8UT-d11017-d1e159">
+        Causa secundum actum et effectus simul sunt 
+        <lb ed="#C" n="10"/>Causa et effectus debent esse proportionata 
+      </p>
+               <p xml:id="tRi8UT-d11017-d1e164">
+                  <lb ed="#C" n="11"/>Materia omnium liquefactibilium est aqua. 
+      </p>
+               <p xml:id="tRi8UT-d11017-d1e169">
+                  <lb ed="#C" n="12"/>Necessarium vnomon dicitur sine qui res non potest esse. vt animali non potest esse si¬ 
+        <lb ed="#C" n="13"/>ne cibos nec viuere. Scono modo sine quo suo potest deile esse. vt viuere sine ve 
+        <lb ed="#C" n="14"/>stimentis. Tertio modo idem est quod violentum. et sic dicitur ista res necessa 
+        <lb ed="#C" n="15"/>rio proucitur extra nauim id est violenter Quarto modo dicitur necessarium 
+        <lb ed="#C" n="16"/>quod non contingit aliter se habere 
+      </p>
+               <p xml:id="tRi8UT-d11017-d1e183">
+                  <lb ed="#C" n="17"/>Continuum est cuius motus est vnus 
+      </p>
+               <p xml:id="tRi8UT-d11017-d1e188">
+                  <lb ed="#C" n="18"/>Eadem numero sunt quorum materia est vna Eadem specie sunt quorum 
+        <lb ed="#C" n="19"/>forma est vna 
+      </p>
+               <p xml:id="tRi8UT-d11017-d1e195">
+                  <lb ed="#C" n="20"/>Ens est duplex scilicet per se et per accidens 
+      </p>
+               <p xml:id="tRi8UT-d11017-d1e200">
+        Uno modo ens per se est quod significat decem 
+        <lb ed="#C" n="21"/>praedicamenta. Alio modo significat veritatem vniuscuiusque 
+      </p>
+               <p xml:id="tRi8UT-d11017-d1e205">
+        Ens per accidens est 
+        <lb ed="#C" n="22"/>quando vnum accidens dicitur de alio. vt album est musicum. vel accidens de subiecto. vt 
+        <lb ed="#C" n="23"/>hom est alibus vel subiectum de accidente. vt album est homo. musicum est homo 
+      </p>
+               <!-- hamasse has another one here (133) "Extrema relationis..." -->
+               <p xml:id="tRi8UT-d11017-d1e215">
+                  <lb ed="#C" n="24"/>Unum in substantia facit idem 
+      </p>
+               <p xml:id="tRi8UT-d11017-d1e220">
+        
+        Unum in quantitate facit equale 
+      </p>
+               <p xml:id="tRi8UT-d11017-d1e223">
+        <!-- hamaesse has this connect with the entry above (her 135) -->
+                  <lb ed="#C" n="25"/>Unum in qualitate facit simile. 
+      </p>
+               <p xml:id="tRi8UT-d11017-d1e230">
+                  <lb ed="#C" n="26"/>Prius est quod principio est propinquius. 
+      </p>
+               <p xml:id="tRi8UT-d11017-d1e235">
+                  <lb ed="#C" n="27"/>Potentia actiua et passiua ad inuice se resplciunt 
+      </p>
+               <p xml:id="tRi8UT-d11017-d1e240">
+        <!-- hamasse combines this with above -->
+        Unde quaelibet 
+        <lb ed="#C" n="28"/>potentia actiua correspondet potentie passiue et econuerso.
+      </p>
+               <p xml:id="tRi8UT-d11017-d1e248">
+        <!-- hamasse combines this with above -->
+                  <lb ed="#C" n="29"/>Quantum est quod est diuisibile in partes. quarum vnaquque est hoc aliquid in actu
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d11168">
+               <head xml:id="tRi8UT-d11017-Hd1e258">Commentator</head>
+               <p xml:id="tRi8UT-d11017-d1e261">
+                  <lb ed="#C" n="30"/>⁋ Commentator. 
+      </p>
+               <p xml:id="tRi8UT-d11017-d1e266">
+        Perfectum est extra quod nihil est. et est duplex. scilicet 
+        perfe<lb ed="#C" n="31" break="no"/>ctum simpliciter. extra quod nihil est simpliciter et hoc est quod dicit commentator. quod illa est 
+        <lb ed="#C" n="32"/>dispositio primi principii in ouo sunt peaefectiones et nobilitates omnim enti 
+        <lb ed="#C" n="33"/>um nobiliori modo quam in seipsi 
+      </p>
+               <p xml:id="tRi8UT-d11017-d1e275">
+        Sed perfectum in genere est 
+        ex<lb ed="#C" n="34" break="no"/>tra quod nihil est alicuius determinati generis.
+      </p>
+               <p xml:id="tRi8UT-d11017-d1e280">
+                  <lb ed="#C" n="35"/>Mors metaphorice dicitur finis 
+      </p>
+               <p xml:id="tRi8UT-d11017-d1e286">
+                  <lb ed="#C" n="36"/>Quotiens est principium. totiens dicitur terminus. et adhuc amplius. quia quod est. 
+        <lb ed="#C" n="37"/>principium est terminus initialis et non econuerso
+      </p>
+               <p xml:id="tRi8UT-d11017-d1e293">
+                  <lb ed="#C" n="38"/>Omne attingens suum finem est perfectum. 
+      </p>
+               <p xml:id="tRi8UT-d11017-d1e298">
+                  <lb ed="#C" n="39"/>Quedam ralativa dicuntur esse natura. quorum esse est ad aliud essentialiter comparatum
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

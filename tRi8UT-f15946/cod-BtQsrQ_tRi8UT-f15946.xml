@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>De Deo Socratis</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>De Deo Socratis</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="81"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f15946"><!-- alias="deDeoSocratis" -->
+            <head xml:id="tRi8UT-f15946-Hd1e107">De Deo Socratis</head>
+            <p xml:id="tRi8UT-f15946-d1e110">
+               <lb ed="#C" n="37"/>⁋ Autorita. apulei aphricani platonici lingua latina doctissimi 
+      <lb ed="#C" n="38"/>qui succedens platoni fioruit aihenis. 
+    </p>
+            <p xml:id="tRi8UT-f15946-d1e117">
+               <lb ed="#C" n="39"/>SUmmus deus est infinitus non solum exclusione loci sed etiam 
+      <lb ed="#C" n="40"/>Q nature. dignitate 
+    </p>
+            <p xml:id="tRi8UT-f15946-d1e124">
+               <lb ed="#C" n="41"/>Prestantissimum animalium genus in terra est homo 
+    </p>
+            <p xml:id="tRi8UT-f15946-d1e129">
+      <!--82.xml-->
+               <pb ed="#C" n="82"/>
+               <lb ed="#C" n="1"/>Du ab omnibus differunt nature dignitate. perfectione. vite. perpetuitate 
+      <lb ed="#C" n="2"/>loci sublimitate 
+    </p>
+            <p xml:id="tRi8UT-f15946-d1e141">
+               <lb ed="#C" n="3"/>Nihil deo est perfectius nihil potentius 
+    </p>
+            <p xml:id="tRi8UT-f15946-d1e146">
+               <lb ed="#C" n="4"/>Conuersatio mutua contemptum parit 
+    </p>
+            <p xml:id="tRi8UT-f15946-d1e151">
+               <lb ed="#C" n="5"/>Deus ab omibus animi passionitus liberem. vnie nec dolere nec letari potest. 
+      <lb ed="#C" n="6"/>et hoc est verum ad nostrum conceptum 
+    </p>
+            <p xml:id="tRi8UT-f15946-d1e158">
+               <lb ed="#C" n="7"/>Demones sunt animalia animo passiua. mente rationabilia corpore ac 
+      <lb ed="#C" n="8"/>rea. tempore eterna. In isto oens Platonici delirauerunt 
+    </p>
+            <p xml:id="tRi8UT-f15946-d1e165">
+               <lb ed="#C" n="9"/>Magna est digmitas sapientie quae societatem summo deo coequat. 
+    </p>
+            <p xml:id="tRi8UT-f15946-d1e170">
+               <lb ed="#C" n="10"/>Nihil enim deo similius vel grauius quam vir animo perfectus 
+    </p>
+            <p xml:id="tRi8UT-f15946-d1e176">
+               <lb ed="#C" n="11"/>Bonus est qui intantum ceteros homines antecellit inquantum ipse a diis 
+      <lb ed="#C" n="12"/>immortalibus antecellitur. 
+    </p>
+            <p xml:id="tRi8UT-f15946-d1e183">
+               <lb ed="#C" n="13"/>Si laudas aliquem quia generosus est parentes eius laudas. si quia diues. 
+      <lb ed="#C" n="14"/>fortune hoc debetur. sed si quia formosus est aut validus est egritudine 
+      <lb ed="#C" n="15"/>fatigabitur. si quia pernix in senectute. aut quia fortis. expecta paulisper et non 
+      <lb ed="#C" n="16"/>erit. sed si laudas eum dicendo quod bonis artibus doctus est et valde erudi 
+      <lb ed="#C" n="17"/>tus. et inquantum licet homini sapiens est tunc ipsum vere laudas. quia hoc 
+      <lb ed="#C" n="18"/>non est a patre hereditarium. nec casu pendulum. nec corpore caducum. nec 
+      <lb ed="#C" n="19"/>etate mutabile. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

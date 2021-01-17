@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 2</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 2</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="94"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f18141"><!-- alias="topica-l2" -->
+            <head xml:id="tRi8UT-f18141-Hd1e107">Liber 2</head>
+            <p xml:id="tRi8UT-f18141-d1e110">
+               <lb ed="#C" n="24"/>⁋ Sequuntur autori. ii libri topicorum 
+    </p>
+            <p xml:id="tRi8UT-f18141-d1e115">
+               <lb ed="#C" n="25"/>Ullum genus denominatiue praedicatur de suis spenbus sed vniuoce 
+    </p>
+            <p xml:id="tRi8UT-f18141-d1e120">
+               <lb ed="#C" n="26"/> In paucioribus id est vniuersalibus est via magis facilis 
+    </p>
+            <p xml:id="tRi8UT-f18141-d1e125">
+               <lb ed="#C" n="27"/>Iniusticiam facere non inest deo. quia iniusticiam facere est idem quod spote no 
+      <lb ed="#C" n="28"/>cere. sed sponte nocere non est in deo 
+    </p>
+            <p xml:id="tRi8UT-f18141-d1e133">
+               <lb ed="#C" n="29"/>Inuidus est qui tristatur de prosperitate bonorum. 
+    </p>
+            <p xml:id="tRi8UT-f18141-d1e138">
+               <lb ed="#C" n="30"/>Reprehensor est qui tristatur de prosperitate malorum 
+    </p>
+            <p xml:id="tRi8UT-f18141-d1e143">
+               <lb ed="#C" n="31"/>Inuidia est tristicia in apparente prosperitate alicuius 
+    </p>
+            <p xml:id="tRi8UT-f18141-d1e148">
+               <lb ed="#C" n="32"/>Loquendum est vt plures. sapiendum vero vt pauci Ex quo habtur quod non 
+      <lb ed="#C" n="33"/>est insistendum extraneis et extortis expositoibus Etiam colligitur quod Aristo 
+      <lb ed="#C" n="34"/>teles in sua philosophia ferme per omnia habet modum loquendi cum antiqis 
+      <lb ed="#C" n="35"/>comunem vsque dum venerit ad eum locum in quo necessarium est eos ab erro 
+      <lb ed="#C" n="36"/>re rationibus reuocare et veraci instituere determinatione. Muod quidam non 
+      <lb ed="#C" n="37"/>aduertentes ineptissime putabant Aristotelem adinuies Augnantia qumque 
+      <lb ed="#C" n="38"/>sentire et a sepo dissidere. quod quanstultum sit <name xml:id="tRi8UT-f18141-Nd1e165">Auerrois</name> 
+               <name xml:id="tRi8UT-f18141-Nd1e168">Albertus</name> 
+               <name xml:id="tRi8UT-f18141-Nd1e171">Thomas</name> 
+               <lb ed="#C" n="39"/>et <name xml:id="tRi8UT-f18141-Nd1e177">Schotus</name> sufficienter ostenderunt 
+    </p>
+            <p xml:id="tRi8UT-f18141-d1e181">
+               <lb ed="#C" n="40"/>Animalia semper nutriuntur. non tamen augentur 
+      <!--95.xml-->
+    </p>
+            <p xml:id="tRi8UT-f18141-d1e188">
+               <pb ed="#C" n="95"/>
+               <lb ed="#C" n="1"/>Scire non est idem quod reminisci. quia scire contingiti circa praesentia praeterita et 
+      <lb ed="#C" n="2"/>futura. reminisci autem solum circa preterita. 
+    </p>
+            <p xml:id="tRi8UT-f18141-d1e198">
+               <lb ed="#C" n="3"/>Quecumque insunt speciei insunt et generi. 
+    </p>
+            <p xml:id="tRi8UT-f18141-d1e203">
+               <lb ed="#C" n="4"/>Homines vt in pluribus sunt mali. in paucioribus autem boni. quia pauci 
+      <lb ed="#C" n="5"/>vtrum bonum quod est ipsius voluntatis obiectum apprehendunt et sequuntur. 
+      <lb ed="#C" n="6"/>sed fallaci sensualitate aberrant. 
+    </p>
+            <p xml:id="tRi8UT-f18141-d1e212">
+               <lb ed="#C" n="7"/>Omne analogum per se positum stat pro suo significato famosiori 
+    </p>
+            <p xml:id="tRi8UT-f18141-d1e217">
+               <lb ed="#C" n="8"/>Motis nobis mouetur omnia que in nobis sunt. 
+    </p>
+            <p xml:id="tRi8UT-f18141-d1e222">
+               <lb ed="#C" n="9"/>Idem est susceptibile contrariorum 
+      <lb ed="#C" n="10"/>plura possunt vni esse contraria. 
+    </p>
+            <p xml:id="tRi8UT-f18141-d1e229">
+               <lb ed="#C" n="11"/>Plura bene contingit scire sed non contingit plura intelligere. 
+    </p>
+            <p xml:id="tRi8UT-f18141-d1e235">
+               <lb ed="#C" n="12"/>Quod iuste fit est scientis. quod iniuste est ignorantis 
+    </p>
+            <p xml:id="tRi8UT-f18141-d1e240">
+               <lb ed="#C" n="13"/>Quorum generationes sunt bone. ipsa quoque bona. similiter de malo 
+    </p>
+            <p xml:id="tRi8UT-f18141-d1e245">
+               <lb ed="#C" n="14"/>Simpliciter dico quod nullo addito dico. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

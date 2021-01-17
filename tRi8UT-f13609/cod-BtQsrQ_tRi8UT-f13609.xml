@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 2</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 2</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="69"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f13609"><!-- alias="arspoeticae-l2" -->
+            <head xml:id="tRi8UT-f13609-Hd1e107">Liber 2</head>
+            <p xml:id="tRi8UT-f13609-d1e110">
+               <lb ed="#C" n="25"/>⁋ Sequuntur autori. secundum libri artis Poetice 
+    </p>
+            <p xml:id="tRi8UT-f13609-d1e115">
+               <lb ed="#C" n="26"/>TOtum completum est quod habet principium medium et finem 
+    </p>
+            <p xml:id="tRi8UT-f13609-d1e120">
+               <lb ed="#C" n="27"/>Locum medium obtinebunt in bello fortes sunt. locum scilicet medium inter timi¬ 
+      <lb ed="#C" n="28"/>(dum et audacem 
+    </p>
+            <p xml:id="tRi8UT-f13609-d1e127">
+               <lb ed="#C" n="29"/>Omnis sermo si breuior sit quam debeat obscurat intellectum. 
+      <lb ed="#C" n="30"/>si longior fuent difficilis est retentionis et discipulo obliuionem indu 
+      <lb ed="#C" n="31"/>cit secundum propositum et vnum finem 
+    </p>
+            <!-- hamasse 15 missing -->
+            <p xml:id="tRi8UT-f13609-d1e139">
+               <lb ed="#C" n="32"/>Oportet vt ars in hoc naturam imitetur. vt omnia que agit agat 
+    </p>
+            <p xml:id="tRi8UT-f13609-d1e144">
+               <lb ed="#C" n="33"/>Rebus non existentibus in natura non imponuntur nomnina nisi raro 
+    </p>
+            <p xml:id="tRi8UT-f13609-d1e149">
+               <lb ed="#C" n="34"/>⁋ Commentator 
+    </p>
+            <p xml:id="tRi8UT-f13609-d1e154">
+      Suaue est homini quod consueuit tota sua vita. 
+    </p>
+            <p xml:id="tRi8UT-f13609-d1e157">
+               <lb ed="#C" n="35"/>Secuodm Aristotilem Ira est tristicia et perturbatio quedam. in vehemen 
+      <lb ed="#C" n="36"/>ti appetitum vindicte 
+    </p>
+            <p xml:id="tRi8UT-f13609-d1e164">
+               <lb ed="#C" n="37"/>Quod quis non credit non mouet ipsum. nec ad timendum. nec ad miserandum 
+    </p>
+            <p xml:id="tRi8UT-f13609-d1e170">
+               <lb ed="#C" n="38"/>Non contristatur nec leditur aliquis in tantum propter malum quod infertur sibi ab 
+      <lb ed="#C" n="39"/>inimicis. inquantum contristatur et leditur propter malum sibi illatum ab amicis 
+    </p>
+            <p xml:id="tRi8UT-f13609-d1e177">
+               <lb ed="#C" n="40"/>Qui beneficia inuenit compedes inuenit. 
+    </p>
+            <p xml:id="tRi8UT-f13609-d1e182">
+               <lb ed="#C" n="41"/>In quolibet genere est aliquod bonum. licet in eo inueniuntur aliqui non bona. 
+    </p>
+            <p xml:id="tRi8UT-f13609-d1e187">
+               <lb ed="#C" n="42"/>Propter vsus et consuetudines malas et puersos non laudatur quisquam 
+      <!--70.xml-->
+      <pb ed="#C" n="70"/>
+               <lb ed="#C" n="1"/>Aristo. In inferno continua est tristicia et meror inconsolabiis. hic ha 
+      <lb ed="#C" n="2"/>bes quid Aristoteles senserit de inferno 
+    </p>
+            <p xml:id="tRi8UT-f13609-d1e200">
+               <lb ed="#C" n="3"/>⁋ Littera est simplicissimum elementum ex quibus locutio constituitur Lactantius 
+      <lb ed="#C" n="4"/>li. v. contra gentes Ine oratores et poete perniciosi sunt quod incautos animos fa 
+      <lb ed="#C" n="5"/>cile irretire praestunt suauitate sermonis et carminum dulci modulatione currem 
+      <lb ed="#C" n="6"/>(tium 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

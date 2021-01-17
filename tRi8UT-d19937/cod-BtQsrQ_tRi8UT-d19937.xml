@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>De substantia orbis et lunae</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>De substantia orbis et lunae</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="49"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d19937"><!-- alias="deSubstantiaOrbisEtLunae" -->
+            <head xml:id="tRi8UT-d19937-Hd1e107">De substantia orbis et lunae</head>
+            <p xml:id="tRi8UT-d19937-d1e110">
+               <lb ed="#C" n="33"/>⁋ Autorita. libri de substantia orbis et lune.
+    </p>
+            <p xml:id="tRi8UT-d19937-d1e115">
+               <lb ed="#C" n="34"/>⁋ Llud quod compositum est ex se compositum est ex duabus naturis scilicet reci¬ 
+      <lb ed="#C" n="35"/>(piente motum et agente motum 
+    </p>
+            <p xml:id="tRi8UT-d19937-d1e122">
+               <lb ed="#C" n="36"/>In indiuiduis substantie du¬ 
+      <lb ed="#C" n="37"/>s plex est transmutatio. Una est substantialis quae transmutat ea no 
+      <lb ed="#C" n="38"/> mine et definitione. quae transmutatio dicitur generatio vel corruptio 
+    </p>
+            <p xml:id="tRi8UT-d19937-d1e131">
+               <lb ed="#C" n="39"/>Alia est transmutatio accidentalis quae non transmutat ea nomine et definitione 
+      <lb ed="#C" n="40"/>sed tantum secundum dispositiones accidentales quae sunt quantitas. qualitas. et ciis. 
+    </p>
+            <p xml:id="tRi8UT-d19937-d1e139">
+               <lb ed="#C" n="41"/>Impossibile est vnum subiectum plures quam vnam formam habere. quod est con 
+      <lb ed="#C" n="42"/>tra illos quae volunt in hominem saluare tres animas 
+    </p>
+            <p xml:id="tRi8UT-d19937-d1e146">
+               <lb ed="#C" n="43"/>Materia substantiatur per posse et hoc est quod recipit omnes formas 
+    </p>
+            <p xml:id="tRi8UT-d19937-d1e151">
+      <!--50.xml-->
+               <pb ed="#C" n="50"/>
+               <lb ed="#C" n="1"/>Unde materia nihil est in actu. nec est etiam aliquam formam specificam in 
+      <lb ed="#C" n="2"/>sui natura includens. sed duntaxat est in potentia ad recipiendum omnes 
+      <lb ed="#C" n="3"/>formas ex ea educibiles 
+    </p>
+            <p xml:id="tRi8UT-d19937-d1e164">
+               <lb ed="#C" n="4"/>Forme naturales diuiduntur diuisione materie Ex quo habtur ma¬ 
+      <lb ed="#C" n="5"/>teriam esse indiuiduationis principium 
+    </p>
+            <p xml:id="tRi8UT-d19937-d1e171">
+               <lb ed="#C" n="6"/>Diuisio scilicet sensibilis. non competit substantie nisi vt habeat quantitatem 
+    </p>
+            <p xml:id="tRi8UT-d19937-d1e176">
+               <lb ed="#C" n="7"/>Dimensiones interminate praecedunt formam in materia. sed dimensiones 
+      <lb ed="#C" n="8"/>terminate sequuntur formam in materia. quod est contra illos qui volunt causaliter 
+      <lb ed="#C" n="9"/>quantitatem contracurrere ad indiuiduationem. cum tantum sequatur eam 
+    </p>
+            <p xml:id="tRi8UT-d19937-d1e186">
+               <lb ed="#C" n="10"/>Omne quod aduenit enti in actu est accidens 
+    </p>
+            <p xml:id="tRi8UT-d19937-d1e191">
+               <lb ed="#C" n="11"/>Omne quod substat ium ratione substantis primi substat in ratione materie 
+    </p>
+            <p xml:id="tRi8UT-d19937-d1e196">
+               <lb ed="#C" n="12"/>Impossibile est formam esse sine materia et non econuerso. 
+    </p>
+            <p xml:id="tRi8UT-d19937-d1e201">
+               <lb ed="#C" n="13"/>Materia non recipit diuersas formas nisi quia prius recipit dimensio 
+      <lb ed="#C" n="14"/>nes interminatas. 
+    </p>
+            <p xml:id="tRi8UT-d19937-d1e208">
+               <lb ed="#C" n="15"/>Anima celi non coniungitur celi esse sed secundum operationem et motum. sicut 
+      <lb ed="#C" n="16"/>lutifigulus assistit rote. 
+    </p>
+            <p xml:id="tRi8UT-d19937-d1e215">
+               <lb ed="#C" n="17"/>In celestibus idem est efficiens motum et finis motus 
+    </p>
+            <p xml:id="tRi8UT-d19937-d1e221">
+               <lb ed="#C" n="18"/>Materia celi est aliquid existens in actu et non in potentia. et ideo di¬ 
+      <lb ed="#C" n="19"/>gnius dicitur subiectum quam materia 
+    </p>
+            <p xml:id="tRi8UT-d19937-d1e228">
+               <lb ed="#C" n="20"/>Finis significat agens significatione necessaria sicut motus signifi¬ 
+      <lb ed="#C" n="21"/>cat ipsum mouens. 
+    </p>
+            <p xml:id="tRi8UT-d19937-d1e235">
+               <lb ed="#C" n="22"/>Quicquid convenit celestibus et istis inferioribus hoc conuenit eis pure equi 
+      <lb ed="#C" n="23"/>uoce vel analogice secundum prius et posterius 
+    </p>
+            <p xml:id="tRi8UT-d19937-d1e242">
+               <lb ed="#C" n="24"/>Uirtus infinita est duplex scilicet infinita in vigore. et infinita in durati 
+      <lb ed="#C" n="25"/>one. vt deus qui vtroque modo est infinitus. 
+    </p>
+            <p xml:id="tRi8UT-d19937-d1e249">
+               <lb ed="#C" n="26"/>Uirtus mouens caelum est infinita in duratione. non autem in vigore. 
+    </p>
+            <p xml:id="tRi8UT-d19937-d1e254">
+               <lb ed="#C" n="27"/>⁋ Thomas Brabantinus Sanguis occise talpe si super caput homnis nu 
+      <lb ed="#C" n="28"/>datum pilis deliniatur. crines decaluatos redire facit. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

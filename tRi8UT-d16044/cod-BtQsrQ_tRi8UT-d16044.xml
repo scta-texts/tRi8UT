@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 3</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 3</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="30"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d16044"><!-- alias="deanima-l3" -->
+            <head xml:id="tRi8UT-d16044-Hd1e107">Liber 3</head>
+            <div xml:id="tRi8UT-d16049">
+               <head xml:id="tRi8UT-d16044-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d16044-d1e115">
+                  <lb ed="#C" n="23"/>⁋ Autoritates. iii libro de anima 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e120">
+                  <lb ed="#C" n="24"/>INtellectus est pars anime Intelligere est pati 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e125">
+                  <lb ed="#C" n="25"/>Sicut se habet sensus ad sensibilia. sic se habet intellectus ad intelligibilia 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e130">
+                  <lb ed="#C" n="26"/>Intellectus possibilis nihil est in actu de nuero entium anequam intelligit ea. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e136">
+                  <lb ed="#C" n="27"/>Intellectus non habet organum in corpore. sed est ab oi organo corporali sepat.  
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e141">
+                  <lb ed="#C" n="28"/>Anima intellectiua est specierum intelligibilium locus 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e146">
+                  <lb ed="#C" n="29"/>Intellectus cum intelligit valde intelligibilia non minus intelligit infimum immo 
+        <lb ed="#C" n="30"/>(magis. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e153">
+                  <lb ed="#C" n="31"/>Intellectus cum intellexerit alia potest seipsum intelligere 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e158">
+                  <lb ed="#C" n="32"/>In omnibus habentibus forma in materia differunt res et rei esse. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e163">
+                  <lb ed="#C" n="33"/>Essentia siue quidditas rem scilicet formalis est proprium obiectum intellectus. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e169">
+                  <lb ed="#C" n="34"/>Intellectus est simplex impassibilis et immixtus. id est inorganicus 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e174">
+                  <lb ed="#C" n="35"/>Intellectus possibilis est primo tanquam tabula rasa in qua nihil est depi 
+        <lb ed="#C" n="36"/>ctum. possibilis tamen depingi 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e181">
+                  <lb ed="#C" n="37"/>Intellectus noster intelligit se sicut alia per species aliarum. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e186">
+                  <lb ed="#C" n="38"/>In separatis a materia idem est intelligens et intellectum 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e191">
+                  <lb ed="#C" n="39"/>Sicut in omnim rerum natura est aliquid quod potest primo fieri et facere om¬ 
+        <lb ed="#C" n="40"/>nia illius generis. sic etiam in anima est necesse hec duo esse vnum scilicet quod po 
+        <lb ed="#C" n="41"/>test fieri omnia intelligibilia et recipere ea et hoc est intellectus possibilis. aliud  
+        <!--31.xml-->
+        <pb ed="#C" n="31"/>
+                  <lb ed="#C" n="1"/>vero quod potest facere omnia intelligibilia. et hoc est intellectus agens. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e207">
+                  <lb ed="#C" n="2"/>Unde duplex est potentia animae intellectiue scilicet agens et possibilis. Intellectus 
+        <lb ed="#C" n="3"/>agens est. sicut lumen. quia sicut lumen facit colores in potentia actu visibi 
+        <lb ed="#C" n="4"/>les. sic intellectus agens potentia intelligibilia facit actu intelligibilia 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e217">
+                  <lb ed="#C" n="5"/>Agens est nobilius et honorabilius passo et forma materia 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e222">
+                  <lb ed="#C" n="6"/>Intellectus est immortalis et perpetuus 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e227">
+                  <lb ed="#C" n="7"/>Duplex est operatio intellectus Una est quae dicitur simplicium terminorum appre 
+        <lb ed="#C" n="8"/>heso Alia simplicium terminorum apprehensorum compositio et diuisio. sub 
+        <lb ed="#C" n="9"/>qua comprehenditur tertia. scilicet concinatio seu argumentatio 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e236">
+                  <lb ed="#C" n="10"/>Priuatio cognoscitur per habitu 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e241">
+                  <lb ed="#C" n="11"/>Intellectus noster est ens in potentia. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e246">
+                  <lb ed="#C" n="12"/>Potentia in vno indiuiduo praecedit actum. sed actus simpliciter praecedit potentiam 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e252">
+                  <lb ed="#C" n="13"/>Omnia que fiunt ab vno ente in actu fiunt 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e257">
+                  <lb ed="#C" n="14"/>Duplex est intellectus possibilis scilicet practicus et speculatiuus 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e262">
+                  <lb ed="#C" n="15"/>Speculatiuus considerat rem simpliciter. Practicus considerat ipsam per comperatio 
+        <lb ed="#C" n="16"/>(nem ad opus 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e269">
+                  <lb ed="#C" n="17"/>Sicut res habet esse sic habet intelligi 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e274">
+                  <lb ed="#C" n="18"/>Species intelligibilis est phantasma lumine intellectus agentis illustratum 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e279">
+                  <lb ed="#C" n="19"/>Omne ens aut est sensibile aut intelligibile 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e285">
+                  <lb ed="#C" n="20"/>Anima est quodammodo omnia 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e290">
+                  <lb ed="#C" n="21"/>Scientie secantur queadmodum res de quibus fiunt scientie 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e295">
+                  <lb ed="#C" n="22"/>Lapis non est in anima sed species eius 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e300">
+                  <lb ed="#C" n="23"/>Manus est organum organorum. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e305">
+                  <lb ed="#C" n="24"/>Intellectus est species specierum id est forma formarum 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e310">
+                  <lb ed="#C" n="25"/>Duplex est appetit scilicet intellectiuus. et ille dicitur volutas. et sensitiuus. et 
+        <lb ed="#C" n="26"/>ille diuiditur in duas scilicet in irascibilem et concupiscibilem 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e318">
+                  <lb ed="#C" n="27"/>Necesse est quemcumque humanitus intelligente phantasmata speculari 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e323">
+                  <lb ed="#C" n="28"/>Utrum vero possibile. sit animam rationalem secundum portionem eius supriorem. quae non al 
+        <lb ed="#C" n="29"/>ligata est corpori vel phantasie quandoque assurgere ad ituitum et cognitionem sui 
+        <lb ed="#C" n="30"/>ipsius et subiectarum separatarum Aristoteles pollicetur se determinaturum. At illi 
+        <lb ed="#C" n="31"/>us resolutio ad nos non puenit. Respondent tantum conformiter <name xml:id="tRi8UT-d16044-Nd1e333">Auicenna</name> 
+                  <lb ed="#C" n="32"/>
+                  <name xml:id="tRi8UT-d16044-Nd1e339">domins Albertus</name> 
+                  <name xml:id="tRi8UT-d16044-Nd1e342">Guilhelmus parisiensis</name>. et alii quidam sublimes prehsi Idipm 
+        <lb ed="#C" n="33"/>esse possibile Utputa vbi intellexit alia scibilia. tunc per species vniuer¬ 
+        <lb ed="#C" n="34"/>si ordinis potest in proprio lumine se ad illas substantias convertere supercele 
+        <lb ed="#C" n="35"/>stes Et quod Aristoteles illius erat metis. immo quodam raptum diuinati 
+        <lb ed="#C" n="36"/>onis instar coruscationis sui intellectus nonunquam illud lumen syncere 
+        <lb ed="#C" n="37"/>intelligentie contigerit attestatur ide ipse in certis locis librorum suorum. Et 
+        <lb ed="#C" n="38"/>
+                  <ref xml:id="tRi8UT-d16044-Rd1e358">primo in decimo Eth</ref>. vbi asseuerat felicitatem contemplatiuam consistere in 
+        <lb ed="#C" n="39"/>operatione intellectus puri conuersi ad summum et optimum intel 
+        <lb ed="#C" n="40"/>ligibile separatum quod est deus. et tali intellectu subiungit) non viuit 
+        <lb ed="#C" n="41"/>homo vt homo. sed vt diuinum in eo existens. sed in ea speculatione 
+        <lb ed="#C" n="42"/>consistit summa felicitas. quietaturque sciendi desiderium. Insuper ait. 
+        <!--32.xml-->
+        <pb ed="#C" n="32"/>
+                  <lb ed="#C" n="1"/>duodecimo metaphy. Intelligere subiectarum seperatarum est conforme tali(quam 
+        <lb ed="#C" n="2"/>in nobs quandoque expimur) contemplatoi syncere De qui Idem pehsus in de somno 
+        <lb ed="#C" n="3"/>e vigilia tractatu de diuinatione somniorum dicit. quod aduenit nobus tempore mo 
+        <lb ed="#C" n="4"/>derati somni quando sedatum motibus corporis ea quae in nobus diuina est particula 
+        <lb ed="#C" n="5"/>scintillat. animamque illustrat hinc pro vero putatur Ioannem dcotu tali in e 
+        <lb ed="#C" n="6"/>tellectu quae dicitur assimilatus. formalis. diuinus. vl adeptus raptum fuisse. et paulo 
+        <lb ed="#C" n="7"/>post a confratribus suis huiusce rei ignarum pro mortuo sepulture Colonie 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e390">
+                  <lb ed="#C" n="8"/>Natura nihil facit frustra Unde non deficit in necessa¬ straditum esse. 
+        <lb ed="#C" n="9"/>riis nec abundat in superfiuis. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e397">
+                  <lb ed="#C" n="10"/>Intellectus principiorum semper est rectus t  
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e402">
+                  <lb ed="#C" n="11"/>Appetibile semper mouet appetitum sub ratione boni. siue hoc sit bo¬ 
+        <lb ed="#C" n="12"/>num apparens sine existens. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e409">
+                  <lb ed="#C" n="13"/>Tria requruntur ad motum animalis. scilicet mouens. motum et organum motus 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e415">
+                  <lb ed="#C" n="14"/>Duplex est motus scilicet mouens mobile quod est appetibile. et moues motum 
+        <lb ed="#C" n="15"/>quod est potentia appetitiua in homine. motum aut est organum animalis puta iparet cor. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e422">
+                  <lb ed="#C" n="16"/>Mecesse est omne quod viuit habere animam vegetatiuam a principio gene 
+        <lb ed="#C" n="17"/>rationis sue vsque ad finem 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e429">
+                  <lb ed="#C" n="18"/>Impossibile est corpus animalis esse simplex elementum. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e434">
+                  <lb ed="#C" n="19"/>Sensus gustus et tactus necessarum sunt omi animali. alii autem de bene esse 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e439">
+                  <lb ed="#C" n="20"/>Non videmus extramittendo sed intus suscipiendo. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e444">
+                  <lb ed="#C" n="21"/>Sensus tactus est primus omnium sensuum. quia sine eo anima esse non potest 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e450">
+                  <lb ed="#C" n="22"/>Excellens sensibile corrumpit sensum 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e455">
+                  <lb ed="#C" n="23"/>Excellens tangibile corrumpit animali 
+        <lb ed="#C" n="24"/>inguam habet animal vt significet aliquid alteri 
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d16400">
+               <head xml:id="tRi8UT-d16044-Hd1e465">Albertus</head>
+               <p xml:id="tRi8UT-d16044-d1e468">
+                  <lb ed="#C" n="25"/>⁋ Albertus 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e473">
+        In auerrois positione vnum intellectum in omnibus homnibus ponem 
+        <lb ed="#C" n="26"/>te sunt tot inconuenientia quot verba 
+        <lb ed="#C" n="27"/>Hanc Auerrois positionem venerabilis domins Albertus ab alexandro Pa 
+        <lb ed="#C" n="28"/>pa. iiii. ad vrbem accitus romanam occasione cuiusdam heresis illic inuales 
+        <lb ed="#C" n="29"/>centis trigita sex impugnauit viis vt pabet in secunda parte eius de mirabili scientia dei
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d16422">
+               <head xml:id="tRi8UT-d16044-Hd1e487">Commentator</head>
+               <p xml:id="tRi8UT-d16044-d1e490">
+                  <lb ed="#C" n="30"/>⁋ Commenta. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e495">
+        Intellectus non est corpus nec vertus: in corpore 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e498">
+                  <lb ed="#C" n="31"/>Sermo in principiis debet esse longus. vt ait <name xml:id="tRi8UT-d16044-Nd1e502">plato</name> 
+                  <lb ed="#C" n="32"/>Arist. adinueniens intellectum possibile inuenit quoddam nouum genus materie 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e508">
+                  <lb ed="#C" n="33"/>Necesse est in omni intelligibili abstracto aliquid simile esse materie 
+        <lb ed="#C" n="34"/>et aliquid simile esse forme. scilicet potentiam et actum 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e516">
+                  <lb ed="#C" n="35"/>Omnis forma separata a materia est intellectiua. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e521">
+                  <lb ed="#C" n="36"/>Credo quod ille homo. scilicet Aristo. fuit in natura regula et exemplar quodam. nam 
+        <lb ed="#C" n="37"/>adinuenit ad demonstraudum vltimam perfectionem in materia 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e528">
+                  <lb ed="#C" n="38"/>Operatio intellectus possibilis est intelligere. sed operatio intellectus 
+        <lb ed="#C" n="39"/>agentis est abstrahere et intelligere facere 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e535">
+                  <lb ed="#C" n="40"/>Intelligere est recipere intelligibilia. sed abstrahere est potentia intelligibi¬ 
+        <lb ed="#C" n="41"/>lia facere actu intellecta denudando ea a materia et conditionibus materie 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e542">
+        <!--33.xml-->
+                  <pb ed="#C" n="33"/>
+                  <lb ed="#C" n="1"/>Intellectus possibilis est vltimus in ordine intelligentiarum sepatarum 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e551">
+                  <lb ed="#C" n="2"/>Prima principia per nihil aliud quam solo lumine intellectus cognoscuntur. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e557">
+                  <lb ed="#C" n="3"/>Oncumque homo fuerit copulatus intellectui per scientiam omnim rerum tunc est quaesi deus 
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d16500">
+               <head xml:id="tRi8UT-d16044-Hd1e565">Themistius</head>
+               <p xml:id="tRi8UT-d16044-d1e568">
+                  <lb ed="#C" n="4"/>⁋ Themistiu Si aliquis est intellectus in qui non est potentia. ille nec intelli¬ 
+        <lb ed="#C" n="5"/>git praeuationes nec mala. et talis est prima causa 
+        <lb ed="#C" n="6"/>Ille intellectus qui plura intelligit non est dignior. sed qui nobiliora intelli¬ 
+        <lb ed="#C" n="7"/>git ille est nobilior et dignior 
+        <lb ed="#C" n="8"/>Intellectus diuinus est ipsa veritas. et non semper verum intelligit 
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d16520">
+      <!-- commentator again??; unusual; needs dbcheck -->
+               <head xml:id="tRi8UT-d16044-Hd1e587">Commentator</head>
+               <p xml:id="tRi8UT-d16044-d1e590">
+                  <lb ed="#C" n="9"/>⁋ Commenta. super. iii. de anima 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e595">
+        prius est scire actiones animae quam eius subiecta 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e598">
+                  <lb ed="#C" n="10"/>Intellectus est omnibus comunis. cognitio autem non 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e604">
+                  <lb ed="#C" n="11"/>Scire genus praecedit ipsum scire differentiam 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e609">
+                  <lb ed="#C" n="12"/>Prima perfectio sensus est virtus in corpore. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e614">
+                  <lb ed="#C" n="13"/>Uirtutes passiue sunt mobiles ab eo cui attribuuntur. actiue vero mo¬ 
+        <lb ed="#C" n="14"/>uent illud cui attribuutur 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e621">
+                  <lb ed="#C" n="15"/>Anima rationalis indiget inspicere et considerare intentiones quae sunt 
+        <lb ed="#C" n="16"/>in virtute imaginatiua. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e628">
+                  <lb ed="#C" n="17"/>Sicut sensns idiget inspicere sensibilia. ita intellectus intelligibilia. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e633">
+                  <lb ed="#C" n="18"/>Forme rerum extrinsecarum mouent intellectum 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e639">
+                  <lb ed="#C" n="19"/>Mens. id est intellectus agens aufert formas a materiis et facit eas intellet 
+        <lb ed="#C" n="20"/>tiuas in actu postquam erat intellectiue in potentia 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e646">
+                  <lb ed="#C" n="21"/>Intellectus recipit oens formas naturales 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e651">
+                  <lb ed="#C" n="22"/>Omne recipiens debet esse denudatum a natura recepti 
+        <lb ed="#C" n="23"/>intellectus possibilis nihil habet in sui natura de formis materialibus 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e658">
+                  <lb ed="#C" n="24"/>Extrema differunt in specie a mediis. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e663">
+                  <lb ed="#C" n="25"/>Intellectus possibilis est illud quod est i pona ad oens intentiones formarum 
+        <lb ed="#C" n="26"/>naturalium. vniuersalium. et non est in actu ad aliquod entium antequam intelligat. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e670">
+                  <lb ed="#C" n="27"/>Diuersitas materie recepte facit diuersitatem nature recipientis. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e676">
+                  <lb ed="#C" n="28"/>Omne generabile et corruptibile est particulare. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e681">
+                  <lb ed="#C" n="29"/>Intellectus non est ho id est particularum. neque corpus neque et forma in corpore sensibitus 
+        <lb ed="#C" n="30"/>intellectus qui creat et generat intelligibilia est intellectus agens. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e688">
+                  <lb ed="#C" n="31"/>Anima non intelligit sine immaginatione sicut senius non sentit sine praesentia. 
+        <lb ed="#C" n="32"/>mpossibile est easdem intentiones ponere quandoque corruptibiles quandoque eternas. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e695">
+                  <lb ed="#C" n="33"/>Natura corruptibilis siue passibilis non potest transmutari in eternam. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e700">
+                  <lb ed="#C" n="34"/>Intellectus agens et possibilis neque est geratioabilis neque corruptibilis. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e705">
+                  <lb ed="#C" n="35"/>Omne ens sensibile diuiditur in materiam et formam 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e711">
+                  <lb ed="#C" n="36"/>Nisi esset hoc genus entium non possemus intelligere multitudinem in rebus abstra 
+        <lb ed="#C" n="37"/>(ctis. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e718">
+                  <lb ed="#C" n="38"/>Scientia de anima necessaria est ad sciendum primam prohiam 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e723">
+                  <lb ed="#C" n="39"/>Sicut se habet lux ad diaphonum sic intellectus agens ad possibilem. quia sicut 
+        <lb ed="#C" n="40"/>lux est perfectio diaphoni sic intellectus agens est perfectio intellectus possibil 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e730">
+                  <lb ed="#C" n="41"/>Noc nome intellectus equiuoce dicitur de intellectu agente et speculatiuo 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e735">
+                  <lb ed="#C" n="42"/>Omnis vertus existens in corpore composita est ex primis qualitatibus. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e740">
+        <!--34.xml-->
+                  <pb ed="#C" n="34"/>
+                  <lb ed="#C" n="1"/>Uirtus imaginatiua est in interiori parte cerebri. et cogitatiua est de 
+        <lb ed="#C" n="2"/>genere virtutum existentium in corpore 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e752">
+                  <lb ed="#C" n="3"/>Omnes partes animae sunt forme in materiis preter rationalem 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e757">
+                  <lb ed="#C" n="4"/>Locus nihil est eorum que in eo existunt 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e762">
+                  <lb ed="#C" n="5"/>Uirtutes cogitatiua est de genere virtutum sensibilium. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e767">
+                  <lb ed="#C" n="6"/>Primum intelligens extra se nihil intelligit 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e772">
+                  <lb ed="#C" n="7"/>Mouens et motum debent esse eiusdem speciei 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e777">
+                  <lb ed="#C" n="8"/>Intellectus cum fuent in actu potest intelligere seipsum per intentionem quam extra 
+        <lb ed="#C" n="9"/>(hit a se 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e785">
+                  <lb ed="#C" n="10"/>Intellectus abstrabit quidditatem ab habenti quidditatem et non cessat ab 
+        <lb ed="#C" n="11"/>strahere donec veniat ad simplicem quidditate 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e792">
+                  <lb ed="#C" n="12"/>Rectum est in continuo. sicut simeitas in naso. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e797">
+                  <lb ed="#C" n="13"/>Si non esset materia non esset passio Intelligere est passio et non actio 
+        <lb ed="#C" n="14"/>in eo quod intelligibile est ex se et intelligens et intellectum idem erunt in omnibus mo¬ 
+        <lb ed="#C" n="15"/>(dis 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e806">
+                  <lb ed="#C" n="16"/>Propria passio et aliqua priuatio et nullam habet naturam 
+        <lb ed="#C" n="17"/>propriam preter naturam subiecti 
+        <lb ed="#C" n="18"/>num oppositorum per reliquum intelligitur 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e815">
+                  <lb ed="#C" n="19"/>Anima est vnum entium naturalium rerum 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e820">
+                  <lb ed="#C" n="20"/>Consideratio de anima est consideratio naturalis 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e826">
+                  <lb ed="#C" n="21"/>Nihil agit nisi per suam formam Actus intellectus agentis est sua subiecta 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e831">
+                  <lb ed="#C" n="22"/>Forme immateriales ex se sunt intellectiue 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e836">
+                  <lb ed="#C" n="23"/>Ubi non est vera generatio ibi non est verum agens. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e841">
+                  <lb ed="#C" n="24"/>Per virtutem cogitatiuam homo differt ab omibus animalibus. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e846">
+                  <lb ed="#C" n="25"/>Intellectus agens tantum est in actu et non in potentia 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e851">
+                  <lb ed="#C" n="26"/>Perfectio humana est intelligere res abstractas. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e857">
+                  <lb ed="#C" n="27"/>Eternum in sua actione non indiget corruptibili 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e862">
+                  <lb ed="#C" n="28"/>Omne factum habet quidditatem. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e867">
+                  <lb ed="#C" n="29"/>Impossibile est vt aliquod genenatioabile et corruptibile sit materia etemi 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e872">
+                  <lb ed="#C" n="30"/>Intellectus possibilis intelligit formas materiales et abstractas. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e877">
+                  <lb ed="#C" n="31"/>Quorum differentie sunt eedem ipsa sunt eadem 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e882">
+                  <lb ed="#C" n="32"/>Illud quod existit in anima est forma tantum et non matria. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e888">
+                  <lb ed="#C" n="33"/>Imaginationes sunt de genere rerum sensibilium 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e893">
+                  <lb ed="#C" n="34"/>Si motor est vnus mobile erit vnum. 
+      </p>
+               <p xml:id="tRi8UT-d16044-d1e898">
+                  <lb ed="#C" n="35"/>Intellectus non mouet sine voluntate.
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d16841">
+      <!-- not sure if this should still be conisdered on De anima 3 or if it is a new text -->
+               <head xml:id="tRi8UT-d16044-Hd1e908">Lactantius </head>
+               <p xml:id="tRi8UT-d16044-d1e911">
+                  <lb ed="#C" n="36"/>⁋ Lactantius libro vii. caua. xxii. 
+        </p>
+               <p xml:id="tRi8UT-d16044-d1e916">
+        Plato ex hoc putauit animas esse immortales quod 
+        <lb ed="#C" n="37"/>in pueris mobilia sunt ingenia et ad discendum facilia ita vt solum reminisci 
+        <lb ed="#C" n="38"/>videantur. in qui vir iste poetis ineptissime credidit
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

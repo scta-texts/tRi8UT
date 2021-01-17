@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 4</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 4</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="5"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d1e812"><!-- alias="aa-met-4" -->
+            <head xml:id="tRi8UT-d1e812-Hd1e107">Liber 4</head>
+            <div xml:id="tRi8UT-d1e817">
+               <head xml:id="tRi8UT-d1e812-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d1e812-d1e115">
+                  <lb ed="#C" n="44"/>⁋ Sequuntur autori. iiii libro metaphy. Aristo.
+      </p>
+               <p xml:id="tRi8UT-d1e812-d1e120">
+                  <lb ed="#C" n="45"/>PRima philosophia id est metaphysica considerat ens et passiones et 
+        prin<lb ed="#C" n="46" break="no"/>cipia entis secundum quod ens
+      </p>
+               <p xml:id="tRi8UT-d1e812-d1e127">
+        <!--6.xml-->
+                  <pb ed="#C" n="6"/>
+                  <lb ed="#C" n="1"/>Ens secundum quod est ens dicitur multis modis. non equiuoce: sed secundum attributionem om 
+        <lb ed="#C" n="2"/>nium in vnum. id est analogice 
+      </p>
+               <p xml:id="tRi8UT-d1e812-d1e138">
+                  <lb ed="#C" n="3"/>Substantia est primum ens a quo omnia dependent 
+      </p>
+               <p xml:id="tRi8UT-d1e812-d1e144">
+                  <lb ed="#C" n="4"/>Ens et vnum conuvertuntur Idem est homo et vnus homo 
+      </p>
+               <p xml:id="tRi8UT-d1e812-d1e149">
+                  <lb ed="#C" n="5"/>Eadem sunt quorum generatio et corruptio est eadem. vel que eadem generatione 
+        <lb ed="#C" n="6"/>generantur et corrumpuntur 
+      </p>
+               <p xml:id="tRi8UT-d1e812-d1e156">
+                  <lb ed="#C" n="7"/>Eiusdem scientie est opposita considerare. hoc est oppositorum eadem est disciplina 
+      </p>
+               <p xml:id="tRi8UT-d1e812-d1e161">
+                  <lb ed="#C" n="8"/>Negatio et priuatio differunt. quia negatio et alicuius simpliciter remotio 
+        <lb ed="#C" n="9"/>sed priuatio est remotio alicuius in subiecto aperto nato ad illud  
+      </p>
+               <p xml:id="tRi8UT-d1e812-d1e168">
+                  <lb ed="#C" n="10"/>Circa idem genus versantur metaphysicus et sophisticus. 
+      </p>
+               <p xml:id="tRi8UT-d1e812-d1e173">
+                  <lb ed="#C" n="11"/>Primum principium in aliqua scientia notissimum esse debet in ea. non 
+        condi<lb ed="#C" n="12" break="no"/>tionale nec demonstratum. 
+      </p>
+               <p xml:id="tRi8UT-d1e812-d1e181">
+                  <lb ed="#C" n="13"/>Prima dignitas est de quolibet affirmatio vel negatio. alis de 
+        quoli<lb ed="#C" n="14" break="no"/>bet esse vel non esse. de nullo vero simul 
+      </p>
+               <p xml:id="tRi8UT-d1e812-d1e188">
+                  <lb ed="#C" n="15"/>Qui negat loquilam ponit loquilam. Qui non vnum intelligit nihil intelligit 
+      </p>
+               <p xml:id="tRi8UT-d1e812-d1e193">
+                  <lb ed="#C" n="16"/>Quod non vnum significat nihil significat 
+      </p>
+               <p xml:id="tRi8UT-d1e812-d1e198">
+                  <lb ed="#C" n="17"/>Non omne quod videtur vtrum et apparet vtrum est verum 
+      </p>
+               <p xml:id="tRi8UT-d1e812-d1e203">
+                  <lb ed="#C" n="18"/>Necessarium non potest se aliter habere 
+      </p>
+               <p xml:id="tRi8UT-d1e812-d1e208">
+                  <lb ed="#C" n="19"/>Mouens naturaliter prius est moto 
+      </p>
+               <p xml:id="tRi8UT-d1e812-d1e214">
+                  <lb ed="#C" n="20"/>Accidentis non est accides. nisi inquantum ambo tertio accidunt. 
+      </p>
+               <p xml:id="tRi8UT-d1e812-d1e219">
+                  <lb ed="#C" n="21"/>Unum creatum refertur ad vnum 
+      </p>
+               <p xml:id="tRi8UT-d1e812-d1e224">
+                  <lb ed="#C" n="22"/>Contradictio est oppositio cuius secundum se non est medium 
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d1e937">
+               <head xml:id="tRi8UT-d1e812-Hd1e232">Commentator</head>
+               <p xml:id="tRi8UT-d1e812-d1e235">
+                  <lb ed="#C" n="23"/>⁋ Commentator. 
+      </p>
+               <p xml:id="tRi8UT-d1e812-d1e240">
+                  <quote xml:id="tRi8UT-d1e812-Qd1e242" source="http://scta.info/resource/xch7dn-d1e77-d1e316" synch="44-81">Ens nec est vniuocum nec equiuocum proprie. sed 
+        <lb ed="#C" n="24"/>est nomen significans plura vni attributa et est medium inter vniuocum 
+        <lb ed="#C" n="25"/>et equiuocum</quote>. id est analogum
+      </p>
+               <p xml:id="tRi8UT-d1e812-d1e250">
+                  <lb ed="#C" n="26"/>⁋ Omnia quae attribuuntur vni vel attribuuntur alicui fini. vt omnia sana 
+        sa<lb ed="#C" n="27" break="no"/>no quod est in animali vel vni agenti. vt omnia medicinalia ad artem medicina 
+        <lb ed="#C" n="28"/>vel subiecto. vt decem praedicamenta substantie. et idem vult Aristoteles
+      </p>
+               <p xml:id="tRi8UT-d1e812-d1e259">
+                  <lb ed="#C" n="29"/>Exercitium dicitur sanum eo quod conseruat sanitatem. 
+        <lb ed="#C" n="30"/>Una scientia non est tantum vnius vniuoci. sed etiam bene vnius analogi
+      </p>
+               <p xml:id="tRi8UT-d1e812-d1e267">
+                  <lb ed="#C" n="31"/>⁋ Auicena inseruit scientiam suam cum lege
+      </p>
+               <p xml:id="tRi8UT-d1e812-d1e272">
+                  <lb ed="#C" n="32"/>Auicenna putauit quod idem esset vnum quod couertitur cum ente et principium 
+        <lb ed="#C" n="33"/>numeri. quod non est vtrum. quia differunt multum
+      </p>
+               <p xml:id="tRi8UT-d1e812-d1e279">
+                  <lb ed="#C" n="34"/>Res non est ens vel vna per dispositionem sibi additam. sed est ens 
+        <lb ed="#C" n="35"/>et vna per suam essentiam
+      </p>
+               <p xml:id="tRi8UT-d1e812-d1e286">
+                  <lb ed="#C" n="36"/>
+                  <pc type="indent"/> Sophista intendit se videri philosophum et non est. sed vt acquirat gloriam vel
+        <lb ed="#C" n="37"/>gratiam humanam. sed philosophus tantum intendit scire veritatem. 
+      </p>
+               <p xml:id="tRi8UT-d1e812-d1e295">
+                  <lb ed="#C" n="38"/>Qui negat primum principium. scilicet quod duo contradictoria non stant simul 
+        <lb ed="#C" n="39"/>impossibile est ipsum philosophari.
+      </p>
+               <p xml:id="tRi8UT-d1e812-d1e302">
+                  <lb ed="#C" n="40"/>Ratio quam significat nomen est definitio. hoc est verum in 
+        spe<lb ed="#C" n="41" break="no"/>ciebus. sed non indiuiduis
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

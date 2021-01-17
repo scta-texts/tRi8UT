@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 10</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 10</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d11918"><!-- alias="aa-met-10" -->
+            <head xml:id="tRi8UT-d11918-Hd1e107">Liber 10</head>
+            <div xml:id="tRi8UT-d11923">
+               <head xml:id="tRi8UT-d11918-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d11918-d1e115">
+                  <lb ed="#C" n="10"/>⁋ Sequuntur autorita. x. libro Metaphysices 
+      </p>
+               <p xml:id="tRi8UT-d11918-d1e120">
+                  <lb ed="#C" n="11"/>IN vnoquoque generatione est dare aliquod primum et minimum quod  
+        <lb ed="#C" n="12"/>sit metrum et meluram omnim illorum que sunt in illo genere. 
+      </p>
+               <p xml:id="tRi8UT-d11918-d1e127">
+                  <lb ed="#C" n="13"/>Mensura primo debetur quantitati et per quantitatem coninter debetur aliis 
+      </p>
+               <p xml:id="tRi8UT-d11918-d1e132">
+                  <lb ed="#C" n="14"/>Mensura debet esse suo mensurato homogenea. id est eiusdem generations 
+      </p>
+               <p xml:id="tRi8UT-d11918-d1e138">
+                  <lb ed="#C" n="15"/>Numerus est vnitatum pluralitas 
+      </p>
+               <p xml:id="tRi8UT-d11918-d1e143">
+                  <lb ed="#C" n="16"/>Contraria sunt quae sub eodem genera posita sunt et maxime a se inuicem 
+        <lb ed="#C" n="17"/>distant. et eidem susceptibili vicissim insunt. et mutuo se expellunt 
+      </p>
+               <p xml:id="tRi8UT-d11918-d1e150">
+                  <lb ed="#C" n="18"/>Priuatio et habitus sunt radices contrariorum 
+      </p>
+               <p xml:id="tRi8UT-d11918-d1e155">
+                  <lb ed="#C" n="19"/>Unum tantum vni est contrarium Mumerus est multitudo vnitate mensurata 
+      </p>
+               <p xml:id="tRi8UT-d11918-d1e160">
+                  <lb ed="#C" n="20"/>Media sunt in eodem genere cum extremis 
+      </p>
+               <p xml:id="tRi8UT-d11918-d1e165">
+                  <lb ed="#C" n="21"/>Materia negatiue ostenditur id est materia cognoscitur per priuationem formarum 
+      </p>
+               <p xml:id="tRi8UT-d11918-d1e171">
+                  <lb ed="#C" n="22"/>Uir et femina non differunt specie. sed sunt vnum specie animalis 
+      </p>
+               <p xml:id="tRi8UT-d11918-d1e176">
+                  <lb ed="#C" n="23"/>Masculinum et femininum sunt differentie sexus animalis. 
+      </p>
+               <p xml:id="tRi8UT-d11918-d1e181">
+                  <lb ed="#C" n="24"/>Contrarietas secundum formam facit diuersitate specificam. sed contrarietas secundum 
+        <lb ed="#C" n="25"/>materia non facit diuersitatem specificam. sed numeralem 
+      </p>
+               <p xml:id="tRi8UT-d11918-d1e188">
+                  <lb ed="#C" n="26"/>Corruptibile et incorruptibile plus differunt genere quam specie 
+      </p>
+               <p xml:id="tRi8UT-d11918-d1e193">
+                  <lb ed="#C" n="27"/>Accidens contingit inesse et non inesse. 
+      </p>
+               <p xml:id="tRi8UT-d11918-d1e198">
+                  <lb ed="#C" n="28"/>⁋ Commentator 
+      </p>
+               <p xml:id="tRi8UT-d11918-d1e204">
+        Mensura cuiuslibet rem est sui generis 
+      </p>
+               <p xml:id="tRi8UT-d11918-d1e207">
+                  <lb ed="#C" n="29"/>Primum in generatione substantie est primus motor qui est actus puruis sine potentia 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

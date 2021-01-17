@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>De sensu et sensato</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>De sensu et sensato</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="34"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d16866"><!-- alias="pn-sensuetsensato" -->
+            <head xml:id="tRi8UT-d16866-Hd1e107">De sensu et sensato</head>
+            <div xml:id="tRi8UT-d16871">
+               <head xml:id="tRi8UT-d16866-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d16866-d1e115">
+                  <lb ed="#C" n="39"/>⁋ Seuumqutur auto. Aristo. de sensu et sensato
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e120">
+                  <lb ed="#C" n="40"/>Naturalis phi est sanitatem et infirmitatem prima principia inuenire 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e125">
+                  <lb ed="#C" n="41"/> Naturalis sumit considerationem suam ab eis que sunt de conm¬ 
+          <lb ed="#C" n="42"/>sideratione medicine. sed medicus incipit ex his de considera¬ 
+          <!--35.xml-->
+          <pb ed="#C" n="35"/>
+                  <lb ed="#C" n="1"/>tione naturalis. vn vbidesinit naturalis ibi incipit medicos. hinc medici apr 
+          <lb ed="#C" n="2"/>(pellantur physici. 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e141">
+                  <lb ed="#C" n="3"/>Necesse est animal inquantum animal habere sensum 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e147">
+                  <lb ed="#C" n="4"/>Auditus magnam partem ad intelligendam prudentiam confert. 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e152">
+                  <lb ed="#C" n="5"/>dermo audibilis existens est causa discipliue no per se sed per accidens 
+          <lb ed="#C" n="6"/>id est inquantum significat aliquid. 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e159">
+                  <lb ed="#C" n="7"/>Uisus multas nobis rerum differentias demonstrat 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e164">
+                  <lb ed="#C" n="8"/>Ois surdus a natiuitate est mutus et non econuerso et hoc tenet domins Alber. 
+          <lb ed="#C" n="9"/>ecus a natiuitate naturaliter est sapientior surdo et muto a natiuitate. 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e171">
+                  <lb ed="#C" n="10"/>Unumquodque nomen symbolum est sui significati 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e176">
+                  <lb ed="#C" n="11"/>Uisus attribuitur aque ratione qua est perspicua. et ideo potest reci 
+          <lb ed="#C" n="12"/>pere species coloris. 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e184">
+                  <lb ed="#C" n="13"/>Uisiua vtus non est in extremitate oculi sita. sed infra oculum circa cerebrum 
+          <lb ed="#C" n="14"/>Odor est fumalis euaporatio id est fit ex fumali euaporatione 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e191">
+                  <lb ed="#C" n="15"/>Cerebrum est pars frigidior et humidior omnibus partibus corporis 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e196">
+                  <lb ed="#C" n="16"/>Cor est oppositum cercbro et est calidissima pars corporis 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e201">
+                  <lb ed="#C" n="17"/>Color est extremitas perspicui in corpore terminato. 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e206">
+                  <lb ed="#C" n="18"/>Manifestius est nobis genus saporum quam odorum 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e211">
+                  <lb ed="#C" n="19"/>Odoratum nos habemus peiorem multis animalibus 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e217">
+                  <lb ed="#C" n="20"/>Tactum vero certiorem respectu omnium animalium. 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e222">
+                  <lb ed="#C" n="21"/>Ignis non agit neque patitur ratioe qua ignis sed ratione quae calidus. vnde a forma 
+          <lb ed="#C" n="22"/>substantiali non egreditur aliquo operatio nisi mediante forma accidentali. 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e229">
+                  <lb ed="#C" n="23"/>Omnia que nutriuntur dulci nutriuntur id est comedendo dulcia. 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e234">
+                  <lb ed="#C" n="24"/>Dulcis sapor et amarus sunt sapores extremi ex quibus commiscentur alii sa¬ 
+          <lb ed="#C" n="25"/>pores. sicut ab albo et nigro alii eolores 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e241">
+                  <lb ed="#C" n="26"/>Odor est passio enchimi ab humido facta odoratus alteratiua de ponia 
+          <lb ed="#C" n="27"/>(ad actum 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e248">
+                  <lb ed="#C" n="28"/>Duplex et odorabile vnum quod confert ad nutrimentum. aliud quod non confert 
+          <lb ed="#C" n="29"/>ad nutrimentum. sed tantum ad contortationem cerebri 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e256">
+                  <lb ed="#C" n="30"/>Esurientibus sapores et odores sunt delectabiles. sed plenis et nihil agen¬ 
+          <lb ed="#C" n="31"/>tibus nec odores nec sapores sunt delectabiles. 
+          <lb ed="#C" n="32"/>fumositas cibi ad cerebrum veniens infrigidata propter locum eius. facit homnin 
+          <lb ed="#C" n="33"/>reuma 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e267">
+                  <lb ed="#C" n="34"/>Solus homo sentit et delectatur in odoribus si orum 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e272">
+                  <lb ed="#C" n="35"/>Odorabile inquantum odorabile non confert ad nutrimentum sed bene ad sani¬ 
+          <lb ed="#C" n="36"/>(tatem 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e279">
+                  <lb ed="#C" n="37"/>Fumus carbonum facit hominibus grauamen capitis 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e284">
+                  <lb ed="#C" n="38"/>Simplex elementum non nutrit sed oportet oem cibum compositum esse et mixtum 
+          <lb ed="#C" n="39"/>(ex elementis. 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e291">
+                  <lb ed="#C" n="40"/>Intellectus noster nihil intelligit sine sensu 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e297">
+                  <lb ed="#C" n="41"/>Superabundantes et minime partes corporis seperate a toto resoluuntur in 
+          <lb ed="#C" n="42"/>cotinens vt minus sapor amarus infusus in alium resoluitur 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e304">
+                  <lb ed="#C" n="43"/>Illuminatio fit subito et non successiue 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e309">
+                  <lb ed="#C" n="44"/>Unus sonus nuero non potest pruenire ad aures plurium. sed vnus in specie. 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e314">
+                  <lb ed="#C" n="45"/>Motus maiores expellunt minores. 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e319">
+                  <lb ed="#C" n="46"/>Operatio non est sine virtute Opinio non est siue veritate. 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e324">
+          <!--36.xml-->
+                  <pb ed="#C" n="36"/>
+                  <lb ed="#C" n="1"/>Unius rei non est nisi solus vnus motus in vno tempore. 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e334">
+                  <lb ed="#C" n="2"/>Contrariorum contrarii sunt motus
+        </p>
+            </div>
+            <div xml:id="tRi8UT-d17101">
+               <head xml:id="tRi8UT-d16866-Hd1e342">Ioannes de <unclear>Mahlinia</unclear>
+               </head>
+               <p xml:id="tRi8UT-d16866-d1e348">
+                  <lb ed="#C" n="3"/>⁋ Ioannes de <unclear>mahlinia</unclear> 
+               </p>
+               <p xml:id="tRi8UT-d16866-d1e356">
+          Quia non eque aperte a propetatibus istituuntur ad  
+          <lb ed="#C" n="4"/>ycandum nomnina. nec equaliter pronunciantur Inde. fit quod nec equaliter persua 
+          <lb ed="#C" n="5"/>deant. nec audientem eque efficaciter afficiant 
+        </p>
+            </div>
+            <div xml:id="tRi8UT-d17124">
+               <head xml:id="tRi8UT-d16866-Hd1e366">Commentator</head>
+               <p xml:id="tRi8UT-d16866-d1e369">
+                  <lb ed="#C" n="6"/>⁋ Commen 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e374">
+          Uisus obscuratur in locis frigidis vbi fuerit nit vivelrsa aque multa 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e377">
+                  <lb ed="#C" n="7"/>Palpebre posite sunt in oculis hominum ad praeseruationem eorum a rebs 
+          <lb ed="#C" n="8"/>extrinsecis sicut vagina gladiis 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e384">
+                  <lb ed="#C" n="9"/>Instrumentum auditus est aer positus in auribus 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e390">
+                  <lb ed="#C" n="10"/>Instrumentum odoratus est aer positus in naso 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e395">
+                  <lb ed="#C" n="11"/>Color causatur ex commixtione corporis lucidi cum diaphono. 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e400">
+                  <lb ed="#C" n="12"/>Color albs et niger sunt extremi colores. 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e405">
+                  <lb ed="#C" n="13"/>Lux est perfectio corporis diaphoni interminati. est enim in superfi¬ 
+          <lb ed="#C" n="14"/>cie diaphoni terminati 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e412">
+                  <lb ed="#C" n="15"/>ignis non lucet per se. sed natura ignis lucet cum adunatur cum aliquo alio cor¬ 
+          <lb ed="#C" n="16"/>(pore 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e419">
+                  <lb ed="#C" n="17"/>Anima bestialis exns in animalibus non impedit actiones nature 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e425">
+                  <lb ed="#C" n="18"/>Artifex secundum posse suum intendit se assimulare nature 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e430">
+                  <lb ed="#C" n="19"/>Forme sensibilium extra animam habent esse corporale omninor sed in anima habent esse 
+          <lb ed="#C" n="20"/>spirituale omnino. in medio autem habent medium inter corporale et spumale 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e437">
+                  <lb ed="#C" n="21"/>Disciplina non redditur nisi perloquelam 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e442">
+                  <lb ed="#C" n="22"/>Loquela non redditur nisi per auditum 
+          <lb ed="#C" n="23"/>intelligere quid verba significent non est ipsius auditus sed intellectus. vtrum est quod 
+          <lb ed="#C" n="24"/>monstrat naturalis 
+          <lb ed="#C" n="25"/>verbam significant ad placitum 
+        </p>
+            </div>
+            <div xml:id="tRi8UT-d17214">
+               <head xml:id="tRi8UT-d16866-Hd1e456">Albertus</head>
+               <p xml:id="tRi8UT-d16866-d1e459">
+                  <lb ed="#C" n="26"/>⁋ Alber.
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e464">
+          Bratissimi medici incipiunt suam considerationem ab his que de 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e467">
+                  <lb ed="#C" n="27"/>Medicina habet commicationem cum scientia naturali eo quod principia sua ab ea ac¬ 
+          <lb ed="#C" n="28"/>cipit et est sub ipsa 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e474">
+                  <lb ed="#C" n="29"/>Sensatio dicitur passio quia cum passione fit. 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e480">
+                  <lb ed="#C" n="30"/>Omnes sensus in animali sunt causa salutis animalis. 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e485">
+                  <lb ed="#C" n="31"/>Librum de plant non fecit Aristo. sed discipulus eius <name xml:id="tRi8UT-d16866-Nd1e489">Theofrastus</name> ex dictum tanteu 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e493">
+                  <lb ed="#C" n="32"/>Non est idem sensibile et esse sensibile 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e498">
+          ⁋ Aurum non putrescit Arist. 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e501">
+                  <lb ed="#C" n="33"/>Homines boni olfactus comuniter sunt fatui. quia cerebrum habent ci 
+          <lb ed="#C" n="34"/>tra debitam quantitatem paruum. 
+        </p>
+               <p xml:id="tRi8UT-d16866-d1e508">
+                  <lb ed="#C" n="35"/>Sanguis in angustis venis circa cerebrum existens subtilis est et pu¬ 
+          <lb ed="#C" n="36"/>rus et de facili passibilis propter quod indiget extrinseco adiutorio ad su 
+          <lb ed="#C" n="37"/>arum partium frigiditatem temperandam.
+        </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

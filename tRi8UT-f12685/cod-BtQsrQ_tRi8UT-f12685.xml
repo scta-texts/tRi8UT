@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 5</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 5</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="65"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f12685"><!-- alias="poli-l5" -->
+            <head xml:id="tRi8UT-f12685-Hd1e107">Liber 5</head>
+            <p xml:id="tRi8UT-f12685-d1e110">
+      <!--65.xml-->
+               <pb ed="#C" n="65"/>
+               <lb ed="#C" n="1"/>⁋ Sequuntur autori. quinti libri politicorum Aristo. 
+    </p>
+            <p xml:id="tRi8UT-f12685-d1e119">
+               <lb ed="#C" n="2"/>Nod plus est inequale est. Ubique propter inequile fit seditio 
+    </p>
+            <p xml:id="tRi8UT-f12685-d1e124">
+               <lb ed="#C" n="3"/>Nobilitas generis et diuitie sunt principia et fontes seditionum 
+    </p>
+            <p xml:id="tRi8UT-f12685-d1e129">
+               <lb ed="#C" n="4"/>Nobilitas et vertus in paucis inueniuntur. quia solum in vertute est no 
+      <lb ed="#C" n="5"/>(bilitas 
+    </p>
+            <p xml:id="tRi8UT-f12685-d1e137">
+               <lb ed="#C" n="6"/>Minores vt fiant equiles seditiones faciunt. equiles vero 
+      <lb ed="#C" n="7"/>(vt fiant maiores 
+    </p>
+            <p xml:id="tRi8UT-f12685-d1e144">
+               <lb ed="#C" n="8"/>Quod parum est quisi nihil differt ab eo quod non est 
+    </p>
+            <p xml:id="tRi8UT-f12685-d1e149">
+               <lb ed="#C" n="9"/>Omnis diuersitas videtur facere seditione. 
+    </p>
+            <p xml:id="tRi8UT-f12685-d1e154">
+               <lb ed="#C" n="10"/>Seditiones quae parue sunt primo quaesi non fuerint inter dominos convalescunt 
+    </p>
+            <p xml:id="tRi8UT-f12685-d1e159">
+               <lb ed="#C" n="11"/>Principium alicuius videtur esse dimidium totius. Pater et filius simul prin 
+      <lb ed="#C" n="12"/>cipari nequeunt. tantus quippe amor est principandi 
+      <lb ed="#C" n="13"/>holitie maxime dissoluuntur propter iusticie trasgressionem 
+    </p>
+            <p xml:id="tRi8UT-f12685-d1e168">
+               <lb ed="#C" n="14"/>Contrariorum contraria sunt factiua. 
+    </p>
+            <p xml:id="tRi8UT-f12685-d1e174">
+               <lb ed="#C" n="15"/>Praue expense sepe facte substantias sepe consumunt 
+    </p>
+            <p xml:id="tRi8UT-f12685-d1e179">
+               <lb ed="#C" n="16"/>Periculosum est principi dare subdito suo magnos honores. 
+    </p>
+            <p xml:id="tRi8UT-f12685-d1e184">
+               <lb ed="#C" n="17"/>Regnum seruatur per amicos Rex iusticiam seruare debet 
+    </p>
+            <p xml:id="tRi8UT-f12685-d1e189">
+               <lb ed="#C" n="18"/>Contumelia est causa ire Nullus sane mentem manum suam mittit ad impossibilia 
+    </p>
+            <p xml:id="tRi8UT-f12685-d1e194">
+               <lb ed="#C" n="19"/>Non de facili potest inuadi qui est sobrius et vigilans. sed qui est dor 
+      <lb ed="#C" n="20"/>miens. quapropter principes vt non sint inuasibiles. somnum et ebrieta 
+      <lb ed="#C" n="21"/>tem multum euitare debent. 
+    </p>
+            <p xml:id="tRi8UT-f12685-d1e203">
+               <lb ed="#C" n="22"/>Princeps debet esse deicola. id est deum pre omnibus colens. quia minus timent homines 
+      <lb ed="#C" n="23"/>iniustu pati a principe si deicolam putant ipsum esse 
+    </p>
+            <p xml:id="tRi8UT-f12685-d1e211">
+               <lb ed="#C" n="24"/>Oportet principen bonos honorare et ipsummet honorem distribuere 
+      <lb ed="#C" n="25"/>dupplicia autem id est tormenta non debet distribuere per se sed per alios 
+    </p>
+            <p xml:id="tRi8UT-f12685-d1e218">
+               <lb ed="#C" n="26"/>Di princeps alique de potestate sibi tradita vult deponere. gradatim 
+      <lb ed="#C" n="27"/>hoc debet facere. et non simul auferre totam potestatem. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

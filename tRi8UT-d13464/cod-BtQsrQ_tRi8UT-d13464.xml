@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 7</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 7</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d13464"><!-- alias="physics-l7" -->
+            <head xml:id="tRi8UT-d13464-Hd1e107">Liber 7</head>
+            <div xml:id="tRi8UT-d13469">
+               <head xml:id="tRi8UT-d13464-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d13464-d1e115">
+                  <lb ed="#C" n="17"/>⁋ Sequuntur autorita. vii libro physi. Aristo. 
+      </p>
+               <p xml:id="tRi8UT-d13464-d1e120">
+                  <lb ed="#C" n="18"/>OMne quod mouetur ab alio mouetur 
+      </p>
+               <p xml:id="tRi8UT-d13464-d1e125">
+                  <lb ed="#C" n="19"/>In mouentibus et motis non est ire in infinitum. et ergo necesse 
+        <lb ed="#C" n="20"/>est deuenire ad vnum primum motorem 
+      </p>
+               <p xml:id="tRi8UT-d13464-d1e132">
+                  <lb ed="#C" n="21"/>Mouens et motum simul sunt et inter ea non est dare medium 
+      </p>
+               <p xml:id="tRi8UT-d13464-d1e138">
+                  <lb ed="#C" n="22"/>Uirtus est dispositio perfecti ad optimum 
+      </p>
+               <p xml:id="tRi8UT-d13464-d1e143">
+                  <lb ed="#C" n="23"/>Unumquoque tunc dicitur perfectum cum attingit virtutem eius propriam 
+      </p>
+               <p xml:id="tRi8UT-d13464-d1e148">
+                  <lb ed="#C" n="24"/>Ab experientia particularium accipimus vniuersalem scientiam 
+      </p>
+               <p xml:id="tRi8UT-d13464-d1e153">
+                  <lb ed="#C" n="25"/>In quiescendo et sedando scilicet a mundanis anima fit prudens 
+        <lb ed="#C" n="26"/>nfantes ita bene non possunt iudicare virtutem sicut senes 
+      </p>
+               <p xml:id="tRi8UT-d13464-d1e160">
+                  <lb ed="#C" n="27"/>Alteratio solum est in tertia specie qualitatis 
+      </p>
+               <p xml:id="tRi8UT-d13464-d1e165">
+                  <lb ed="#C" n="28"/>Solum vniuoca et non equiuoca sunt comparabilia. 
+      </p>
+               <p xml:id="tRi8UT-d13464-d1e171">
+                  <lb ed="#C" n="29"/>Equiuocationes latent in generibus 
+      </p>
+               <p xml:id="tRi8UT-d13464-d1e176">
+                  <lb ed="#C" n="30"/>Omne corpus est mobilem et econuerso  Commentator. 
+      </p>
+               <p xml:id="tRi8UT-d13464-d1e181">
+                  <lb ed="#C" n="31"/>Quedam sunt propositiones in quibus nec anecedens est verum nec consins. tamen 
+        <lb ed="#C" n="32"/>in ipsis contntia est. vt si asinus volat asinus habet pennas 
+      </p>
+               <p xml:id="tRi8UT-d13464-d1e188">
+                  <lb ed="#C" n="33"/>Cidi ariete de collatum ambulare huc et illuc multotiens et hoc non posset 
+        <lb ed="#C" n="34"/>fieri si principium motus esset in capite tantum. vt dicit Balenus 
+      </p>
+               <p xml:id="tRi8UT-d13464-d1e195">
+                  <lb ed="#C" n="35"/>Perfectio rerum consistit in diuisibilibus 
+      </p>
+               <p xml:id="tRi8UT-d13464-d1e200">
+                  <lb ed="#C" n="36"/>Uirtus est perfectio quedam 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

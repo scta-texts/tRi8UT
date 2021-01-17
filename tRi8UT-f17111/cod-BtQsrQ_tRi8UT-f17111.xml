@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 1</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 1</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="88"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f17111"><!-- alias="postAn-l1" -->
+            <head xml:id="tRi8UT-f17111-Hd1e107">Liber 1</head>
+            <p xml:id="tRi8UT-f17111-d1e110">
+               <lb ed="#C" n="37"/>⁋ Autori. super primum libro posteriorum Aristo. quie merito aureus dici potest. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e115">
+               <lb ed="#C" n="38"/>OMnis doctriua et omnis disciplina ex pexistenti fit cogniti 
+      <lb ed="#C" n="39"/>one Et hoc dicitur contra platonem qui ones scientas voluit esse concreatas 
+      <lb ed="#C" n="40"/> sed per immersionem animae in corpore esse offuscatas. sed per studium 
+      <lb ed="#C" n="41"/>paulatim reminisci. que omnia heretica sunt. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e126">
+               <lb ed="#C" n="42"/>Tam syllogismus quam inductio per prius nota faciunt doctrinam habere 
+      <!--89.xml-->
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e133">
+               <pb ed="#C" n="89"/>
+               <lb ed="#C" n="1"/>Exemplum vere est inductio. enthymema vero quidam syllogismus 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e141">
+               <lb ed="#C" n="2"/>Duo necessaria est praecognoscere. scilicet quia est et quid est.  
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e146">
+               <lb ed="#C" n="3"/>De dignitate oportet praecognoscere. quia vera est. de passione vero quid est. 
+      <lb ed="#C" n="4"/>et de subiecto vtrumque Unde hic habemus quod due sunt praecognitiones et tria 
+      <lb ed="#C" n="5"/>praecognita. quae sunt subiectum passio et dignitas. Unde iterum habemus. quod in 
+      <lb ed="#C" n="6"/>qualibet scientia oportet praesupponere subiectum esse. et quid significet ipsum. passi 
+      <lb ed="#C" n="7"/>onem non oportet praesupponere esse. sed tantum quid significet: et istud intelligitur ante ac¬ 
+      <lb ed="#C" n="8"/>tualem demonstrationem. licet in scientiarum traditione subiectum potest inquiri. vt 
+      <lb ed="#C" n="9"/>de syllogismo constat sophistico in Elenchis 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e164">
+               <lb ed="#C" n="10"/>Quod addiscit aliquis hoc scit quodammodo et nescit quodammodo 
+      <lb ed="#C" n="11"/>nescit ipsum in propria forma. scit tamen ipsum in potentiam. quia princpia 
+      <lb ed="#C" n="12"/>ei congenita sunt 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e173">
+               <lb ed="#C" n="13"/>Scire opinamur vnumquoque simpliciter. et non sophistico modo. quod est 
+      <lb ed="#C" n="14"/>secundum accidens 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e180">
+               <lb ed="#C" n="15"/>Scire est causam rei cognoscere propter quam res est. et quoniam illius est causa. et non contin 
+      <lb ed="#C" n="16"/>(git hoc aliter se habere 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e187">
+               <lb ed="#C" n="17"/>Cuius simpliciter est scientia hoc impossibile est aliter se habere 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e193">
+               <lb ed="#C" n="18"/>Scire est per demonstrationem intelligere 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e198">
+               <lb ed="#C" n="19"/>Demonstratio est syllogismus faciens scire secundum quem in habendo ipsum scimus. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e203">
+               <lb ed="#C" n="20"/>Necesse est demonstratiuam scientiam ex primis veris immediatis prioribus 
+      <lb ed="#C" n="21"/>notioribus causisque conclusionis procedere 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e210">
+               <lb ed="#C" n="22"/>Quod non est non contingit scire. ex quo habemus quod de non ente non est scientia. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e215">
+               <lb ed="#C" n="23"/>Scientia est illorum quorum est demonstratio. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e220">
+               <lb ed="#C" n="24"/>Dupliciter aliqua sunt priora et notiora. scilicet prius et notius natura 
+      <lb ed="#C" n="25"/>et prius et notius quo ad nos 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e228">
+               <lb ed="#C" n="26"/>Priora et notiora quo ad nos sunt illa quae proxima sunt sensui. sed pri 
+      <lb ed="#C" n="27"/>ora simpliciter et secundum naturam sunt illa quae remotiora sunt a sensu 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e235">
+               <lb ed="#C" n="28"/>Remotiora vero a sensu sunt maxie vniversalia. proxima autem sensu sunt maxi 
+      <lb ed="#C" n="29"/>(me particularia. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e242">
+               <lb ed="#C" n="30"/>Idem dico primum et principium 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e247">
+               <lb ed="#C" n="31"/>Principium demonstrationis est propositio immediata 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e252">
+               <lb ed="#C" n="32"/>Proposito autem immediata est qua non altera prior 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e257">
+               <lb ed="#C" n="33"/>Propositio est altera pars enunciationis vnum de vno enuncians 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e263">
+               <lb ed="#C" n="34"/>Dialectica proportio est accipiens quamlibet partem contradictionis. quia vtraque proba 
+      <lb ed="#C" n="35"/>(bilis est 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e270">
+               <lb ed="#C" n="36"/>Demonstratiua aut est alteram determinans scilicet veram 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e275">
+               <lb ed="#C" n="37"/>Contradictio est oppositio cuius secundum se non est dare medium 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e280">
+               <lb ed="#C" n="38"/>Pars contradictionis quae significat aliquid de aliquo est affirmatio. quae autem 
+      <lb ed="#C" n="39"/>significat aliquid ab aliquo est negatio 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e287">
+               <lb ed="#C" n="40"/>Definitio est positio quedam non autem suppositio 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e292">
+               <lb ed="#C" n="41"/>Suppositio dicit aliquid esse vel non esse. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e298">
+               <lb ed="#C" n="42"/>Non est idem quod quid est vnitas et esse vnitatem. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e303">
+               <lb ed="#C" n="43"/>Non solum necesse est procognoscere prima principia aut omnia aut quaedam. sed et 
+      <lb ed="#C" n="44"/>magis Semper enim propter quod unumquodque tale et illud magis et hoc vir 
+      <!--90.xml-->
+      <pb ed="#C" n="90"/>
+               <lb ed="#C" n="1"/>tualiter vt propter quod amauimus rem. illud est magis amicum. et omia po¬ 
+      <lb ed="#C" n="2"/>steria credimus et scimus per prima. ergo illa magis scimus 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e319">
+               <lb ed="#C" n="3"/>Necesse est magis credere primissis quam conclusioni 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e324">
+               <lb ed="#C" n="4"/>Principiis nihil notius est in veritatem et oppositis eorum nihil est 
+      <lb ed="#C" n="5"/>notius in falsitate. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e331">
+               <lb ed="#C" n="6"/>Principia cognoscimus inquantum terminos cognoscimus 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e336">
+               <lb ed="#C" n="7"/>Non contingit aliquid fingulariter demonstrare nisi in terminis con¬ 
+      <lb ed="#C" n="8"/>nertibilibus et propriis 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e344">
+               <lb ed="#C" n="9"/>Impossibile est eadem esse priora et notiora nisi altero modo. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e349">
+               <lb ed="#C" n="10"/>Ad minus ex duabus propaionibus contingit syllogisare 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e354">
+               <lb ed="#C" n="11"/>Una propotioe posita nihil sequitur syllogistice. quia ex vna nihil sequitur. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e359">
+               <lb ed="#C" n="12"/>Demonstratio est syllogismus ex necessariis. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e364">
+               <lb ed="#C" n="13"/>Per se primo sunt quacuque in ratione dicendi quod quid est insunt. vt triangulo 
+      <lb ed="#C" n="14"/>est linea et punctum linee. substantia enim horum ex his est 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e371">
+               <lb ed="#C" n="15"/>Per se secunduo sunt quaicumque insunt ipsis que in ratione insunt. vt propria 
+      <lb ed="#C" n="16"/>passio per se est in subiecto 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e379">
+               <lb ed="#C" n="17"/>Item per se sunt quae non dicuntur de quidam alio subiecto vt substantia. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e384">
+               <lb ed="#C" n="18"/>Item per se sunt propter quod inest alicui aliquid tamquam per causam Ulic habemus quod quaet 
+      <lb ed="#C" n="19"/>tuor sunt modi dicedi per se. quaium primus et secundus tantum ingrediuntur demonstrationem 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e391">
+               <lb ed="#C" n="20"/>Item per se presupponit de omni 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e396">
+               <lb ed="#C" n="21"/>Uniuersali dico quod cum de omni sit. et per se est. et secundum quod ipsum est idem vt pun¬ 
+      <lb ed="#C" n="22"/>ctum per se inest linee. et secundum quod ipsum. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e403">
+               <lb ed="#C" n="23"/>Ex veris est demonstratiue syllogisare 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e408">
+               <lb ed="#C" n="24"/>Ex non necessariis contingit necessarium syllogisare. sicut verum ex non veris. 
+      <lb ed="#C" n="25"/>sed ex non necariis non contingit demonstrare. quia medium erit ex necessitate 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e416">
+               <lb ed="#C" n="26"/>Demonstratio est eorum qua sunt per se et non eorum quae sunt per accidens. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e421">
+               <lb ed="#C" n="27"/>Accidens contingit non esse Propter quid scire est causam scire esse 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e426">
+               <lb ed="#C" n="28"/>Non contingit ex alio genere descendentem demonstrare vt geometri 
+      <lb ed="#C" n="29"/>cum in arithmetica. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e433">
+               <lb ed="#C" n="30"/>Tria sunt necessaria in demonsiratione quairum vnum est quod demonstratur. scilicet com 
+      <lb ed="#C" n="31"/>clusio. hoc autem est quod in est alicui grta per se. aliudu aut est dignitas. dignitates 
+      <lb ed="#C" n="32"/>sunt ex quibus fit demonstratio. tertium est subiectum et eius passiones. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e442">
+               <lb ed="#C" n="33"/>Necesse est medium et vltimum in demonstratione esse ex eodem genere 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e447">
+               <lb ed="#C" n="34"/>Nec scientia nec demonstratio est corruptibilium sed perpetuorum 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e453">
+               <lb ed="#C" n="35"/>Definitio est principium demonstrationis vel conclusio vel tota demonstratio 
+      <lb ed="#C" n="36"/>(positione differens 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e460">
+               <lb ed="#C" n="37"/>Difficile est noscere si aliquis sciuit vel non 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e465">
+               <lb ed="#C" n="38"/>Difficile est enim noscere si ex vniuscuiusque principiis scimus aut non 
+      <lb ed="#C" n="39"/>quod vere scimus. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e472">
+               <lb ed="#C" n="40"/>Si ex principiis et ex veris habeamus syllogismum opinamur sci¬ 
+      <lb ed="#C" n="41"/>re. sed hoc non est sifficicns. sed etiam oportet scirc ex quibus scitur 
+      <lb ed="#C" n="42"/>vt sunt propria principia. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e481">
+      <!--91.xml-->
+               <pb ed="#C" n="91"/>
+               <lb ed="#C" n="1"/>Non est necesse esse speecies id est ideas aut vnum ali quid extra multa. quia 
+      <lb ed="#C" n="2"/>vniuersalia sunt in indiuiduis. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e492">
+               <lb ed="#C" n="3"/>Omnes scientia comunicant secundum comnia principia ex quibus demonstrantur 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e498">
+               <lb ed="#C" n="4"/>Unaquique scientia habet interrogationes et disputationes proprias. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e503">
+               <lb ed="#C" n="5"/>Demonstrationes non augentur per media. sed in post assumpto et in latus. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e508">
+               <lb ed="#C" n="6"/>Demonstratio contigit dupliciter velrs quia procedit per effectum versa causam remotam 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e513">
+               <lb ed="#C" n="7"/>Duplex est scire. scilicet quis est et scire propter quid est 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e518">
+               <lb ed="#C" n="8"/>In scientiis diuersis sepe vna scientia diciti propter quid. alia quia. vt me 
+      <lb ed="#C" n="9"/>dicina dicit quod vulnera circularia tardius sanantur quam oblonga. sed proptr 
+      <lb ed="#C" n="10"/>quid. illud dicit geometria scilicet quod partes magis distant. 
+      <lb ed="#C" n="11"/>Scientes vniuersale sepe nesciut particulare.   
+      <lb ed="#C" n="12"/>figurarum maxime faciens scire est prima figura 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e531">
+               <lb ed="#C" n="13"/>Coordinationes praedicamentorum non comincantur vndem quod est in vna coordi 
+      <lb ed="#C" n="14"/>natione. non est in alia. vnde habemus quod essentie predicamentorum sunt im¬ 
+      <lb ed="#C" n="15"/>permixte. licet esse eorum poterit permisceri. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e541">
+               <lb ed="#C" n="16"/>Ignorantia est duplex. scilicet secundum negationem et dispositionem 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e546">
+               <lb ed="#C" n="17"/>Si aliquis sensus defecerit necesse est scientiam illius sensus deficere 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e551">
+               <lb ed="#C" n="18"/>Aliud addiscimus per demonstrationem. aliud per inductionem 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e556">
+               <lb ed="#C" n="19"/>Singularium est sensus 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e561">
+               <lb ed="#C" n="20"/>Omnis syllogismus fit semper per tresterminos et duas proportiones 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e566">
+               <lb ed="#C" n="21"/>Non contingit ire in infinitum in praedicamentis nec ascendendo nec descen 
+      <lb ed="#C" n="22"/>dendo. sed vtrobique est status 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e574">
+               <lb ed="#C" n="23"/>Que est comparatio principii ad principium. eadem est principati ad principatum 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e579">
+               <lb ed="#C" n="24"/>Impossibile est infinita pertransire 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e584">
+               <lb ed="#C" n="25"/>Gaudeant genera et species quonido si sunt. monstra sunt. et si non sunt. ni 
+      <lb ed="#C" n="26"/>hil ad ratione vel demonstrationem prosunt. demonstrationes enim hmoi non sunt 
+      <lb ed="#C" n="27"/>hoc dicit ideo. quia Plato in phedrone vbi etiam inducit Docratem ad sue 
+      <lb ed="#C" n="28"/>opinionis confirmationem posuit vniuersalia extra singularia per se sub 
+      <lb ed="#C" n="29"/>sistere in natura. et esse sufficientia ad generationem et corruptionem etc. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e597">
+               <lb ed="#C" n="30"/>Unde multi decipiebantur Augustinus tantum quia platonicus fuit tentauit in <ref xml:id="tRi8UT-f17111-Rd1e601">li 
+      <lb ed="#C" n="31"/>bro de Ciuitate dei</ref> Platione excusare. sed <name xml:id="tRi8UT-f17111-Nd1e606">Egidius Romanus</name> dicit excu 
+      <lb ed="#C" n="32"/>sationem ab Augustino positam magis exaffectu procedere quam veritati conm 
+      <lb ed="#C" n="33"/>sonare Cui assentiunt <name xml:id="tRi8UT-f17111-Nd1e614">Boetius</name> 
+               <name xml:id="tRi8UT-f17111-Nd1e617">Albertus</name> 
+               <name xml:id="tRi8UT-f17111-Nd1e620">Thomas</name> 
+               <name xml:id="tRi8UT-f17111-Nd1e623">Bonauetura</name> et 
+      <lb ed="#C" n="34"/>
+               <name xml:id="tRi8UT-f17111-Nd1e628">Scotus</name> Theologie lumina eorumdem errorem Platoni imponentes 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e632">
+               <lb ed="#C" n="35"/>Qualitatis non est qualitas Unum predicatur de vno. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e637">
+               <lb ed="#C" n="36"/>Demonstratio vniuersalis particulari est potior 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e643">
+               <lb ed="#C" n="37"/>Affirmatiua potior est negatiua. quia prior. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e648">
+               <lb ed="#C" n="38"/>Demonstratio ostensiua potior est ducente ad impossibile 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e653">
+               <lb ed="#C" n="39"/>Potior est demonstratio que est de esse quam que non est de esse. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e658">
+               <lb ed="#C" n="40"/>Uniuersale non est minus ens quam particulare sed maius quia ipsum est incorrupti 
+      <lb ed="#C" n="41"/>bile. particulare vero corruptibile. ex quo et multm dictis aliis in isto libro 
+      <!--92.xml-->
+      <pb ed="#C" n="92"/>
+               <lb ed="#C" n="1"/>et dicendis habemus quod vniversalia sunt sempiterna et spens rerum sunt eterne. 
+      <lb ed="#C" n="2"/>vniuersalis magis est causa quam particularis 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e674">
+               <lb ed="#C" n="3"/>Cui per se in est aliquid. hoc idem est causa suiipsius 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e679">
+               <lb ed="#C" n="4"/>Cognosces vniuersale cognoscit et particulare et non econuerso¬ 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e685">
+               <lb ed="#C" n="5"/>Uniuersale est intelligibile. particulare vero sensu percipitur. 
+      <lb ed="#C" n="6"/>prius est esse quam non esse 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e692">
+               <lb ed="#C" n="7"/>Certior est scientia que est ipsius propter quid quam que alterius. 
+      <lb ed="#C" n="8"/>stem certior est qui non est de subiecto contracto ad materiam quam quae est de subiecto 
+      <lb ed="#C" n="9"/>(contracto 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e701">
+               <lb ed="#C" n="10"/>Unitas non est substantia sine positione. sed pun¬ 
+      <lb ed="#C" n="11"/>ctus est substantia positionem habens 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e708">
+               <lb ed="#C" n="12"/>Singulare est hic et nunc. sed vniversale est vbique et semper. et hoc priuatiue 
+      <lb ed="#C" n="13"/>densus est singularium. scientia vero vniuersalium 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e715">
+               <lb ed="#C" n="14"/>Impossibile est omnium esse eadem principia 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e720">
+               <lb ed="#C" n="15"/>Uniuersale ex singularibus pluribus est manife stum 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e726">
+               <lb ed="#C" n="16"/>Quecumque sunt eadem vni tertio. scilicet singulari. sunt eadem inter se. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e731">
+               <lb ed="#C" n="17"/>Scientia est verorum necessariorum non contingentium aliter se habere. 
+    </p>
+            <p xml:id="tRi8UT-f17111-d1e736">
+               <lb ed="#C" n="18"/>Non contingit idem scire et opinari simul. 
+      <lb ed="#C" n="19"/>oolertia est subtilitas quaedam et proptitudo inueniendi medium in non prospe 
+      <lb ed="#C" n="20"/>(cto tempore. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

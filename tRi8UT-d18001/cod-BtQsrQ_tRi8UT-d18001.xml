@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>De motibus animalium</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>De motibus animalium</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d18001"><!-- alias="deMotibusAnimalium" -->
+            <head xml:id="tRi8UT-d18001-Hd1e107">De motibus animalium</head>
+            <p xml:id="tRi8UT-d18001-d1e110">
+               <lb ed="#C" n="16"/>Autoritates libri de motibus animalium
+    </p>
+            <p xml:id="tRi8UT-d18001-d1e115">
+               <lb ed="#C" n="17"/>OMnis motus requirit aliquod fixum circa quod fiat 
+    </p>
+            <p xml:id="tRi8UT-d18001-d1e120">
+               <lb ed="#C" n="18"/>Uirtutes sensibiles non sunt passibiles ad inuicem secundum quod 
+      <lb ed="#C" n="19"/>earum excessus patiuntur ad inuicem 
+    </p>
+            <p xml:id="tRi8UT-d18001-d1e127">
+               <lb ed="#C" n="20"/>Illud quod secundum se est simplex et immobile a nullopotest moueri. 
+      <lb ed="#C" n="21"/>vne dicit Momerus Si oens dum oensque dee laborarent multum iouem summum 
+      <lb ed="#C" n="22"/>non mouerent de celo in terram. Mouens est prius moto. et generans gene 
+      <lb ed="#C" n="23"/>rato. sed nihil est prius seipo. era nihil seipsum mouet et generat 
+    </p>
+            <p xml:id="tRi8UT-d18001-d1e139">
+               <lb ed="#C" n="24"/>Appetibile est primum mouens in animali. et est mouens non motum. sed ap 
+      <lb ed="#C" n="25"/>petitus non mouent et est motum 
+    </p>
+            <p xml:id="tRi8UT-d18001-d1e146">
+               <lb ed="#C" n="26"/>Quecumque non ratiotinantis operantur velociter operantur 
+    </p>
+            <p xml:id="tRi8UT-d18001-d1e151">
+               <lb ed="#C" n="27"/>Principium motus in animali est in corde 
+    </p>
+            <p xml:id="tRi8UT-d18001-d1e156">
+               <lb ed="#C" n="28"/>Motus cordis est voluntarius 
+    </p>
+            <p xml:id="tRi8UT-d18001-d1e161">
+               <lb ed="#C" n="29"/>⁋ Estimandum est animal constare quemadmodum ciuitatem bene legibus rectam atque 
+      <lb ed="#C" n="30"/>munitam. quia in ciuitate quando semel stabilitus est ordo non oportet eius principen in 
+      <lb ed="#C" n="31"/>tereem singulis operationibus ciuitatem. sic nec nece est animam existere in qulibet parte 
+      <lb ed="#C" n="32"/>corporis. sed vno principio tantum scilicet in corde tantum et hoc est verum quantum ad ponam mo 
+    </p>
+            <p xml:id="tRi8UT-d18001-d1e172">
+               <lb ed="#C" n="33"/>⁋ Thomas Brabatinus 
+    </p>
+            <p xml:id="tRi8UT-d18001-d1e178">
+      Ab epate vena discendit ad renes. quae Ctiuam 
+      <lb ed="#C" n="34"/>rem apprehensam et a corde amata ab epate traducit ad reues in quibus amo 
+      <lb ed="#C" n="35"/>ris concupiscentia ignitur. sicque accensis renibus ardor multiplicatur ad vsque 
+      <lb ed="#C" n="36"/>vgam In quique fluxum ad renes vniversater discendente sanguis qper quem apprhensiua 
+      <lb ed="#C" n="37"/>vtus amoris in venis ministratu occultius semen elicit per meatum. 
+    </p>
+            <p xml:id="tRi8UT-d18001-d1e189">
+               <lb ed="#C" n="38"/>⁋ Moses egyptius Monstrum in corpore est monstrum in anima et moribus 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

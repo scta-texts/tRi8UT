@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Timaeus</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Timaeus</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f15822"><!-- alias="timaeus" -->
+            <head xml:id="tRi8UT-f15822-Hd1e107">Timaeus</head>
+            <p xml:id="tRi8UT-f15822-d1e110">
+               <lb ed="#C" n="4"/>⁋ Sequutur autoritates platonis in thimeo 
+    </p>
+            <p xml:id="tRi8UT-f15822-d1e115">
+               <lb ed="#C" n="5"/>Plationis vt ait helinandus consuetudo fuit libros suos intitulare 
+      <lb ed="#C" n="6"/>nomnibus magistrorum suorum. vel eorum qui magistros suos docuerunt propter 
+      <lb ed="#C" n="7"/>maiorem autoritatem. quod et <name xml:id="tRi8UT-f15822-Nd1e123">magister gualtherus burley anglus</name> confirma 
+      <lb ed="#C" n="8"/>uit. fuit autem Plato ciuis atheniensis. magister Aristote. et auditor so 
+      <lb ed="#C" n="9"/>cratis. natus tempore darii regis persarum. patre aristone qui a Todro 
+      <lb ed="#C" n="10"/>duxit originem de generatione neptuni. matre perictonia Obut autem anno eta 
+      <lb ed="#C" n="11"/>tis sue. lxxxi. natalis sui die secundum Senecam in epistolis Scripsit ali¬ 
+      <lb ed="#C" n="12"/>quot libros in phia quos ad magnam partemex moseos lege suffuratus 
+      <lb ed="#C" n="13"/>est. Et item ex poetarum fabulis quas cum pro vero assumeret in multipli¬ 
+      <lb ed="#C" n="14"/>ces collapsus est errores Etiam loge magis pro eloquentia laborauit 
+      <lb ed="#C" n="15"/>quam vera scientia. Ob hoc philosophia eius apud veros Christicolas 
+      <lb ed="#C" n="16"/>nullius est praecu vel momenti. 
+    </p>
+            <p xml:id="tRi8UT-f15822-d1e147">
+               <lb ed="#C" n="17"/>Nomnibus siue in maximis siue in minimis diuinum auxili 
+      <lb ed="#C" n="18"/>um debet implorari 
+    </p>
+            <p xml:id="tRi8UT-f15822-d1e154">
+               <lb ed="#C" n="19"/>Nihil est ortum sub sole cuius causa legitima non praecoesserit 
+    </p>
+            <p xml:id="tRi8UT-f15822-d1e160">
+               <lb ed="#C" n="20"/>In omni tractatum fieri debet vt inter initia consideretur quid  
+      <lb ed="#C" n="21"/>sit illud de quo agitur 
+    </p>
+            <p xml:id="tRi8UT-f15822-d1e167">
+               <lb ed="#C" n="22"/>Operi suo dat opifex formam 
+    </p>
+            <p xml:id="tRi8UT-f15822-d1e172">
+               <lb ed="#C" n="23"/>Mundus a deo factus est Deus autor maximus est. 
+    </p>
+            <p xml:id="tRi8UT-f15822-d1e177">
+               <lb ed="#C" n="24"/>Optimus est mundi autor. et ab optimo longe inuidia relegata est 
+    </p>
+            <p xml:id="tRi8UT-f15822-d1e182">
+               <lb ed="#C" n="25"/>Bonitas dei fuit causa factionis mundi et originis omnium rerum 
+    </p>
+            <p xml:id="tRi8UT-f15822-d1e187">
+               <lb ed="#C" n="26"/>Non decet rem esse antiquiore primo genitore rege 
+    </p>
+            <p xml:id="tRi8UT-f15822-d1e193">
+               <lb ed="#C" n="27"/>Tempora maxime distinguuntur per motum solis 
+    </p>
+            <p xml:id="tRi8UT-f15822-d1e198">
+               <lb ed="#C" n="28"/>O du deorum quorum opifex id est pater ego sum. dii deorum vocantur intelli¬ 
+      <lb ed="#C" n="29"/>gentie et corpora celestia natura solubilia. sed dei voluntate perpetua 
+    </p>
+            <p xml:id="tRi8UT-f15822-d1e205">
+               <lb ed="#C" n="30"/>Ad hoc anima est coniuncta corpori vt fenoretur scientias et virtutes. si 
+      <lb ed="#C" n="31"/>autem cum magno fenore venerit benigne recipietur a suo creatore. si autem 
+      <lb ed="#C" n="32"/>non. relegabitur ad inferos. 
+    </p>
+            <p xml:id="tRi8UT-f15822-d1e214">
+               <lb ed="#C" n="33"/>Propter hoc enim nobis datus est sermo vt presto nobis fiant mutue 
+      <lb ed="#C" n="34"/>voluntatis indicia 
+    </p>
+            <p xml:id="tRi8UT-f15822-d1e221">
+               <lb ed="#C" n="35"/>Deus est summum bonum super oem substantiam omnemque naturam quem cun 
+      <lb ed="#C" n="36"/>cta expetunt cum ipse sit plene perfectus et nullius societatis indigens. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

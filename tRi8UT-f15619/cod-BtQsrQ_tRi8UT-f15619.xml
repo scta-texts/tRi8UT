@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>De disciplina scholarium</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>De disciplina scholarium</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="79"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f15619"><!-- alias="DisciplinaScholarium" -->
+            <head xml:id="tRi8UT-f15619-Hd1e107">De disciplina scholarium</head>
+            <p xml:id="tRi8UT-f15619-d1e110">
+               <lb ed="#C" n="45"/>⁋ DIligentia euuslibet operis obtusitas permollitur. 
+      <!--80.xml-->
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e117">
+               <pb ed="#C" n="80"/>
+               <lb ed="#C" n="1"/>Logica est scientia veri salsique indagatrix prudentia obest multum 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e124">
+               <lb ed="#C" n="2"/>Sicut prudentia parum vi nihil prodest sine iusticia. sic iusticia sine 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e129">
+               <lb ed="#C" n="3"/>Sicut scientia sine vsu parum velrs nihil prodest. sicvsus sine scientia multum 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e135">
+               <lb ed="#C" n="4"/>Aristotelis succincta veritas lbet voce sit tediosa. non tantum omnino est infructuosa 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e140">
+               <lb ed="#C" n="5"/>Grammatice fructuositas nullatenus est omittenda per eam enim scientie cuiusli 
+      <lb ed="#C" n="6"/>bet commendabilis redditur possessio 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e147">
+               <lb ed="#C" n="7"/>Qui non nouit se subisci non noscet se magistrari. 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e152">
+               <lb ed="#C" n="8"/>Miserum est eum esse magistrum qui numquam nouit se fuisse discipulum 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e157">
+               <lb ed="#C" n="9"/>Discipulus debet esse beneuolus. docilis. attentus. docilis ingenio. attentus 
+      <lb ed="#C" n="10"/>in exercitio. beneuolus in animo. attentus ad audiendum. docilis ad intelligendum 
+      <lb ed="#C" n="11"/>beneuolus ad recipiendum. 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e166">
+               <lb ed="#C" n="12"/>Scholaris non erit dyscholus 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e172">
+               <lb ed="#C" n="13"/>Dyscholus est ille qui cuirit per vicos et plateas per tabernas et meretricum 
+      <lb ed="#C" n="14"/>cellulas per publica spectacula. per pompas coreas et similia. 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e179">
+               <lb ed="#C" n="15"/>Discipulus non sit magistro violentus Non est dignus scientia qui 
+      <lb ed="#C" n="16"/>scientie insurgit preceptori 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e186">
+               <lb ed="#C" n="17"/>Aluxuria studeat se discipulus alienare 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e191">
+               <lb ed="#C" n="18"/>Meretrix est nonaria. inferni ianua. via iniquitatis. scorpionis percussio 
+      <lb ed="#C" n="19"/>viscarium seeleris. parens interitus 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e198">
+               <lb ed="#C" n="20"/>Uinum modice sumptum acuitingenium. sed non modice sumptum 
+      <lb ed="#C" n="21"/>rationem prturbat. itellectum habetat. memoriam confundit. obliuionem pa 
+      <lb ed="#C" n="22"/>rat. errorem infundit. ignorantiam producit. 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e207">
+               <lb ed="#C" n="23"/>Quid est constantia lucidius. quid inconstantia nequius 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e213">
+               <lb ed="#C" n="24"/>Felicis discipuli discretio magistratui gaudeat subiici. eumque metuen 
+      <lb ed="#C" n="25"/>do diligat. fidelisque existat. 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e220">
+               <lb ed="#C" n="26"/>Ue seducenti mancipio in qui plenaria confidit dominantis dilectio 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e225">
+               <lb ed="#C" n="27"/>Inuidia si secundum quid euenerit scilicet in discendo. gratuite permittenda est. si simpli 
+      <lb ed="#C" n="28"/>ces. ipa quidem proprii autoris est consumptiua 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e232">
+               <lb ed="#C" n="29"/>Non est dignus dulcoris acumine qui amaritudinis nequit inuiscari graua 
+      <lb ed="#C" n="30"/>(mine 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e239">
+               <lb ed="#C" n="31"/>Licet multis destituatur laboris retributio 
+      <lb ed="#C" n="32"/>tamen ab aliquo promerebitur fauoris adeptio. 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e246">
+               <lb ed="#C" n="33"/>Miserrimi quappe est ingenii semper vti inuentis et non inueniendis 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e252">
+               <lb ed="#C" n="34"/>Alios docere est proprie facultatis industria. 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e257">
+               <lb ed="#C" n="35"/>Oportet quod aliquis prius discat quam doceat 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e262">
+               <lb ed="#C" n="36"/>Rerum effectus operis. exhibitione declaratur 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e267">
+               <lb ed="#C" n="37"/>O quam felicis exitus veneranda est commendatio 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e272">
+               <lb ed="#C" n="38"/>Nulla siquidem res discipulo magmpeniciosa quam vita mgri contumeliosa 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e277">
+               <lb ed="#C" n="39"/>Opertunius eit mechanice arti deseruire quam negligentie iugo onerari 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e283">
+               <lb ed="#C" n="40"/>Sicut in vnoquoque opere mater esse inuenitur constantia ita vniuerse do 
+      <lb ed="#C" n="41"/>ctrine nouerca est negligentia. 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e290">
+               <lb ed="#C" n="42"/>hieronrmus Ingenia liberaliter educata facilius verecundia quam 
+      <!--81.xml-->
+      <pb ed="#C" n="81"/>
+               <lb ed="#C" n="1"/>metus superat. 
+    </p>
+            <p xml:id="tRi8UT-f15619-d1e301">
+               <lb ed="#C" n="2"/>⁋ Ualerius maximus libro vii. Aristote. in neutram partem de seipo loqui de 
+      <lb ed="#C" n="3"/>bere praedicabat. quoniam laudare se vani. vituperare stulti esset. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

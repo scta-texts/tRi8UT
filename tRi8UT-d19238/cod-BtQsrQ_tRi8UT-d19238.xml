@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 11</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 11</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d19238"><!-- alias="deanimalibus-l11" -->
+            <head xml:id="tRi8UT-d19238-Hd1e107">Liber 11</head>
+            <div xml:id="tRi8UT-d19243">
+               <head xml:id="tRi8UT-d19238-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d19238-d1e115">
+                  <lb ed="#C" n="14"/>⁋ Autorita. xi. vel secundum aliquos. xiiii libro de animalibus 
+      </p>
+               <p xml:id="tRi8UT-d19238-d1e120">
+                  <lb ed="#C" n="15"/>Odica alteratio in membro principali facit multam al¬ 
+        <lb ed="#C" n="16"/>terationem in toto corpore. 
+      </p>
+               <p xml:id="tRi8UT-d19238-d1e127">
+                  <lb ed="#C" n="17"/>In animalibus propter timorem accidit effusio ventris et vrine 
+      </p>
+               <p xml:id="tRi8UT-d19238-d1e132">
+                  <lb ed="#C" n="18"/> Animalibus natantibus natura posuit corium inter di 
+        <lb ed="#C" n="19"/>gitos pedis. aliis vero non 
+      </p>
+               <p xml:id="tRi8UT-d19238-d1e140">
+                  <lb ed="#C" n="20"/>Ale vespertilionum sunt membruales et sunt de corio et indistincte. 
+      </p>
+               <p xml:id="tRi8UT-d19238-d1e145">
+                  <lb ed="#C" n="21"/>Auibus piscantibus collum est sicut arundo. id est longum 
+      </p>
+               <p xml:id="tRi8UT-d19238-d1e150">
+                  <lb ed="#C" n="22"/>Delphines non habent fel. 
+      </p>
+               <p xml:id="tRi8UT-d19238-d1e155">
+                  <lb ed="#C" n="23"/>Natura vtitur quibusdam superfiuis ad iuuamentum. 
+      </p>
+               <p xml:id="tRi8UT-d19238-d1e160">
+                  <lb ed="#C" n="24"/>Carentia fellis est causa bone cholore. 
+      </p>
+               <p xml:id="tRi8UT-d19238-d1e165">
+                  <lb ed="#C" n="25"/>Causa ventris est propter cibum vt digerat. 
+      </p>
+               <p xml:id="tRi8UT-d19238-d1e171">
+                  <lb ed="#C" n="26"/>Manus non sunt vnum iustrumentum vel vnum organum. sed  
+        <lb ed="#C" n="27"/>multa. quia per eas homo plus potest habere quam per cetera 
+      </p>
+               <p xml:id="tRi8UT-d19238-d1e178">
+                  <lb ed="#C" n="28"/>Uigor pollicis est equalis vigori omnium digitorum 
+      </p>
+               <p xml:id="tRi8UT-d19238-d1e183">
+                  <lb ed="#C" n="29"/>Operatio manuum est recipe et accipe. pedum vero sustentare et fugere 
+      </p>
+               <p xml:id="tRi8UT-d19238-d1e188">
+                  <lb ed="#C" n="30"/>Homo non habet caudam nec vllum animalium quod non habet 
+        <lb ed="#C" n="31"/>anchas. homo vero non habet anchas 
+      </p>
+               <p xml:id="tRi8UT-d19238-d1e195">
+                  <lb ed="#C" n="32"/>Quadrupedia statim se erigunt homovero non propter pondus ca 
+        <lb ed="#C" n="33"/>pitis. quia homo est maior et ponderosior in superioribus. 
+      </p>
+               <p xml:id="tRi8UT-d19238-d1e202">
+                  <lb ed="#C" n="34"/>Uirga virilis crescit et diminuitur absque lesione inter omnia aliamenbra.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

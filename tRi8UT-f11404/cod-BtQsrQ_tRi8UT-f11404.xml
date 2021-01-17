@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 9</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 9</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="57"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f11404"><!-- alias="ethics-l9" -->
+            <head xml:id="tRi8UT-f11404-Hd1e107">Liber 9</head>
+            <p xml:id="tRi8UT-f11404-d1e110"> 
+               <lb ed="#C" n="28"/>⁋ Sequuntur auto. ix. ethicorum Aristo.
+    </p>
+            <p xml:id="tRi8UT-f11404-d1e115">
+               <lb ed="#C" n="29"/>Co parentibus et magistris non redditur equiualens 
+    </p>
+            <p xml:id="tRi8UT-f11404-d1e120">
+               <lb ed="#C" n="30"/>Magis est mutuum dare cui quaes debet quam amicis dare 
+      <lb ed="#C" n="31"/>uoed Amicis existentibus propter bonum vtile et delectabile. illis ces 
+      <lb ed="#C" n="32"/>santibus cessat. et amicicia.   
+    </p>
+            <p xml:id="tRi8UT-f11404-d1e129">
+               <lb ed="#C" n="33"/>Qui fingit se amicum et non est. peior est illo qui facit falsam monetam. 
+    </p>
+            <p xml:id="tRi8UT-f11404-d1e135">
+               <lb ed="#C" n="34"/>Quanto malicia est circa melius tanto ipsa est peior 
+    </p>
+            <p xml:id="tRi8UT-f11404-d1e140">
+               <lb ed="#C" n="35"/>Similis simili est amicus. et ideo bonus malum amare non potest. 
+    </p>
+            <p xml:id="tRi8UT-f11404-d1e145">
+               <lb ed="#C" n="36"/>Magis tenemur amicis largiri bona quam extraneis. 
+    </p>
+            <p xml:id="tRi8UT-f11404-d1e150">
+               <lb ed="#C" n="37"/>Amicabilia que sunt ad alterum veniunt ex amicabilibus quae sunt ad seip 
+      <lb ed="#C" n="38"/>sum Unde vnusquisque est sibi maxime amicus. 
+    </p>
+            <p xml:id="tRi8UT-f11404-d1e157">
+               <lb ed="#C" n="39"/>Amicus dicbet se habere ad amicum sicut ad seipsum. quia amicus est alter ipse. 
+    </p>
+            <p xml:id="tRi8UT-f11404-d1e162">
+               <lb ed="#C" n="40"/>Prauus non est amabilis ad seiprsum neque ad alios 
+    </p>
+            <p xml:id="tRi8UT-f11404-d1e168">
+               <lb ed="#C" n="41"/>Beniuoletia non est amicicia. est tamen principium ipsius 
+    </p>
+            <p xml:id="tRi8UT-f11404-d1e173">
+      <!--58.xml-->
+               <pb ed="#C" n="58"/>
+               <lb ed="#C" n="1"/>Ex beniuolentia diuturna fit amicicia 
+    </p>
+            <p xml:id="tRi8UT-f11404-d1e182">
+               <lb ed="#C" n="2"/>Concordia ad amicicia partinet Omia honesta concordant rationi 
+    </p>
+            <p xml:id="tRi8UT-f11404-d1e187">
+               <lb ed="#C" n="3"/>Benefactores prius amant beneficiatos quam quod amentur ab eis 
+    </p>
+            <p xml:id="tRi8UT-f11404-d1e192">
+               <lb ed="#C" n="4"/>Omnis artifex plus diligit opus suu quam quod diligatur ab opore. vt partet de 
+      <lb ed="#C" n="5"/>parentibus respectum filiorum 
+    </p>
+            <p xml:id="tRi8UT-f11404-d1e199">
+               <lb ed="#C" n="6"/>Quod cum magno labore acquiritur magis diligitur. vt partet de homnibus querem 
+      <lb ed="#C" n="7"/>tibus pecunia a labore proprio. 
+    </p>
+            <p xml:id="tRi8UT-f11404-d1e207">
+               <lb ed="#C" n="8"/>Amicus debet se habere ad amicum. vt genum ad tibiam. 
+    </p>
+            <p xml:id="tRi8UT-f11404-d1e212">
+               <lb ed="#C" n="9"/>Quemadmodum ciuitas et alia congregatio videtur esse principalissimum 
+      <lb ed="#C" n="10"/>suupius. sic et homo. sed principaussimum in homine est intellectus. ergo 
+      <lb ed="#C" n="11"/>homo maxime videtur esse suus intellectus. Ex praedicto habemus quod omnis 
+      <lb ed="#C" n="12"/>denoiatio debet fieri a principaliori. 
+    </p>
+            <p xml:id="tRi8UT-f11404-d1e223">
+               <lb ed="#C" n="13"/>Homo est animal politicum aprtum natu coicare suum conceptum siue conuiuere. 
+    </p>
+            <p xml:id="tRi8UT-f11404-d1e228">
+               <lb ed="#C" n="14"/>Amicicia est maxime bonorum exteriorum 
+    </p>
+            <p xml:id="tRi8UT-f11404-d1e233">
+               <lb ed="#C" n="15"/>Melius est cum amicis et precipue cum bonis quam extraneis quibuscumque 
+      <lb ed="#C" n="16"/>aliis commorari 
+    </p>
+            <p xml:id="tRi8UT-f11404-d1e240">
+               <lb ed="#C" n="17"/>Felix honestis indiget. 
+    </p>
+            <p xml:id="tRi8UT-f11404-d1e246">
+               <lb ed="#C" n="18"/>Solitaria difficilis est vita Uirtuosorum beatissima est vita 
+    </p>
+            <p xml:id="tRi8UT-f11404-d1e251">
+               <lb ed="#C" n="19"/>Presentia amicorum est delectabilis tam in bonis fortuitis quam in aliis scilicet mat 
+    </p>
+            <p xml:id="tRi8UT-f11404-d1e256">
+               <lb ed="#C" n="20"/>In malis. quia tristari alleuiantur amicis condolentibus ipis. 
+    </p>
+            <p xml:id="tRi8UT-f11404-d1e261">
+               <lb ed="#C" n="21"/>In bonis. quia delectabile est conuersari cum amico 
+    </p>
+            <p xml:id="tRi8UT-f11404-d1e266">
+               <lb ed="#C" n="22"/>Amicus est consolatio amici visione et sermone 
+    </p>
+            <p xml:id="tRi8UT-f11404-d1e271">
+               <lb ed="#C" n="23"/>In omnibus oportet imitari meliores 
+    </p>
+            <p xml:id="tRi8UT-f11404-d1e277">
+               <lb ed="#C" n="24"/>Amicicia bonorum coaugetur bonis colloquiis et operibus quaibus ipi vtum 
+      <lb ed="#C" n="25"/>tur. Unde a bonis bona fiunt 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

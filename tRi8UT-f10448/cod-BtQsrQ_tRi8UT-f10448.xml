@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 2</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 2</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="52"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f10448"><!-- alias="ethics-l2" -->
+            <head xml:id="tRi8UT-f10448-Hd1e107">Liber 2</head>
+            <p xml:id="tRi8UT-f10448-d1e110">
+               <lb ed="#C" n="37"/>⁋ Sequuntur auto. secundui si. ethicorum.
+    </p>
+            <p xml:id="tRi8UT-f10448-d1e115">
+               <lb ed="#C" n="38"/>actibus multum iteratis fit habitus. 
+    </p>
+            <p xml:id="tRi8UT-f10448-d1e120">
+               <lb ed="#C" n="39"/>Non parum refert sic vel sic a iuuentute assuesci. immo multum 
+    </p>
+            <p xml:id="tRi8UT-f10448-d1e125">
+               <lb ed="#C" n="40"/>In obscuris oportet vti apertis tessimonus. 
+    </p>
+            <p xml:id="tRi8UT-f10448-d1e131">
+               <lb ed="#C" n="41"/>Exercitium temperatum conseruat sanitatem 
+    </p>
+            <p xml:id="tRi8UT-f10448-d1e136">
+      <!--53.xml-->
+               <pb ed="#C" n="53"/>
+               <lb ed="#C" n="1"/>Comedere fortiter facit fortiter laborare. 
+    </p>
+            <p xml:id="tRi8UT-f10448-d1e145">
+               <lb ed="#C" n="2"/>Circa voluptates et tristicias est virtus moralis 
+    </p>
+            <p xml:id="tRi8UT-f10448-d1e150">
+               <lb ed="#C" n="3"/>Medicine fiunt per contrarium Circa difficilia semper est ars et vertus 
+    </p>
+            <p xml:id="tRi8UT-f10448-d1e155">
+               <lb ed="#C" n="4"/>Scire in moralibus parum prodest. operari vero multum 
+    </p>
+            <p xml:id="tRi8UT-f10448-d1e160">
+               <lb ed="#C" n="5"/>Tria sunt in anima. passiones. potentie. et habitus seu virtus 
+    </p>
+            <p xml:id="tRi8UT-f10448-d1e166">
+               <lb ed="#C" n="6"/>Passio non est vertus. quia secundum passionem nec laudamur nec vituperamur. 
+    </p>
+            <p xml:id="tRi8UT-f10448-d1e171">
+               <lb ed="#C" n="7"/>Uirtus non est potentia. quia potentes sumus per naturam. 
+    </p>
+            <p xml:id="tRi8UT-f10448-d1e176">
+               <lb ed="#C" n="8"/>Uirtus est habitus. qui habentem se perficit et opus eius laudabile reddit 
+    </p>
+            <p xml:id="tRi8UT-f10448-d1e181">
+               <lb ed="#C" n="9"/>Omnis virtus consistit in medio. scilicet inter defectum et excessum. non 
+      <lb ed="#C" n="10"/>in medio rei. sed quo ad nos 
+    </p>
+            <p xml:id="tRi8UT-f10448-d1e188">
+               <lb ed="#C" n="11"/>Uirtus certior est omi arte et meliorMalum est facile. bonum autem difficile 
+    </p>
+            <p xml:id="tRi8UT-f10448-d1e193">
+               <lb ed="#C" n="12"/>Non est facile attingere medium sed difficile 
+    </p>
+            <p xml:id="tRi8UT-f10448-d1e199">
+               <lb ed="#C" n="13"/>Cirtus est habitus electiuus in medietate consistens quo ad nos 
+      <lb ed="#C" n="14"/>declarata ratione. vt vtique sapiens determinabit 
+    </p>
+            <p xml:id="tRi8UT-f10448-d1e206">
+               <lb ed="#C" n="15"/>Operationes sunt circa singularia Difficile est aliquem esse bonum id est studiosum 
+    </p>
+            <p xml:id="tRi8UT-f10448-d1e211">
+               <lb ed="#C" n="16"/>Medium in omnibus rebus est laudabile. 
+    </p>
+            <p xml:id="tRi8UT-f10448-d1e216">
+               <lb ed="#C" n="17"/>Omnia autem vel rei vel virtuti consonant. 
+    </p>
+            <p xml:id="tRi8UT-f10448-d1e221">
+               <lb ed="#C" n="18"/>Quies est somnus. secundum quod dicitur tediosa est praua 
+    </p>
+            <p xml:id="tRi8UT-f10448-d1e226">
+               <lb ed="#C" n="19"/>⁋ Albertus 
+    </p>
+            <p xml:id="tRi8UT-f10448-d1e232">
+      Uirtutes morales sunt forme queda. ab ipsam ratione cete¬ 
+      <lb ed="#C" n="20"/>ris viribus impresse. vt in homine rectitudo maneat moralis 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

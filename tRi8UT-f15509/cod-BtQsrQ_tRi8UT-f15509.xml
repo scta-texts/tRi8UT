@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 5</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 5</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f15509"><!-- alias="deconsol-l5" -->
+            <head xml:id="tRi8UT-f15509-Hd1e107">Liber 5</head>
+            <p xml:id="tRi8UT-f15509-d1e110">
+               <lb ed="#C" n="17"/>⁋ Autorita. v libro de consola. phie 
+    </p>
+            <p xml:id="tRi8UT-f15509-d1e115">
+               <lb ed="#C" n="18"/>Asus est inopinate rei euentus ex causis conftuentibus in his quae geruntr 
+    </p>
+            <p xml:id="tRi8UT-f15509-d1e120">
+               <lb ed="#C" n="19"/>Nulla est rationalis creatura quin ei libertas arbitrii assit 
+    </p>
+            <p xml:id="tRi8UT-f15509-d1e125">
+               <lb ed="#C" n="20"/>Speculari vel orare solus est modus quae homines loqui cum deo videntur. 
+    </p>
+            <p xml:id="tRi8UT-f15509-d1e131">
+               <lb ed="#C" n="21"/>Diuina prouidentia rebus generandis necitatem non imponit. quia si omnia venirent 
+      <lb ed="#C" n="22"/>ex necitate primia bonorum et pene malorum perirent. quod non intelligens Cicero 
+      <lb ed="#C" n="23"/>diuinam negauit prouidentiam. in qui homo eloquens stultissime ineptiuit. 
+    </p>
+            <p xml:id="tRi8UT-f15509-d1e140">
+               <lb ed="#C" n="24"/>Frustra esset artis effectus si omnia coacte mouerentur 
+    </p>
+            <p xml:id="tRi8UT-f15509-d1e145">
+               <lb ed="#C" n="25"/>Signum rei quid sit res ondit. sed non efficit quid designat 
+    </p>
+            <p xml:id="tRi8UT-f15509-d1e150">
+               <lb ed="#C" n="26"/>Omne quod congnoscitur secundum vim sui non congnoscitur sed potius secundum cognoscenti 
+      <lb ed="#C" n="27"/>(facultatem. 
+    </p>
+            <p xml:id="tRi8UT-f15509-d1e157">
+               <lb ed="#C" n="28"/>Eternitas est interminabilis vite tota simul et perfecta possessio 
+    </p>
+            <p xml:id="tRi8UT-f15509-d1e162">
+               <lb ed="#C" n="29"/>Si digna rebus nomnina imponere volumus dicendum est esse deum eter¬ 
+      <lb ed="#C" n="30"/>num et mundum perpetuum 
+    </p>
+            <p xml:id="tRi8UT-f15509-d1e170">
+               <lb ed="#C" n="31"/>Deus omnia futura scit quisi iam generentur et in sui simplici cognitione considerat 
+    </p>
+            <p xml:id="tRi8UT-f15509-d1e175">
+               <lb ed="#C" n="32"/>Omne quod sensibus patet. si ad rationem referas vniuersale est. si ad sensum 
+      <lb ed="#C" n="33"/>particulare. vne vniversale est dum intelligitur. particulare autem dum sentitur 
+    </p>
+            <p xml:id="tRi8UT-f15509-d1e182">
+               <lb ed="#C" n="34"/>Omne futurum diuinus praecurrit intuitus 
+    </p>
+            <p xml:id="tRi8UT-f15509-d1e187">
+               <lb ed="#C" n="35"/>Non frustra in deo sunt posite spes et preces quae cum recte sunt inefficaces 
+      <lb ed="#C" n="36"/>esse non praesente 
+    </p>
+            <p xml:id="tRi8UT-f15509-d1e194">
+               <lb ed="#C" n="37"/>Sequuntur autorita. Thome Brabantini ex libro de institu 
+      <lb ed="#C" n="38"/>tione Scholastica praetitulato. quem humilitatis et maioris autoritatis 
+      <lb ed="#C" n="39"/>ca Boetio ascripsit fuit enim grece et hebraice doctus. Ex greco transtu 
+      <lb ed="#C" n="40"/>lit libros Aristo. quae transtatio apud nos in Scholis habetur. vt etiam te 
+      <lb ed="#C" n="41"/>statur Abbas in Catalogo scriptorum Eccliasticorum Exhebreo quidem tra¬ 
+      <lb ed="#C" n="42"/>duxit (vt idem Thomas fatetur in. xiiii libro de naturis rerum qui falso et potio 
+      <lb ed="#C" n="43"/>ris autoritatis grata a nonullis magno Alberto ascribitur. librum Tetel 
+      <lb ed="#C" n="44"/> magni phi Iudeorum de Sculpturis praetitulatum 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

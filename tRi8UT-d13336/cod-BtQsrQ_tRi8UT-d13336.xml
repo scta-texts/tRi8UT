@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 6</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 6</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="17"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d13336"><!-- alias="physics-l6" -->
+            <head xml:id="tRi8UT-d13336-Hd1e107">Liber 6</head>
+            <div xml:id="tRi8UT-d13341">
+               <head xml:id="tRi8UT-d13336-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d13336-d1e115">
+                  <lb ed="#C" n="36"/>⁋ Autorita. vi libro physicorum Aristo.
+      </p>
+               <p xml:id="tRi8UT-d13336-d1e120">
+                  <lb ed="#C" n="37"/>Ontinua sunt quorum vltima sunt vnum vt cutis et caro. 
+      </p>
+               <p xml:id="tRi8UT-d13336-d1e125">
+                  <lb ed="#C" n="38"/>Mullum continuum potest esse compositum ex indiuisibilibus. vnum 
+      </p>
+               <p xml:id="tRi8UT-d13336-d1e130">
+                  <lb ed="#C" n="39"/>Linea non potest componi ex punctis. 
+      </p>
+               <p xml:id="tRi8UT-d13336-d1e136">
+                  <lb ed="#C" n="40"/>Definitum et definitio sunt eiusdem nature 
+      </p>
+               <p xml:id="tRi8UT-d13336-d1e141">
+                  <lb ed="#C" n="41"/>Omnis quantitas est diuisibilis
+      </p>
+               <p xml:id="tRi8UT-d13336-d1e146">
+        <!--18.xml-->
+                  <pb ed="#C" n="18"/>
+                  <lb ed="#C" n="1"/>Inter quilibet puncta signata in continuo est dare lineam incontinuam id est mediam 
+      </p>
+               <p xml:id="tRi8UT-d13336-d1e155">
+                  <lb ed="#C" n="2"/>Punctu nec est continuum nec contiguum nec consequenter se habens cum alio 
+      </p>
+               <p xml:id="tRi8UT-d13336-d1e160">
+                  <lb ed="#C" n="3"/>Continuum est diuisibile in semper diuisibilia. 
+      </p>
+               <p xml:id="tRi8UT-d13336-d1e165">
+                  <lb ed="#C" n="4"/>Omne corpus est mobilem et omne mobile est corpus Ex quo habetur cor 
+        <lb ed="#C" n="5"/>pus mobiie esse verum subiectum in physicis. 
+      </p>
+               <p xml:id="tRi8UT-d13336-d1e173">
+                  <lb ed="#C" n="6"/>Omnis motus est in tempore 
+      </p>
+               <p xml:id="tRi8UT-d13336-d1e178">
+                  <lb ed="#C" n="7"/>Oe quod mouetur est diuisibile. quia partim est in termio a quae et partim in termino 
+        <lb ed="#C" n="8"/>(ad quem 
+      </p>
+               <p xml:id="tRi8UT-d13336-d1e185">
+                  <lb ed="#C" n="9"/>Terminus cuiuslibet rem est semper diuisibilis 
+      </p>
+               <p xml:id="tRi8UT-d13336-d1e190">
+                  <lb ed="#C" n="10"/>Indiuisibile moueri non potest nisi secundum accidens 
+      </p>
+               <p xml:id="tRi8UT-d13336-d1e195">
+                  <lb ed="#C" n="11"/>Nulla mutatio est infinita secundum terminos sed secundum tempus bene potest esse infinita 
+        <lb ed="#C" n="12"/>(vt motus celi. 
+      </p>
+               <p xml:id="tRi8UT-d13336-d1e202">
+                  <lb ed="#C" n="13"/>Indiuisibile est terminus indiuisibilis 
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d13439">
+               <head xml:id="tRi8UT-d13336-Hd1e210">Commentator</head>
+               <p xml:id="tRi8UT-d13336-d1e213">
+                  <lb ed="#C" n="14"/>⁋ Commentator
+      </p>
+               <p xml:id="tRi8UT-d13336-d1e218">
+        Forma est res indiuisibilis. 
+      </p>
+               <p xml:id="tRi8UT-d13336-d1e221">
+                  <lb ed="#C" n="15"/>Generatio et corruptio sunt termini alterationis. 
+      </p>
+               <p xml:id="tRi8UT-d13336-d1e226">
+                  <lb ed="#C" n="16"/>Alteratio est diuisibilis Beneratio et corruptio est indiuisibitur. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

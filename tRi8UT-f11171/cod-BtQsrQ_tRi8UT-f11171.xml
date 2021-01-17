@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 8</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 8</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="56"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f11171"><!-- alias="ethics-l8" -->
+            <head xml:id="tRi8UT-f11171-Hd1e107">Liber 8</head>
+            <p xml:id="tRi8UT-f11171-d1e110">
+               <lb ed="#C" n="20"/>⁋ Autorita. octaui libri ethicorum Aristo. 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e115">
+               <lb ed="#C" n="21"/>Ullus eligere debet viuere sine amicis habens reliqua bona. Unde 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e120">
+               <lb ed="#C" n="22"/>Nomen amicicie barbara corda mouet  
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e125">
+               <lb ed="#C" n="23"/>Quanto maior est fortuna tanto minus est secura. 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e131">
+               <lb ed="#C" n="24"/>Duo simul venientes ad intelligere et agere sunt potiores quam vnus 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e136">
+               <lb ed="#C" n="25"/>In infortuniis refugiendum est ad amicos. 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e141">
+               <lb ed="#C" n="26"/>Omnis homo omnium hominum naturaliter est amicus Et ergo homo natu 
+      <lb ed="#C" n="27"/>re obediens homini no potest obesse. 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e148">
+               <lb ed="#C" n="28"/>Generantis ad generatum naturaliter est amicicia. 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e153">
+               <lb ed="#C" n="29"/>Homines eiusdem gentis naturaliter plus sunt amici quam alii. De quo 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e158">
+               <lb ed="#C" n="30"/>Hieronymus super hieremiam
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e164">
+      Naturale est vt quis genitale diligat solum. 
+      <lb ed="#C" n="31"/>et nil habeat dulcius patria. Ideo sue patrie consuetudinem et sui ma 
+      <lb ed="#C" n="32"/>gistri opinionem si iuste fuerit) defendit Quod stolidi quaedam non aduertunt 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e171">
+               <lb ed="#C" n="33"/>Simile diligit sibi simile. vtrum est per se et non per accidens. 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e176">
+               <lb ed="#C" n="34"/>Amicicia est beniuolentia mutua in qua non est latens passio. 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e181">
+               <lb ed="#C" n="35"/>Tripliciter fit amicicia scilicet propter bonum vtile. bonum delectabile et propter 
+      <lb ed="#C" n="36"/>bonum honestum. Amicicia propter bonum vtile maxime videtur in senibus esse 
+      <lb ed="#C" n="37"/>quia tales non curant delectabile. sed tantum vtile. Amicicia propter bonum dele 
+      <lb ed="#C" n="38"/>ctabile iuuenum est. Amicicia propter bonum permanens est stabilis 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e192">
+               <lb ed="#C" n="39"/>Nulli seinuicem cognoscunt nisi mensuram salis simul consumant. 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e197">
+               <lb ed="#C" n="40"/>Sola amicicia bonorum honestorum est intransmutabilis. 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e203">
+               <lb ed="#C" n="41"/>Non est facile alicui credere de amico qui multo tempore probatus est ab 
+      <lb ed="#C" n="42"/>ipo et nunquam sibi iniuste fecit. 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e210">
+      <!--57.xml-->
+               <pb ed="#C" n="57"/>
+               <lb ed="#C" n="1"/>Loci distantia non separat amiciciam sed operationem. 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e219">
+               <lb ed="#C" n="2"/>Natura maxime triste fugit et appetit delectabile 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e224">
+               <lb ed="#C" n="3"/>Mutua colloquia sunt factiua amicicie 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e229">
+               <lb ed="#C" n="4"/>Perfecta amicicia non est nisi ad vnum. quia quod est superabundans et perfe¬ 
+      <lb ed="#C" n="5"/>ctum non potest fieri ad plures nisi ad vnum. 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e236">
+               <lb ed="#C" n="6"/>Unusquisque sibupsi maxime vult bonum. 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e242">
+               <lb ed="#C" n="7"/>Amicorum omnia sunt comunia. Pessimum est contrarium optimo 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e247">
+               <lb ed="#C" n="8"/>Regnum est optima politia Malus rex tyrannus dicitur 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e252">
+               <lb ed="#C" n="9"/>Rex debet se habere ad suos subditos sicut pastor ad oues 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e257">
+               <lb ed="#C" n="10"/>Pater tria beneficia dat. est enim cauisa essendi generando et causa disci 
+      <lb ed="#C" n="11"/>pline informando. et causa nutriendi educado 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e264">
+               <lb ed="#C" n="12"/>In quibus nihil est comomun in his nec est iusticia nec amicicia 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e269">
+               <lb ed="#C" n="13"/>Seruus est organum animatum 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e275">
+               <lb ed="#C" n="14"/>Domini ad seruu non est amicicia. secundum quod seruus est sibi dissimilis. 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e280">
+               <lb ed="#C" n="15"/>Parentes plus amant filios suos quam ecouerso. quia magis sciunt paren¬ 
+      <lb ed="#C" n="16"/>tes quod nati sunt ex eis quam filii. 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e287">
+               <lb ed="#C" n="17"/>Matres plus diligunt pueros quam patres. quia certiores sunt de eis. et 
+      <lb ed="#C" n="18"/>plures labores habent circa eos 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e294">
+               <lb ed="#C" n="19"/>Maioribus datur honor. minoribus vero et indigentibus lucrum. quia ho 
+      <lb ed="#C" n="20"/>nor est retributio virtutis et beneficii. 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e301">
+               <lb ed="#C" n="21"/>Luerum est auxilium indigentis 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e306">
+               <lb ed="#C" n="22"/>Retributio debet esse possibilis non condigna. vt patet de deo. et parentibus 
+      <lb ed="#C" n="23"/>quibus non possumus equale reddere. hoc verbum notet quisque 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e314">
+               <lb ed="#C" n="24"/>Pater potest abnegare filio et non econuerso 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e319">
+               <lb ed="#C" n="25"/>⁋ Lactantius </p>
+            <p xml:id="tRi8UT-f11171-d1e324">
+      In epicurum vanitas omnis ex lcucippi fonte profluxit 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e327">
+               <lb ed="#C" n="26"/>In sapiente non cadit mendacium 
+    </p>
+            <p xml:id="tRi8UT-f11171-d1e332">
+               <lb ed="#C" n="27"/>Naturale est bono ad alterius praectantum moueri et incitari
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

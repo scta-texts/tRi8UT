@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Epistula de bene vivere</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Epistula de bene vivere</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f13716"><!-- alias="epistulaeDeBeneVivere" -->
+            <head xml:id="tRi8UT-f13716-Hd1e107">Epistula de bene vivere</head>
+            <p xml:id="tRi8UT-f13716-d1e110">
+               <lb ed="#C" n="7"/>⁋ Autori. epistulae de bene viuere et agere ad Alexandrum regem 
+    </p>
+            <p xml:id="tRi8UT-f13716-d1e115">
+               <lb ed="#C" n="8"/>Elius est animam habere abundantem scientiis quam habitum corporis bene indutum 
+    </p>
+            <p xml:id="tRi8UT-f13716-d1e120">
+               <lb ed="#C" n="9"/>Tos qui ratione vtuntur et cum hac agat omnia. tanque bonos et optimos 
+      <lb ed="#C" n="10"/>existentes laudamus. eos autem qui sine ratione aliquid agunt tanquam rudes et be 
+      <lb ed="#C" n="11"/>stiales existentes ostendimus 
+      <lb ed="#C" n="12"/>dicut vita sine tristicia delectabilis est. ita rtiocinatio secundum animam laudabilis est 
+    </p>
+            <p xml:id="tRi8UT-f13716-d1e131">
+               <lb ed="#C" n="13"/>Concupiscentia et ira et reliquis similibus cetera vtuntur animalia. ratione autem 
+      <lb ed="#C" n="14"/>nullum animalium nisi homo. 
+    </p>
+            <p xml:id="tRi8UT-f13716-d1e139">
+               <lb ed="#C" n="15"/>Suadeo tibi attiugere rationem phie. quia boni et veri indagatio est. 
+      <lb ed="#C" n="16"/>(cusare 
+    </p>
+            <p xml:id="tRi8UT-f13716-d1e146">
+               <lb ed="#C" n="17"/>dicut conseruatanmum corporis est sanitas. ita confuatmu animae est eruditio 
+    </p>
+            <p xml:id="tRi8UT-f13716-d1e151">
+               <lb ed="#C" n="18"/>Eruditione praecedente contigit peccare circa actionem. quia ignoratia videtur ex 
+    </p>
+            <p xml:id="tRi8UT-f13716-d1e156">
+               <lb ed="#C" n="19"/>Sicut videre est delectabile oculis. sic oculis animae intueri acute amabilis est. 
+    </p>
+            <p xml:id="tRi8UT-f13716-d1e161">
+               <lb ed="#C" n="20"/>Sicut dux est saluator exercitus sic ratio cum eruditione est dux vite. quia absque 
+      <lb ed="#C" n="21"/>noticia lrarum onis etas ceca est Et omnis bene viuendi norma litterarum studio 
+      <lb ed="#C" n="22"/>(continet 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

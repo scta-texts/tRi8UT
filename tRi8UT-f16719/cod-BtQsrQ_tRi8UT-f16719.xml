@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sex Principiorum</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Sex Principiorum</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="86"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f16719"><!-- alias="sexPrincipiorum" -->
+            <head xml:id="tRi8UT-f16719-Hd1e107">Sex Principiorum</head>
+            <p xml:id="tRi8UT-f16719-d1e110">
+               <lb ed="#C" n="29"/>⁋ Autorita. sex principiorum Gilberti porritani. 
+    </p>
+            <p xml:id="tRi8UT-f16719-d1e115">
+               <lb ed="#C" n="30"/>Orma est compositioni contingens simplici et inuariabili essen 
+      <lb ed="#C" n="31"/>tia consistens. id est adueniens toti composito. 
+    </p>
+            <p xml:id="tRi8UT-f16719-d1e122">
+               <lb ed="#C" n="32"/>Omne compositum adueniens composito facit ipsum maius 
+    </p>
+            <p xml:id="tRi8UT-f16719-d1e127">
+               <lb ed="#C" n="33"/>Triplex est substantiale scilicet materiale. formale et compositum. 
+    </p>
+            <p xml:id="tRi8UT-f16719-d1e133">
+               <lb ed="#C" n="34"/>Natura occulte operatur in pluribus quia producendo singulare produi 
+      <lb ed="#C" n="35"/>cit ex consequenti et vniuersale 
+    </p>
+            <p xml:id="tRi8UT-f16719-d1e140">
+               <lb ed="#C" n="36"/>Omnis coitas a singuiaritate procedit 
+    </p>
+            <p xml:id="tRi8UT-f16719-d1e145">
+               <lb ed="#C" n="37"/>Creator creaturarum naturam certo modo stabiliuit 
+    </p>
+            <p xml:id="tRi8UT-f16719-d1e150">
+               <lb ed="#C" n="38"/>Amima dum agit immobilis perseuerat 
+    </p>
+            <p xml:id="tRi8UT-f16719-d1e155">
+               <lb ed="#C" n="39"/>Impossibile est non corpus corpore moueri. et hoc per se 
+    </p>
+            <p xml:id="tRi8UT-f16719-d1e160">
+               <lb ed="#C" n="40"/>Omnis actio in motu et omnis motus in actione firmatur 
+    </p>
+            <p xml:id="tRi8UT-f16719-d1e166">
+               <lb ed="#C" n="41"/>Actio est proprietas secundum quam in id quod subucitur agere dicimur 
+    </p>
+            <p xml:id="tRi8UT-f16719-d1e171">
+               <lb ed="#C" n="42"/>Passio est effectus illatioque actionis. 
+      <!--87.xml-->
+    </p>
+            <p xml:id="tRi8UT-f16719-d1e178">
+               <pb ed="#C" n="87"/>
+               <lb ed="#C" n="1"/>Quando est quod ex temporis adiacentia in re temporali derelinquitur. id est quando 
+      <lb ed="#C" n="2"/>est dispositio derelicta in re temporali ex adiacentia temporis ad rem temporalem 
+      <lb ed="#C" n="3"/>secundum quam aliquid esse vel fuisse vel futurum esse dicitur. 
+    </p>
+            <p xml:id="tRi8UT-f16719-d1e189">
+               <lb ed="#C" n="4"/>Anima coniuncta corpori complexionem corporis imitatur. quia corpus aggrauat animam 
+    </p>
+            <p xml:id="tRi8UT-f16719-d1e194">
+               <lb ed="#C" n="5"/>Qui frigide et sicce complexionis sunt. vt melancholici in autumno de 
+      <lb ed="#C" n="6"/>mentiores sunt seipsis. sanguinei autem in vere 
+    </p>
+            <p xml:id="tRi8UT-f16719-d1e201">
+               <lb ed="#C" n="7"/>Ubi est circunscriptio corporis locativ a loci circunscriptione procedens. 
+    </p>
+            <p xml:id="tRi8UT-f16719-d1e207">
+               <lb ed="#C" n="8"/>Ubi est dispositio derelicta a re locata ex adiacentia loci ad rem loca 
+      <lb ed="#C" n="9"/>tam secundum quam aliquid dicitur esse in loco 
+    </p>
+            <p xml:id="tRi8UT-f16719-d1e214">
+               <lb ed="#C" n="10"/>In loco dicitur quicquid a loco circunscribitur. 
+    </p>
+            <p xml:id="tRi8UT-f16719-d1e219">
+               <lb ed="#C" n="11"/>Duo corpora non praesent esse simul in vno loco nec vnum corpus in diuersis 
+      <lb ed="#C" n="12"/>locis 
+    </p>
+            <p xml:id="tRi8UT-f16719-d1e226">
+               <lb ed="#C" n="13"/>Eadem vox peruenit ad aures multorum. non eadem in nume¬ 
+      <lb ed="#C" n="14"/>ro. sed secundum similitudinem et speciem 
+    </p>
+            <p xml:id="tRi8UT-f16719-d1e233">
+               <lb ed="#C" n="15"/>Nec locus est sine corpore. nec corpus sine loco 
+    </p>
+            <p xml:id="tRi8UT-f16719-d1e238">
+               <lb ed="#C" n="16"/>Positio est dispositio derelicta ex ordinatione partium suarum respectu 
+      <lb ed="#C" n="17"/>loci secundum quam dicitur sedere vel stare. 
+    </p>
+            <p xml:id="tRi8UT-f16719-d1e246">
+               <lb ed="#C" n="18"/>Habitus est corporum et eorum que circa corpus sunt adiacentia. id est habitus 
+      <lb ed="#C" n="19"/>est dispositio derelicta a re habente ex adiacentia rei habite ad habens. 
+      <lb ed="#C" n="20"/>smpositio suplatiui est facta in termio vltra quem transgredi est impossibile. 
+    </p>
+            <p xml:id="tRi8UT-f16719-d1e255">
+               <lb ed="#C" n="21"/>Possibili posito in ese nullum sequitur impossibile 
+    </p>
+            <p xml:id="tRi8UT-f16719-d1e260">
+               <lb ed="#C" n="22"/>Si omnes puncti componerentur non facerent lineam 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

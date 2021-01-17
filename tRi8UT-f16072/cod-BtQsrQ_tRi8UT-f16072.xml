@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Auctoritates Porophyrii</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Auctoritates Porophyrii</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="82"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f16072"><!-- alias="porphyrius" -->
+            <head xml:id="tRi8UT-f16072-Hd1e107">Auctoritates Porophyrii</head>
+            <p xml:id="tRi8UT-f16072-d1e110">
+               <lb ed="#C" n="28"/>⁋ Incipit logica de qua gloriosus inquit hieronymus cuius verba 
+      <lb ed="#C" n="29"/>sunt canonisata. xxx vii. dist. Si quis dialecticam didicerit. vt inter verum 
+      <lb ed="#C" n="30"/>et falsum diiudicet non improbamus. quia secundum Augustinum ipsa docet do 
+      <lb ed="#C" n="31"/>cere. docet addiscere. sola scire facit. et dubia cuncta definit. Et secundum ve 
+      <lb ed="#C" n="32"/>nerabilem Albertum ipsa in omnibus scientiis lumen praebet recte contemplationis. eo quod 
+      <lb ed="#C" n="33"/>per eam scimus nos scire 
+    </p>
+            <p xml:id="tRi8UT-f16072-d1e126">
+               <lb ed="#C" n="34"/>Sequuntur autoritates porphyrii qui fioruit athenis tempore 
+      <lb ed="#C" n="35"/>gordiani imperatoris qui cepit anno domini. ccli. Dic ex Aristotelis mo 
+      <lb ed="#C" n="36"/>numentis collegit librum de Isagogis ad cathegorias Arist. quem in ex 
+      <lb ed="#C" n="37"/>ordio libri protestatur se obseruaturum. sed in Platonis Secta deprauatus 
+      <lb ed="#C" n="38"/>in heresim corruit pessimam Astruxit enim Plationem imitatus Calode 
+      <lb ed="#C" n="39"/>mones et Cacodemones esse animalia. mente rationalia. et ex simplici elemen 
+      <lb ed="#C" n="40"/>to corpus habere tanquam alteram partem sui. quod tante est impossibile hic etiam re 
+      <lb ed="#C" n="41"/>tigioni xpiane tentauit. illudere et contumeliam inferre intolerabilem. 
+    </p>
+            <p xml:id="tRi8UT-f16072-d1e146">
+      <!--83.xml-->
+               <pb ed="#C" n="83"/>
+               <lb ed="#C" n="1"/>Isagoga ge id est introductio. sic vniuersali a porphiriui dicuutur intro¬ 
+      <lb ed="#C" n="2"/>ductiones ad dialecticam. Cathegoria idem est quod predicamentum 
+      <lb ed="#C" n="3"/>siue predicatio vl fecatio. vnie et praedicamenta Aristo. dicuntur cathegorie 
+      <lb ed="#C" n="4"/>a cathagoro as. id est dicere in cathegorio quid idem est 
+    </p>
+            <p xml:id="tRi8UT-f16072-d1e162">
+               <lb ed="#C" n="5"/>Elementa autem quibus scientia verificatur. v. sunt. scilicet demonstratiua 
+      <lb ed="#C" n="6"/>ideo sunt libri posteriorum et analecticorum. topica. sophistica. rhe 
+      <lb ed="#C" n="7"/>torica. quibus si adduntur cathegorie perihermenias priora erunt 
+      <lb ed="#C" n="8"/>opro partes logice id est triusi siue scientie sermocinalis Excellenter tamen dia 
+      <lb ed="#C" n="9"/>lectica dicitur sermocinalis quamuis grammatica et rhetorica etiam sunt per 
+      <lb ed="#C" n="10"/>tes phie rationalis. quia logica siue dialectica est ordinare causam. respectu 
+      <lb ed="#C" n="11"/>effectus per syllogismum 
+    </p>
+            <p xml:id="tRi8UT-f16072-d1e181">
+               <lb ed="#C" n="12"/>Eque genus neque species videtur simpliciter dici id est vno modo 
+    </p>
+            <p xml:id="tRi8UT-f16072-d1e186">
+               <lb ed="#C" n="13"/>Senus primo modo est collectio multorum descendentium ab vno 
+      <lb ed="#C" n="14"/>principio. Secundo modo est principium generationis vniuscuiusque 
+      <lb ed="#C" n="15"/>sicut pater et patria. Pertio mo est illud cui supponitur spens Quarto 
+      <lb ed="#C" n="16"/>modo dicitur ad similitudinem generationis. Primo et secundo modo dictu cominiter accipitur. 
+      <lb ed="#C" n="17"/>quia quando vnum nomen comune debetur esti rationis et enti nature. tunc illud nomen 
+      <lb ed="#C" n="18"/>semper debetur enti rationis ad similitudinem entis nature. quia natura est 
+      <lb ed="#C" n="19"/>stramentum artis 
+    </p>
+            <p xml:id="tRi8UT-f16072-d1e204">
+               <lb ed="#C" n="20"/>Spens est forma vniuscuiusque rei. secundum quam spens preami dicta est digna 
+      <lb ed="#C" n="21"/>(imperio 
+    </p>
+            <p xml:id="tRi8UT-f16072-d1e211">
+               <lb ed="#C" n="22"/>Si aliquis omnia predicameta entia vocet. 
+      <lb ed="#C" n="23"/>equiuoce et non vniuoce ea numcupabit. id est analogice 
+    </p>
+            <p xml:id="tRi8UT-f16072-d1e218">
+               <lb ed="#C" n="24"/>Specialissima vero in quodam numero sunt. non tantum definito nobis 
+    </p>
+            <p xml:id="tRi8UT-f16072-d1e223">
+               <lb ed="#C" n="25"/>Indiuidua sunt infinita tam quo ad nos quam quo ad naturam. 
+    </p>
+            <p xml:id="tRi8UT-f16072-d1e229">
+               <lb ed="#C" n="26"/>Infinita inquit plato relinquenda sunt ab arte. neque horum fieri posse 
+      <lb ed="#C" n="27"/>disciplinam id est scientiam. vnim quia indiuidua sunt infinita de his non potest esse scientia. 
+    </p>
+            <p xml:id="tRi8UT-f16072-d1e236">
+               <lb ed="#C" n="28"/>Indiuiduum dicitur. quod ex quibusdam proprietatibus constat. quarum collectio 
+      <lb ed="#C" n="29"/>nunquam potest in alia repiri et sunt septem proprietates. vt dicit Boetius. scile. 
+      <lb ed="#C" n="30"/>forma. figura. locus. stirps. nomen. patria. tempus 
+    </p>
+            <p xml:id="tRi8UT-f16072-d1e245">
+               <lb ed="#C" n="31"/>Hec septe propria continet omnis homo. 
+    </p>
+            <p xml:id="tRi8UT-f16072-d1e250">
+      Insuper dicit venerabiltus do 
+      <lb ed="#C" n="32"/>minus Albertus in principio libri de natura locorum et locatorum. quod non sit 
+      <lb ed="#C" n="33"/>punctus in terra quin suam spenalem habeat infiuentiam. Et subdit quod non est 
+      <lb ed="#C" n="34"/>possibile reperiri in toto vniuerso duo indiuidua eiuidem spei in om 
+      <lb ed="#C" n="35"/>nibus similia. quamquam in similitudine morum homines eiusdem loci vel vicini fre 
+      <lb ed="#C" n="36"/>quenter coueniant. Et quemadmodum disparilitas est in accidentibus 
+      <lb ed="#C" n="37"/>eorporis sic in susceptione gratie. Igitur bene canit Ecclesia. Non est 
+      <lb ed="#C" n="38"/>inuentus similis illi etc. 
+    </p>
+            <p xml:id="tRi8UT-f16072-d1e268">
+               <lb ed="#C" n="39"/>Genus continet oens differentias potentia. actu vero nullam 
+    </p>
+            <p xml:id="tRi8UT-f16072-d1e273">
+               <lb ed="#C" n="40"/>Genus est tanquam materia. differentia tanquam forma. 
+    </p>
+            <p xml:id="tRi8UT-f16072-d1e279">
+               <lb ed="#C" n="41"/>Species non iungitur speciei. vt gignet aliam speciem 
+    </p>
+            <p xml:id="tRi8UT-f16072-d1e284">
+               <lb ed="#C" n="42"/>Proprium dicitur quadrupliciter Primo mo quod inest soli et non omni. vt 
+      <!--84.xml-->
+      <pb ed="#C" n="84"/>
+               <lb ed="#C" n="1"/>esse medicum Secuodo quod inest omi et non soli. vt esse bipedem Tertio quod in 
+      <lb ed="#C" n="2"/>est omni soli et non semper. vt canescere in senectute Quarto quod inest omni 
+      <lb ed="#C" n="3"/>soli et semper. vt risibile est proprium homnis 
+    </p>
+            <p xml:id="tRi8UT-f16072-d1e300">
+               <lb ed="#C" n="4"/>Proprium conuertitur cum eo cuius est proprium 
+    </p>
+            <p xml:id="tRi8UT-f16072-d1e305">
+               <lb ed="#C" n="5"/>Accidens est. quod adest et abest praeter subiecti corruptionem 
+    </p>
+            <p xml:id="tRi8UT-f16072-d1e310">
+               <lb ed="#C" n="6"/>Accidentium aliud est separabile aliud inseparabile. 
+    </p>
+            <p xml:id="tRi8UT-f16072-d1e315">
+               <lb ed="#C" n="7"/>Sublato animali aufertur rationale et irrationale 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

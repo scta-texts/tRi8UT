@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 11</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 11</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="11"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d12027"><!-- alias="aa-met-11" -->
+            <head xml:id="tRi8UT-d12027-Hd1e107">Liber 11</head>
+            <div xml:id="tRi8UT-d12032">
+               <head xml:id="tRi8UT-d12027-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d12027-d1e115">
+                  <lb ed="#C" n="30"/>⁋ Sequuntur autorita. xi. libro metaphysi. Aristo.
+      </p>
+               <p xml:id="tRi8UT-d12027-d1e120">
+                  <lb ed="#C" n="31"/>OMnis substantia sensibilis est mutabilis. 
+      </p>
+               <p xml:id="tRi8UT-d12027-d1e125">
+                  <lb ed="#C" n="32"/>Quecunque transmutantur habnt materiam 
+      </p>
+               <p xml:id="tRi8UT-d12027-d1e130">
+                  <lb ed="#C" n="33"/>Generatio est ex ente in potentia. id est materia cum priuatione 
+      </p>
+               <p xml:id="tRi8UT-d12027-d1e136">
+                  <lb ed="#C" n="34"/>Tria sunt principia rerum naturalium scilicet materia. forma et priuatio 
+      </p>
+               <p xml:id="tRi8UT-d12027-d1e141">
+                  <lb ed="#C" n="35"/>Materia non fit nec forma neque priuatio. sed totum compositum 
+      </p>
+               <p xml:id="tRi8UT-d12027-d1e146">
+                  <lb ed="#C" n="36"/>Triplex est substantia. scilicet matria. forma et compositum 
+      </p>
+               <p xml:id="tRi8UT-d12027-d1e151">
+                  <lb ed="#C" n="37"/>Nulla forma est sua matria. sed diuersorum diuersa sunt principia. 
+      </p>
+               <p xml:id="tRi8UT-d12027-d1e156">
+                  <lb ed="#C" n="38"/>Motus celi est eternus 
+      </p>
+               <p xml:id="tRi8UT-d12027-d1e161">
+        Primus motor est actus sine omni potetianubiecta 
+        <lb ed="#C" n="39"/>sine omni accidente. simplex sine omni compositione et imobilis impassibilis et eternus. 
+      </p>
+               <p xml:id="tRi8UT-d12027-d1e167">
+                  <lb ed="#C" n="40"/>Primus motor mouet sicut animatum et desideratum 
+      </p>
+               <p xml:id="tRi8UT-d12027-d1e172">
+                  <lb ed="#C" n="41"/>A primo principio dependet caelum et tota natura 
+      </p>
+               <p xml:id="tRi8UT-d12027-d1e177">
+        <!--12.xml-->
+                  <pb ed="#C" n="12"/>
+                  <lb ed="#C" n="1"/>Speculatio est optimum et delectabilissimum. 
+      </p>
+               <p xml:id="tRi8UT-d12027-d1e186">
+                  <lb ed="#C" n="2"/>Deum dicimus esse sempiternum et optimum Actio intellectus est vita 
+      </p>
+               <p xml:id="tRi8UT-d12027-d1e191">
+                  <lb ed="#C" n="3"/>Primus motor nullam habet magnitudinem corporalem 
+      </p>
+               <p xml:id="tRi8UT-d12027-d1e196">
+                  <lb ed="#C" n="4"/>Impossibile est esse in magnitudine finita potentiam infinitam. 
+      </p>
+               <p xml:id="tRi8UT-d12027-d1e202">
+                  <lb ed="#C" n="5"/>Stellarum natura est eterna
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

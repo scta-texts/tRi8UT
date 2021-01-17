@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 9</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 9</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="44"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d18934"><!-- alias="deanimalibus-l9" -->
+            <head xml:id="tRi8UT-d18934-Hd1e107">Liber 9</head>
+            <div xml:id="tRi8UT-d18939">
+               <head xml:id="tRi8UT-d18934-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d18934-d1e115">
+                  <lb ed="#C" n="37"/>⁋ Autori. noni libri de animalibus Aristo. 
+      </p>
+               <p xml:id="tRi8UT-d18934-d1e120">
+                  <lb ed="#C" n="38"/>PRincipia elementorum sunt calidum. frigidum: humidum. et siccum 
+      </p>
+               <p xml:id="tRi8UT-d18934-d1e125">
+                  <lb ed="#C" n="39"/>Calidum frigidum humidum et siccum sunt cause vite mortis. som 
+        <lb ed="#C" n="40"/>ni et vigilie. iuuentutis et senectutis. sanitatis et egritudinis. 
+      </p>
+               <p xml:id="tRi8UT-d18934-d1e132">
+                  <lb ed="#C" n="41"/>Corpora dura quando calescunt magis calescunt quam corpora mollia vel humida 
+      </p>
+               <p xml:id="tRi8UT-d18934-d1e138">
+                  <lb ed="#C" n="42"/>Ignis infrigidari non potest 
+      </p>
+               <p xml:id="tRi8UT-d18934-d1e143">
+        <!--45.xml-->
+                  <pb ed="#C" n="45"/>
+                  <lb ed="#C" n="1"/>Instrumentum sensus tactus est caro. dicit tamen postea quod instrumentum ta¬ 
+        <lb ed="#C" n="2"/>ctus non est caro. sed aliquid infra carnem. vt supra dictum est in libro de anima 
+      </p>
+               <p xml:id="tRi8UT-d18934-d1e154">
+                  <lb ed="#C" n="3"/>Principium sensus in animalibus est in corde. 
+      </p>
+               <p xml:id="tRi8UT-d18934-d1e159">
+                  <lb ed="#C" n="4"/>Sensus tactus et gustus continui sunt in corde. tres vero residui sunt in capite. 
+      </p>
+               <p xml:id="tRi8UT-d18934-d1e164">
+                  <lb ed="#C" n="5"/>Omne animal habens sanguinem habet cerebrum 
+      </p>
+               <p xml:id="tRi8UT-d18934-d1e169">
+                  <lb ed="#C" n="6"/>Homo in sua compatione corporis habet maius cerebrum et capunt aliis animalibus. 
+      </p>
+               <p xml:id="tRi8UT-d18934-d1e175">
+                  <lb ed="#C" n="7"/>Creatio cranei est propter custodiam cerebri 
+      </p>
+               <p xml:id="tRi8UT-d18934-d1e180">
+                  <lb ed="#C" n="8"/>Creatio lingue est ad sermocinandum et ad gustandum humores 
+      </p>
+               <p xml:id="tRi8UT-d18934-d1e185">
+                  <lb ed="#C" n="9"/>Medulla est superfluitas cibi et sanguinis ex quo cibantur ossa et spiri¬ 
+        <lb ed="#C" n="10"/>tus animalium. et propter hoc est retenta inter ossa. 
+      </p>
+               <p xml:id="tRi8UT-d18934-d1e192">
+                  <lb ed="#C" n="11"/>Animal multe pinguedinis cito senescit et parum generat. 
+      </p>
+               <p xml:id="tRi8UT-d18934-d1e197">
+                  <lb ed="#C" n="12"/>Cerebrum est valde frigidum et magis omnibus membris et contrarium eius est calor 
+        <lb ed="#C" n="13"/>cordis. quia non potest esse aliquod membrum de aliquo complexione per se sine alterius contrari 
+        <lb ed="#C" n="14"/>etate. et ion imaginata est natura ponere cerebrum in opposito cordis. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

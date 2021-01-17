@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 13</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 13</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="47"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d19438"><!-- alias="deanimalibus-l13" -->
+            <head xml:id="tRi8UT-d19438-Hd1e107">Liber 13</head>
+            <div xml:id="tRi8UT-d19443">
+               <head xml:id="tRi8UT-d19438-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d19438-d1e115">
+                  <lb ed="#C" n="14"/>⁋ Autoritates decimitertii libri de animalibus 
+      </p>
+               <p xml:id="tRi8UT-d19438-d1e120">
+                  <lb ed="#C" n="15"/>PErfectius animal est quod naturaliter est maioris caliditatis et humiditatis 
+      </p>
+               <p xml:id="tRi8UT-d19438-d1e125">
+                  <lb ed="#C" n="16"/> Anima nobilior est corpore. et animatum inanimato. viuum. 
+        <lb ed="#C" n="17"/>mortuo. et ens non ente. 
+      </p>
+               <p xml:id="tRi8UT-d19438-d1e132">
+                  <lb ed="#C" n="18"/>Anima nutritiua est in concepto semine in potentia. sed non est in eo 
+        <lb ed="#C" n="19"/>actu simpliciter anima sensitiua. ergo impossibile est quod anima sensiti¬ 
+        <lb ed="#C" n="20"/>ua et nutritiua nutriant nos ab extrinseco et tali modo 
+      </p>
+               <p xml:id="tRi8UT-d19438-d1e142">
+                  <lb ed="#C" n="21"/>Solus intellectus est in nobis ab extrinseco. quia ipse solus est diui¬ 
+        <lb ed="#C" n="22"/>nus. sed vegetatiuum et sensitiuum deintus veniunt 
+      </p>
+               <p xml:id="tRi8UT-d19438-d1e149">
+                  <lb ed="#C" n="23"/>Cum sperma emittitur exit quidam spiritus vel ventus qui est virtus prin 
+        <lb ed="#C" n="24"/>cipalis anime sed non intellectiue. et est separatus a corpore. 
+      </p>
+               <p xml:id="tRi8UT-d19438-d1e156">
+                  <lb ed="#C" n="25"/>Calor animalis et solis est in spermate et in qualibe t superfiuitate nature 
+      </p>
+               <p xml:id="tRi8UT-d19438-d1e161">
+                  <lb ed="#C" n="26"/>Calor naturalis non est ignis nec igneus quia calor naturalis generat animalia. 
+        <lb ed="#C" n="27"/>(ignis consumit ea 
+      </p>
+               <p xml:id="tRi8UT-d19438-d1e168">
+                  <lb ed="#C" n="28"/>Corpus animalis est ex femina. anima ex mare 
+      </p>
+               <p xml:id="tRi8UT-d19438-d1e173">
+                  <lb ed="#C" n="29"/>Anima est substantia et forma substantialis corporis 
+      </p>
+               <p xml:id="tRi8UT-d19438-d1e179">
+                  <lb ed="#C" n="30"/>Femina est mas occasionatus. 
+      </p>
+               <p xml:id="tRi8UT-d19438-d1e184">
+                  <lb ed="#C" n="31"/>Cum homo fuerit multi coitus debilitatur eius visus 
+      </p>
+               <p xml:id="tRi8UT-d19438-d1e189">
+                  <lb ed="#C" n="32"/>Caput creatur in generatione postcreationem cordis 
+      </p>
+               <p xml:id="tRi8UT-d19438-d1e194">
+                  <lb ed="#C" n="33"/>Natura est rectificator siue rector. 
+      </p>
+               <p xml:id="tRi8UT-d19438-d1e199">
+                  <lb ed="#C" n="34"/>Senus mutorum semper est scibile. 
+      </p>
+               <p xml:id="tRi8UT-d19438-d1e204">
+                  <lb ed="#C" n="35"/>Possibile est quod mula impregnetur sed non generat. primum raro vi¬ 
+        <lb ed="#C" n="36"/>sum est in tempore preterito 
+      </p>
+               <p xml:id="tRi8UT-d19438-d1e212">
+                  <lb ed="#C" n="37"/>Embrio primo viuit vita plante. deinde vita. animalis. et postea vita 
+        <lb ed="#C" n="38"/>homnis. Et hoc intelligunt phi quantum ad operationes quae illic exercentur vel per 
+        <lb ed="#C" n="39"/>semen a patre decisum. aut ab anima matris. quo modo pomum viuit ab 
+        <lb ed="#C" n="40"/>a bore Alioquin absurdum esset dicere corpus nostrum primo informatum fu 
+        <lb ed="#C" n="41"/>isset anima plante. deinde anima bruti. et tertio anima hominis Corpus enim nostrum 
+        <lb ed="#C" n="42"/>non habet dispoatinem ad recipiendum aliarum specierum formas. Etiam frustra ficret. 
+        <lb ed="#C" n="43"/>illa animarum successio cum aliunde poterit embrio viuus saluari 
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d19564">
+               <head xml:id="tRi8UT-d19438-Hd1e233">Albertus</head>
+               <p xml:id="tRi8UT-d19438-d1e236">
+        <!--48.xml-->
+                  <pb ed="#C" n="48"/>
+                  <lb ed="#C" n="1"/>Albertus 
+      </p>
+               <p xml:id="tRi8UT-d19438-d1e245">
+        Aues vocem humanam imitantes libentius discunt de pueris quam ad  
+        <lb ed="#C" n="2"/>ultis. et exemplum ponit de praesitaco 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

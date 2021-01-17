@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 3</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 3</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="77"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f15206"><!-- alias="deconsol-l3" -->
+            <head xml:id="tRi8UT-f15206-Hd1e107">Liber 3</head>
+            <p xml:id="tRi8UT-f15206-d1e110">
+               <lb ed="#C" n="34"/>⁋ Autoritates tertii libro de consola. phie 
+    </p>
+            <p xml:id="tRi8UT-f15206-d1e115">
+               <lb ed="#C" n="35"/>Pilosophia est summum lassorum solamen amicorum. 
+    </p>
+            <p xml:id="tRi8UT-f15206-d1e120">
+               <lb ed="#C" n="36"/>Omnis mortalium cura quam multiplicium studiorum labor exerce 
+      <lb ed="#C" n="37"/>diuerso quidem calle procedit ad vnum tantum beitudis finem nititur. 
+    </p>
+            <p xml:id="tRi8UT-f15206-d1e127">
+               <lb ed="#C" n="38"/>Illuod est summum bonum quae quais adepto nil vlterius desiderare quaat (peruenire 
+    </p>
+            <p xml:id="tRi8UT-f15206-d1e133">
+               <lb ed="#C" n="39"/>Beatitudo est status oim bonorum aggregatione perfectus 
+    </p>
+            <p xml:id="tRi8UT-f15206-d1e138">
+               <lb ed="#C" n="40"/>Mentibus hominum naturaliter est insita veri bonique cupiditas sed  
+      <lb ed="#C" n="41"/>ad falia deuius error abducit 
+    </p>
+            <p xml:id="tRi8UT-f15206-d1e145">
+               <lb ed="#C" n="42"/>Bonum est quod homines diuersis studii et appetunt. 
+    </p>
+            <p xml:id="tRi8UT-f15206-d1e150">
+               <lb ed="#C" n="43"/>Nulla pestis efficatior ad nocendum quam familiaris fallax amicus. 
+    </p>
+            <p xml:id="tRi8UT-f15206-d1e155">
+               <lb ed="#C" n="44"/>Nobililtas est laus ex meritis parentum proueniens 
+    </p>
+            <p xml:id="tRi8UT-f15206-d1e160">
+      <!--78.xml-->
+               <pb ed="#C" n="78"/>
+               <lb ed="#C" n="1"/>Aliena puleritudo si propriam non habes te splendidum non efficit 
+    </p>
+            <p xml:id="tRi8UT-f15206-d1e170">
+               <lb ed="#C" n="2"/>Omne genus hominum in terris simili surgit ab ortu 
+    </p>
+            <p xml:id="tRi8UT-f15206-d1e175">
+               <lb ed="#C" n="3"/>Unus emm omnium rerum est pater. vnus cnncta ministrat 
+    </p>
+            <p xml:id="tRi8UT-f15206-d1e180">
+               <lb ed="#C" n="4"/>Ille dedit phebos radios et dedit cornua lune. 
+    </p>
+            <p xml:id="tRi8UT-f15206-d1e185">
+               <lb ed="#C" n="5"/>Ille homines in terra dedit et sidera celo 
+    </p>
+            <p xml:id="tRi8UT-f15206-d1e190">
+               <lb ed="#C" n="6"/>Inuocandus est ergo omnium rerum pater quo pretermisso nullum 
+      <lb ed="#C" n="7"/>rite fundatur exordium 
+    </p>
+            <p xml:id="tRi8UT-f15206-d1e197">
+               <lb ed="#C" n="8"/>Oniqui perpetua mundum ratione gubernas. Terrarum celique sator qui tepus 
+      <lb ed="#C" n="9"/>ab euo. Ire iubes. stabilisque manens das cuncta moueri. 
+    </p>
+            <p xml:id="tRi8UT-f15206-d1e205">
+               <lb ed="#C" n="10"/>In quocunque genere est aliquid imperfectum. in eo etiam est aliquod perfectum. 
+    </p>
+            <p xml:id="tRi8UT-f15206-d1e210">
+               <lb ed="#C" n="11"/>Deum omnim rerum principem esse ac bonum. communis aiorum conceptio probat 
+    </p>
+            <p xml:id="tRi8UT-f15206-d1e215">
+               <lb ed="#C" n="12"/>Uera beatitudo sita est in deo et ipsa idem est quod diuinitas qua adepti¬ 
+      <lb ed="#C" n="13"/>one beatitudinis homines fiunt beati 
+    </p>
+            <p xml:id="tRi8UT-f15206-d1e222">
+               <lb ed="#C" n="14"/>Omnis beatus est deus sed natura vnus est deus. participatione ve 
+      <lb ed="#C" n="15"/>ro nihil prohibet plures esse 
+    </p>
+            <p xml:id="tRi8UT-f15206-d1e229">
+               <lb ed="#C" n="16"/>Ome animal salutem tueri laborat. mortem atque pniciem prorsus deuitat. 
+    </p>
+            <p xml:id="tRi8UT-f15206-d1e234">
+               <lb ed="#C" n="17"/>Natura dat vnicuique quod sibi convenit 
+    </p>
+            <p xml:id="tRi8UT-f15206-d1e240">
+               <lb ed="#C" n="18"/>Omnia obediunt regi deo 
+    </p>
+            <p xml:id="tRi8UT-f15206-d1e245">
+               <lb ed="#C" n="19"/>Deum omnipotentem nemo esse dubitat 
+    </p>
+            <p xml:id="tRi8UT-f15206-d1e250">
+               <lb ed="#C" n="20"/>Deus malum facere non potest. sed nihil est quod deus facere non potest er¬ 
+      <lb ed="#C" n="21"/>go peccatum nihil est. quia solum deuiatio a bono. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

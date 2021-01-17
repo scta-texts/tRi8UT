@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 2</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 2</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d14980"><!-- alias="meteor-l2" -->
+            <head xml:id="tRi8UT-d14980-Hd1e107">Liber 2</head>
+            <div xml:id="tRi8UT-d14985">
+               <head xml:id="tRi8UT-d14980-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d14980-d1e115">
+                  <lb ed="#C" n="5"/>⁋ Sequuntur auto. ii libro meteororum Aristo. 
+      </p>
+               <p xml:id="tRi8UT-d14980-d1e120">
+                  <lb ed="#C" n="6"/>Um congelantur nubes fit nix. sed cum vapor congelatur fit 
+        <lb ed="#C" n="7"/>pluuia. cum autem congelatur pruina fit grando. 
+        <lb ed="#C" n="8"/>interiora terre et etia animalium in estate sunt frigida. in hyeme ve 
+        <lb ed="#C" n="9"/>(ro calida 
+      </p>
+               <p xml:id="tRi8UT-d14980-d1e131">
+                  <lb ed="#C" n="10"/>Contrarium circumstans suum contrarium fortificat 
+        <lb ed="#C" n="11"/>ipsum per antiparistasim. id est per resistentiam. 
+        <lb ed="#C" n="12"/>iuitates habentes bonum portum maris (ceteris paribus sunt locupletes 
+      </p>
+               <p xml:id="tRi8UT-d14980-d1e140">
+                  <lb ed="#C" n="13"/>Cognoscere aliquid secundum metaphoras poeticas sicut Empedocles. non 
+        <lb ed="#C" n="14"/>sufficit ad cognoscendum naturam rei 
+      </p>
+               <p xml:id="tRi8UT-d14980-d1e148">
+                  <lb ed="#C" n="15"/>Dulce propter leuitatem fertur sursum. sed salsum propter grauitatem sub 
+        <lb ed="#C" n="16"/>tus manet. et ergo aqua pluuialis dulcis est. maris autem salsa.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

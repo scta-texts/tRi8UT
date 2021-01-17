@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 12</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 12</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d12131"><!-- alias="aa-met-12" -->
+            <head xml:id="tRi8UT-d12131-Hd1e107">Liber 12</head>
+            <div xml:id="tRi8UT-d12136">
+               <head xml:id="tRi8UT-d12131-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d12131-d1e115">
+                  <lb ed="#C" n="6"/>⁋ Sequuntur auto. xii libro metaphysices.
+      </p>
+               <p xml:id="tRi8UT-d12131-d1e120">
+                  <lb ed="#C" n="7"/>Num tantum est caelum id est mundus et non plures Primum principium extra se non 
+      </p>
+               <p xml:id="tRi8UT-d12131-d1e125">
+                  <lb ed="#C" n="8"/>In separatis a materia idem est intelligens et intellectum itelligit. 
+      </p>
+               <p xml:id="tRi8UT-d12131-d1e130">
+                  <lb ed="#C" n="9"/>Talis est intellectus in nobis ad modicum tempus qualis in seperatis continue 
+      </p>
+               <p xml:id="tRi8UT-d12131-d1e136">
+                  <lb ed="#C" n="10"/>Bonum vniuersi consistit in ordine. quia omnia habent ordinem licet non eodem modo 
+      </p>
+               <p xml:id="tRi8UT-d12131-d1e141">
+                  <lb ed="#C" n="11"/>Etiam bonum vniuersi consistit in primo principio ad quod omnia ordinantur. 
+      </p>
+               <p xml:id="tRi8UT-d12131-d1e146">
+                  <lb ed="#C" n="12"/>
+                  <quote xml:id="tRi8UT-d12131-Qd1e150" source="http://scta.info/resource/aristmet-l12-d1369" synch="275-287">Entia nolunt male disponi. nec est bonum pluralitas principatuum. sit 
+        <lb ed="#C" n="13"/>ergo vnus princeps</quote> 
+               </p>
+            </div>
+            <div xml:id="tRi8UT-d12182">
+               <head xml:id="tRi8UT-d12131-Hd1e159">Commentator</head>
+               <p xml:id="tRi8UT-d12131-d1e162">
+                  <lb ed="#C" n="14"/>⁋ Commentator
+      </p>
+               <p xml:id="tRi8UT-d12131-d1e167">
+                  <lb ed="#C" n="15"/>Apud Aristo. ipsa vniversalia sunt collectiuam a particularibus ab intellectu 
+        <lb ed="#C" n="16"/>qui concipit inter ea similitudinem. et facit ex eis vnam intentionem
+      </p>
+               <p xml:id="tRi8UT-d12131-d1e174">
+                  <lb ed="#C" n="17"/>Natura nihil facit nisi rememorata a causis supioribus quae sunt deus et 
+        in<lb ed="#C" n="18" break="no"/>telligentie
+      </p>
+               <p xml:id="tRi8UT-d12131-d1e181">
+                  <lb ed="#C" n="19"/>Opus nature est opus intelligentie 
+      </p>
+               <p xml:id="tRi8UT-d12131-d1e187">
+                  <lb ed="#C" n="20"/>Quicquid est accidentale creature essentiale est creatori 
+      </p>
+               <p xml:id="tRi8UT-d12131-d1e192">
+                  <lb ed="#C" n="21"/>Corpora celestia sunt animata. et non habent alias vertutes animae nisi intellectum et 
+        vo<lb ed="#C" n="22"/>luntatem
+      </p>
+               <p xml:id="tRi8UT-d12131-d1e199">
+                  <lb ed="#C" n="23"/>In separatis a materia idem est finis et efficiens 
+      </p>
+               <p xml:id="tRi8UT-d12131-d1e204">
+                  <lb ed="#C" n="24"/>Non est idem quod de primo principio intelligit motor saturni cum 
+        <lb ed="#C" n="25"/>eo quod intelligit de ipso motor primi mobilis 
+      </p>
+               <p xml:id="tRi8UT-d12131-d1e211">
+                  <lb ed="#C" n="26"/>Ultima prosperitas hominis est per trans formationem eius siue con 
+        <lb ed="#C" n="27"/>tinuationem cum intellectum separato. 
+      </p>
+               <p xml:id="tRi8UT-d12131-d1e218">
+                  <lb ed="#C" n="28"/>In separatis a materia idem est disponens et dispositum. 
+      </p>
+               <p xml:id="tRi8UT-d12131-d1e224">
+                  <lb ed="#C" n="29"/>Omnis terminus concretus duo signaut scilicet formam et subiectum illius forme 
+      </p>
+               <p xml:id="tRi8UT-d12131-d1e229">
+                  <lb ed="#C" n="30"/>Scientia dei causat res. sed nostra scientia causata est a rebus 
+      </p>
+               <p xml:id="tRi8UT-d12131-d1e234">
+                  <lb ed="#C" n="31"/>Optima dispositio intelligentiarum consistit in mouendo. vnde si esset 
+        <lb ed="#C" n="32"/>aliqua intelligentia non mouens illa videretur frustra 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

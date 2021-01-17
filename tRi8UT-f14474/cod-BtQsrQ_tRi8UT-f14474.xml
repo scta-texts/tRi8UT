@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>De vita et moribus</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>De vita et moribus</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f14474"><!-- alias="DeVitaEtMoribus" -->
+            <head xml:id="tRi8UT-f14474-Hd1e107">De vita et moribus</head>
+            <p xml:id="tRi8UT-f14474-d1e110">
+               <lb ed="#C" n="5"/>⁋ Autori. Senece de vita et moribus
+    </p>
+            <p xml:id="tRi8UT-f14474-d1e115">
+               <lb ed="#C" n="6"/>OMnis peccati actio voluntaria est. 
+    </p>
+            <p xml:id="tRi8UT-f14474-d1e120">
+               <lb ed="#C" n="7"/>Disciplina bonos mores facit. 
+    </p>
+            <p xml:id="tRi8UT-f14474-d1e125">
+               <lb ed="#C" n="8"/>Id sapit vnusquisque quod didicit Dolor patientia vincitur. 
+    </p>
+            <p xml:id="tRi8UT-f14474-d1e131">
+               <lb ed="#C" n="9"/>Bona consuetudo excutere debet quod mala instruxit 
+    </p>
+            <p xml:id="tRi8UT-f14474-d1e136">
+               <lb ed="#C" n="10"/>Bene decet loqui bene decet tacere Libentius audias quam loquaris 
+    </p>
+            <p xml:id="tRi8UT-f14474-d1e141">
+               <lb ed="#C" n="11"/>Quod animalium est magis mite homini quam alter homo. 
+    </p>
+            <p xml:id="tRi8UT-f14474-d1e146">
+               <lb ed="#C" n="12"/>Quod tacitum esse velis. nemini dixeris Monstro est auaricia similis. 
+    </p>
+            <p xml:id="tRi8UT-f14474-d1e151">
+               <lb ed="#C" n="13"/>Quid dulcius est quam habere amicum cum quo omnia sicut tecum loqui audeas 
+      <lb ed="#C" n="14"/>priusquam promittis delibera. sed cum promiseris statim facias 
+    </p>
+            <p xml:id="tRi8UT-f14474-d1e158">
+               <lb ed="#C" n="15"/>Nil petas quod negaturus fuisti. 
+    </p>
+            <p xml:id="tRi8UT-f14474-d1e164">
+               <lb ed="#C" n="16"/>Pacem habeas cum amicis. bellum cum vitiis. 
+    </p>
+            <p xml:id="tRi8UT-f14474-d1e169">
+               <lb ed="#C" n="17"/>Bonum est laudari sed prestantius est esse laudabilem 
+    </p>
+            <p xml:id="tRi8UT-f14474-d1e174">
+               <lb ed="#C" n="18"/>Que sunt magne diuitie desiderare non debes 
+    </p>
+            <p xml:id="tRi8UT-f14474-d1e179">
+               <lb ed="#C" n="19"/>Que est magna egestas: auaricia 
+    </p>
+            <p xml:id="tRi8UT-f14474-d1e184">
+               <lb ed="#C" n="20"/>Quis est pauper. qui sibi videtur esse pauper 
+    </p>
+            <p xml:id="tRi8UT-f14474-d1e189">
+               <lb ed="#C" n="21"/>Spes premii. solatium est laboris. 
+    </p>
+            <p xml:id="tRi8UT-f14474-d1e195">
+               <lb ed="#C" n="22"/>Pecuniam habere oportet sed ei seruire non oportet. 
+    </p>
+            <p xml:id="tRi8UT-f14474-d1e200">
+               <lb ed="#C" n="23"/>Diuitiis vtendum est sed non est eis abutendum 
+    </p>
+            <p xml:id="tRi8UT-f14474-d1e205">
+               <lb ed="#C" n="24"/>Magis et minus non diuersificant speciem 
+    </p>
+            <p xml:id="tRi8UT-f14474-d1e210">
+               <lb ed="#C" n="25"/>Fortior est qui cupiditatem vincit quam qui honestatem vincit. 
+    </p>
+            <p xml:id="tRi8UT-f14474-d1e215">
+               <lb ed="#C" n="26"/>Vbi est confessio ibi est remissio 
+    </p>
+            <p xml:id="tRi8UT-f14474-d1e220">
+               <lb ed="#C" n="27"/>Quietissimam vitam homines haberent in terris. si hec duo pronomina 
+      <lb ed="#C" n="28"/>scilicet meum et tuum tolerentur 
+    </p>
+            <p xml:id="tRi8UT-f14474-d1e228">
+               <lb ed="#C" n="29"/>Mihi crede non potest quis esse diues et felix  
+    </p>
+            <p xml:id="tRi8UT-f14474-d1e233">
+               <lb ed="#C" n="30"/>Auribus vtaris frequentius quam lingua. 
+    </p>
+            <p xml:id="tRi8UT-f14474-d1e238">
+               <lb ed="#C" n="31"/>Quicquid dicturuis es antequam aliis dicas tibi dicas. 
+    </p>
+            <p xml:id="tRi8UT-f14474-d1e243">
+               <lb ed="#C" n="32"/>Qui nescit tacere nescit loqui Peiora sunt odia tecta quam aperta 
+    </p>
+            <p xml:id="tRi8UT-f14474-d1e248">
+               <lb ed="#C" n="33"/>Nullum scelus scelere vincendum est. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prologus</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prologus</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f17935"><!-- alias="topica-prologus" -->
+            <head xml:id="tRi8UT-f17935-Hd1e107">Prologus</head>
+            <p xml:id="tRi8UT-f17935-d1e110">
+               <lb ed="#C" n="19"/>⁋ Autoritates super libros topicorum Aristo. 
+    </p>
+            <p xml:id="tRi8UT-f17935-d1e115">
+               <lb ed="#C" n="20"/>Topos enim grece locus dicitur vel idem est quod totum. Locus enim in 
+      <lb ed="#C" n="21"/>dialectica siue logica que species est philosophie duplex est. scilicet itrin 
+      <lb ed="#C" n="22"/>secus et extrinsecus etc. et de his tractatur in hoc libro Dialectica vero 
+      <lb ed="#C" n="23"/>dicitur a dia et logos quasi dualis sermo. quia disputatio dialectica 
+      <lb ed="#C" n="24"/>fit inter duos. scilicet opponentem et respondentem Uel secundum Tortellium 
+    </p>
+            <p xml:id="tRi8UT-f17935-d1e128">
+               <lb ed="#C" n="25"/>Dialectica dicitur a grecovboDialegomai. id est disputare quia est ars dispu 
+      <lb ed="#C" n="26"/>tatoria docens discernere rerum causas. intellectum mentis acuens. vera 
+      <lb ed="#C" n="27"/>que a falsis distiguens Uel secundum alios dicitur a greco nomnine lexis quod est 
+      <lb ed="#C" n="28"/>dictio latine. eo quod in illa de dictis disputetur. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

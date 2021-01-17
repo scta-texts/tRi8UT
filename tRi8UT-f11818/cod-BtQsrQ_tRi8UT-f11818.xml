@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>De fortuna bonam</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>De fortuna bonam</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="59"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f11818"><!-- alias="deFortunaBonam" -->
+            <head xml:id="tRi8UT-f11818-Hd1e107">De fortuna bonam</head>
+            <p xml:id="tRi8UT-f11818-d1e110">
+               <lb ed="#C" n="43"/>⁋ Sequutur autori. libri de fortuna bonam Aristote. 
+    </p>
+            <p xml:id="tRi8UT-f11818-d1e115">
+               <lb ed="#C" n="44"/>IN bonis exterioribus quorum fortuna est domina non con 
+      <!--60.xml-->
+      <pb ed="#C" n="60"/>
+               <lb ed="#C" n="1"/>tingit hominem esse felicem 
+    </p>
+            <p xml:id="tRi8UT-f11818-d1e126">
+               <lb ed="#C" n="2"/>Ubi plurimus intellectus et ratio. ibi quandoque minima est fortuna 
+    </p>
+            <p xml:id="tRi8UT-f11818-d1e131">
+               <lb ed="#C" n="3"/>Ubi vero plurima fortuna. ibi minimus quandoque itellectus 
+    </p>
+            <p xml:id="tRi8UT-f11818-d1e137">
+               <lb ed="#C" n="4"/>Deum dignificamus vt dominum exitentem vt dignis distribuat bona. et malis 
+      <lb ed="#C" n="5"/>(mala. 
+    </p>
+            <p xml:id="tRi8UT-f11818-d1e144">
+               <lb ed="#C" n="6"/>Deum verisile non est prauorum curam habee. dic etiam paulus Deo non est cura de 
+      <lb ed="#C" n="7"/>(bobus 
+    </p>
+            <p xml:id="tRi8UT-f11818-d1e151">
+               <lb ed="#C" n="8"/>Appetitus naturalis naturaliter tendit ad bona 
+    </p>
+            <p xml:id="tRi8UT-f11818-d1e156">
+               <lb ed="#C" n="9"/>Illi sunt bene fortunati quaecumque directe agunt sine ratione. vt in pturibus 
+    </p>
+            <p xml:id="tRi8UT-f11818-d1e161">
+               <lb ed="#C" n="10"/>Quid est melius intellectum et scientia nisi deus 
+    </p>
+            <p xml:id="tRi8UT-f11818-d1e166">
+               <lb ed="#C" n="11"/>Deus bene videt presentia preterita et futura 
+    </p>
+            <p xml:id="tRi8UT-f11818-d1e172">
+               <lb ed="#C" n="12"/>Bona fortuna est appetitus naturalis datus a deo mouente totam naturam. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

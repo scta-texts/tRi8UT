@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>De quattuor virtutibus cardinalibus</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>De quattuor virtutibus cardinalibus</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="74"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f14623"><!-- alias="DeQuattuorVirtutibusCardinalibus" -->
+            <head xml:id="tRi8UT-f14623-Hd1e107">De quattuor virtutibus cardinalibus</head>
+            <p xml:id="tRi8UT-f14623-d1e110">
+               <lb ed="#C" n="34"/>⁋ De. iiii. virtutibus car. alias de forma ad paulum. 
+    </p>
+            <p xml:id="tRi8UT-f14623-d1e115">
+               <lb ed="#C" n="35"/>E dubiis non definies. sed suspensam teneas sententiam. 
+    </p>
+            <p xml:id="tRi8UT-f14623-d1e120">
+               <lb ed="#C" n="36"/>Mendacium specie veritatis occultatur 
+    </p>
+            <p xml:id="tRi8UT-f14623-d1e125">
+               <lb ed="#C" n="37"/>Prudens fallere non vult. falli autem non potest 
+    </p>
+            <p xml:id="tRi8UT-f14623-d1e131">
+               <lb ed="#C" n="38"/>Cuiuslibet facti causam inquire Cogitatio tua numquam recedat a 
+      <lb ed="#C" n="39"/>(vero 
+    </p>
+            <p xml:id="tRi8UT-f14623-d1e138">
+               <lb ed="#C" n="40"/>Lauda parce. vitupera parcius. similiter enim reprehensibilis est 
+      <lb ed="#C" n="41"/>nimia laudatio et immoderata vituperatio. illa quidem adulatione. 
+      <lb ed="#C" n="42"/>ista autem malignitate. suspecta est 
+    </p>
+            <p xml:id="tRi8UT-f14623-d1e147">
+      <!--75.xml-->
+               <pb ed="#C" n="75"/>
+               <lb ed="#C" n="1"/>Non semper sis in actu. sed interdum animo tuo requiem dato. et ipsa re¬ 
+      <lb ed="#C" n="2"/>quies data plena sit sapientie studus et cogitationibus bonis 
+    </p>
+            <p xml:id="tRi8UT-f14623-d1e158">
+               <lb ed="#C" n="3"/>Non te moueat dicentis autoritas. nec quis dicat: sed quid dicatur attende 
+    </p>
+            <p xml:id="tRi8UT-f14623-d1e163">
+               <lb ed="#C" n="4"/>Honestum et magnum est vindicte ignoscere 
+    </p>
+            <p xml:id="tRi8UT-f14623-d1e168">
+               <lb ed="#C" n="5"/>Non ascribas tibi quod non es. nec maior quam es aut videri velis. 
+    </p>
+            <p xml:id="tRi8UT-f14623-d1e174">
+               <lb ed="#C" n="6"/>Averbis turpibus te abstineas. Risus tuus erit sine cachinno 
+    </p>
+            <p xml:id="tRi8UT-f14623-d1e179">
+               <lb ed="#C" n="7"/>Interdum seriis miscebis iocos. sed tamen moderatos 
+    </p>
+            <p xml:id="tRi8UT-f14623-d1e184">
+               <lb ed="#C" n="8"/>Esto fugax vitiorum tuorum. aliorum non scrutator nec acer reprehensor 
+    </p>
+            <p xml:id="tRi8UT-f14623-d1e189">
+               <lb ed="#C" n="9"/>Mon extollas aliquem nec deprimas 
+    </p>
+            <p xml:id="tRi8UT-f14623-d1e194">
+               <lb ed="#C" n="10"/>Deuerior esto iudicio quam sermone 
+    </p>
+            <p xml:id="tRi8UT-f14623-d1e199">
+               <lb ed="#C" n="11"/>Clementie esto cultor. seuicie detestator. 
+    </p>
+            <p xml:id="tRi8UT-f14623-d1e205">
+               <lb ed="#C" n="12"/>Cuctis esto benignus. nemini blandus paucis familiaris. ad iram tardus 
+      <lb ed="#C" n="13"/>ad miscioniam pronus. in aduersis firmns. in prosperis cautus et humili 
+    </p>
+            <p xml:id="tRi8UT-f14623-d1e212">
+               <lb ed="#C" n="14"/>Inferiores non contemnas superbiendo. 
+    </p>
+            <p xml:id="tRi8UT-f14623-d1e217">
+               <lb ed="#C" n="15"/>Superiores recte viuendo non timeas 
+    </p>
+            <p xml:id="tRi8UT-f14623-d1e222">
+               <lb ed="#C" n="16"/>Rumoribus minime sis credulus. Scientie cupidus sis et docilis. 
+    </p>
+            <p xml:id="tRi8UT-f14623-d1e227">
+               <lb ed="#C" n="17"/>Que nosti sine arrogantia postulanti impartire quae nescis occultatione ig¬ 
+      <lb ed="#C" n="18"/>(norantie tibi postula impartiri 
+    </p>
+            <p xml:id="tRi8UT-f14623-d1e234">
+               <lb ed="#C" n="19"/>Caue ne sis parcus 
+    </p>
+            <p xml:id="tRi8UT-f14623-d1e240">
+               <lb ed="#C" n="20"/>Deum amabis si opere eum imitaberis. 
+      <lb ed="#C" n="21"/>di non velis omnibus prodesse. non velis et nocere 
+    </p>
+            <p xml:id="tRi8UT-f14623-d1e247">
+               <lb ed="#C" n="22"/>⁋ Cicero testatur Romanos autem nihil a grecis suscepisse aut ab eis 
+      <lb ed="#C" n="23"/>recepta fecisse meliora 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

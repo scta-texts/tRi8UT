@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 2</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 2</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="14"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d12618"><!-- alias="physics-l2" -->
+            <head xml:id="tRi8UT-d12618-Hd1e107">Liber 2</head>
+            <div xml:id="tRi8UT-d12623">
+               <head xml:id="tRi8UT-d12618-Hd1e112">Aristoteles</head>
+               <!-- no heading/introductory text in manifestation -->
+               <p xml:id="tRi8UT-d12618-d1e117">
+                  <lb ed="#C" n="26"/>Natura est principium et causa motus et quietis in quo est primo per se et non per acci¬ 
+        <lb ed="#C" n="27"/>dens
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e124">
+                  <lb ed="#C" n="28"/>Omne ens artificiale mouetur ab extrinseco 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e129">
+                  <lb ed="#C" n="29"/>Cecus natus non potest disputare de coloritus quantum ad rem licet quantum ad nomen 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e135">
+                  <lb ed="#C" n="30"/>Tota substantia artificialium est eorum materia 
+        <lb ed="#C" n="31"/>forma et materia non sunt secundum rem rem separata: sed secundum nomem et rationem 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e142">
+                  <lb ed="#C" n="32"/>Priuatio dicitur quodammodo species et forma. quia est inchoatio seu imper 
+        <lb ed="#C" n="33"/>fecta forma et diminuta secundum Auerroim et Albertum. 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e149">
+                  <lb ed="#C" n="34"/>Forma dicitur natura. materia dicitur natura. sed forma magis dicitur natura quam 
+        <lb ed="#C" n="35"/>materia quia vnumquodque magis dicitur secundum id quida est in pona quam secundum id quod est cin 
+        <lb ed="#C" n="36"/>(ictu 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e158">
+                  <lb ed="#C" n="37"/>Subiectum et eius propria passio sunt eiusdem considerationis 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e163">
+                  <lb ed="#C" n="38"/>Abstrahentium non est mendacium scilicet in prima operatione intellectus. 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e168">
+                  <lb ed="#C" n="39"/>Naturalia definiuntur cum motu a materia sensibili. 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e174">
+                  <lb ed="#C" n="40"/>Materia et forma sunt eiusdem considerationis 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e179">
+                  <lb ed="#C" n="41"/>Ars imitatur naturam inquantum potest forma est finis materie 
+        <lb ed="#C" n="42"/>finis non est solum rei vltimum. sed etiam vltimum et optimum 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e186">
+                  <lb ed="#C" n="43"/>Nos sumus quodammodo finis omnium 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e191">
+                  <lb ed="#C" n="44"/>Nos vtimur omnibus quae sunt tanquam propter nos homo generat hominem et sol
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e196">
+        <!--15.xml-->
+                  <pb ed="#C" n="15"/>
+                  <lb ed="#C" n="1"/>Materia proportionata forme est de consideratione naturalis 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e205">
+                  <lb ed="#C" n="2"/>Quattuor sunt cause scilicet materialis. formalis. efficiens et finalis 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e211">
+                  <lb ed="#C" n="3"/>Aliqua sibiinuicem praestent esse cause Idem aliter se habens est causa oppositorum 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e216">
+                  <lb ed="#C" n="4"/>Cuius praesentia est ca salutis. eius absentia est causa pditionis et mortis 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e221">
+                  <lb ed="#C" n="5"/>Causa et effectus simul sunt in actu et non sunt. sed differenter 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e226">
+                  <lb ed="#C" n="6"/>Causa et effectus debent esse proportionata. 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e231">
+                  <lb ed="#C" n="7"/>In celestibus nihil videmus fieri a casu 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e236">
+                  <lb ed="#C" n="8"/>Cause per se suntfinite. sed cause per accids infinite. Infinita vni accidunt 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e242">
+                  <lb ed="#C" n="9"/>Fortuna est causa secundum accidens in his que fiunt a proposito secundum finem. 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e247">
+                  <lb ed="#C" n="10"/>Bona fortuna est quando aliquid boni accidit. mala at quando aliquid mali acci¬ 
+        <lb ed="#C" n="11"/>dit 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e254">
+                  <lb ed="#C" n="12"/>Eufortunium est quando aliquod magnum bonum euenit 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e259">
+                  <lb ed="#C" n="13"/>Qui parum discit apud intellectum. quasi nihil discit. 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e264">
+                  <lb ed="#C" n="14"/>Fortuna non est nisi in agentibus a proposito. sed casus bene est in animalibus et 
+        <lb ed="#C" n="15"/>rebus agentibus non a proposito Unde dicitur quod equus venit ad stabulum et ibi 
+        <lb ed="#C" n="16"/>saluatus est a lupo. et tripes a casu cecidit et ibi stetit 
+        <lb ed="#C" n="17"/>frustra et vanum est illud quod ordinatum est ad aliquem finem et illum non consequitur. 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e275">
+                  <lb ed="#C" n="18"/>Omne per accidens reducitur ad aliquod per se. 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e281">
+                  <lb ed="#C" n="19"/>Illud quod est per se est prius eo quod dicitur per accidens. 
+        <lb ed="#C" n="20"/>forma et effectus. finis et efficiens sepe coincidunt Materia vero 
+        <lb ed="#C" n="21"/>et efficiens nunquam coincidunt. Similiter materia et finis. 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e290">
+                  <lb ed="#C" n="22"/>Mouentia non mota amplius non sunt physice considerationis 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e295">
+                  <lb ed="#C" n="23"/>Que sunt mouentia et mota illa sunt considerationis naturalis. 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e300">
+                  <lb ed="#C" n="24"/>Natura agit propt finem finis in oporabilibus est sic principium in speculabilibus 
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d12819">
+               <head xml:id="tRi8UT-d12618-Hd1e308">Commentator</head>
+               <p xml:id="tRi8UT-d12618-d1e311">
+                  <lb ed="#C" n="25"/>⁋ Comentator 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e316">
+        Forme accidentales sunt forme artificiales in substantiis na<!-- missing extension line break --> (turalibus 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e321">
+                  <lb ed="#C" n="26"/>Alia humana est media inter formas naturales et abstractas 
+      </p>
+               <p xml:id="tRi8UT-d12618-d1e326">
+                  <lb ed="#C" n="27"/>Qui dicit naturam non agere propter finem tollit sollicitudinem 
+        <lb ed="#C" n="28"/>dei circa ista inferiora. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 4</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 4</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="78"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f15359"><!-- alias="deconsol-l4" -->
+            <head xml:id="tRi8UT-f15359-Hd1e107">Liber 4</head>
+            <p xml:id="tRi8UT-f15359-d1e110">
+               <lb ed="#C" n="22"/>⁋ Autorita. quarti libri de consola. phie 
+    </p>
+            <p xml:id="tRi8UT-f15359-d1e115">
+               <lb ed="#C" n="23"/>Ullum malum impunitum et nullum bonum irremuneratum 
+    </p>
+            <p xml:id="tRi8UT-f15359-d1e120">
+               <lb ed="#C" n="24"/>Duo sunt in quibus omnim humanorum actuum constat effes 
+      <lb ed="#C" n="25"/> ctus. scilicet potestas et voluntas. quorum si alterum desit nihil est 
+      <lb ed="#C" n="26"/>eae quod perfici possit. quia nullus aggreditur quod non vult 
+      <lb ed="#C" n="27"/>et si potestas absit frustra est voluntas 
+    </p>
+            <p xml:id="tRi8UT-f15359-d1e131">
+               <lb ed="#C" n="28"/>Cum omnes tam boni quam mali ad bonum peruenire nitantur mali ad  
+      <lb ed="#C" n="29"/>hoc peruenire non possunt. boni vero possunt 
+    </p>
+            <p xml:id="tRi8UT-f15359-d1e139">
+               <lb ed="#C" n="30"/>Manifestum est malos esse impotentes. bonos autem potentes. 
+    </p>
+            <p xml:id="tRi8UT-f15359-d1e144">
+               <lb ed="#C" n="31"/>Qui mali sunt non sunt homines simpliciter. sed secundum quid. sicut cadauer ho¬ 
+      <lb ed="#C" n="32"/>minis non potest dici homo simpliciter. sed homo mortuus. 
+    </p>
+            <p xml:id="tRi8UT-f15359-d1e151">
+               <lb ed="#C" n="33"/>Omne quod ordinem seruat detinet naturam 
+    </p>
+            <p xml:id="tRi8UT-f15359-d1e156">
+               <lb ed="#C" n="34"/>Beatitudo est premium humanorum actuum 
+    </p>
+            <p xml:id="tRi8UT-f15359-d1e161">
+               <lb ed="#C" n="35"/>Sicut probis ipsamet probitas est primium. sic malis ipamet malicia 
+      <lb ed="#C" n="36"/>(est supplicium 
+    </p>
+            <p xml:id="tRi8UT-f15359-d1e168">
+               <lb ed="#C" n="37"/>Premium beatorum est ipsos deos fieri. 
+    </p>
+            <p xml:id="tRi8UT-f15359-d1e174">
+               <lb ed="#C" n="38"/>Qui probitate caret homo esse desinit. cum diuinam conditionem transire non possit 
+      <lb ed="#C" n="39"/>nece est vt vertatur in beluam Unde auatus homo est lupus. ferox vero canis. et dolosus 
+    </p>
+            <p xml:id="tRi8UT-f15359-d1e181">
+               <lb ed="#C" n="40"/>Mali puniti feliciores sunt quam (vulpes. boni sunt felices mali aut miseri 
+      <lb ed="#C" n="41"/>mali impuniti. quia pena malorum hona est ratione iusticie 
+    </p>
+            <p xml:id="tRi8UT-f15359-d1e188">
+               <lb ed="#C" n="42"/>Punire malos iustum est. sed ipsos euadere impunitos iniustum. 
+      <!--79.xml-->
+    </p>
+            <p xml:id="tRi8UT-f15359-d1e195">
+               <pb ed="#C" n="79"/>
+               <lb ed="#C" n="1"/>Quidam sunt qui nequeunt de tenebris oculos assuetos ad lumen per 
+      <lb ed="#C" n="2"/>spicue veritatis attollere. tales similes sunt auibus quarum intuitum nox il 
+      <lb ed="#C" n="3"/>luminat. dies excecat. et illi nondum rerum ordinem. sed suos intuuntur affe 
+      <lb ed="#C" n="4"/>ctus et impunitum de scelere putant esse felice. quod tamen non est verum. 
+    </p>
+            <p xml:id="tRi8UT-f15359-d1e208">
+               <lb ed="#C" n="5"/>Infelicior ac miserior est iniurie illator quam iniurie acceptor. 
+    </p>
+            <p xml:id="tRi8UT-f15359-d1e213">
+               <lb ed="#C" n="6"/>Apud sapientes nullus odio relinoui debet 
+    </p>
+            <p xml:id="tRi8UT-f15359-d1e219">
+               <lb ed="#C" n="7"/>Sicut languor est morbus corporis. sic viciositas est morbus animae 
+    </p>
+            <p xml:id="tRi8UT-f15359-d1e224">
+               <lb ed="#C" n="8"/>Prouidentia est diuina ratio in summo omnim principe constituta qua cun 
+      <lb ed="#C" n="9"/>cta disponit. sed fatum in rebus mobilibus inherens dispositio 
+    </p>
+            <p xml:id="tRi8UT-f15359-d1e231">
+               <lb ed="#C" n="10"/>Quid autem amicorum salus esse videtur nisi probitas. quid egritudo nisi vitia 
+    </p>
+            <p xml:id="tRi8UT-f15359-d1e236">
+               <lb ed="#C" n="11"/>Quis alius videtur esse conseruator bonorum. et malorum expulsor. nisi deus qui ex 
+      <lb ed="#C" n="12"/>alto prouidentie speculo quod unicuique conveniat cognoscit et quod conuenire 
+      <lb ed="#C" n="13"/>(nouit accommodat 
+    </p>
+            <p xml:id="tRi8UT-f15359-d1e245">
+               <lb ed="#C" n="14"/>Non est possibile homi cuctas diuini operis ma¬ 
+      <lb ed="#C" n="15"/>chinas veria ingenio comprehendere vel sermone explicare ⁋ Prosa. vi. 
+      <lb ed="#C" n="16"/>(ante finem 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

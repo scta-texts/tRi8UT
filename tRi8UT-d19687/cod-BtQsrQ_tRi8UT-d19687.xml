@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 15</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 15</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="48"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d19687"><!-- alias="deanimalibus-l15" -->
+            <head xml:id="tRi8UT-d19687-Hd1e107">Liber 15</head>
+            <div xml:id="tRi8UT-d19692">
+               <head xml:id="tRi8UT-d19687-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d19687-d1e115">
+                  <lb ed="#C" n="23"/>⁋ Autotitates decimiquinti libri de animalibus 
+      </p>
+               <p xml:id="tRi8UT-d19687-d1e120">
+                  <lb ed="#C" n="24"/>NAtura dat instrumentum et operationem simul. quia visus sine oculo 
+        <lb ed="#C" n="25"/>esse non potest. nec oculus fine visu 
+      </p>
+               <p xml:id="tRi8UT-d19687-d1e127">
+                  <lb ed="#C" n="26"/>Sol facit estatem et hyemen omni anno 
+      </p>
+               <p xml:id="tRi8UT-d19687-d1e132">
+                  <lb ed="#C" n="27"/>Spacia impregnationis et vite animalium sunt secundum reuolutionem lune 
+      </p>
+               <p xml:id="tRi8UT-d19687-d1e138">
+                  <lb ed="#C" n="28"/>Uiri mltorum pilorum apod coxas in parte inferiori naturaliter sunt mlti coitus 
+      </p>
+               <p xml:id="tRi8UT-d19687-d1e143">
+                  <lb ed="#C" n="29"/>Cibus non est nisi dulceet valde digestum 
+      </p>
+               <p xml:id="tRi8UT-d19687-d1e148">
+                  <lb ed="#C" n="30"/>Quicquid modicum est cito digeritur. 
+      </p>
+               <p xml:id="tRi8UT-d19687-d1e153">
+                  <lb ed="#C" n="31"/>Materia ex quao fit generatio est eadem cum materia ex quo cibatur generatio 
+      </p>
+               <p xml:id="tRi8UT-d19687-d1e158">
+                  <lb ed="#C" n="32"/>Si homo habet simil membrum maris et mulieris vnum illorum est principale 
+      </p>
+               <p xml:id="tRi8UT-d19687-d1e163">
+                  <lb ed="#C" n="33"/>Mulier super oens feminas diligit coitum valde. 
+      </p>
+               <p xml:id="tRi8UT-d19687-d1e169">
+                  <lb ed="#C" n="34"/>In homnibus citius formantur mares in ventre quam mulieres. quia femina est 
+        <lb ed="#C" n="35"/>contraria mari naturaliter 
+      </p>
+               <p xml:id="tRi8UT-d19687-d1e176">
+                  <lb ed="#C" n="36"/>Animalia magni corporis vnum generant filium tantum pauci vero corpo 
+        <lb ed="#C" n="37"/>ris multos. quia in magnis cibus trasit ad nutrimentum corporis. et io modi 
+        <lb ed="#C" n="38"/>cum spermatis manet in eis 
+      </p>
+               <p xml:id="tRi8UT-d19687-d1e185">
+                  <lb ed="#C" n="39"/>Ex vno coitu spermatirantem mltum cum sperma diuiditur generantur multi filii 
+      </p>
+               <p xml:id="tRi8UT-d19687-d1e190">
+                  <lb ed="#C" n="40"/>Menstruum mulieris magis accidit in diminutione lune. quia illi dies 
+        <lb ed="#C" n="41"/>sunt frigidiores aliis diebus mensis propter diminutionem lune 
+      </p>
+               <p xml:id="tRi8UT-d19687-d1e197">
+                  <lb ed="#C" n="42"/>Femine debiliores sunt maribus quia frigidioris sunt nature 
+      </p>
+               <p xml:id="tRi8UT-d19687-d1e202">
+        <!--49.xml-->
+                  <pb ed="#C" n="49"/>
+                  <lb ed="#C" n="1"/>In animalibus generantibus multos filios plus accidit menstruositas 
+        <lb ed="#C" n="2"/>et maxime in maioribus 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

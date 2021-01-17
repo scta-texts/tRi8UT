@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 6</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 6</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="7"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-d11217"><!-- alias="aa-met-6" -->
+            <head xml:id="tRi8UT-d11217-Hd1e107">Liber 6</head>
+            <div xml:id="tRi8UT-d11222">
+               <head xml:id="tRi8UT-d11217-Hd1e112">Aristoteles</head>
+               <p xml:id="tRi8UT-d11217-d1e115">
+                  <lb ed="#C" n="40"/>⁋ Sequuntur auto. vi libro metaphysices Aristo.
+      </p>
+               <p xml:id="tRi8UT-d11217-d1e120">
+                  <lb ed="#C" n="41"/>MEtaphysica considerat causas et principia entium inquantum entia
+      </p>
+               <p xml:id="tRi8UT-d11217-d1e125">
+                  <lb ed="#C" n="42"/> Substantia et essentia rei non praeset cognosci nisi per demonstrationem
+      </p>
+               <p xml:id="tRi8UT-d11217-d1e130">
+        <!--8.xml-->
+                  <pb ed="#C" n="8"/>
+                  <lb ed="#C" n="1"/>Nulla ars particularis probat suum subiectum esse. sed supponit ipsum esse
+      </p>
+               <p xml:id="tRi8UT-d11217-d1e140">
+                  <lb ed="#C" n="2"/>Omnis scientia vel est actiua vel factiua vel theorica vel speculatiua 
+      </p>
+               <p xml:id="tRi8UT-d11217-d1e145">
+                  <lb ed="#C" n="3"/>Tres sunt partes philosophie speculatiue. scilicet naturalis. mathemati¬ 
+        <lb ed="#C" n="4"/>ca et diuina id est metaphysica. 
+      </p>
+               <p xml:id="tRi8UT-d11217-d1e152">
+                  <lb ed="#C" n="5"/>Naturalis considerat res coniunctas motui et materie secundum esse. sed separatas 
+        <lb ed="#C" n="6"/>secundum rationem 
+      </p>
+               <p xml:id="tRi8UT-d11217-d1e159">
+                  <lb ed="#C" n="7"/>Mathematica vero considerat res separatas a 
+        ma<lb ed="#C" n="8" break="no"/>teria et motu secundum esse et rationem 
+      </p>
+               <p xml:id="tRi8UT-d11217-d1e166">
+                  <lb ed="#C" n="9"/>Theorice scientie. id est speculatiue aliis scientiis sunt delectabiliores. et 
+        <lb ed="#C" n="10"/>(metaphysica theoricis. 
+      </p>
+               <p xml:id="tRi8UT-d11217-d1e173">
+                  <lb ed="#C" n="11"/>De ente per accidens non est speculatio
+      </p>
+               <p xml:id="tRi8UT-d11217-d1e179">
+                  <lb ed="#C" n="12"/>Entium quedam sunt semper. quedam vt frequenter. quedam raro. et prima 
+        <lb ed="#C" n="13"/>sunt entia secundum accidens. vt casualia et fortuita. ex quo habetur quod non 
+        <lb ed="#C" n="14"/>omnia eueniunt ex necessitate.
+      </p>
+               <p xml:id="tRi8UT-d11217-d1e188">
+                  <lb ed="#C" n="15"/>Bonum et malum sunt in rebus sed verum et falsum in anima
+      </p>
+               <p xml:id="tRi8UT-d11217-d1e193">
+                  <lb ed="#C" n="16"/>Entium quoddam est per se et quoddam per accidens 
+      </p>
+               <p xml:id="tRi8UT-d11217-d1e198">
+                  <lb ed="#C" n="17"/>Ens per se aliud est in anima. aliud extra animam. et diuiditur in decem predi¬ 
+        <lb ed="#C" n="18"/>camenta. scilicet substantia quantitate qualitatem. et sic de aliis. 
+      </p>
+            </div>
+            <div xml:id="tRi8UT-d11318">
+               <head xml:id="tRi8UT-d11217-Hd1e208">Commentator</head>
+               <p xml:id="tRi8UT-d11217-d1e211">
+                  <lb ed="#C" n="19"/>⁋ Commentator 
+      </p>
+               <p xml:id="tRi8UT-d11217-d1e216">
+        Naturalia sunt in quorum definitione ens recipitur. 
+        <lb ed="#C" n="20"/>In natura diuina in quorum definitione recipitur deus. voluntaria. in quorum 
+        <lb ed="#C" n="21"/>definitione recipitur voluntas. 
+      </p>
+               <p xml:id="tRi8UT-d11217-d1e223">
+                  <lb ed="#C" n="22"/>Licet omnes scientie sint nobiles tamen scientia dei et eius subiectum est 
+        nobi<lb ed="#C" n="23" break="no"/>lissimum subiectum aliarum scientiarum subaliternarum metaphysice 
+      </p>
+               <p xml:id="tRi8UT-d11217-d1e230">
+                  <lb ed="#C" n="24"/>Res immobiles diuine sunt causae rerum diuinarum nobilium id est corporum celestium 
+      </p>
+               <p xml:id="tRi8UT-d11217-d1e236">
+                  <lb ed="#C" n="25"/>Substantia prior est accidente. natura. tempore et definitione
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

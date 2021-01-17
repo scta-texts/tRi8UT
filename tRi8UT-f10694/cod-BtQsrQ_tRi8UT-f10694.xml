@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liber 4</title>
+            <author ref="JohannesDeFonte">Johannes de Fonte</author><respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Liber 4</title>
+               <date when="2021-01-01">January 16, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-BtQsrQ">Cologne 1507</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-01-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="54"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="tRi8UT-f10694"><!-- alias="ethics-l4" -->
+            <head xml:id="tRi8UT-f10694-Hd1e107">Liber 4</head>
+            <p xml:id="tRi8UT-f10694-d1e110">
+      <!--54.xml-->
+               <pb ed="#C" n="54"/>
+               <lb ed="#C" n="1"/>⁋ Sequuntur auto. iiii. et hicorum Aristor 
+    </p>
+            <p xml:id="tRi8UT-f10694-d1e119">
+               <lb ed="#C" n="2"/>Aus et gratiarum actio debetur danti et non accipienti 
+    </p>
+            <p xml:id="tRi8UT-f10694-d1e124">
+               <lb ed="#C" n="3"/>Mator virtus est bona operari quam turpia non operari. 
+    </p>
+            <p xml:id="tRi8UT-f10694-d1e129">
+               <lb ed="#C" n="4"/>Uirtuosus bene vtitur quibuscuque Dare et non accipere est liberalitas 
+    </p>
+            <p xml:id="tRi8UT-f10694-d1e135">
+               <lb ed="#C" n="5"/>Pulchritudo semper est in magno corpore. vnde parum formosi di 
+      <lb ed="#C" n="6"/>ci possunt. non autem puleri 
+    </p>
+            <p xml:id="tRi8UT-f10694-d1e142">
+               <lb ed="#C" n="7"/>Maximum bonorum exteriorum est honor. 
+    </p>
+            <p xml:id="tRi8UT-f10694-d1e147">
+               <lb ed="#C" n="8"/>Prauus honore non est dignius Honor est primium virtutis 
+    </p>
+            <p xml:id="tRi8UT-f10694-d1e152">
+               <lb ed="#C" n="9"/>Solus bonus est honorandus secundum virtutem 
+    </p>
+            <p xml:id="tRi8UT-f10694-d1e157">
+               <lb ed="#C" n="10"/>Virtuti perfecte non fit honor dignus 
+    </p>
+            <p xml:id="tRi8UT-f10694-d1e162">
+               <lb ed="#C" n="11"/>Non irasci in quibus oportet insipientis est Et ergoStonci homi 
+      <lb ed="#C" n="12"/>nem constituentes truncum aberrant. Nec Cicero in primo libro 
+      <lb ed="#C" n="13"/>officiorum Aristotelem intellexit 
+    </p>
+            <p xml:id="tRi8UT-f10694-d1e172">
+               <lb ed="#C" n="14"/>Iniuriam sustinere et seruilem siue familiarem decipere. seruile est 
+    </p>
+            <p xml:id="tRi8UT-f10694-d1e177">
+               <lb ed="#C" n="15"/>Decipere est seruile malum Malum seipsum destruit 
+    </p>
+            <p xml:id="tRi8UT-f10694-d1e182">
+               <lb ed="#C" n="16"/>Malum si integrum fuerit importabile erit. 
+    </p>
+            <p xml:id="tRi8UT-f10694-d1e187">
+               <lb ed="#C" n="17"/>Qualis vnuiquisque est talia dicit: talia vperatur. et taliter viuit. Sic 
+      <lb ed="#C" n="18"/>poete et Astrologi in quibus lux veritatis sepeliri solet poetice et astro 
+      <lb ed="#C" n="19"/>logice loquuntur et degunt 
+    </p>
+            <p xml:id="tRi8UT-f10694-d1e196">
+               <lb ed="#C" n="20"/>Omne mendacium est fugiendum Uerum bonum est laudabile 
+    </p>
+            <p xml:id="tRi8UT-f10694-d1e201">
+               <lb ed="#C" n="21"/>Uerax laudandus est. medax autem vituperandus 
+    </p>
+            <p xml:id="tRi8UT-f10694-d1e207">
+               <lb ed="#C" n="22"/>Nactator maxime est vituperandus. vt prisci poetem et oratores 
+    </p>
+            <p xml:id="tRi8UT-f10694-d1e212">
+               <lb ed="#C" n="23"/>Uerecundia est timor ingloriationis 
+    </p>
+            <p xml:id="tRi8UT-f10694-d1e217">
+               <lb ed="#C" n="24"/>Requies et ludus in vita videntur esse necessaria. 
+    </p>
+            <p xml:id="tRi8UT-f10694-d1e222">
+               <lb ed="#C" n="25"/>Uerecundia non couenit omni etati sed iuuenili. vnde inuuenes ve¬ 
+      <lb ed="#C" n="26"/>recundos laudamus. senem autem verecundum vituperamus. quia seuex 
+      <lb ed="#C" n="27"/>cauebit id de quo verecundabitur. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>
