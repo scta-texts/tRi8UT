@@ -151,8 +151,8 @@
             <lb ed="#C" n="17"/>est in anima vt vniversale. obiectum sensus est extra animam vt particulare. 
           </p>
           <p xml:id="tRi8UT-d15451-d1e284">
-            <lb ed="#C" n="18"/>Duplex est sensibil scilice pr se et per accus. per accidens vt est aliqui substantia par¬ 
-            <lb ed="#C" n="19"/>ticularis. vt diarrt filius 
+            <lb ed="#C" n="18"/><quote xml:id="tRi8UT-d15451-Qd1e286" source="http://scta.info/resource/aristda-l2-gy134X" synch="57-71">Duplex est sensibile scilicet per se et per accidens. per accidens vt est aliqui substantia 
+            par<lb ed="#C" n="19" break="no"/>ticularis. vt <name xml:id="tRi8UT-d15451-Nd1e290">diarri</name> filius</quote> 
           </p>
           <p xml:id="tRi8UT-d15451-d1e291">
             Sensibile per se est duplex scilicet comne et proprium. 
@@ -386,7 +386,7 @@
             <quote xml:id="tRi8UT-d15451-Qd1e718" source="http://scta.info/resource/iu7r3b-d1e54-d1e8077" synch="395-398">Locus est similis et equalis locato</quote>
           </p>
           <p xml:id="tRi8UT-d15451-d1e722">
-            <lb ed="#C" n="15"/><quote source="http://scta.info/resource/iu7r3b-d1e54-d1e10576" synch="52-72">Sensus semper dicit vtrum non in vniversalibus sed in propriis et particularibus. sed 
+            <lb ed="#C" n="15"/><quote xml:id="tRi8UT-d15451-Qd1e730" source="http://scta.info/resource/iu7r3b-d1e54-d1e10576" synch="52-72">Sensus semper dicit vtrum non in vniversalibus sed in propriis et particularibus. sed 
             in<lb ed="#C" n="16" break="no"/>tellectus semper dicit vtrum in vniversalibus non autem in propriis</quote> 
           </p>
         </div>
